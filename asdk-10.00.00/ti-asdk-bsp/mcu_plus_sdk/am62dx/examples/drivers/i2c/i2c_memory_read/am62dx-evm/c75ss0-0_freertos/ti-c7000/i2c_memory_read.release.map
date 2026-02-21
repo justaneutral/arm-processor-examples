@@ -1,0 +1,1741 @@
+******************************************************************************
+                     C7x Linker Unix v5.0.0                    
+******************************************************************************
+>> Linked Sat Feb 21 02:50:00 2026
+
+OUTPUT FILE NAME:   <i2c_memory_read.release.out>
+ENTRY POINT SYMBOL: "_c_int00_secure"  address: 00009a000000
+
+
+MEMORY CONFIGURATION
+
+         name            origin         length     used     unused   attr    fill
+----------------------  ------------   --------  --------  --------  ----  --------
+  L2SRAM                00007e000000   00100000  00000000  00100000  RW X
+  DDR0_RESERVED         000080000000   19800000  00000000  19800000  RWIX
+  C7X_IPC_D             000099800000   00100000  00000000  00100000  RWIX
+  C7X_BOOT_D            000099a00000   00000400  00000000  00000400  RWIX
+  C7X_VECS_D            000099c00000   00004000  00000840  000037c0  RWIX
+  C7X_CIO_MEM           000099c10000   00001000  00000120  00000ee0  RWIX
+  C7X_DDR_SPACE         000099c11000   01bef000  00138006  01ab6ffa  RWIX
+
+
+SEGMENT ALLOCATION MAP
+
+  run origin     load origin      length   init length attrs members
+--------------  --------------  ---------- ----------- ----- -------
+000099c00000    000099c00000    00000840   00000840    r-x
+  000099c00000    000099c00000    00000840   00000840    r-x .vecs
+000099c10000    000099c10000    00000120   00000000    rw-
+  000099c10000    000099c10000    00000120   00000000    rw- .cio
+000099c11000    000099c11000    000c3658   00000000    rw-
+  000099c11000    000099c11000    000c3658   00000000    rw- .bss
+000099cd4658    000099cd4658    00001000   00001000    rw-
+  000099cd4658    000099cd4658    00001000   00001000    rw- .args
+000099cd6000    000099cd6000    00040008   00000000    rw-
+  000099cd6000    000099cd6000    00020000   00000000    rw- .stack
+  000099cf6000    000099cf6000    00020000   00000000    rw- .sysmem
+  000099d16000    000099d16000    00000008   00000000    rw- .data.Mmu_level1Table
+000099d17000    000099d17000    00010008   00000000    rw-
+  000099d17000    000099d17000    00010000   00000000    rw- .data.gMmu_tableArray_NS
+  000099d27000    000099d27000    00000008   00000000    rw- .data.Mmu_tableArraySlot_NS
+000099d28000    000099d28000    00000008   00000000    rw-
+  000099d28000    000099d28000    00000008   00000000    rw- .data.Mmu_level1Table_NS
+000099d28008    000099d28008    00004ba9   00004ba9    rw-
+  000099d28008    000099d28008    00002ee5   00002ee5    rw- .const
+  000099d2aef0    000099d2aef0    00001cc1   00001cc1    rw- .data
+000099e00000    000099e00000    0001cdc0   0001cdc0    r-x
+  000099e00000    000099e00000    0001cdc0   0001cdc0    r-x .text
+00009a000000    00009a000000    00000040   00000040    r-x
+  00009a000000    00009a000000    00000040   00000040    r-x .text:_c_int00_secure
+
+
+SECTION ALLOCATION MAP
+
+ output                                      attributes/
+section   page      origin        length       input sections
+--------  ----  --------------  ----------   ----------------
+.vecs      0    000099c00000    00000840     
+                  000099c00000    00000840     freertos.am62dx.c75x.ti-c7000.release.lib : Hwi_disp_always_asm.obj (.vecs)
+
+.cio       0    000099c10000    00000120     UNINITIALIZED
+                  000099c10000    00000120     rts7504_le.lib : trgmsg.c.obj (.cio)
+
+.bss       0    000099c11000    000c3658     UNINITIALIZED
+                  000099c11000    00040000     freertos.am62dx.c75x.ti-c7000.release.lib : port.obj (.bss:uxIdleTaskStack$4)
+                  000099c51000    00040000                                               : port.obj (.bss:uxTimerTaskStack$6)
+                  000099c91000    00030000                                               : heap_4.obj (.bss:ucHeap)
+                  000099cc1000    00010000     (.common:gMainTaskStack)
+                  000099cd1000    00000f00                                               : Exception.obj (.bss:gExceptionContext)
+                  000099cd1f00    00000e00                                               : HwiP_freertos_c7x.obj (.bss:gOsalHwiPFreeRtosPool)
+                  000099cd2d00    00000500                                               : tasks.obj (.bss:pxReadyTasksLists)
+                  000099cd3200    00000480     ti_drivers_config.obj (.bss:gUartObjects)
+                  000099cd3680    000003d0     ti_drivers_config.obj (.bss:gI2cObjects)
+                  000099cd3a50    00000200     freertos.am62dx.c75x.ti-c7000.release.lib : timers.obj (.bss:ucStaticTimerQueueStorage$17)
+                  000099cd3c50    00000200     (.common:xQueueRegistry)
+                  000099cd3e50    00000130                                               : DebugP_freertos.obj (.bss:gDebugLogLockObj)
+                  000099cd3f80    00000118                                               : port.obj (.bss:xIdleTaskTCB$3)
+                  000099cd4098    00000118                                               : port.obj (.bss:xTimerTaskTCB$5)
+                  000099cd41b0    00000118     (.common:gMainTaskObj)
+                  000099cd42c8    000000a0                                               : timers.obj (.bss:xStaticTimerQueue$16)
+                  000099cd4368    000000a0     (.common:__TI_tmpnams)
+                  000099cd4408    000000a0     (.common:gTaskP_ctrl)
+                  000099cd44a8    00000038     (.common:gClockCtrl)
+                  000099cd44e0    00000028                                               : timers.obj (.bss:xActiveTimerList1)
+                  000099cd4508    00000028                                               : timers.obj (.bss:xActiveTimerList2)
+                  000099cd4530    00000028                                               : tasks.obj (.bss:xDelayedTaskList1)
+                  000099cd4558    00000028                                               : tasks.obj (.bss:xDelayedTaskList2)
+                  000099cd4580    00000028                                               : tasks.obj (.bss:xPendingReadyList)
+                  000099cd45a8    00000028                                               : tasks.obj (.bss:xSuspendedTaskList)
+                  000099cd45d0    00000028                                               : tasks.obj (.bss:xTasksWaitingTermination)
+                  000099cd45f8    00000010                                               : tasks.obj (.bss)
+                  000099cd4608    00000010                                               : timers.obj (.bss)
+                  000099cd4618    00000010                                               : heap_4.obj (.bss:xStart)
+                  000099cd4628    00000008     rts7504_le.lib : memory.c.obj (.bss)
+                  000099cd4630    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.bss:xIdleTaskHandles)
+                  000099cd4638    00000008     (.common:gI2cHandle)
+                  000099cd4640    00000008     (.common:gMainTask)
+                  000099cd4648    00000008     (.common:gUartHandle)
+                  000099cd4650    00000008     (.common:parmbuf)
+
+.args      0    000099cd4658    00001000     
+                  000099cd4658    00001000     --HOLE-- [fill = 0]
+
+.data      0    000099d2aef0    00001cc1     
+                  000099d2aef0    00001040     freertos.am62dx.c75x.ti-c7000.release.lib : Exception.obj (.data:Exception_Module_state)
+                  000099d2bf30    00000268                                               : HwiP_c75.obj (.data:Hwi_Module_state)
+                  000099d2c198    000001e0     rts7504_le.lib : defs.c.obj (.data:_ftable)
+                  000099d2c378    00000190     ti_dpl_config.obj (.data:gMmuRegionConfig)
+                  000099d2c508    00000138     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.data:gI2cDrvObj)
+                  000099d2c640    00000138                                              : uart_v0.obj (.data:gUartDrvObj)
+                  000099d2c778    000000d8     rts7504_le.lib : host_device.c.obj (.data:_device)
+                  000099d2c850    000000a0                    : host_device.c.obj (.data:_stream)
+                  000099d2c8f0    00000060     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.data)
+                  000099d2c950    00000060     ti_drivers_open_close.obj (.data:gUartParams)
+                  000099d2c9b0    00000028     freertos.am62dx.c75x.ti-c7000.release.lib : heap_4.obj (.data)
+                  000099d2c9d8    00000028     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_soc_priv.obj (.data:gSciclientSecProxyCfg)
+                  000099d2ca00    00000024     ti_drivers_config.obj (.data:gI2cHwAttrs)
+                  000099d2ca24    00000004     freertos.am62dx.c75x.ti-c7000.release.lib : DebugP_freertos.obj (.data)
+                  000099d2ca28    00000020                                               : port.obj (.data)
+                  000099d2ca48    00000018     ti_dpl_config.obj (.data:gClockConfig)
+                  000099d2ca60    00000018     ti_drivers_open_close.obj (.data:gI2cParams)
+                  000099d2ca78    00000018     ti_pinmux_config.obj (.data:gPinMuxMainDomainCfg)
+                  000099d2ca90    00000018     ti_pinmux_config.obj (.data:gPinMuxMcuDomainCfg)
+                  000099d2caa8    00000018     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.data:gSciclientHandle)
+                  000099d2cac0    00000018     ti_power_clock_config.obj (.data:gSocModulesClockFrequency)
+                  000099d2cad8    00000018     ti_drivers_config.obj (.data:gUartConfig)
+                  000099d2caf0    00000014     freertos.am62dx.c75x.ti-c7000.release.lib : timers.obj (.data)
+                  000099d2cb04    00000004                                               : DebugP_log.obj (.data)
+                  000099d2cb08    00000010                                               : AddrTranslateP.obj (.data:gAddrTranslateConfig)
+                  000099d2cb18    00000010     ti_drivers_config.obj (.data:gI2cConfig)
+                  000099d2cb28    00000010     rts7504_le.lib : exit.c.obj (.data)
+                  000099d2cb38    0000000c     ti_power_clock_config.obj (.data:gSocModules)
+                  000099d2cb44    0000000c     ti_drivers_config.obj (.data)
+                  000099d2cb50    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : CacheP_c75.obj (.data:CacheP_Module_state)
+                  000099d2cb58    00000008     rts7504_le.lib : _lock.c.obj (.data:_lock)
+                  000099d2cb60    00000008                    : _lock.c.obj (.data:_unlock)
+                  000099d2cb68    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : CycleCounterP_c75.obj (.data)
+                  000099d2cb70    00000008                                               : DebugP_uartLogWriter.obj (.data)
+                  000099d2cb78    00000008                                               : HwiP_freertos_c7x.obj (.data)
+                  000099d2cb80    00000008                                               : TaskP_freertos.obj (.data)
+                  000099d2cb88    00000008     ti_dpl_config.obj (.data:gMmuConfig)
+                  000099d2cb90    00000008     ti_drivers_config.obj (.data:gUartAttrs)
+                  000099d2cb98    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.data:xYieldPendings)
+                  000099d2cba0    00000004     rts7504_le.lib : defs.c.obj (.data)
+                  000099d2cba4    00000004                    : memory.c.obj (.data)
+                  000099d2cba8    00000004     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.data:ulTaskSwitchedInTime)
+                  000099d2cbac    00000004                                               : tasks.obj (.data:ulTotalRunTime)
+                  000099d2cbb0    00000001     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.data)
+
+.text      0    000099e00000    0001cdc0     
+                  000099e00000    00001000     freertos.am62dx.c75x.ti-c7000.release.lib : CycleCounterP_c75.obj (.text:CycleCounterP_Module_startup)
+                  000099e01000    00000e00                                               : printf.obj (.text:_vsnprintf)
+                  000099e01e00    00000ac0                                               : Exception.obj (.text:Exception_handler)
+                  000099e028c0    00000a40                                               : Hwi_disp_always_asm.obj (.text:Hwi_dispatchAlways)
+                  000099e03300    00000880                                               : Exception.obj (.text:Exception_internalHandler)
+                  000099e03b80    00000780     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2C_lld_primeTransferPoll)
+                  000099e04300    00000740     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.text:_ftoa)
+                  000099e04a40    00000680     rts7504_le.lib : divd.c.obj (.text:__c7xabi_divd)
+                  000099e050c0    00000500     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.text:I2C_open)
+                  000099e055c0    00000500     freertos.am62dx.c75x.ti-c7000.release.lib : Exception_asm.obj (.text)
+                  000099e05ac0    000004c0                                               : MmuP_c75.obj (.text:MmuP_allocTable)
+                  000099e05f80    000004c0                                               : printf.obj (.text:_etoa)
+                  000099e06440    00000480     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:Sciclient_service)
+                  000099e068c0    00000440                                              : i2c_v0_lld.obj (.text:I2C_lld_controllerIsr)
+                  000099e06d00    00000440     freertos.am62dx.c75x.ti-c7000.release.lib : TimerP.obj (.text:TimerP_setup)
+                  000099e07140    00000440                                               : printf.obj (.text:_ntoa_format)
+                  000099e07580    000003c0     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_open)
+                  000099e07940    00000380     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_tableWalk)
+                  000099e07cc0    00000340     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2C_lld_targetIsr)
+                  000099e08000    00000340                                              : uart_v0.obj (.text:UART_masterIsr)
+                  000099e08340    00000340     rts7504_le.lib : memory.c.obj (.text:aligned_alloc)
+                  000099e08680    00000300     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:xTaskResumeAll)
+                  000099e08980    000002c0     drivers.am62dx.c75x.ti-c7000.release.lib : soc.obj (.text:SOC_moduleSetClockFrequency)
+                  000099e08c40    000002c0                                              : uart_v0.obj (.text:UART_fifoConfig)
+                  000099e08f00    000002c0     freertos.am62dx.c75x.ti-c7000.release.lib : timers.obj (.text:prvProcessReceivedCommands)
+                  000099e091c0    000002c0                                               : queue.obj (.text:xQueueGenericSend)
+                  000099e09480    000002c0                                               : queue.obj (.text:xQueueSemaphoreTake)
+                  000099e09740    000002c0                                               : tasks.obj (.text:xTaskIncrementTick)
+                  000099e09a00    00000280                                               : ClockP_freertos_c75.obj (.text:ClockP_init)
+                  000099e09c80    00000280     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_write)
+                  000099e09f00    00000280     rts7504_le.lib : memory.c.obj (.text:free)
+                  000099e0a180    00000280     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:xQueueReceive)
+                  000099e0a400    00000240     rts7504_le.lib : hostrename.c.obj (.text:HOSTrename)
+                  000099e0a640    00000240     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.text:I2C_transfer)
+                  000099e0a880    00000240     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_init)
+                  000099e0aac0    00000240     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_close)
+                  000099e0ad00    00000240     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:xQueueGiveFromISR)
+                  000099e0af40    00000200                                               : HwiP_freertos_c7x.obj (.text:HwiP_construct)
+                  000099e0b140    00000200     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2C_lld_primeTransferIntr)
+                  000099e0b340    00000200                                              : sciclient_pm.obj (.text:Sciclient_pmGetModuleState)
+                  000099e0b540    00000200                                              : sciclient_pm.obj (.text:Sciclient_pmQueryModuleClkFreq)
+                  000099e0b740    00000200                                              : uart_v0.obj (.text:UART_configInstance)
+                  000099e0b940    00000200     i2c_memory_read.obj (.text:i2c_memory_read_main)
+                  000099e0bb40    00000200     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:prvInitialiseNewTask)
+                  000099e0bd40    00000200     rts7504_le.lib : setvbuf.c.obj (.text:setvbuf)
+                  000099e0bf40    00000200     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:vTaskPriorityDisinheritAfterTimeout)
+                  000099e0c140    00000200                                               : queue.obj (.text:xQueueReceiveFromISR)
+                  000099e0c340    00000200                                               : tasks.obj (.text:xTaskPriorityDisinherit)
+                  000099e0c540    00000200                                               : tasks.obj (.text:xTaskPriorityInherit)
+                  000099e0c740    00000200                                               : tasks.obj (.text:xTaskRemoveFromEventList)
+                  000099e0c940    000001c0                                               : HwiP_c75.obj (.text:Hwi_reconfig)
+                  000099e0cb00    000001c0     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.text:I2C_primeTransfer)
+                  000099e0ccc0    000001c0                                              : sciclient_pm.obj (.text:Sciclient_pmGetModuleClkNumParent)
+                  000099e0ce80    000001c0                                              : sciclient_pm.obj (.text:Sciclient_pmGetModuleClkParent)
+                  000099e0d040    000001c0                                              : sciclient_pm.obj (.text:Sciclient_pmModuleGetClkStatus)
+                  000099e0d200    000001c0                                              : sciclient.obj (.text:Sciclient_recvMessage)
+                  000099e0d3c0    000001c0                                              : sciclient.obj (.text:Sciclient_sendMessage)
+                  000099e0d580    000001c0     freertos.am62dx.c75x.ti-c7000.release.lib : TaskSupport.obj (.text:TaskSupport_setupTaskStack)
+                  000099e0d740    000001c0     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_divisorLatchWrite)
+                  000099e0d900    000001c0                                              : uart_v0.obj (.text:UART_procLineStatusErr)
+                  000099e0dac0    000001c0     rts7504_le.lib : trgmsg.c.obj (.text:__TI_readmsg)
+                  000099e0dc80    000001c0     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.text:_ntoa_long)
+                  000099e0de40    000001c0                                               : printf.obj (.text:_ntoa_long_long)
+                  000099e0e000    000001c0                                               : tasks.obj (.text:eTaskGetState)
+                  000099e0e1c0    000001c0     rts7504_le.lib : fputc.c.obj (.text:fputc)
+                  000099e0e380    000001c0     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:prvAddCurrentTaskToDelayedList)
+                  000099e0e540    000001c0                                               : tasks.obj (.text:prvCreateStaticTask)
+                  000099e0e700    000001c0                                               : heap_4.obj (.text:prvInsertBlockIntoFreeList)
+                  000099e0e8c0    000001c0                                               : tasks.obj (.text:vTaskDelete)
+                  000099e0ea80    000001c0                                               : tasks.obj (.text:vTaskSwitchContext)
+                  000099e0ec40    000001c0                                               : queue.obj (.text:xQueueGenericCreateStatic)
+                  000099e0ee00    000001c0                                               : queue.obj (.text:xQueueGenericReset)
+                  000099e0efc0    00000180                                               : csl_clec.obj (.text:CSL_clecConfigEvent)
+                  000099e0f140    00000180     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2C_lld_init)
+                  000099e0f2c0    00000180                                              : i2c_v0_lld.obj (.text:I2C_lld_mem_read)
+                  000099e0f440    00000180                                              : i2c_v0_lld.obj (.text:I2C_lld_mem_readIntr)
+                  000099e0f5c0    00000180                                              : i2c_v0_lld.obj (.text:I2C_lld_mem_write)
+                  000099e0f740    00000180                                              : i2c_v0_lld.obj (.text:I2C_lld_targetTransferIntr)
+                  000099e0f8c0    00000180     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_map)
+                  000099e0fa40    00000180     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.text:Sciclient_pmSetModuleClkFreq)
+                  000099e0fbc0    00000180                                              : sciclient_pm.obj (.text:Sciclient_pmSetModuleClkParent)
+                  000099e0fd40    00000180                                              : sciclient.obj (.text:Sciclient_waitForMessage)
+                  000099e0fec0    00000180     freertos.am62dx.c75x.ti-c7000.release.lib : TaskP_freertos.obj (.text:TaskP_loadUpdateAll)
+                  000099e10040    00000180                                               : printf.obj (.text:_out_rev)
+                  000099e101c0    00000180     rts7504_le.lib : getdevice.c.obj (.text:getdevice)
+                  000099e10340    00000180     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:prvAddNewTaskToReadyList)
+                  000099e104c0    00000180                                               : heap_4.obj (.text:vPortFree)
+                  000099e10640    00000180                                               : tasks.obj (.text:xTaskCheckForTimeOut)
+                  000099e107c0    00000140     rts7504_le.lib : hostlseek.c.obj (.text:HOSTlseek)
+                  000099e10900    00000140                    : hostopen.c.obj (.text:HOSTopen)
+                  000099e10a40    00000140     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_c75.obj (.text:Hwi_Module_startup)
+                  000099e10b80    00000140     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.text:I2C_close)
+                  000099e10cc0    00000140                                              : i2c_v0_lld.obj (.text:I2C_lld_ctrlInit)
+                  000099e10e00    00000140                                              : i2c_v0_lld.obj (.text:I2C_lld_mem_writeIntr)
+                  000099e10f40    00000140                                              : i2c_v0_lld.obj (.text:I2C_lld_recoverBus)
+                  000099e11080    00000140                                              : i2c_v0.obj (.text:I2C_mem_primeTransfer)
+                  000099e111c0    00000140                                              : soc.obj (.text:SOC_controlModuleLockMMR)
+                  000099e11300    00000140                                              : soc.obj (.text:SOC_controlModuleUnlockMMR)
+                  000099e11440    00000140                                              : soc.obj (.text:SOC_moduleClockEnable)
+                  000099e11580    00000140                                              : sciclient_pm.obj (.text:Sciclient_pmModuleClkRequest)
+                  000099e116c0    00000140                                              : sciclient_pm.obj (.text:Sciclient_pmSetModuleRst)
+                  000099e11800    00000140                                              : sciclient_pm.obj (.text:Sciclient_pmSetModuleState)
+                  000099e11940    00000140                                              : uart_v0.obj (.text:UART_divisorValCompute)
+                  000099e11a80    00000140                                              : uart_v0.obj (.text:UART_flushTxFifo)
+                  000099e11bc0    00000140                                              : uart_v0.obj (.text:UART_init)
+                  000099e11d00    00000140                                              : uart_v0.obj (.text:UART_intrDisable)
+                  000099e11e40    00000140                                              : uart_v0.obj (.text:UART_intrEnable)
+                  000099e11f80    00000140     rts7504_le.lib : fclose.c.obj (.text:__TI_closefile)
+                  000099e120c0    00000140                    : trgmsg.c.obj (.text:__TI_writemsg)
+                  000099e12200    00000140                    : _io_perm.c.obj (.text:__TI_wrt_ok)
+                  000099e12340    00000140                    : imath64.c.obj (.text:__c7xabi_divull)
+                  000099e12480    00000140     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:prvCopyDataToQueue)
+                  000099e125c0    00000140     rts7504_le.lib : memory.c.obj (.text:split)
+                  000099e12700    00000140     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:vTaskGetInfo)
+                  000099e12840    00000100                                               : AddrTranslateP.obj (.text:AddrTranslateP_getLocalAddr)
+                  000099e12940    00000100     rts7504_le.lib : hostread.c.obj (.text:HOSTread)
+                  000099e12a40    00000100                    : hostunlink.c.obj (.text:HOSTunlink)
+                  000099e12b40    00000100                    : hostwrite.c.obj (.text:HOSTwrite)
+                  000099e12c40    00000100     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_freertos_c7x.obj (.text:HwiP_configClec)
+                  000099e12d40    00000100                                               : HwiP_c75.obj (.text:Hwi_getStackInfo)
+                  000099e12e40    00000100     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2C_waitForPin)
+                  000099e12f40    00000100     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_addBlockEntry)
+                  000099e13040    00000100     drivers.am62dx.c75x.ti-c7000.release.lib : pinmux.obj (.text:Pinmux_unlockMMR)
+                  000099e13140    00000100                                              : sciclient.obj (.text:Sciclient_init)
+                  000099e13240    00000100     freertos.am62dx.c75x.ti-c7000.release.lib : SemaphoreP_freertos.obj (.text:SemaphoreP_constructBinary)
+                  000099e13340    00000100                                               : SemaphoreP_freertos.obj (.text:SemaphoreP_pend)
+                  000099e13440    00000100     drivers.am62dx.c75x.ti-c7000.release.lib : uart_dma.obj (.text:UART_dmaDisableChannel)
+                  000099e13540    00000100                                              : uart_v0.obj (.text:UART_subConfigTCRTLRModeEn)
+                  000099e13640    00000100                                              : uart_v0.obj (.text:UART_tcrTlrBitValRestore)
+                  000099e13740    00000100                                              : uart_v0.obj (.text:UART_writeCancelNoCB)
+                  000099e13840    00000100                                              : uart_v0.obj (.text:UART_writePolling)
+                  000099e13940    00000100     freertos.am62dx.c75x.ti-c7000.release.lib : DebugP_log.obj (.text:_DebugP_assert)
+                  000099e13a40    00000100     rts7504_le.lib : fflush.c.obj (.text:__TI_doflush)
+                  000099e13b40    00000100                    : fixdul.c.obj (.text:__c7xabi_fixdul)
+                  000099e13c40    00000100                    : close.c.obj (.text:close)
+                  000099e13d40    00000100                    : getdevice.c.obj (.text:finddevice)
+                  000099e13e40    00000100                    : fseek.c.obj (.text:fseeko)
+                  000099e13f40    00000100     freertos.am62dx.c75x.ti-c7000.release.lib : timers.obj (.text:prvCheckForValidListAndQueue)
+                  000099e14040    00000100                                               : tasks.obj (.text:prvCreateIdleTasks)
+                  000099e14140    00000100                                               : timers.obj (.text:prvProcessTimerOrBlockTask)
+                  000099e14240    00000100                                               : queue.obj (.text:prvUnlockQueue)
+                  000099e14340    00000100                                               : queue.obj (.text:vQueueAddToRegistry)
+                  000099e14440    00000100                                               : tasks.obj (.text:vTaskPlaceOnEventListRestricted)
+                  000099e14540    00000100                                               : queue.obj (.text:xQueueTakeMutexRecursive)
+                  000099e14640    00000100                                               : timers.obj (.text:xTimerCreateTimerTask)
+                  000099e14740    000000c0                                               : csl_clec.obj (.text:CSL_clecConfigEventLevel)
+                  000099e14800    000000c0                                               : ClockP_freertos.obj (.text:ClockP_getTimeUsec)
+                  000099e148c0    000000c0     ti_drivers_open_close.obj (.text:Drivers_i2cOpen)
+                  000099e14980    000000c0     ti_drivers_open_close.obj (.text:Drivers_uartOpen)
+                  000099e14a40    000000c0     rts7504_le.lib : hostclose.c.obj (.text:HOSTclose)
+                  000099e14b00    000000c0     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_freertos_c7x.obj (.text:HwiP_configClecAccessCtrl)
+                  000099e14bc0    000000c0                                               : HwiP_c75.obj (.text:Hwi_Instance_init)
+                  000099e14c80    000000c0                                               : HwiP_c75.obj (.text:Hwi_dispatchCore)
+                  000099e14d40    000000c0                                               : HwiP_c75.obj (.text:Hwi_setPriority)
+                  000099e14e00    000000c0     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2CControllerInitExpClk)
+                  000099e14ec0    000000c0                                              : i2c_v0.obj (.text:I2C_LLD_targetTransferCompleteCallback)
+                  000099e14f80    000000c0                                              : i2c_v0.obj (.text:I2C_completeCurrTransfer)
+                  000099e15040    000000c0                                              : i2c_v0.obj (.text:I2C_init)
+                  000099e15100    000000c0                                              : i2c_v0_lld.obj (.text:I2C_lld_completeCurrTransfer)
+                  000099e151c0    000000c0                                              : i2c_soc.obj (.text:I2C_lld_isBaseAddrValid)
+                  000099e15280    000000c0                                              : i2c_v0_lld.obj (.text:I2C_waitForBb)
+                  000099e15340    000000c0     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_readBlockEntry)
+                  000099e15400    000000c0                                               : MmuP_c75.obj (.text:MmuP_setConfig)
+                  000099e154c0    000000c0     ti_power_clock_config.obj (.text:Module_clockSetFrequency)
+                  000099e15580    000000c0     drivers.am62dx.c75x.ti-c7000.release.lib : pinmux.obj (.text:Pinmux_config)
+                  000099e15640    000000c0                                              : sciclient_soc_priv.obj (.text:Sciclient_getContext)
+                  000099e15700    000000c0                                              : sciclient.obj (.text:Sciclient_getCurrentContext)
+                  000099e157c0    000000c0                                              : sciclient_soc_priv.obj (.text:Sciclient_getDevId)
+                  000099e15880    000000c0                                              : sciclient.obj (.text:Sciclient_secProxyFlush)
+                  000099e15940    000000c0     freertos.am62dx.c75x.ti-c7000.release.lib : SemaphoreP_freertos.obj (.text:SemaphoreP_constructMutex)
+                  000099e15a00    000000c0                                               : SemaphoreP_freertos.obj (.text:SemaphoreP_post)
+                  000099e15ac0    000000c0                                               : TaskSupport_asm.obj (.text:TaskSupport_buildTaskStack)
+                  000099e15b80    000000c0                                               : TaskSupport_asm.obj (.text:TaskSupport_swap)
+                  000099e15c40    000000c0                                               : TimerP.obj (.text:TimerP_start)
+                  000099e15d00    000000c0                                               : TimerP.obj (.text:TimerP_stop)
+                  000099e15dc0    000000c0     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_Params_init)
+                  000099e15e80    000000c0                                              : uart_dma.obj (.text:UART_dmaClose)
+                  000099e15f40    000000c0                                              : uart_dma.obj (.text:UART_dmaOpen)
+                  000099e16000    000000c0                                              : uart_v0.obj (.text:UART_fifoWrite)
+                  000099e160c0    000000c0                                              : uart_v0.obj (.text:UART_getChar)
+                  000099e16180    000000c0                                              : uart_v0.obj (.text:UART_readData)
+                  000099e16240    000000c0                                              : uart_v0.obj (.text:UART_regConfigModeEnable)
+                  000099e16300    000000c0     freertos.am62dx.c75x.ti-c7000.release.lib : DebugP_freertos.obj (.text:_DebugP_logZone)
+                  000099e163c0    000000c0     rts7504_le.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  000099e16480    000000c0                    : fopen.c.obj (.text:__TI_cleanup)
+                  000099e16540    000000c0                    : fltuld.c.obj (.text:__c7xabi_fltuld)
+                  000099e16600    000000c0                    : memory.c.obj (.text:free_list_insert)
+                  000099e166c0    000000c0                    : memory.c.obj (.text:free_list_remove)
+                  000099e16780    000000c0     main.obj (.text:main)
+                  000099e16840    000000c0     rts7504_le.lib : memcpy.cpp.obj (.text:memcpy)
+                  000099e16900    000000c0     freertos.am62dx.c75x.ti-c7000.release.lib : Exception.obj (.text:printTwoVectors)
+                  000099e169c0    000000c0                                               : tasks.obj (.text:prvCheckTasksWaitingTermination)
+                  000099e16a80    000000c0                                               : tasks.obj (.text:prvDeleteTCB)
+                  000099e16b40    000000c0                                               : tasks.obj (.text:prvInitialiseTaskLists)
+                  000099e16c00    000000c0                                               : timers.obj (.text:prvInsertTimerInActiveList)
+                  000099e16cc0    000000c0                                               : timers.obj (.text:prvProcessExpiredTimer)
+                  000099e16d80    000000c0                                               : timers.obj (.text:prvReloadTimer)
+                  000099e16e40    000000c0                                               : list.obj (.text:vListInsert)
+                  000099e16f00    000000c0                                               : port.obj (.text:vPortYield)
+                  000099e16fc0    000000c0                                               : queue.obj (.text:vQueueDelete)
+                  000099e17080    000000c0                                               : queue.obj (.text:vQueueUnregisterQueue)
+                  000099e17140    000000c0                                               : queue.obj (.text:vQueueWaitForMessageRestricted)
+                  000099e17200    000000c0                                               : tasks.obj (.text:vTaskDelay)
+                  000099e172c0    000000c0                                               : tasks.obj (.text:vTaskExitCritical)
+                  000099e17380    000000c0                                               : tasks.obj (.text:vTaskPlaceOnEventList)
+                  000099e17440    000000c0                                               : tasks.obj (.text:vTaskStartScheduler)
+                  000099e17500    000000c0                                               : queue.obj (.text:xQueueGiveMutexRecursive)
+                  000099e175c0    00000080                                               : csl_clec.obj (.text:CSL_clecClearEvent)
+                  000099e17640    00000080     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:CSL_secProxyGetMaxMsgSize)
+                  000099e176c0    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : CacheP_c75.obj (.text:CacheP_disable)
+                  000099e17740    00000080                                               : CacheP_c75.obj (.text:CacheP_enable)
+                  000099e177c0    00000080                                               : CacheP_c75.obj (.text:CacheP_enableWT)
+                  000099e17840    00000080                                               : ClockP_freertos.obj (.text:ClockP_usleep)
+                  000099e178c0    00000080                                               : DebugP_log.obj (.text:DebugP_logZoneEnable)
+                  000099e17940    00000080                                               : DebugP_uartLogWriter.obj (.text:DebugP_uartLogWriterPutChar)
+                  000099e179c0    00000080     ti_dpl_config.obj (.text:Dpl_init)
+                  000099e17a40    00000080     ti_drivers_open_close.obj (.text:Drivers_i2cClose)
+                  000099e17ac0    00000080     ti_drivers_open_close.obj (.text:Drivers_uartClose)
+                  000099e17b40    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : Exception.obj (.text:Exception_Module_startup)
+                  000099e17bc0    00000080                                               : HwiP_freertos_c7x.obj (.text:HwiP_destruct)
+                  000099e17c40    00000080                                               : HwiP_c75.obj (.text:HwiP_disable)
+                  000099e17cc0    00000080                                               : HwiP_c75.obj (.text:HwiP_disableInt)
+                  000099e17d40    00000080                                               : HwiP_c75.obj (.text:HwiP_restore)
+                  000099e17dc0    00000080                                               : HwiP_c75.obj (.text:Hwi_Instance_finalize)
+                  000099e17e40    00000080                                               : HwiP_c75.obj (.text:Hwi_construct)
+                  000099e17ec0    00000080                                               : HwiP_c75.obj (.text:Hwi_disableIER)
+                  000099e17f40    00000080                                               : HwiP_c75.obj (.text:Hwi_dispatchC)
+                  000099e17fc0    00000080                                               : HwiP_c75.obj (.text:Hwi_enableIER)
+                  000099e18040    00000080                                               : HwiP_c75.obj (.text:Hwi_eventMap)
+                  000099e180c0    00000080                                               : HwiP_c75.obj (.text:Hwi_postInit)
+                  000099e18140    00000080                                               : HwiP_c75.obj (.text:Hwi_secureStart)
+                  000099e181c0    00000080                                               : Hwi_switch_asm.obj (.text:Hwi_switchAndDispatch)
+                  000099e18240    00000080                                               : Hwi_asm.obj (.text:Hwi_switchToNS)
+                  000099e182c0    00000080     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2CBufferStatus)
+                  000099e18340    00000080                                              : i2c_v0.obj (.text:I2C_LLD_transferCompleteCallback)
+                  000099e183c0    00000080                                              : i2c_v0.obj (.text:I2C_hwiFxn)
+                  000099e18440    00000080                                              : i2c_v0_lld.obj (.text:I2C_lld_completeCurrTargetTransfer)
+                  000099e184c0    00000080                                              : i2c_v0_lld.obj (.text:I2C_lld_deInit)
+                  000099e18540    00000080                                              : i2c_v0_lld.obj (.text:I2C_lld_transferInit)
+                  000099e185c0    00000080                                              : i2c_v0_lld.obj (.text:I2C_lld_transferIntr)
+                  000099e18640    00000080                                              : i2c_v0_lld.obj (.text:I2C_lld_transferPoll)
+                  000099e186c0    00000080                                              : i2c_v0.obj (.text:I2C_recoverBus)
+                  000099e18740    00000080                                              : i2c_v0.obj (.text:I2C_transferCallback)
+                  000099e187c0    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.text:MmuP_addTableEntry)
+                  000099e18840    00000080                                               : MmuP_c75.obj (.text:MmuP_disable)
+                  000099e188c0    00000080                                               : MmuP_c75.obj (.text:MmuP_enable)
+                  000099e18940    00000080     ti_power_clock_config.obj (.text:Module_clockEnable)
+                  000099e189c0    00000080     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:Sciclient_secProxyReadThread32)
+                  000099e18a40    00000080                                              : sciclient.obj (.text:Sciclient_secProxyWaitThread)
+                  000099e18ac0    00000080                                              : uart_v0.obj (.text:UART_checkCharsAvailInFifo)
+                  000099e18b40    00000080                                              : uart_v0.obj (.text:UART_checkOpenParams)
+                  000099e18bc0    00000080                                              : uart_v0.obj (.text:UART_enhanFuncBitValRestore)
+                  000099e18c40    00000080                                              : uart_v0.obj (.text:UART_enhanFuncEnable)
+                  000099e18cc0    00000080                                              : uart_v0.obj (.text:UART_fifoRegisterWrite)
+                  000099e18d40    00000080                                              : uart_v0.obj (.text:UART_getHandle)
+                  000099e18dc0    00000080                                              : uart_v0.obj (.text:UART_getIntrIdentityStatus)
+                  000099e18e40    00000080                                              : uart_v0.obj (.text:UART_hardwareFlowCtrlOptSet)
+                  000099e18ec0    00000080                                              : uart_v0.obj (.text:UART_i2310WA)
+                  000099e18f40    00000080                                              : uart_v0.obj (.text:UART_lineCharConfig)
+                  000099e18fc0    00000080                                              : uart_v0.obj (.text:UART_moduleReset)
+                  000099e19040    00000080                                              : uart_v0.obj (.text:UART_operatingModeSelect)
+                  000099e190c0    00000080                                              : uart_v0.obj (.text:UART_readLineStatus)
+                  000099e19140    00000080                                              : uart_v0.obj (.text:UART_resetModule)
+                  000099e191c0    00000080                                              : uart_v0.obj (.text:UART_spaceAvail)
+                  000099e19240    00000080                                              : uart_v0.obj (.text:UART_writeData)
+                  000099e192c0    00000080                                              : uart_v0.obj (.text:UART_writeDataPolling)
+                  000099e19340    00000080                                              : uart_dma.obj (.text:UART_writeInterruptDma)
+                  000099e193c0    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : DebugP_log.obj (.text:_DebugP_assertNoLog)
+                  000099e19440    00000080     rts7504_le.lib : frcmpyd_div.c.obj (.text:__TI_frcmpyd_div)
+                  000099e194c0    00000080                    : args_main.c.obj (.text:_args_main)
+                  000099e19540    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.text:_atoi)
+                  000099e195c0    00000080                                               : printf.obj (.text:_strnlen_s)
+                  000099e19640    00000080     main.obj (.text:freertos_main)
+                  000099e196c0    00000080     rts7504_le.lib : lseek.c.obj (.text:lseek)
+                  000099e19740    00000080                    : memset.cpp.obj (.text:memset)
+                  000099e197c0    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:prvCopyDataFromQueue)
+                  000099e19840    00000080                                               : queue.obj (.text:prvInitialiseMutex)
+                  000099e198c0    00000080                                               : queue.obj (.text:prvInitialiseNewQueue)
+                  000099e19940    00000080                                               : queue.obj (.text:prvIsQueueEmpty)
+                  000099e199c0    00000080                                               : queue.obj (.text:prvIsQueueFull)
+                  000099e19a40    00000080                                               : timers.obj (.text:prvSampleTimeNow)
+                  000099e19ac0    00000080                                               : timers.obj (.text:prvSwitchTimerLists)
+                  000099e19b40    00000080                                               : tasks.obj (.text:prvTaskCheckFreeStackSpace)
+                  000099e19bc0    00000080                                               : port.obj (.text:prvTaskExitError)
+                  000099e19c40    00000080                                               : port.obj (.text:pxPortInitialiseStack)
+                  000099e19cc0    00000080     rts7504_le.lib : unlink.c.obj (.text:unlink)
+                  000099e19d40    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : list.obj (.text:uxListRemove)
+                  000099e19dc0    00000080                                               : TaskP_freertos.obj (.text:vApplicationLoadHook)
+                  000099e19e40    00000080                                               : port.obj (.text:vApplicationStackOverflowHook)
+                  000099e19ec0    00000080                                               : port.obj (.text:vPortAssertIfInISR)
+                  000099e19f40    00000080                                               : port.obj (.text:vPortYieldAsyncFromISR)
+                  000099e19fc0    00000080                                               : tasks.obj (.text:vTaskEnterCritical)
+                  000099e1a040    00000080                                               : printf.obj (.text:vprintf_)
+                  000099e1a0c0    00000080     rts7504_le.lib : write.c.obj (.text:write)
+                  000099e1a140    00000080     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:xQueueCreateMutexStatic)
+                  000099e1a1c0    00000080                                               : tasks.obj (.text:xTaskCreateStatic)
+                  000099e1a240    00000080                                               : tasks.obj (.text:xTaskGetIdleTaskHandle)
+                  000099e1a2c0    00000040     ti_board_open_close.obj (.text:Board_driversClose)
+                  000099e1a300    00000040     ti_board_open_close.obj (.text:Board_driversOpen)
+                  000099e1a340    00000040     board.obj (.text:Board_i2cGetEepromDeviceAddr)
+                  000099e1a380    00000040     board.obj (.text:Board_i2cGetEepromMemAddr)
+                  000099e1a3c0    00000040     ti_board_config.obj (.text:Board_init)
+                  000099e1a400    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:CSL_REG32_FEXT_RAW)
+                  000099e1a440    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : csl_clec.obj (.text:CSL_REG32_FINS_RAW)
+                  000099e1a480    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:CSL_REG32_RD_RAW)
+                  000099e1a4c0    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : csl_clec.obj (.text:CSL_REG32_RD_RAW)
+                  000099e1a500    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : pinmux.obj (.text:CSL_REG32_WR_RAW)
+                  000099e1a540    00000040                                              : sciclient.obj (.text:CSL_REG32_WR_RAW)
+                  000099e1a580    00000040                                              : soc.obj (.text:CSL_REG32_WR_RAW)
+                  000099e1a5c0    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : csl_clec.obj (.text:CSL_REG32_WR_RAW)
+                  000099e1a600    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : csl_sec_proxy.obj (.text:CSL_secProxyGetDataAddr)
+                  000099e1a640    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : CacheP_c75.obj (.text:CacheP_Module_startup)
+                  000099e1a680    00000040                                               : CacheP_c75_asm.obj (.text:CacheP_getL1DCFG)
+                  000099e1a6c0    00000040                                               : CacheP_c75_asm.obj (.text:CacheP_setL1DCFG)
+                  000099e1a700    00000040                                               : ClockP_freertos.obj (.text:ClockP_getTicks)
+                  000099e1a740    00000040                                               : ClockP_freertos_c75.obj (.text:ClockP_getTimerCount)
+                  000099e1a780    00000040                                               : ClockP_freertos.obj (.text:ClockP_sleepTicks)
+                  000099e1a7c0    00000040                                               : ClockP_freertos_c75.obj (.text:ClockP_timerClearOverflowInt)
+                  000099e1a800    00000040                                               : ClockP_freertos.obj (.text:ClockP_timerTickIsr)
+                  000099e1a840    00000040                                               : ClockP_freertos.obj (.text:ClockP_usecToTicks)
+                  000099e1a880    00000040                                               : DebugP_uartLogWriter.obj (.text:DebugP_uartSetDrvIndex)
+                  000099e1a8c0    00000040     ti_drivers_open_close.obj (.text:Drivers_close)
+                  000099e1a900    00000040     ti_drivers_open_close.obj (.text:Drivers_open)
+                  000099e1a940    00000040     ti_drivers_config.obj (.text:Drivers_uartInit)
+                  000099e1a980    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : c7x_module_config.obj (.text:ExceptionHook)
+                  000099e1a9c0    00000040                                               : c7x_module_config.obj (.text:ExceptionInternalHook)
+                  000099e1aa00    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:HW_RD_FIELD32_RAW)
+                  000099e1aa40    00000040                                              : uart_v0.obj (.text:HW_RD_REG32_RAW)
+                  000099e1aa80    00000040                                              : uart_v0.obj (.text:HW_WR_FIELD32_RAW)
+                  000099e1aac0    00000040                                              : uart_v0.obj (.text:HW_WR_REG32_RAW)
+                  000099e1ab00    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_freertos_c7x.obj (.text:HwiP_Params_init)
+                  000099e1ab40    00000040                                               : HwiP_c75.obj (.text:HwiP_enable)
+                  000099e1ab80    00000040                                               : HwiP_c75.obj (.text:HwiP_enableInt)
+                  000099e1abc0    00000040                                               : HwiP_c75.obj (.text:HwiP_inISR)
+                  000099e1ac00    00000040                                               : HwiP_c75.obj (.text:HwiP_init)
+                  000099e1ac40    00000040                                               : HwiP_c75.obj (.text:Hwi_Params__init__S)
+                  000099e1ac80    00000040                                               : HwiP_c75.obj (.text:Hwi_Params_init)
+                  000099e1acc0    00000040                                               : HwiP_c75.obj (.text:Hwi_destruct)
+                  000099e1ad00    00000040                                               : Hwi_asm.obj (.text:Hwi_disable)
+                  000099e1ad40    00000040                                               : Hwi_asm.obj (.text:Hwi_enable)
+                  000099e1ad80    00000040                                               : Hwi_asm.obj (.text:Hwi_getCXM)
+                  000099e1adc0    00000040                                               : HwiP_c75.obj (.text:Hwi_getEventId)
+                  000099e1ae00    00000040                                               : HwiP_c75.obj (.text:Hwi_getIsrStackAddress)
+                  000099e1ae40    00000040                                               : Startup.obj (.text:Hwi_initStackMin)
+                  000099e1ae80    00000040                                               : Hwi_asm.obj (.text:Hwi_restore)
+                  000099e1aec0    00000040                                               : Hwi_asm.obj (.text:Hwi_setCOP)
+                  000099e1af00    00000040                                               : HwiP_c75.obj (.text:Hwi_switchFromBootStack)
+                  000099e1af40    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.text:I2CAutoIdleDisable)
+                  000099e1af80    00000040                                              : i2c_v0_lld.obj (.text:I2CConfig)
+                  000099e1afc0    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerBusBusy)
+                  000099e1b000    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerControl)
+                  000099e1b040    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerDataGet)
+                  000099e1b080    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerDataPut)
+                  000099e1b0c0    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerDisable)
+                  000099e1b100    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerEnable)
+                  000099e1b140    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerEnableFreeRun)
+                  000099e1b180    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerGetSysTest)
+                  000099e1b1c0    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntClearEx)
+                  000099e1b200    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntDisableEx)
+                  000099e1b240    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntEnableEx)
+                  000099e1b280    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntRawStatus)
+                  000099e1b2c0    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntRawStatusEx)
+                  000099e1b300    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerIntStatus)
+                  000099e1b340    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerSetSysTest)
+                  000099e1b380    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerStart)
+                  000099e1b3c0    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerStop)
+                  000099e1b400    00000040                                              : i2c_v0_lld.obj (.text:I2CControllerTargetAddrSet)
+                  000099e1b440    00000040                                              : i2c_v0_lld.obj (.text:I2CDataCountGet)
+                  000099e1b480    00000040                                              : i2c_v0_lld.obj (.text:I2CFIFOClear)
+                  000099e1b4c0    00000040                                              : i2c_v0_lld.obj (.text:I2COwnAddressSet)
+                  000099e1b500    00000040                                              : i2c_v0_lld.obj (.text:I2CSetDataCount)
+                  000099e1b540    00000040                                              : i2c_v0_lld.obj (.text:I2CSoftReset)
+                  000099e1b580    00000040                                              : i2c_v0_lld.obj (.text:I2CSyscInit)
+                  000099e1b5c0    00000040                                              : i2c_v0_lld.obj (.text:I2CSystemStatusGet)
+                  000099e1b600    00000040                                              : i2c_v0_lld.obj (.text:I2CTargetDataGet)
+                  000099e1b640    00000040                                              : i2c_v0_lld.obj (.text:I2CTargetIntClearEx)
+                  000099e1b680    00000040                                              : i2c_v0_lld.obj (.text:I2CTargetIntDisableEx)
+                  000099e1b6c0    00000040                                              : i2c_v0_lld.obj (.text:I2CTargetIntEnableEx)
+                  000099e1b700    00000040                                              : i2c_v0_lld.obj (.text:I2CTargetIntRawStatus)
+                  000099e1b740    00000040                                              : i2c_v0.obj (.text:I2C_Params_init)
+                  000099e1b780    00000040                                              : i2c_v0.obj (.text:I2C_Transaction_init)
+                  000099e1b7c0    00000040                                              : i2c_v0_lld.obj (.text:I2C_lld_Message_init)
+                  000099e1b800    00000040                                              : i2c_v0_lld.obj (.text:I2C_lld_Transaction_init)
+                  000099e1b840    00000040                                              : i2c_v0_lld.obj (.text:I2C_lld_resetCtrl)
+                  000099e1b880    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : IntrinsicsSupport.obj (.text:IntrinsicsSupport_maxbit)
+                  000099e1b8c0    00000040                                               : IntrinsicsSupport.obj (.text:IntrinsicsSupport_mfence)
+                  000099e1b900    00000040                                               : MmuP_c75.obj (.text:MmuP_disableI)
+                  000099e1b940    00000040                                               : MmuP_c75.obj (.text:MmuP_enableI)
+                  000099e1b980    00000040                                               : MmuP_c75.obj (.text:MmuP_enableI_secure)
+                  000099e1b9c0    00000040                                               : MmuP_c75.obj (.text:MmuP_freeTable)
+                  000099e1ba00    00000040                                               : Mmu_asm.obj (.text:MmuP_isEnabled)
+                  000099e1ba40    00000040                                               : Mmu_asm.obj (.text:MmuP_setMAIRAsm)
+                  000099e1ba80    00000040                                               : Mmu_asm.obj (.text:MmuP_setTCR)
+                  000099e1bac0    00000040                                               : Mmu_asm.obj (.text:MmuP_tlbInvAll)
+                  000099e1bb00    00000040                                               : Mmu_asm.obj (.text:Mmu_init)
+                  000099e1bb40    00000040     ti_pinmux_config.obj (.text:Pinmux_init)
+                  000099e1bb80    00000040     ti_power_clock_config.obj (.text:PowerClock_init)
+                  000099e1bbc0    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient.obj (.text:Sciclient_secProxyReadThreadCount)
+                  000099e1bc00    00000040                                              : sciclient.obj (.text:Sciclient_secProxyThreadStatusReg)
+                  000099e1bc40    00000040                                              : sciclient.obj (.text:Sciclient_secProxyVerifyThread)
+                  000099e1bc80    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : SemaphoreP_freertos.obj (.text:SemaphoreP_destruct)
+                  000099e1bcc0    00000040     ti_drivers_config.obj (.text:System_init)
+                  000099e1bd00    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : TaskP_freertos.obj (.text:TaskP_calcCounterDiff)
+                  000099e1bd40    00000040                                               : TaskP_freertos.obj (.text:TaskP_yield)
+                  000099e1bd80    00000040                                               : TaskSupport.obj (.text:TaskSupport_getStackAlignment)
+                  000099e1bdc0    00000040                                               : TaskSupport_asm.obj (.text:TaskSupport_glue)
+                  000099e1be00    00000040                                               : TaskSupport_asm.obj (.text:TaskSupport_glueUnpriv)
+                  000099e1be40    00000040                                               : port.obj (.text:Task_enter)
+                  000099e1be80    00000040                                               : TimerP.obj (.text:TimerP_Params_init)
+                  000099e1bec0    00000040                                               : TimerP.obj (.text:TimerP_clearOverflowInt)
+                  000099e1bf00    00000040                                               : TimerP.obj (.text:TimerP_getCount)
+                  000099e1bf40    00000040                                               : TimerP.obj (.text:TimerP_getReloadCount)
+                  000099e1bf80    00000040                                               : DebugP_uartLogWriter.obj (.text:UART_Transaction_init)
+                  000099e1bfc0    00000040     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.text:UART_breakCtl)
+                  000099e1c000    00000040                                              : uart_v0.obj (.text:UART_checkTransaction)
+                  000099e1c040    00000040                                              : uart_v0.obj (.text:UART_divideRoundCloset)
+                  000099e1c080    00000040                                              : uart_v0.obj (.text:UART_divisorLatchDisable)
+                  000099e1c0c0    00000040                                              : uart_v0.obj (.text:UART_fifoCharGet)
+                  000099e1c100    00000040                                              : uart_v0.obj (.text:UART_flowCtrlTrigLvlConfig)
+                  000099e1c140    00000040                                              : uart_v0.obj (.text:UART_intr2Disable)
+                  000099e1c180    00000040                                              : uart_v0.obj (.text:UART_modemControlReset)
+                  000099e1c1c0    00000040                                              : uart_v0.obj (.text:UART_putChar)
+                  000099e1c200    00000040                                              : uart_v0.obj (.text:UART_regConfModeRestore)
+                  000099e1c240    00000040                                              : uart_v0.obj (.text:UART_writeInterrupt)
+                  000099e1c280    00000040     rts7504_le.lib : fixdull.c.obj (.text:__c7xabi_fixdull)
+                  000099e1c2c0    00000040                    : fltulld.c.obj (.text:__c7xabi_fltulld)
+                  000099e1c300    00000040                    : imath64.c.obj (.text:__c7xabi_remull)
+                  000099e1c340    00000040                    : boot.c.obj (.text:_c_int00)
+                  000099e1c380    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.text:_is_digit)
+                  000099e1c3c0    00000040     rts7504_le.lib : _lock.c.obj (.text:_nop)
+                  000099e1c400    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.text:_out_char)
+                  000099e1c440    00000040                                               : printf.obj (.text:_out_null)
+                  000099e1c480    00000040                                               : port.obj (.text:_system_post_cinit)
+                  000099e1c4c0    00000040                                               : port.obj (.text:_system_pre_init)
+                  000099e1c500    00000040     rts7504_le.lib : exit.c.obj (.text:abort)
+                  000099e1c540    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : Startup.obj (.text:c7x_startup_init)
+                  000099e1c580    00000040     rts7504_le.lib : exit.c.obj (.text:exit)
+                  000099e1c5c0    00000040                    : memory.c.obj (.text:malloc)
+                  000099e1c600    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.text:prvGetDisinheritPriorityAfterTimeout)
+                  000099e1c640    00000040                                               : timers.obj (.text:prvGetNextExpireTime)
+                  000099e1c680    00000040                                               : tasks.obj (.text:prvIdleTask)
+                  000099e1c6c0    00000040                                               : tasks.obj (.text:prvResetNextTaskUnblockTime)
+                  000099e1c700    00000040                                               : timers.obj (.text:prvTimerTask)
+                  000099e1c740    00000040     rts7504_le.lib : fputc.c.obj (.text:putchar)
+                  000099e1c780    00000040     ti_dpl_config.obj (.text:putchar_)
+                  000099e1c7c0    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.text:pvTaskIncrementMutexHeldCount)
+                  000099e1c800    00000040     rts7504_le.lib : remove.c.obj (.text:remove)
+                  000099e1c840    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : port.obj (.text:ti_sysbios_knl_Task_Func)
+                  000099e1c880    00000040                                               : port.obj (.text:uiPortGetRunTimeCounterValue)
+                  000099e1c8c0    00000040                                               : tasks.obj (.text:uxTaskGetNumberOfTasks)
+                  000099e1c900    00000040                                               : port.obj (.text:vApplicationGetIdleTaskMemory)
+                  000099e1c940    00000040                                               : port.obj (.text:vApplicationGetTimerTaskMemory)
+                  000099e1c980    00000040                                               : port.obj (.text:vApplicationIdleHook)
+                  000099e1c9c0    00000040                                               : list.obj (.text:vListInitialise)
+                  000099e1ca00    00000040                                               : list.obj (.text:vListInitialiseItem)
+                  000099e1ca40    00000040                                               : list.obj (.text:vListInsertEnd)
+                  000099e1ca80    00000040                                               : port.obj (.text:vPortConfigTimerForRunTimeStats)
+                  000099e1cac0    00000040                                               : port.obj (.text:vPortRestoreTaskContext)
+                  000099e1cb00    00000040                                               : port.obj (.text:vPortTimerTickHandler)
+                  000099e1cb40    00000040                                               : port.obj (.text:vPortValidateInterruptPriority)
+                  000099e1cb80    00000040                                               : port.obj (.text:vPortYeildFromISR)
+                  000099e1cbc0    00000040                                               : tasks.obj (.text:vTaskInternalSetTimeOutState)
+                  000099e1cc00    00000040                                               : tasks.obj (.text:vTaskMissedYield)
+                  000099e1cc40    00000040                                               : tasks.obj (.text:vTaskSuspendAll)
+                  000099e1cc80    00000040                                               : port.obj (.text:xPortInIsrContext)
+                  000099e1ccc0    00000040                                               : port.obj (.text:xPortStartScheduler)
+                  000099e1cd00    00000040                                               : tasks.obj (.text:xTaskGetCurrentTaskHandle)
+                  000099e1cd40    00000040                                               : tasks.obj (.text:xTaskGetSchedulerState)
+                  000099e1cd80    00000040                                               : tasks.obj (.text:xTaskGetTickCount)
+
+.text:_c_int00_secure 
+*          0    00009a000000    00000040     
+                  00009a000000    00000040     freertos.am62dx.c75x.ti-c7000.release.lib : boot_c75.obj (.text:_c_int00_secure:_c_int00_secure)
+
+.cinit     0    000099c11000    00000000     UNINITIALIZED
+
+.init_array 
+*          0    000099c11000    00000000     UNINITIALIZED
+
+.stack     0    000099cd6000    00020000     UNINITIALIZED
+                  000099cd6000    00000010     rts7504_le.lib : boot.c.obj (.stack)
+                  000099cd6010    0001fff0     --HOLE--
+
+.const     0    000099d28008    00002ee5     
+                  000099d28008    00000be0     freertos.am62dx.c75x.ti-c7000.release.lib : Exception.obj (.const:.string)
+                  000099d28be8    000007ae                                               : tasks.obj (.const:.string)
+                  000099d29396    0000048c                                               : queue.obj (.const:.string)
+                  000099d29822    000003df                                               : heap_4.obj (.const:.string)
+                  000099d29c01    0000020d                                               : timers.obj (.const:.string)
+                  000099d29e0e    0000010b                                               : TimerP.obj (.const:.string)
+                  000099d29f19    00000100                                               : ClockP_freertos_c75.obj (.const:.string)
+                  000099d2a019    00000001                                               : c7x_module_config.obj (.const:Exception_enablePrint)
+                  000099d2a01a    00000001                                               : c7x_module_config.obj (.const:Exception_useInternalBuffer)
+                  000099d2a01b    00000001                                               : HwiP_c75.obj (.const:Hwi_bootToNonSecure)
+                  000099d2a01c    000000dc     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_fmwSecureProxyMap.obj (.const:gSciclientMap)
+                  000099d2a0f8    000000aa     i2c_memory_read.obj (.const:.string)
+                  000099d2a1a2    000000a9     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.const:.string)
+                  000099d2a24b    00000094     freertos.am62dx.c75x.ti-c7000.release.lib : TaskSupport.obj (.const:.string)
+                  000099d2a2df    00000093                                               : port.obj (.const:.string)
+                  000099d2a372    00000088                                               : SemaphoreP_freertos.obj (.const:.string)
+                  000099d2a3fa    00000081     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.const:.string)
+                  000099d2a47b    00000069     ti_drivers_open_close.obj (.const:.string)
+                  000099d2a4e4    00000052     main.obj (.const:.string)
+                  000099d2a536    00000002     --HOLE-- [fill = 0]
+                  000099d2a538    00000050     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.const:I2C_defaultTransaction)
+                  000099d2a588    00000050     freertos.am62dx.c75x.ti-c7000.release.lib : printf.obj (.const:pow10$1)
+                  000099d2a5d8    0000003e                                               : HwiP_c75.obj (.const:.string)
+                  000099d2a616    0000002d                                               : DebugP_log.obj (.const:.string)
+                  000099d2a643    00000029     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T29$30)
+                  000099d2a66c    00000029                                              : sciclient_pm.obj (.const:$P$T32$33)
+                  000099d2a695    00000003     --HOLE-- [fill = 0]
+                  000099d2a698    00000028     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_c75.obj (.const:Hwi_Object__PARAMS__C)
+                  000099d2a6c0    00000026     drivers.am62dx.c75x.ti-c7000.release.lib : uart_dma.obj (.const:.string)
+                  000099d2a6e6    00000002     --HOLE-- [fill = 0]
+                  000099d2a6e8    00000024     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T28$29)
+                  000099d2a70c    00000004                                               : c7x_module_config.obj (.const:Hwi_DEFAULT_INT_PRIORITY)
+                  000099d2a710    00000020                                               : timers.obj (.const:$P$T13$15)
+                  000099d2a730    00000020                                               : tasks.obj (.const:.string:$P$T20$21)
+                  000099d2a750    00000020     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0_lld.obj (.const:I2C_lld_defaultMessage)
+                  000099d2a770    00000020                                              : i2c_v0_lld.obj (.const:I2C_lld_defaultTransaction)
+                  000099d2a790    0000001e     freertos.am62dx.c75x.ti-c7000.release.lib : port.obj (.const:.string:$P$T1$2)
+                  000099d2a7ae    00000002     --HOLE-- [fill = 0]
+                  000099d2a7b0    0000001b                                               : SemaphoreP_freertos.obj (.const:.string:$P$T0$1)
+                  000099d2a7cb    00000001     --HOLE-- [fill = 0]
+                  000099d2a7cc    0000001b                                               : TaskSupport.obj (.const:.string:$P$T0$1)
+                  000099d2a7e7    00000001     --HOLE-- [fill = 0]
+                  000099d2a7e8    0000001b                                               : timers.obj (.const:.string:$P$T12$14)
+                  000099d2a803    00000001     --HOLE-- [fill = 0]
+                  000099d2a804    0000001b                                               : heap_4.obj (.const:.string:$P$T2$3)
+                  000099d2a81f    00000001     --HOLE-- [fill = 0]
+                  000099d2a820    0000001a                                               : queue.obj (.const:.string:$P$T1$2)
+                  000099d2a83a    00000002     --HOLE-- [fill = 0]
+                  000099d2a83c    0000001a                                               : SemaphoreP_freertos.obj (.const:.string:$P$T2$3)
+                  000099d2a856    00000002     --HOLE-- [fill = 0]
+                  000099d2a858    00000019                                               : tasks.obj (.const:.string:$P$T21$22)
+                  000099d2a871    00000003     --HOLE-- [fill = 0]
+                  000099d2a874    00000019                                               : queue.obj (.const:.string:$P$T6$7)
+                  000099d2a88d    00000003     --HOLE-- [fill = 0]
+                  000099d2a890    00000019                                               : queue.obj (.const:.string:$P$T7$8)
+                  000099d2a8a9    00000003     --HOLE-- [fill = 0]
+                  000099d2a8ac    00000004                                               : TaskSupport.obj (.const:OS_mpeEnabled)
+                  000099d2a8b0    00000018     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T0$1)
+                  000099d2a8c8    00000018                                              : sciclient_pm.obj (.const:$P$T1$2)
+                  000099d2a8e0    00000018                                              : sciclient_pm.obj (.const:$P$T12$13)
+                  000099d2a8f8    00000018                                              : sciclient_pm.obj (.const:$P$T13$14)
+                  000099d2a910    00000018                                              : sciclient_pm.obj (.const:$P$T16$17)
+                  000099d2a928    00000018                                              : sciclient_pm.obj (.const:$P$T17$18)
+                  000099d2a940    00000018                                              : sciclient_pm.obj (.const:$P$T19$20)
+                  000099d2a958    00000018                                              : sciclient_pm.obj (.const:$P$T20$21)
+                  000099d2a970    00000018                                              : sciclient_pm.obj (.const:$P$T23$24)
+                  000099d2a988    00000018                                              : sciclient_pm.obj (.const:$P$T24$25)
+                  000099d2a9a0    00000018                                              : sciclient_pm.obj (.const:$P$T27$28)
+                  000099d2a9b8    00000018                                              : sciclient_pm.obj (.const:$P$T28$29)
+                  000099d2a9d0    00000018                                              : sciclient_pm.obj (.const:$P$T30$31)
+                  000099d2a9e8    00000018                                              : sciclient_pm.obj (.const:$P$T31$32)
+                  000099d2aa00    00000018                                              : sciclient_pm.obj (.const:$P$T34$35)
+                  000099d2aa18    00000018                                              : sciclient_pm.obj (.const:$P$T35$36)
+                  000099d2aa30    00000018                                              : sciclient_pm.obj (.const:$P$T4$5)
+                  000099d2aa48    00000018                                              : sciclient_pm.obj (.const:$P$T5$6)
+                  000099d2aa60    00000018                                              : sciclient_pm.obj (.const:$P$T7$8)
+                  000099d2aa78    00000018                                              : sciclient_pm.obj (.const:$P$T8$9)
+                  000099d2aa90    00000018     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T27$28)
+                  000099d2aaa8    00000018     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.const:I2C_defaultParams)
+                  000099d2aac0    00000018     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.const:Mmu_configInfo)
+                  000099d2aad8    00000017     drivers.am62dx.c75x.ti-c7000.release.lib : uart_dma.obj (.const:.string:$P$T1$2)
+                  000099d2aaef    00000001     --HOLE-- [fill = 0]
+                  000099d2aaf0    00000017     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T13$14)
+                  000099d2ab07    00000016     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T18$19)
+                  000099d2ab1d    00000003     --HOLE-- [fill = 0]
+                  000099d2ab20    00000016     freertos.am62dx.c75x.ti-c7000.release.lib : timers.obj (.const:.string:$P$T0$1)
+                  000099d2ab36    00000002     --HOLE-- [fill = 0]
+                  000099d2ab38    00000016                                               : tasks.obj (.const:.string:$P$T18$19)
+                  000099d2ab4e    00000002     --HOLE-- [fill = 0]
+                  000099d2ab50    00000016                                               : queue.obj (.const:.string:$P$T26$27)
+                  000099d2ab66    00000002     --HOLE-- [fill = 0]
+                  000099d2ab68    00000015                                               : tasks.obj (.const:.string:$P$T1$2)
+                  000099d2ab7d    00000003     --HOLE-- [fill = 0]
+                  000099d2ab80    00000015                                               : queue.obj (.const:.string:$P$T16$17)
+                  000099d2ab95    00000003     --HOLE-- [fill = 0]
+                  000099d2ab98    00000015                                               : tasks.obj (.const:.string:$P$T24$25)
+                  000099d2abad    00000003     --HOLE-- [fill = 0]
+                  000099d2abb0    00000014                                               : tasks.obj (.const:.string:$P$T0$1)
+                  000099d2abc4    00000014                                               : queue.obj (.const:.string:$P$T14$15)
+                  000099d2abd8    00000014                                               : queue.obj (.const:.string:$P$T24$25)
+                  000099d2abec    00000014     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.const:.string:$P$T8$9)
+                  000099d2ac00    00000014     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T9$10)
+                  000099d2ac14    00000013                                               : queue.obj (.const:.string:$P$T0$1)
+                  000099d2ac27    00000001     --HOLE-- [fill = 0]
+                  000099d2ac28    00000013                                               : tasks.obj (.const:.string:$P$T16$17)
+                  000099d2ac3b    00000001     --HOLE-- [fill = 0]
+                  000099d2ac3c    00000013                                               : tasks.obj (.const:.string:$P$T17$18)
+                  000099d2ac4f    00000001     --HOLE-- [fill = 0]
+                  000099d2ac50    00000013                                               : port.obj (.const:.string:$P$T2$7)
+                  000099d2ac63    00000012     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T11$12)
+                  000099d2ac75    00000012                                              : sciclient_pm.obj (.const:$P$T3$4)
+                  000099d2ac87    00000001     --HOLE-- [fill = 0]
+                  000099d2ac88    00000012     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.const:.string:$P$T10$11)
+                  000099d2ac9a    00000002     --HOLE-- [fill = 0]
+                  000099d2ac9c    00000012                                               : queue.obj (.const:.string:$P$T12$13)
+                  000099d2acae    00000002     --HOLE-- [fill = 0]
+                  000099d2acb0    00000012                                               : tasks.obj (.const:.string:$P$T29$30)
+                  000099d2acc2    00000012                                               : printf.obj (.const:.string)
+                  000099d2acd4    00000011     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T14$15)
+                  000099d2ace5    00000011                                              : sciclient_pm.obj (.const:$P$T21$22)
+                  000099d2acf6    00000011                                              : sciclient_pm.obj (.const:$P$T25$26)
+                  000099d2ad07    00000001     --HOLE-- [fill = 0]
+                  000099d2ad08    00000011     freertos.am62dx.c75x.ti-c7000.release.lib : port.obj (.const:.string:$P$T0$1)
+                  000099d2ad19    00000003     --HOLE-- [fill = 0]
+                  000099d2ad1c    00000011     ti_drivers_open_close.obj (.const:.string:$P$T1$2)
+                  000099d2ad2d    00000003     --HOLE-- [fill = 0]
+                  000099d2ad30    00000011     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.const:.string:$P$T7$8)
+                  000099d2ad41    00000010                                              : sciclient_pm.obj (.const:$P$T33$34)
+                  000099d2ad51    00000010                                              : sciclient_pm.obj (.const:$P$T6$7)
+                  000099d2ad61    00000003     --HOLE-- [fill = 0]
+                  000099d2ad64    00000010     freertos.am62dx.c75x.ti-c7000.release.lib : HwiP_c75.obj (.const:.string:$P$T0$1)
+                  000099d2ad74    00000010     ti_drivers_open_close.obj (.const:.string:$P$T0$1)
+                  000099d2ad84    0000000f     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T10$11)
+                  000099d2ad93    00000001     --HOLE-- [fill = 0]
+                  000099d2ad94    0000000f     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.const:.string:$P$T9$10)
+                  000099d2ada3    00000001     --HOLE-- [fill = 0]
+                  000099d2ada4    0000000e                                              : uart_dma.obj (.const:.string:$P$T0$1)
+                  000099d2adb2    00000002     --HOLE-- [fill = 0]
+                  000099d2adb4    0000000e     main.obj (.const:.string:$P$T0$1)
+                  000099d2adc2    00000002     --HOLE-- [fill = 0]
+                  000099d2adc4    0000000e     freertos.am62dx.c75x.ti-c7000.release.lib : queue.obj (.const:.string:$P$T13$14)
+                  000099d2add2    00000002     --HOLE-- [fill = 0]
+                  000099d2add4    0000000e                                               : tasks.obj (.const:.string:$P$T4$5)
+                  000099d2ade2    0000000d     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T22$23)
+                  000099d2adef    0000000d                                              : sciclient_pm.obj (.const:$P$T26$27)
+                  000099d2adfc    0000000d     freertos.am62dx.c75x.ti-c7000.release.lib : TimerP.obj (.const:.string:$P$T0$1)
+                  000099d2ae09    00000003     --HOLE-- [fill = 0]
+                  000099d2ae0c    0000000d                                               : queue.obj (.const:.string:$P$T21$22)
+                  000099d2ae19    00000003     --HOLE-- [fill = 0]
+                  000099d2ae1c    0000000d                                               : tasks.obj (.const:.string:$P$T26$27)
+                  000099d2ae29    0000000c     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T2$3)
+                  000099d2ae35    00000003     --HOLE-- [fill = 0]
+                  000099d2ae38    0000000c     freertos.am62dx.c75x.ti-c7000.release.lib : ClockP_freertos_c75.obj (.const:.string:$P$T0$1)
+                  000099d2ae44    0000000c                                               : tasks.obj (.const:.string:$P$T2$3)
+                  000099d2ae50    0000000b     drivers.am62dx.c75x.ti-c7000.release.lib : uart_v0.obj (.const:.string:$P$T2$3)
+                  000099d2ae5b    00000001     --HOLE-- [fill = 0]
+                  000099d2ae5c    0000000b                                              : uart_v0.obj (.const:.string:$P$T3$4)
+                  000099d2ae67    00000001     --HOLE-- [fill = 0]
+                  000099d2ae68    0000000b     freertos.am62dx.c75x.ti-c7000.release.lib : tasks.obj (.const:.string:$P$T3$4)
+                  000099d2ae73    0000000a     drivers.am62dx.c75x.ti-c7000.release.lib : sciclient_pm.obj (.const:$P$T15$16)
+                  000099d2ae7d    00000003     --HOLE-- [fill = 0]
+                  000099d2ae80    0000000a                                              : uart_v0.obj (.const:.string:$P$T0$1)
+                  000099d2ae8a    00000002     --HOLE-- [fill = 0]
+                  000099d2ae8c    0000000a                                              : i2c_v0.obj (.const:.string:$P$T1$2)
+                  000099d2ae96    00000002     --HOLE-- [fill = 0]
+                  000099d2ae98    0000000a                                              : uart_v0.obj (.const:.string:$P$T1$2)
+                  000099d2aea2    00000002     --HOLE-- [fill = 0]
+                  000099d2aea4    0000000a     freertos.am62dx.c75x.ti-c7000.release.lib : heap_4.obj (.const:.string:$P$T1$2)
+                  000099d2aeae    00000002     --HOLE-- [fill = 0]
+                  000099d2aeb0    00000009     drivers.am62dx.c75x.ti-c7000.release.lib : i2c_v0.obj (.const:.string:$P$T0$1)
+                  000099d2aeb9    00000007     --HOLE-- [fill = 0]
+                  000099d2aec0    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : c7x_module_config.obj (.const:Exception_exceptionHook)
+                  000099d2aec8    00000008                                               : c7x_module_config.obj (.const:Exception_internalHook)
+                  000099d2aed0    00000008                                               : HwiP_c75.obj (.const:Hwi_vectorTableBase)
+                  000099d2aed8    00000008                                               : c7x_module_config.obj (.const:Mmu_initFunc)
+                  000099d2aee0    00000008                                               : tasks.obj (.const)
+                  000099d2aee8    00000005     main.obj (.const:.string:$P$T1$2)
+
+.sysmem    0    000099cf6000    00020000     UNINITIALIZED
+                  000099cf6000    00000010     rts7504_le.lib : memory.c.obj (.sysmem)
+                  000099cf6010    0001fff0     --HOLE--
+
+.data.Mmu_tableArray 
+*          0    000099d16000    00000000     UNINITIALIZED
+
+.data.Mmu_tableArraySlot 
+*          0    000099d16000    00000000     UNINITIALIZED
+
+.data.Mmu_level1Table 
+*          0    000099d16000    00000008     UNINITIALIZED
+                  000099d16000    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.data.Mmu_level1Table)
+
+.data.gMmu_tableArray_NS 
+*          0    000099d17000    00010000     UNINITIALIZED
+                  000099d17000    00010000     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.data.gMmu_tableArray_NS)
+
+.data.Mmu_tableArraySlot_NS 
+*          0    000099d27000    00000008     UNINITIALIZED
+                  000099d27000    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.data.Mmu_tableArraySlot_NS)
+
+.data.Mmu_level1Table_NS 
+*          0    000099d28000    00000008     UNINITIALIZED
+                  000099d28000    00000008     freertos.am62dx.c75x.ti-c7000.release.lib : MmuP_c75.obj (.data.Mmu_level1Table_NS)
+
+MODULE SUMMARY
+
+       Module                            code     ro data   rw data
+       ------                            ----     -------   -------
+    obj/release/
+       main.obj                          320      101       65824  
+       ti_drivers_config.obj             128      0         2224   
+       ti_drivers_open_close.obj         768      138       136    
+       i2c_memory_read.obj               512      170       0      
+       ti_dpl_config.obj                 192      0         432    
+       ti_power_clock_config.obj         384      0         36     
+       board.obj                         128      0         0      
+       ti_board_open_close.obj           128      0         0      
+       ti_pinmux_config.obj              64       0         48     
+       ti_board_config.obj               64       0         0      
+    +--+---------------------------------+--------+---------+---------+
+       Total:                            2688     409       68700  
+                                                                   
+    /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/lib/drivers.am62dx.c75x.ti-c7000.release.lib
+       uart_v0.obj                       11840    263       312    
+       i2c_v0_lld.obj                    11072    64        0      
+       sciclient_pm.obj                  4096     751       0      
+       i2c_v0.obj                        4160     252       312    
+       sciclient.obj                     3840     0         25     
+       soc.obj                           1728     0         0      
+       uart_dma.obj                      768      75        0      
+       pinmux.obj                        512      0         0      
+       sciclient_soc_priv.obj            384      0         40     
+       sciclient_fmwSecureProxyMap.obj   0        220       0      
+       i2c_soc.obj                       192      0         0      
+       csl_sec_proxy.obj                 64       0         0      
+    +--+---------------------------------+--------+---------+---------+
+       Total:                            38656    1625      689    
+                                                                   
+    /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/lib/freertos.am62dx.c75x.ti-c7000.release.lib
+       port.obj                          1792     213       524880 
+       heap_4.obj                        832      1028      196664 
+       MmuP_c75.obj                      4352     24        65560  
+       Exception.obj                     5248     3040      8000   
+       tasks.obj                         10368    2339      1616   
+       printf.obj                        9600     98        0      
+       queue.obj                         6720     1405      512    
+       HwiP_freertos_c7x.obj             1152     0         3592   
+       Hwi_disp_always_asm.obj           4736     0         0      
+       HwiP_c75.obj                      3648     119       624    
+       CycleCounterP_c75.obj             4096     0         8      
+       timers.obj                        2432     606       788    
+       TimerP.obj                        1728     280       0      
+       Exception_asm.obj                 1280     0         0      
+       SemaphoreP_freertos.obj           960      189       0      
+       ClockP_freertos_c75.obj           768      268       0      
+       csl_clec.obj                      896      0         0      
+       TaskP_freertos.obj                640      0         168    
+       TaskSupport.obj                   512      179       0      
+       ClockP_freertos.obj               576      0         56     
+       DebugP_log.obj                    512      45        4      
+       TaskSupport_asm.obj               512      0         0      
+       list.obj                          512      0         0      
+       DebugP_freertos.obj               192      0         308    
+       CacheP_c75.obj                    448      0         8      
+       Hwi_asm.obj                       448      0         0      
+       Mmu_asm.obj                       320      0         0      
+       AddrTranslateP.obj                256      0         16     
+       DebugP_uartLogWriter.obj          256      0         8      
+       c7x_module_config.obj             128      30        0      
+       CacheP_c75_asm.obj                128      0         0      
+       Hwi_switch_asm.obj                128      0         0      
+       IntrinsicsSupport.obj             128      0         0      
+       Startup.obj                       128      0         0      
+       boot_c75.obj                      64       0         0      
+    +--+---------------------------------+--------+---------+---------+
+       Total:                            66496    9863      802812 
+                                                                   
+    /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/lib/rts7504_le.lib
+       memory.c.obj                      2240     0         12     
+       divd.c.obj                        1664     0         0      
+       trgmsg.c.obj                      768      0         288    
+       defs.c.obj                        0        0         644    
+       getdevice.c.obj                   640      0         0      
+       hostrename.c.obj                  576      0         0      
+       fputc.c.obj                       512      0         0      
+       setvbuf.c.obj                     512      0         0      
+       imath64.c.obj                     384      0         0      
+       host_device.c.obj                 0        0         376    
+       hostopen.c.obj                    320      0         8      
+       _io_perm.c.obj                    320      0         0      
+       fclose.c.obj                      320      0         0      
+       hostlseek.c.obj                   320      0         0      
+       close.c.obj                       256      0         0      
+       fflush.c.obj                      256      0         0      
+       fixdul.c.obj                      256      0         0      
+       fseek.c.obj                       256      0         0      
+       hostread.c.obj                    256      0         0      
+       hostunlink.c.obj                  256      0         0      
+       hostwrite.c.obj                   256      0         0      
+       autoinit.c.obj                    192      0         0      
+       fltuld.c.obj                      192      0         0      
+       fopen.c.obj                       192      0         0      
+       hostclose.c.obj                   192      0         0      
+       memcpy.cpp.obj                    192      0         0      
+       exit.c.obj                        128      0         16     
+       args_main.c.obj                   128      0         0      
+       frcmpyd_div.c.obj                 128      0         0      
+       lseek.c.obj                       128      0         0      
+       memset.cpp.obj                    128      0         0      
+       unlink.c.obj                      128      0         0      
+       write.c.obj                       128      0         0      
+       _lock.c.obj                       64       0         16     
+       boot.c.obj                        64       0         0      
+       fixdull.c.obj                     64       0         0      
+       fltulld.c.obj                     64       0         0      
+       remove.c.obj                      64       0         0      
+    +--+---------------------------------+--------+---------+---------+
+       Total:                            12544    0         1360   
+                                                                   
+       Heap:                             0        0         131072 
+       Stack:                            0        0         131072 
+    +--+---------------------------------+--------+---------+---------+
+       Grand Total:                      120384   11897     1135705
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address       name                               
+------------  ----                               
+000099e12840  AddrTranslateP_getLocalAddr        
+000099e1a2c0  Board_driversClose                 
+000099e1a300  Board_driversOpen                  
+000099e1a340  Board_i2cGetEepromDeviceAddr       
+000099e1a380  Board_i2cGetEepromMemAddr          
+000099e1a3c0  Board_init                         
+000099e1c500  C$$EXIT                            
+000099e121cc  C$$IO$$                            
+000099e175c0  CSL_clecClearEvent                 
+000099e0efc0  CSL_clecConfigEvent                
+000099e14740  CSL_clecConfigEventLevel           
+000099e1a600  CSL_secProxyGetDataAddr            
+000099e1a640  CacheP_Module_startup              
+000099d2cb50  CacheP_Module_state                
+000099e176c0  CacheP_disable                     
+000099e17740  CacheP_enable                      
+000099e177c0  CacheP_enableWT                    
+000099e1a680  CacheP_getL1DCFG                   
+000099e1a6c0  CacheP_setL1DCFG                   
+000099e1a700  ClockP_getTicks                    
+000099e14800  ClockP_getTimeUsec                 
+000099e1a740  ClockP_getTimerCount               
+000099e09a00  ClockP_init                        
+000099e1a7c0  ClockP_timerClearOverflowInt       
+000099e1a800  ClockP_timerTickIsr                
+000099e1a840  ClockP_usecToTicks                 
+000099e17840  ClockP_usleep                      
+000099e00000  CycleCounterP_Module_startup       
+000099e178c0  DebugP_logZoneEnable               
+000099e17940  DebugP_uartLogWriterPutChar        
+000099e1a880  DebugP_uartSetDrvIndex             
+000099e179c0  Dpl_init                           
+000099e1a8c0  Drivers_close                      
+000099e17a40  Drivers_i2cClose                   
+000099e148c0  Drivers_i2cOpen                    
+000099e1a900  Drivers_open                       
+000099e17ac0  Drivers_uartClose                  
+000099e1a940  Drivers_uartInit                   
+000099e14980  Drivers_uartOpen                   
+000099e17b40  Exception_Module_startup           
+000099d2aef0  Exception_Module_state             
+000099e055c0  Exception_dispatch                 
+000099d2a019  Exception_enablePrint              
+000099d2aec0  Exception_exceptionHook            
+000099e01e00  Exception_handler                  
+000099e03300  Exception_internalHandler          
+000099d2aec8  Exception_internalHook             
+000099d2a01a  Exception_useInternalBuffer        
+000099d2c900  FreeRTOS_errno                     
+000099e14a40  HOSTclose                          
+000099e107c0  HOSTlseek                          
+000099e10900  HOSTopen                           
+000099e12940  HOSTread                           
+000099e0a400  HOSTrename                         
+000099e12a40  HOSTunlink                         
+000099e12b40  HOSTwrite                          
+000099e1ab00  HwiP_Params_init                   
+000099e12c40  HwiP_configClec                    
+000099e14b00  HwiP_configClecAccessCtrl          
+000099e0af40  HwiP_construct                     
+000099e17bc0  HwiP_destruct                      
+000099e17c40  HwiP_disable                       
+000099e17cc0  HwiP_disableInt                    
+000099e1ab40  HwiP_enable                        
+000099e1ab80  HwiP_enableInt                     
+000099e1abc0  HwiP_inISR                         
+000099e1ac00  HwiP_init                          
+000099e17d40  HwiP_restore                       
+000099d2a70c  Hwi_DEFAULT_INT_PRIORITY           
+000099e17dc0  Hwi_Instance_finalize              
+000099e14bc0  Hwi_Instance_init                  
+000099e10a40  Hwi_Module_startup                 
+000099d2bf30  Hwi_Module_state                   
+000099d2a698  Hwi_Object__PARAMS__C              
+000099e1ac40  Hwi_Params__init__S                
+000099e1ac80  Hwi_Params_init                    
+000099d2a01b  Hwi_bootToNonSecure                
+000099e17e40  Hwi_construct                      
+000099e1acc0  Hwi_destruct                       
+000099e1ad00  Hwi_disable                        
+000099e17ec0  Hwi_disableIER                     
+000099e028c0  Hwi_dispatchAlways                 
+000099e17f40  Hwi_dispatchC                      
+000099e14c80  Hwi_dispatchCore                   
+000099e1ad40  Hwi_enable                         
+000099e17fc0  Hwi_enableIER                      
+000099e18040  Hwi_eventMap                       
+000099e1ad80  Hwi_getCXM                         
+000099e1adc0  Hwi_getEventId                     
+000099e1ae00  Hwi_getIsrStackAddress             
+000099e12d40  Hwi_getStackInfo                   
+000099e180c0  Hwi_postInit                       
+000099e0c940  Hwi_reconfig                       
+000099e1ae80  Hwi_restore                        
+000099e18140  Hwi_secureStart                    
+000099e1aec0  Hwi_setCOP                         
+000099e14d40  Hwi_setPriority                    
+000099e181c0  Hwi_switchAndDispatch              
+000099e1af00  Hwi_switchFromBootStack            
+000099e18240  Hwi_switchToNS                     
+000099d2aed0  Hwi_vectorTableBase                
+000099e1b740  I2C_Params_init                    
+000099e1b780  I2C_Transaction_init               
+000099e10b80  I2C_close                          
+000099d2aaa8  I2C_defaultParams                  
+000099d2a538  I2C_defaultTransaction             
+000099e15040  I2C_init                           
+000099e1b7c0  I2C_lld_Message_init               
+000099e1b800  I2C_lld_Transaction_init           
+000099e068c0  I2C_lld_controllerIsr              
+000099e184c0  I2C_lld_deInit                     
+000099d2a750  I2C_lld_defaultMessage             
+000099d2a770  I2C_lld_defaultTransaction         
+000099e0f140  I2C_lld_init                       
+000099e151c0  I2C_lld_isBaseAddrValid            
+000099e0f2c0  I2C_lld_mem_read                   
+000099e0f440  I2C_lld_mem_readIntr               
+000099e0f5c0  I2C_lld_mem_write                  
+000099e10e00  I2C_lld_mem_writeIntr              
+000099e10f40  I2C_lld_recoverBus                 
+000099e07cc0  I2C_lld_targetIsr                  
+000099e0f740  I2C_lld_targetTransferIntr         
+000099e185c0  I2C_lld_transferIntr               
+000099e18640  I2C_lld_transferPoll               
+000099e050c0  I2C_open                           
+000099e186c0  I2C_recoverBus                     
+000099e0a640  I2C_transfer                       
+000099e1b880  IntrinsicsSupport_maxbit           
+000099e1b8c0  IntrinsicsSupport_mfence           
+000099e18840  MmuP_disable                       
+000099e1b900  MmuP_disableI                      
+000099e188c0  MmuP_enable                        
+000099e1b940  MmuP_enableI                       
+000099e1b980  MmuP_enableI_secure                
+000099e0a880  MmuP_init                          
+000099e1ba00  MmuP_isEnabled                     
+000099e0f8c0  MmuP_map                           
+000099e15400  MmuP_setConfig                     
+000099e1ba40  MmuP_setMAIRAsm                    
+000099e1ba80  MmuP_setTCR                        
+000099e1bac0  MmuP_tlbInvAll                     
+000099d2aac0  Mmu_configInfo                     
+000099e1bb00  Mmu_init                           
+000099d2aed8  Mmu_initFunc                       
+000099d16000  Mmu_level1Table                    
+000099d28000  Mmu_level1Table_NS                 
+000099d27000  Mmu_tableArraySlot_NS              
+000099e18940  Module_clockEnable                 
+000099e154c0  Module_clockSetFrequency           
+000099d2a8ac  OS_mpeEnabled                      
+000099e15580  Pinmux_config                      
+000099e1bb40  Pinmux_init                        
+000099e13040  Pinmux_unlockMMR                   
+000099e1bb80  PowerClock_init                    
+000099e111c0  SOC_controlModuleLockMMR           
+000099e11300  SOC_controlModuleUnlockMMR         
+000099e11440  SOC_moduleClockEnable              
+000099e08980  SOC_moduleSetClockFrequency        
+000099e15640  Sciclient_getContext               
+000099e15700  Sciclient_getCurrentContext        
+000099e157c0  Sciclient_getDevId                 
+000099e13140  Sciclient_init                     
+000099e0ccc0  Sciclient_pmGetModuleClkNumParent  
+000099e0ce80  Sciclient_pmGetModuleClkParent     
+000099e0b340  Sciclient_pmGetModuleState         
+000099e11580  Sciclient_pmModuleClkRequest       
+000099e0d040  Sciclient_pmModuleGetClkStatus     
+000099e0b540  Sciclient_pmQueryModuleClkFreq     
+000099e0fa40  Sciclient_pmSetModuleClkFreq       
+000099e0fbc0  Sciclient_pmSetModuleClkParent     
+000099e116c0  Sciclient_pmSetModuleRst           
+000099e11800  Sciclient_pmSetModuleState         
+000099e06440  Sciclient_service                  
+000099e13240  SemaphoreP_constructBinary         
+000099e15940  SemaphoreP_constructMutex          
+000099e1bc80  SemaphoreP_destruct                
+000099e13340  SemaphoreP_pend                    
+000099e15a00  SemaphoreP_post                    
+000099e1bcc0  System_init                        
+000099e0fec0  TaskP_loadUpdateAll                
+000099e1bd40  TaskP_yield                        
+000099e15ac0  TaskSupport_buildTaskStack         
+000099e1bd80  TaskSupport_getStackAlignment      
+000099e1bdc0  TaskSupport_glue                   
+000099e1be00  TaskSupport_glueUnpriv             
+000099e0d580  TaskSupport_setupTaskStack         
+000099e15b80  TaskSupport_swap                   
+000099e1be40  Task_enter                         
+000099e19bc0  Task_exit                          
+000099e1be80  TimerP_Params_init                 
+000099e1bec0  TimerP_clearOverflowInt            
+000099e1bf00  TimerP_getCount                    
+000099e1bf40  TimerP_getReloadCount              
+000099e06d00  TimerP_setup                       
+000099e15c40  TimerP_start                       
+000099e15d00  TimerP_stop                        
+000099e0aac0  UART_close                         
+000099e15e80  UART_dmaClose                      
+000099e13440  UART_dmaDisableChannel             
+000099e15f40  UART_dmaOpen                       
+000099e11a80  UART_flushTxFifo                   
+000099e18d40  UART_getHandle                     
+000099e11bc0  UART_init                          
+000099e07580  UART_open                          
+000099e09c80  UART_write                         
+000099e19340  UART_writeInterruptDma             
+000099e13940  _DebugP_assert                     
+000099e193c0  _DebugP_assertNoLog                
+000099e16300  _DebugP_logZone                    
+000099cd4658  __BSS_END                          
+000099c11000  __BSS_START                        
+000099c10000  __CIOBUF_                          
+UNDEFED       __TI_CINIT_Base                    
+UNDEFED       __TI_CINIT_Limit                   
+UNDEFED       __TI_Handler_Table_Base            
+UNDEFED       __TI_Handler_Table_Limit           
+000099cf6000  __TI_STACK_END                     
+000000020000  __TI_STACK_SIZE                    
+000000020000  __TI_SYSMEM_SIZE                   
+000099e163c0  __TI_auto_init_nobinit_nopinit     
+000099e16480  __TI_cleanup                       
+000099d2cb28  __TI_cleanup_ptr                   
+000099e11f80  __TI_closefile                     
+000099e13a40  __TI_doflush                       
+000099d2cb30  __TI_dtors_ptr                     
+000099e19440  __TI_frcmpyd_div                   
+000099d2cba0  __TI_ft_end                        
+000099e0dac0  __TI_readmsg                       
+000099cd4368  __TI_tmpnams                       
+000099e120c0  __TI_writemsg                      
+000099e12200  __TI_wrt_ok                        
+000099e04a40  __c7xabi_divd                      
+000099e12340  __c7xabi_divull                    
+000099e13b40  __c7xabi_fixdul                    
+000099e1c280  __c7xabi_fixdull                   
+000099e16540  __c7xabi_fltuld                    
+000099e1c2c0  __c7xabi_fltulld                   
+000099e1c300  __c7xabi_remull                    
+000099cd4658  __c_args__                         
+000099e194c0  _args_main                         
+000099e1c340  _c_int00                           
+00009a000000  _c_int00_secure                    
+000099d2c778  _device                            
+000099d2c198  _ftable                            
+000099d2cb58  _lock                              
+000099e1c3c0  _nop                               
+000099cd6000  _stack                             
+000099d2c850  _stream                            
+000099cf6000  _sys_memory                        
+000099e1c480  _system_post_cinit                 
+000099e1c4c0  _system_pre_init                   
+000099d2cb60  _unlock                            
+000099e1c500  abort                              
+000099e08340  aligned_alloc                      
+000099e1c540  c7x_startup_init                   
+000099e13c40  close                              
+000099e0e000  eTaskGetState                      
+000099e1c580  exit                               
+000099e13d40  finddevice                         
+000099e0e1c0  fputc                              
+000099e09f00  free                               
+000099e19640  freertos_main                      
+000099e13e40  fseek                              
+000099e13e40  fseeko                             
+000099d2cb08  gAddrTranslateConfig               
+000099d2ca48  gClockConfig                       
+000099cd44a8  gClockCtrl                         
+000099d2cb04  gDebugLogZone                      
+000099d2cb70  gDebugP_uartDrvIndex               
+000099d2cb18  gI2cConfig                         
+000099d2cb44  gI2cConfigNum                      
+000099cd4638  gI2cHandle                         
+000099d2ca60  gI2cParams                         
+000099cd4640  gMainTask                          
+000099cd41b0  gMainTaskObj                       
+000099cc1000  gMainTaskStack                     
+000099d2cb88  gMmuConfig                         
+000099d2c378  gMmuRegionConfig                   
+000099d17000  gMmu_tableArray_NS                 
+000099d2cb78  gOsalHwiAllocCnt                   
+000099d2cb7c  gOsalHwiPeak                       
+000099d2a01c  gSciclientMap                      
+000099d2c9d8  gSciclientSecProxyCfg              
+000099d2cb38  gSocModules                        
+000099d2cac0  gSocModulesClockFrequency          
+000099cd4408  gTaskP_ctrl                        
+000099d2cb68  gTscDeltaCalib                     
+000099d2ca40  gTscISRLogIdx                      
+000099d2cad8  gUartConfig                        
+000099d2cb48  gUartConfigNum                     
+000099c11000  gUartDmaConfig                     
+000099d2cb4c  gUartDmaConfigNum                  
+000099cd4648  gUartHandle                        
+000099d2c950  gUartParams                        
+000099e101c0  getdevice                          
+000099e0b940  i2c_memory_read_main               
+000099e196c0  lseek                              
+000099e16780  main                               
+000099e1c5c0  malloc                             
+000099e08340  memalign                           
+000099e16840  memcpy                             
+000099e19740  memset                             
+000099cd4650  parmbuf                            
+000099e0e1c0  putc                               
+000099e1c740  putchar                            
+000099e1c780  putchar_                           
+000099e1c7c0  pvTaskIncrementMutexHeldCount      
+000099d2c8f0  pxCurrentTCB                       
+000099e19c40  pxPortInitialiseStack              
+000099e1c800  remove                             
+000099e0bd40  setvbuf                            
+000099c00000  soft_reset                         
+000099e1c840  ti_sysbios_knl_Task_Func           
+000099e1c880  uiPortGetRunTimeCounterValue       
+000099d2ca28  ulCriticalNesting                  
+000099d2ca34  ulPortInterruptNesting             
+000099d2ca38  ulPortSchedularRunning             
+000099d2ca2c  ulPortTaskHasFPUContext            
+000099d2ca30  ulPortYieldRequired                
+000099e19cc0  unlink                             
+000099e19d40  uxListRemove                       
+000099d2ca3c  uxPortIncorrectYieldCount          
+000099e1c8c0  uxTaskGetNumberOfTasks             
+000099e1c900  vApplicationGetIdleTaskMemory      
+000099e1c940  vApplicationGetTimerTaskMemory     
+000099e1c980  vApplicationIdleHook               
+000099e19dc0  vApplicationLoadHook               
+000099e19e40  vApplicationStackOverflowHook      
+000099e1c9c0  vListInitialise                    
+000099e1ca00  vListInitialiseItem                
+000099e16e40  vListInsert                        
+000099e1ca40  vListInsertEnd                     
+000099e19ec0  vPortAssertIfInISR                 
+000099e1ca80  vPortConfigTimerForRunTimeStats    
+000099e104c0  vPortFree                          
+000099e1cac0  vPortRestoreTaskContext            
+000099e1cb00  vPortTimerTickHandler              
+000099e1cb40  vPortValidateInterruptPriority     
+000099e1cb80  vPortYeildFromISR                  
+000099e16f00  vPortYield                         
+000099e19f40  vPortYieldAsyncFromISR             
+000099e14340  vQueueAddToRegistry                
+000099e16fc0  vQueueDelete                       
+000099e17080  vQueueUnregisterQueue              
+000099e17140  vQueueWaitForMessageRestricted     
+000099e17200  vTaskDelay                         
+000099e0e8c0  vTaskDelete                        
+000099e19fc0  vTaskEnterCritical                 
+000099e172c0  vTaskExitCritical                  
+000099e12700  vTaskGetInfo                       
+000099e1cbc0  vTaskInternalSetTimeOutState       
+000099e1cc00  vTaskMissedYield                   
+000099e17380  vTaskPlaceOnEventList              
+000099e14440  vTaskPlaceOnEventListRestricted    
+000099e0bf40  vTaskPriorityDisinheritAfterTimeout
+000099e17440  vTaskStartScheduler                
+000099e1cc40  vTaskSuspendAll                    
+000099e0ea80  vTaskSwitchContext                 
+000099e1a040  vprintf_                           
+000099e1a0c0  write                              
+000099e1cc80  xPortInIsrContext                  
+000099e1ccc0  xPortStartScheduler                
+000099e1a140  xQueueCreateMutexStatic            
+000099e0ec40  xQueueGenericCreateStatic          
+000099e0ee00  xQueueGenericReset                 
+000099e091c0  xQueueGenericSend                  
+000099e0ad00  xQueueGiveFromISR                  
+000099e17500  xQueueGiveMutexRecursive           
+000099e0a180  xQueueReceive                      
+000099e0c140  xQueueReceiveFromISR               
+000099cd3c50  xQueueRegistry                     
+000099e09480  xQueueSemaphoreTake                
+000099e14540  xQueueTakeMutexRecursive           
+000099e10640  xTaskCheckForTimeOut               
+000099e1a1c0  xTaskCreateStatic                  
+000099e1cd00  xTaskGetCurrentTaskHandle          
+000099e1a240  xTaskGetIdleTaskHandle             
+000099e1cd40  xTaskGetSchedulerState             
+000099e1cd80  xTaskGetTickCount                  
+000099e09740  xTaskIncrementTick                 
+000099e0c340  xTaskPriorityDisinherit            
+000099e0c540  xTaskPriorityInherit               
+000099e0c740  xTaskRemoveFromEventList           
+000099e08680  xTaskResumeAll                     
+000099e14640  xTimerCreateTimerTask              
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address       name                               
+------------  ----                               
+000000020000  __TI_STACK_SIZE                    
+000000020000  __TI_SYSMEM_SIZE                   
+000099c00000  soft_reset                         
+000099c10000  __CIOBUF_                          
+000099c11000  __BSS_START                        
+000099c11000  gUartDmaConfig                     
+000099cc1000  gMainTaskStack                     
+000099cd3c50  xQueueRegistry                     
+000099cd41b0  gMainTaskObj                       
+000099cd4368  __TI_tmpnams                       
+000099cd4408  gTaskP_ctrl                        
+000099cd44a8  gClockCtrl                         
+000099cd4638  gI2cHandle                         
+000099cd4640  gMainTask                          
+000099cd4648  gUartHandle                        
+000099cd4650  parmbuf                            
+000099cd4658  __BSS_END                          
+000099cd4658  __c_args__                         
+000099cd6000  _stack                             
+000099cf6000  __TI_STACK_END                     
+000099cf6000  _sys_memory                        
+000099d16000  Mmu_level1Table                    
+000099d17000  gMmu_tableArray_NS                 
+000099d27000  Mmu_tableArraySlot_NS              
+000099d28000  Mmu_level1Table_NS                 
+000099d2a019  Exception_enablePrint              
+000099d2a01a  Exception_useInternalBuffer        
+000099d2a01b  Hwi_bootToNonSecure                
+000099d2a01c  gSciclientMap                      
+000099d2a538  I2C_defaultTransaction             
+000099d2a698  Hwi_Object__PARAMS__C              
+000099d2a70c  Hwi_DEFAULT_INT_PRIORITY           
+000099d2a750  I2C_lld_defaultMessage             
+000099d2a770  I2C_lld_defaultTransaction         
+000099d2a8ac  OS_mpeEnabled                      
+000099d2aaa8  I2C_defaultParams                  
+000099d2aac0  Mmu_configInfo                     
+000099d2aec0  Exception_exceptionHook            
+000099d2aec8  Exception_internalHook             
+000099d2aed0  Hwi_vectorTableBase                
+000099d2aed8  Mmu_initFunc                       
+000099d2aef0  Exception_Module_state             
+000099d2bf30  Hwi_Module_state                   
+000099d2c198  _ftable                            
+000099d2c378  gMmuRegionConfig                   
+000099d2c778  _device                            
+000099d2c850  _stream                            
+000099d2c8f0  pxCurrentTCB                       
+000099d2c900  FreeRTOS_errno                     
+000099d2c950  gUartParams                        
+000099d2c9d8  gSciclientSecProxyCfg              
+000099d2ca28  ulCriticalNesting                  
+000099d2ca2c  ulPortTaskHasFPUContext            
+000099d2ca30  ulPortYieldRequired                
+000099d2ca34  ulPortInterruptNesting             
+000099d2ca38  ulPortSchedularRunning             
+000099d2ca3c  uxPortIncorrectYieldCount          
+000099d2ca40  gTscISRLogIdx                      
+000099d2ca48  gClockConfig                       
+000099d2ca60  gI2cParams                         
+000099d2cac0  gSocModulesClockFrequency          
+000099d2cad8  gUartConfig                        
+000099d2cb04  gDebugLogZone                      
+000099d2cb08  gAddrTranslateConfig               
+000099d2cb18  gI2cConfig                         
+000099d2cb28  __TI_cleanup_ptr                   
+000099d2cb30  __TI_dtors_ptr                     
+000099d2cb38  gSocModules                        
+000099d2cb44  gI2cConfigNum                      
+000099d2cb48  gUartConfigNum                     
+000099d2cb4c  gUartDmaConfigNum                  
+000099d2cb50  CacheP_Module_state                
+000099d2cb58  _lock                              
+000099d2cb60  _unlock                            
+000099d2cb68  gTscDeltaCalib                     
+000099d2cb70  gDebugP_uartDrvIndex               
+000099d2cb78  gOsalHwiAllocCnt                   
+000099d2cb7c  gOsalHwiPeak                       
+000099d2cb88  gMmuConfig                         
+000099d2cba0  __TI_ft_end                        
+000099e00000  CycleCounterP_Module_startup       
+000099e01e00  Exception_handler                  
+000099e028c0  Hwi_dispatchAlways                 
+000099e03300  Exception_internalHandler          
+000099e04a40  __c7xabi_divd                      
+000099e050c0  I2C_open                           
+000099e055c0  Exception_dispatch                 
+000099e06440  Sciclient_service                  
+000099e068c0  I2C_lld_controllerIsr              
+000099e06d00  TimerP_setup                       
+000099e07580  UART_open                          
+000099e07cc0  I2C_lld_targetIsr                  
+000099e08340  aligned_alloc                      
+000099e08340  memalign                           
+000099e08680  xTaskResumeAll                     
+000099e08980  SOC_moduleSetClockFrequency        
+000099e091c0  xQueueGenericSend                  
+000099e09480  xQueueSemaphoreTake                
+000099e09740  xTaskIncrementTick                 
+000099e09a00  ClockP_init                        
+000099e09c80  UART_write                         
+000099e09f00  free                               
+000099e0a180  xQueueReceive                      
+000099e0a400  HOSTrename                         
+000099e0a640  I2C_transfer                       
+000099e0a880  MmuP_init                          
+000099e0aac0  UART_close                         
+000099e0ad00  xQueueGiveFromISR                  
+000099e0af40  HwiP_construct                     
+000099e0b340  Sciclient_pmGetModuleState         
+000099e0b540  Sciclient_pmQueryModuleClkFreq     
+000099e0b940  i2c_memory_read_main               
+000099e0bd40  setvbuf                            
+000099e0bf40  vTaskPriorityDisinheritAfterTimeout
+000099e0c140  xQueueReceiveFromISR               
+000099e0c340  xTaskPriorityDisinherit            
+000099e0c540  xTaskPriorityInherit               
+000099e0c740  xTaskRemoveFromEventList           
+000099e0c940  Hwi_reconfig                       
+000099e0ccc0  Sciclient_pmGetModuleClkNumParent  
+000099e0ce80  Sciclient_pmGetModuleClkParent     
+000099e0d040  Sciclient_pmModuleGetClkStatus     
+000099e0d580  TaskSupport_setupTaskStack         
+000099e0dac0  __TI_readmsg                       
+000099e0e000  eTaskGetState                      
+000099e0e1c0  fputc                              
+000099e0e1c0  putc                               
+000099e0e8c0  vTaskDelete                        
+000099e0ea80  vTaskSwitchContext                 
+000099e0ec40  xQueueGenericCreateStatic          
+000099e0ee00  xQueueGenericReset                 
+000099e0efc0  CSL_clecConfigEvent                
+000099e0f140  I2C_lld_init                       
+000099e0f2c0  I2C_lld_mem_read                   
+000099e0f440  I2C_lld_mem_readIntr               
+000099e0f5c0  I2C_lld_mem_write                  
+000099e0f740  I2C_lld_targetTransferIntr         
+000099e0f8c0  MmuP_map                           
+000099e0fa40  Sciclient_pmSetModuleClkFreq       
+000099e0fbc0  Sciclient_pmSetModuleClkParent     
+000099e0fec0  TaskP_loadUpdateAll                
+000099e101c0  getdevice                          
+000099e104c0  vPortFree                          
+000099e10640  xTaskCheckForTimeOut               
+000099e107c0  HOSTlseek                          
+000099e10900  HOSTopen                           
+000099e10a40  Hwi_Module_startup                 
+000099e10b80  I2C_close                          
+000099e10e00  I2C_lld_mem_writeIntr              
+000099e10f40  I2C_lld_recoverBus                 
+000099e111c0  SOC_controlModuleLockMMR           
+000099e11300  SOC_controlModuleUnlockMMR         
+000099e11440  SOC_moduleClockEnable              
+000099e11580  Sciclient_pmModuleClkRequest       
+000099e116c0  Sciclient_pmSetModuleRst           
+000099e11800  Sciclient_pmSetModuleState         
+000099e11a80  UART_flushTxFifo                   
+000099e11bc0  UART_init                          
+000099e11f80  __TI_closefile                     
+000099e120c0  __TI_writemsg                      
+000099e121cc  C$$IO$$                            
+000099e12200  __TI_wrt_ok                        
+000099e12340  __c7xabi_divull                    
+000099e12700  vTaskGetInfo                       
+000099e12840  AddrTranslateP_getLocalAddr        
+000099e12940  HOSTread                           
+000099e12a40  HOSTunlink                         
+000099e12b40  HOSTwrite                          
+000099e12c40  HwiP_configClec                    
+000099e12d40  Hwi_getStackInfo                   
+000099e13040  Pinmux_unlockMMR                   
+000099e13140  Sciclient_init                     
+000099e13240  SemaphoreP_constructBinary         
+000099e13340  SemaphoreP_pend                    
+000099e13440  UART_dmaDisableChannel             
+000099e13940  _DebugP_assert                     
+000099e13a40  __TI_doflush                       
+000099e13b40  __c7xabi_fixdul                    
+000099e13c40  close                              
+000099e13d40  finddevice                         
+000099e13e40  fseek                              
+000099e13e40  fseeko                             
+000099e14340  vQueueAddToRegistry                
+000099e14440  vTaskPlaceOnEventListRestricted    
+000099e14540  xQueueTakeMutexRecursive           
+000099e14640  xTimerCreateTimerTask              
+000099e14740  CSL_clecConfigEventLevel           
+000099e14800  ClockP_getTimeUsec                 
+000099e148c0  Drivers_i2cOpen                    
+000099e14980  Drivers_uartOpen                   
+000099e14a40  HOSTclose                          
+000099e14b00  HwiP_configClecAccessCtrl          
+000099e14bc0  Hwi_Instance_init                  
+000099e14c80  Hwi_dispatchCore                   
+000099e14d40  Hwi_setPriority                    
+000099e15040  I2C_init                           
+000099e151c0  I2C_lld_isBaseAddrValid            
+000099e15400  MmuP_setConfig                     
+000099e154c0  Module_clockSetFrequency           
+000099e15580  Pinmux_config                      
+000099e15640  Sciclient_getContext               
+000099e15700  Sciclient_getCurrentContext        
+000099e157c0  Sciclient_getDevId                 
+000099e15940  SemaphoreP_constructMutex          
+000099e15a00  SemaphoreP_post                    
+000099e15ac0  TaskSupport_buildTaskStack         
+000099e15b80  TaskSupport_swap                   
+000099e15c40  TimerP_start                       
+000099e15d00  TimerP_stop                        
+000099e15e80  UART_dmaClose                      
+000099e15f40  UART_dmaOpen                       
+000099e16300  _DebugP_logZone                    
+000099e163c0  __TI_auto_init_nobinit_nopinit     
+000099e16480  __TI_cleanup                       
+000099e16540  __c7xabi_fltuld                    
+000099e16780  main                               
+000099e16840  memcpy                             
+000099e16e40  vListInsert                        
+000099e16f00  vPortYield                         
+000099e16fc0  vQueueDelete                       
+000099e17080  vQueueUnregisterQueue              
+000099e17140  vQueueWaitForMessageRestricted     
+000099e17200  vTaskDelay                         
+000099e172c0  vTaskExitCritical                  
+000099e17380  vTaskPlaceOnEventList              
+000099e17440  vTaskStartScheduler                
+000099e17500  xQueueGiveMutexRecursive           
+000099e175c0  CSL_clecClearEvent                 
+000099e176c0  CacheP_disable                     
+000099e17740  CacheP_enable                      
+000099e177c0  CacheP_enableWT                    
+000099e17840  ClockP_usleep                      
+000099e178c0  DebugP_logZoneEnable               
+000099e17940  DebugP_uartLogWriterPutChar        
+000099e179c0  Dpl_init                           
+000099e17a40  Drivers_i2cClose                   
+000099e17ac0  Drivers_uartClose                  
+000099e17b40  Exception_Module_startup           
+000099e17bc0  HwiP_destruct                      
+000099e17c40  HwiP_disable                       
+000099e17cc0  HwiP_disableInt                    
+000099e17d40  HwiP_restore                       
+000099e17dc0  Hwi_Instance_finalize              
+000099e17e40  Hwi_construct                      
+000099e17ec0  Hwi_disableIER                     
+000099e17f40  Hwi_dispatchC                      
+000099e17fc0  Hwi_enableIER                      
+000099e18040  Hwi_eventMap                       
+000099e180c0  Hwi_postInit                       
+000099e18140  Hwi_secureStart                    
+000099e181c0  Hwi_switchAndDispatch              
+000099e18240  Hwi_switchToNS                     
+000099e184c0  I2C_lld_deInit                     
+000099e185c0  I2C_lld_transferIntr               
+000099e18640  I2C_lld_transferPoll               
+000099e186c0  I2C_recoverBus                     
+000099e18840  MmuP_disable                       
+000099e188c0  MmuP_enable                        
+000099e18940  Module_clockEnable                 
+000099e18d40  UART_getHandle                     
+000099e19340  UART_writeInterruptDma             
+000099e193c0  _DebugP_assertNoLog                
+000099e19440  __TI_frcmpyd_div                   
+000099e194c0  _args_main                         
+000099e19640  freertos_main                      
+000099e196c0  lseek                              
+000099e19740  memset                             
+000099e19bc0  Task_exit                          
+000099e19c40  pxPortInitialiseStack              
+000099e19cc0  unlink                             
+000099e19d40  uxListRemove                       
+000099e19dc0  vApplicationLoadHook               
+000099e19e40  vApplicationStackOverflowHook      
+000099e19ec0  vPortAssertIfInISR                 
+000099e19f40  vPortYieldAsyncFromISR             
+000099e19fc0  vTaskEnterCritical                 
+000099e1a040  vprintf_                           
+000099e1a0c0  write                              
+000099e1a140  xQueueCreateMutexStatic            
+000099e1a1c0  xTaskCreateStatic                  
+000099e1a240  xTaskGetIdleTaskHandle             
+000099e1a2c0  Board_driversClose                 
+000099e1a300  Board_driversOpen                  
+000099e1a340  Board_i2cGetEepromDeviceAddr       
+000099e1a380  Board_i2cGetEepromMemAddr          
+000099e1a3c0  Board_init                         
+000099e1a600  CSL_secProxyGetDataAddr            
+000099e1a640  CacheP_Module_startup              
+000099e1a680  CacheP_getL1DCFG                   
+000099e1a6c0  CacheP_setL1DCFG                   
+000099e1a700  ClockP_getTicks                    
+000099e1a740  ClockP_getTimerCount               
+000099e1a7c0  ClockP_timerClearOverflowInt       
+000099e1a800  ClockP_timerTickIsr                
+000099e1a840  ClockP_usecToTicks                 
+000099e1a880  DebugP_uartSetDrvIndex             
+000099e1a8c0  Drivers_close                      
+000099e1a900  Drivers_open                       
+000099e1a940  Drivers_uartInit                   
+000099e1ab00  HwiP_Params_init                   
+000099e1ab40  HwiP_enable                        
+000099e1ab80  HwiP_enableInt                     
+000099e1abc0  HwiP_inISR                         
+000099e1ac00  HwiP_init                          
+000099e1ac40  Hwi_Params__init__S                
+000099e1ac80  Hwi_Params_init                    
+000099e1acc0  Hwi_destruct                       
+000099e1ad00  Hwi_disable                        
+000099e1ad40  Hwi_enable                         
+000099e1ad80  Hwi_getCXM                         
+000099e1adc0  Hwi_getEventId                     
+000099e1ae00  Hwi_getIsrStackAddress             
+000099e1ae80  Hwi_restore                        
+000099e1aec0  Hwi_setCOP                         
+000099e1af00  Hwi_switchFromBootStack            
+000099e1b740  I2C_Params_init                    
+000099e1b780  I2C_Transaction_init               
+000099e1b7c0  I2C_lld_Message_init               
+000099e1b800  I2C_lld_Transaction_init           
+000099e1b880  IntrinsicsSupport_maxbit           
+000099e1b8c0  IntrinsicsSupport_mfence           
+000099e1b900  MmuP_disableI                      
+000099e1b940  MmuP_enableI                       
+000099e1b980  MmuP_enableI_secure                
+000099e1ba00  MmuP_isEnabled                     
+000099e1ba40  MmuP_setMAIRAsm                    
+000099e1ba80  MmuP_setTCR                        
+000099e1bac0  MmuP_tlbInvAll                     
+000099e1bb00  Mmu_init                           
+000099e1bb40  Pinmux_init                        
+000099e1bb80  PowerClock_init                    
+000099e1bc80  SemaphoreP_destruct                
+000099e1bcc0  System_init                        
+000099e1bd40  TaskP_yield                        
+000099e1bd80  TaskSupport_getStackAlignment      
+000099e1bdc0  TaskSupport_glue                   
+000099e1be00  TaskSupport_glueUnpriv             
+000099e1be40  Task_enter                         
+000099e1be80  TimerP_Params_init                 
+000099e1bec0  TimerP_clearOverflowInt            
+000099e1bf00  TimerP_getCount                    
+000099e1bf40  TimerP_getReloadCount              
+000099e1c280  __c7xabi_fixdull                   
+000099e1c2c0  __c7xabi_fltulld                   
+000099e1c300  __c7xabi_remull                    
+000099e1c340  _c_int00                           
+000099e1c3c0  _nop                               
+000099e1c480  _system_post_cinit                 
+000099e1c4c0  _system_pre_init                   
+000099e1c500  C$$EXIT                            
+000099e1c500  abort                              
+000099e1c540  c7x_startup_init                   
+000099e1c580  exit                               
+000099e1c5c0  malloc                             
+000099e1c740  putchar                            
+000099e1c780  putchar_                           
+000099e1c7c0  pvTaskIncrementMutexHeldCount      
+000099e1c800  remove                             
+000099e1c840  ti_sysbios_knl_Task_Func           
+000099e1c880  uiPortGetRunTimeCounterValue       
+000099e1c8c0  uxTaskGetNumberOfTasks             
+000099e1c900  vApplicationGetIdleTaskMemory      
+000099e1c940  vApplicationGetTimerTaskMemory     
+000099e1c980  vApplicationIdleHook               
+000099e1c9c0  vListInitialise                    
+000099e1ca00  vListInitialiseItem                
+000099e1ca40  vListInsertEnd                     
+000099e1ca80  vPortConfigTimerForRunTimeStats    
+000099e1cac0  vPortRestoreTaskContext            
+000099e1cb00  vPortTimerTickHandler              
+000099e1cb40  vPortValidateInterruptPriority     
+000099e1cb80  vPortYeildFromISR                  
+000099e1cbc0  vTaskInternalSetTimeOutState       
+000099e1cc00  vTaskMissedYield                   
+000099e1cc40  vTaskSuspendAll                    
+000099e1cc80  xPortInIsrContext                  
+000099e1ccc0  xPortStartScheduler                
+000099e1cd00  xTaskGetCurrentTaskHandle          
+000099e1cd40  xTaskGetSchedulerState             
+000099e1cd80  xTaskGetTickCount                  
+00009a000000  _c_int00_secure                    
+UNDEFED       __TI_CINIT_Base                    
+UNDEFED       __TI_CINIT_Limit                   
+UNDEFED       __TI_Handler_Table_Base            
+UNDEFED       __TI_Handler_Table_Limit           
+
+[385 symbols]

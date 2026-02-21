@@ -1,0 +1,6 @@
+C Compiler ID: GNU
+C Compiler Arch: ARM
+C Compiler version: 9.2.1
+CXX Compiler ID: 
+CXX Compiler Arch: ARM
+CXX Compiler version: 

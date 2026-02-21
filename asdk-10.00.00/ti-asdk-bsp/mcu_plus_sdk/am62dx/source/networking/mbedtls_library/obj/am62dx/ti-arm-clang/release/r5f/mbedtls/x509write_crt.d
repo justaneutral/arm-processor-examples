@@ -1,0 +1,22 @@
+obj/am62dx/ti-arm-clang/release/r5f/mbedtls//x509write_crt.obj: \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/library/x509write_crt.c \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls_ti/alt_config.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/check_config.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/x509_crt.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/x509.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/asn1.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/bignum.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/pk.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/md.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/rsa.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/ecp.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/ecdsa.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/x509_crl.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/oid.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/cipher.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/asn1write.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/sha1.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/platform_util.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/platform_time.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls/include/mbedtls/pem.h

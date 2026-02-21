@@ -1,0 +1,394 @@
+                            AWECORE RELEASE NOTES
+
+===============================================================================
+VERSION: AWECore 8.D.6 -- AWECoreOS 8.B.16
+RELEASE DATE: 2023-Dec-15
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - Added support for QNX-based targets
+    - New API that supports multirate processing on different instances
+    - New 8 channel biquad VectorLib function for certain filter modules
+
+    ENHANCEMENTS
+    - Updated default channel names for some modules
+    - Fixed issue with stale coefficients in subsystem by forcing recalculation during prebuild
+    - Reduced the duration of certain module regression tests
+    - Improved robustness of IPC buffers against multi-instance synchronization issues
+    - IPCBuffer subsystem can now set Clock Divider and sublayout Thread ID
+
+    BUG FIXES
+    - Fixed issue when controlling WaveFileSink with another module
+    - Fixed regression tests for Delay Reader modules
+    - Fixed issue where Audio Start/Stop callbacks weren't being called on secondary instances
+    - Fixed typo that affected building for 64-bit targets
+    - Fixed issue where overflows on secondary instances could halt primary instance
+
+===============================================================================
+VERSION: AWECore 8.D.5 -- AWECoreOS 8.B.15
+RELEASE DATE: 2023-Oct-25
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - New FIR Reader module allows users to share state betwen multiple FIR filter modules
+    - New GraphicEQFract32V2 module that adds frequency array to previous version
+
+    ENHANCEMENTS
+    - Updated AWE Core OS architecture to reduce audio dropouts during extended deferred processing
+    - Controlling modules (ArraySet, ParamGet, ParamSet, ParamSetTableV2, StatusSetV2) can now specify when to execute relative to the module being controlled
+    - Allow loading .awb's on non-multi-instance targets, even if the .awb instance ID does not align with the target's instance ID
+
+    BUG FIXES
+    - Fixed an issue when loading Compiled Reusable Subsystems on multi-instance targets
+
+===============================================================================
+VERSION: AWECore 8.D.4 -- AWECoreOS 8.B.14
+RELEASE DATE: 2023-Aug-25
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - (BETA) New Multi-Instance feature allows processing of audio across multiple AWE Core instances on different cores in a single layout
+        - New Shared Heap in AWEInstance used to enable this feature
+        - Performs all IPC of audio using new IPC Buffer module
+        - Released as a beta feature, with known limitations:
+            - IPC Buffer module will be updated in compatibility breaking ways in future releases
+            - Multi-instance audio processing approach may require application updates in future releases
+            - Module regressions can only be run on Instance 0
+    - New LogicAndConst Module for performing a bitwise AND operation against a provided constant value
+    - New AGCLimiterCoreV2 module for implementing a multichannel limiter
+    - New callback function for cache invalidation
+
+    ENHANCEMENTS
+    - Deferred calling of Module Set functions now called with 0xFFFFFF00 mask
+    - Updated documentation for compatibility issue when loading older encrypted layouts
+    - Updated description of MapperControl module in documentation
+    - Inspector window for the Router module can now be resized
+
+    BUG FIXES
+    - Fixed regression test failures for DelayReader, IIRDecimator, and IIRInterpolator modules
+    - Fixed incorrect error code when loading certain invalid layouts
+
+===============================================================================
+VERSION: AWECore 8.D.3 -- AWECoreOS 8.B.13
+RELEASE DATE: 2023-Jun-23
+-------------------------------------------------------------------------------
+    ENHANCEMENTS
+    - Clarified SbSmoothV2 module's unused "sampleRate" argument in documentation
+    - Improved profiling capabilities for multi-instance usage of AWE Core OS
+    - Deprecated Param Set Table V1 module
+    - Clarified usage of Band to Bin and Bin to Band modules in documentation
+    - Corrected name of operation in Block Statistics module to "Sum of Squares"
+    - Improved visibility and controllability of large source and overwrite control module inspectors
+
+    BUG FIXES
+    - Fixed issue when setting Allpass Delay modules to zero delay
+    - Fixed regression test failures for ADSR, Delay Mixer Smoothed, and Pink Noise Fract32 modules
+    - Fixed regression test failure for Mute Linear Fade module
+    - Module Set functions are now called with 0x7fffffff when called from deferred processing, separate from calls during module construction
+    - Fixed delay propagation for Multiplexor V2 module
+    - Fixed issue where the AWE Core version wasn't encoded properly on SHARC targets
+
+===============================================================================
+VERSION: AWECore 8.D.2 -- AWECoreOS 8.B.12
+RELEASE DATE: 2023-Apr-7
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - Added support for HiFi Mini processors
+    - New Mute Symmetric Module for matching fade-in/fade-out times
+
+    ENHANCEMENTS
+    - Updated documentation with Flash File System integration details
+    - Improved accuracy when profiling Multi-Threaded and Multi-Instance integrations
+    - Added Frequency Response feature to FIR Sparse module
+    - Redesigned exponential functions for bit-exact matching between host and target module code
+
+    BUG FIXES
+    - Fixed an issue with loading a Compiled Reusable Subsystem from a different folder path
+    - Fixed an issue with building layouts containing a module with no input or output pins
+    - Fixed the FIR Interpolator module's latency calculation
+    - Fixed an issue with the Symmetric Scaler module's gradient calculation of negative numbers
+    - Fixed an issue with loading saved parameters in BandToBin modules from AWJ layouts
+    - Made allocation of memory for the Compiled Reusable Subsystem more flexible to avoid errors on memory limited systems
+
+===============================================================================
+VERSION: AWECore 8.D.1 -- AWECoreOS 8.B.11
+RELEASE DATE: 2023-Jan-25
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - New Delay Mixer Smoothed module for applying unique delays and gain per input channel
+    - New Param Set Table (version 2) module for advanced control of arrays
+    - New Peak Finder module for detecting multiple signal peaks in an audio block
+    - New Filterbank FIR NChan (version 2) module that accepts arbitrary blocksizes
+    - New API function for loading AWBs from the Flash File System
+
+    ENHANCEMENTS
+    - Optimized performance of AWE Core's Audio Import/Export API functions
+    - AWE Core will assume Single Heap functionality based on the number of heaps provided
+    - TableInterpRuntime allows multiple equal adjacent X values
+
+    BUG FIXES
+    - Fixed broken image links in the AWE Core API documentation
+    - Fixed an issue where saved values in the Mixer module were not being saved
+    - Fixed an issue with multiple controlling modules accessing the same module
+    - Fixed an issue where the ADSR module wouldn't release if triggered before sustain
+    - Fixed AWE_Server crash when using certain ASIO device configurations
+    - Fixed an issue with output data resolution in the PinkNoise module
+    - Fixed an issue when opening UpFirDn’s Inspector while running the layout
+    - Fixed an internal memory leak in AWECoreOS
+
+===============================================================================
+VERSION: AWECore 8.C.15 -- AWECoreOS 8.B.10
+RELEASE DATE: 2022-Nov-9
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - New Sweep Generator module for frequency response testing
+    - New Matrix Multiplication module for advanced computations
+
+    ENHANCEMENTS
+    - Simultaneous ParamSet accesses now display a warning message instead of resulting in a build error
+    - Added support for multiple AWECore instances on the same hardware core
+    - Introduced an option for memory bounds checking on array access commands
+    - Users no longer need to provide BUILD64 when compiling for 64-bit targets
+
+    BUG FIXES
+    - Fixed a regression test failure for the Biquad Sparse V6 module
+    - Fixed an issue where the Inspector would not update Mixer V3's mix table
+    - Fixed an issue where the SoftClipFract32 Inspector would not display the correct gain
+
+===============================================================================
+VERSION: AWECore 8.C.14 -- AWECoreOS 8.B.9
+RELEASE DATE: 2022-Sept-21
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - Added support for M55/U55 processors
+    - Created new Null Source module for advanced wire routing
+
+    ENHANCEMENTS
+    - Corrected awe_audioGetPumpMask's return value for an overflowed layout
+    - Supported number of input/output channels has been increased from 64 to 255
+    - ParamSet can now access unsigned integer variables
+    - Added check to prevent multiple ParamSet modules from accessing the same variable
+    - Flash File System manimum filename length increased to 56 chars
+
+    BUG FIXES
+    - Fixed an issue that could cause audio artifacts with certain biquad filters
+
+===============================================================================
+VERSION: AWECore 8.C.13 -- AWECoreOS 8.B.8
+RELEASE DATE: 2022-Jul-21
+-------------------------------------------------------------------------------
+    BUG FIXES
+    - Removed unnecessary memory allocations while instantiating modules
+    - Fixed Sink inspector to work after changes in Designer
+
+===============================================================================
+VERSION: AWECore 8.C.12 -- AWECoreOS 8.B.7
+RELEASE DATE: 2022-Jul-5
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - Created new Linkwitz-Riley Filter module for ideal crossover networks
+    - Added support for HiFi5 builds
+    - Created new Biquad Sparse V6 module for selecting Direct Form 1 or 2 implementation
+    - Created new Biquad Sparse HP module for high precision applications
+
+    ENHANCEMENTS
+    - Expanded Audio Weaver Core API to selectively control profiling
+    - Added check that Buffer Down module does not clock divide faster than allowed
+    - Improved error reporting when changing frequencies with Graphic Equalizer module
+    - Added "Resonant" filter option to all Second Order Filter modules
+
+    BUG FIXES
+    - Fixed issue where unchecked `maxTaps` values could cause crashes in certain filter modules
+    - Fixed issue where StatusSet module sent stale data upon initialization
+    - Fixed issue where certain subsystem modules would not appear in the Module Tests dialog window
+    - Fixed issue where some Biquad Sparse modules would not display the names of the `filterType` argument
+    - Fixed issue where the incorrect Router Smoothed module inspectors would appear if there was more than 16 channels
+
+===============================================================================
+VERSION: AWECore 8.C.11 -- AWECoreOS 8.B.6
+RELEASE DATE: 2022-May-2
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - Created TableSourceV2 module to support multichannel outputs and indexing
+
+    ENHANCEMENTS
+    - Improved test coverage, reporting, and performance for multiple modules
+    - All Scaler modules now have consistent triangle icons in module browser
+
+    BUG FIXES
+    - Fixed issue in overflow detection logic to avoid spurious overflows and possible exceptions
+    - SetWireProperties module now properly protects against negative arguments
+    - Tablesource module updated to propagate correct sample rate
+
+===============================================================================
+VERSION: AWECore 8.C.10 -- AWECoreOS 8.B.5
+RELEASE DATE: 2022-Mar-9
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - New UpFIRDown module allows for efficient sample rate conversions for non-integer ratios
+    - New SOFControlV3 adds option to choose between Direct Form 1 or 2 implementations for biquads
+    - AWECoreOS: new API to return ID's of internal threads, allowing application to set CPU affinity per thread
+    - Added support for TI C66xx builds
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+
+    - Fixed null pointer access when modules failed to allocate sufficient memory in constructor
+    - Module constructors now have access to the calling AWEInstance struct
+    - Made several TableInterp and TableInterpXY module fixes and improvements
+    - Fixed bug in White Noise module not sending random generator seed value to target
+    - MultichannelMixerSmoothed module now checks for control input pin being a valid size
+    - Made robustness and performance improvements to Wave File Source and Sink modules
+    - BufferUp/DownV2 modules updated to reject invalid buffer up/down factors
+    - Improved error message for invalid values for Buffer Down module
+    - Usage improvements made to the SOFControl module variables and range checking
+    - The SampleAndHold module now has consistent behavior
+    - Improved performance of the hold feature in SbAttachRelease module for fast attack times
+    - Improved output channel names for the WhiteNoise module
+    - Corrected the latency calculation of the Downsampler module
+    - Example AWD file Mixing_Console_Example.awd now uses a relative audio path
+    - MATLAB 'add_argument' function now documented
+    - If enabled, the profiling report will now print size of Wire Buffer Pool
+    - Updated some tests to run successfully on Hexagon targets
+
+===============================================================================
+VERSION: AWECore 8.C.9 -- AWECoreOS 8.B.4
+RELEASE DATE: 2022-Jan-7
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - New BufferUpv2 / BufferDownv2 modules allow multiple sublayouts with the same clock divider to be generated
+    - New module FilterBankFIRNChan allows for efficient implementation of long FIRs with different coefficients per channel
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Updated common modules to pass regression tests on fixed point targets
+    - Fixed smoothing sync issue across all channels in ThreeBandToneControl module, float and fract32 versions
+    - test_triggered_file_sink_rt.m now completes even if MATLAB working directory is "c:\"
+    - Fixed test_system_variable_rt.m to pass in Native mode
+    - PinkNoise module updated to pass system level test
+    - TableInterpRuntime module is no longer deprecated
+    - Updated RunningMinMax to have the correct type of momentary reset control
+    - SetWireProperties now returns a clearer error message in the prebuild function
+    - Deleted buggy Fractional delay float and fract32 modules. Use v2 versions instead
+    - Corrected MuteSyncFract32 browser name
+    - Object ID now properly populated for wire buffers
+    - Fixed memory access violation on certain 64-bit build systems
+    - Improved organization and architecture for AWECore header files
+    - Corrected 'awe_audioIsStarted' function documentation
+    - Added missing documentation for virtual modules, like marker, annotations, etc.
+
+===============================================================================
+VERSION: AWECore 8.C.8 -- AWECoreOS 8.B.3
+RELEASE DATE: 2021-Nov-12
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - Created BinToBand and BandToBin modules for reducing and expanding frequency bin sizes
+    - AWECoreOS now supports the input and output pin being split across two sublayouts at clockdivider of 1
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Resolved a thread safety issue with the overflow detection logic in AWECore
+    - Fixed an issue impacting multi-instance AWECore applications
+        - Supported for Hexagon, CEVA-X2, x86/64, and CortexA targets only
+
+===============================================================================
+VERSION: AWECore 8.C.7 -- AWECoreOS 8.B.2
+RELEASE DATE: 2021-Oct-31
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - Created an Expander Core Module
+    - Created a DC block module
+    - WOLA v2, version 2 updated to include prototype filter selection
+    - Added a canvas label to the ParamGet module
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Improved Graphic EQ coefficient calculations to achieve a flat summation
+    - Graphic EQ Subsystem build issue when decreasing number of bands
+    - Fixed a major bug in Derivative modules
+    - Now catching and preventing different input block sizes for LMS Norm Fract32 module
+    - Implemented and improved frequency response functions for fixed point modules
+    - 3 band tone control frequency response now accounts for midTargetGain
+    - Improved coverage in SbSmooth, SbSmoothFract32, and SbSmoothV2 test scripts
+    - Inspector disabled in multiplexor module while control input is enabled
+    - Fixed regression tests with allocation failures for various targets
+    - Improved header file organization for AWECore applications
+    - Implemented system tests for several modules
+    - ModBiquadCascade now uses 4 channel biquad cascade function for best performance
+
+===============================================================================
+VERSION: AWECore 8.C.3 -- AWECoreOS 8.B.1
+RELEASE DATE: 2021-May-17
+-------------------------------------------------------------------------------
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Fixed issues with aweOS_destroy not working with running audio systems
+    - SSE2 floating-point code generation enabled in all module projects
+    - MATLAB Usage in help file for the module TriggeredPulseV2 corrected
+    - Update Param Set and other modules to improve detection of invalid use cases
+    - Fixed issue with ParamGet module failing when accessing array variables
+    - Added more latency propagation functions to modules
+    - Second Order Filter HP Control missing last 2 filter types
+    - Volume Control modules do not have a frequency response function
+    - Input pins are swapped in sbNLMS and sbNLMSV2 modules - V3 module created
+    - Fixed issue with ModAGCCoreFract32 not calculating target gain under certain conditions
+    - Fixed multiple module regression and system tests, and improved profiling harnesses
+    - Wavesink module improvements and bug fixes
+    - Updated sample module projects to use VS2019 instead of VS2010
+    - Improved return value documentation for all AWECore/OS API's
+    - AWECoreOS API CHANGE: Fixed issues with aweOS_destroy not working with running audio systems
+
+===============================================================================
+VERSION: AWECore 8.C.2 -- AWECoreOS 8.A.4
+RELEASE DATE: 2021-March-16
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - AWECore detects if there has been an overrun on the target and reports an indication to the AWE_Server. See the documentation for awe_audioGetPumpMask for more details.
+    - Modules now implement channel naming functions used in Designer to decorate the canvas wires with user provided channel names
+    - New delay propagation functions are supported in AWE modules. These functions can be used define the delay introduced by a module and are used in Designer to decorate the wires on the canvas.
+    - New Complex Multiply V2 and Complex Divide modules add new complex arithmetic support
+    - Long FilterBank FIR V2 module now allows for non-power of 2 input block sizes
+    - New Fractional Delay V2 Float and Fixed point modules fix memory allocation bug in V1 versions
+    - Scaler and Scalern Symmetric Fading modules provide additional smoothing control over existing Scaler modules
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Improved robustness of internal AWECoreOS TCP/IP tuning interface
+    - Fixed hang in AWECoreOS aweOS_destroy function
+    - RTAudio-alsa AWECoreOS sample app now accepts CPU frequency option for improved profiling accuracy
+    - One Shot Player documentation updated to make expected impulse trigger more clear
+    - White Noise module updated to properly set RNG seed
+    - Frequency Response Function for MixerV3 fixed for case when there are multiple input pins
+    - Module regression test updates to support non-power of 2 block size targets
+    - System test improvements for various modules
+    - Profiling harnesses improved to support more module types
+    - Updates made to multi-input-pin modules to make sure invalid configuration cannot be built and run on target
+
+===============================================================================
+VERSION: AWECore 8.C.1 -- AWECoreOS 8.A.3
+RELEASE DATE: 2020-November-16
+-------------------------------------------------------------------------------
+NOTABLE NEW FEATURES
+    - Introduced low latency mode that can reduce overall latency by up to 2 blocks
+    - Profiling update rate improved for systems with large block sizes
+    - Multi instance support for Flash File System enabled
+    - New Wave File Source and Sink modules allow recording and playing wav files
+    - New Array Set and Table Source modules support improved control while setting module parameters
+    - New FIR Smoothed module
+
+NOTABLE BUG FIXES AND IMPROVEMENTS
+    - Improved module and API documentation
+    - Fixed return value of awe_ctrlGetStatus API
+    - Fixed awe_ctrlGetValueMask API
+    - Allow encrypted AWB's to be loaded in AWECore
+    - Added error return when trying to load .awb with more sublayouts than supported on target
+    - AWECore now safely handles targets with Name set to NULL
+    - Fixed race condition in AWECoreOS when opening multiple tuning sockets in multi-instance applications
+    - Fixed AWECoreOS improperly returning error code while read .awb from file
+    - Now properly detecting NULL packet buffers in AWECoreOS initialization
+    - Audio start and stop callbacks in AWECoreOS are now passed correct instance pointer
+    - Audio start and stop callbacks in AWECoreOS can safely call layout and control API
+    - Improved stability of AWECoreOS Libtester app
+    - Memory leak in layout constructor removed from AWECoreOS
+    - Fixed issue with Flash File System that cannot execute files
+    - Fixed issue with Flash File System accessing unallocated memory
+    - Improved MixerV3 to have a more convenient starting maxNonZero, and avoided allocating more memory than required
+    - Memory optimization of the Delay module
+    - Sb_Smoother now works when using a non-integer WOLA FFT Size to Block Size ratio, and requires less memory
+    - Multiple Router module inspectors can now be used at once
+    - Prevent Delay module crash when currentDelay is set greater than maxDelay
+    - Fixing issue with current Gain which does not initialize properly in ScalerNV2
+    - Improved ComplexMultiplier usability with fractional input pin sample rate
+    - LMSNormFract32 module now works for mono inputs only, and has more standard names for input pins
+    - Mixer Dense module (currently deprecated) no longer crashes due to uninitialized pointer

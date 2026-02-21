@@ -1,0 +1,16 @@
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: ../nortos/dpl/common/TimerP.c
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/TimerP.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/stdint.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_ti_config.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/linkage.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_stdint40.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/stdint.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/cdefs.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_types.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_types.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_stdint.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_stdint.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/stdbool.h
+obj/am62dx/ti-c7000/release/c75x/freertos//TimerP.obj: /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/CacheP.h

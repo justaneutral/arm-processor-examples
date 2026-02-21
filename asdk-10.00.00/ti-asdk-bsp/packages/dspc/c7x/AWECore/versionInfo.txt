@@ -1,0 +1,38 @@
+
+AWECore ti-c7x Build
+Built on:      Fri Sep 13 18:39:46 EDT 2024
+Build name:    release.awecore.ti-c7x-141
+Built from:    awecore-common
+Version:       AWE-7455_TI_c7x
+SHA:           88eacd4
+ 
+AWECore TI ti-c7x Build
+Built on:      Fri Sep 13 18:39:49 EDT 2024
+Build name:    release.awecore.ti-c7x-141
+Built from:    awecore-ti
+Version:       AWE-7455_TI_c7x
+SHA:           8ed2b80
+ 
+ti-c7x Build -- Toolchain Info: [ti_c7x_c7504_4.1.0]
+Built on:      Fri Sep 13 18:39:52 EDT 2024
+Build name:    release.awecore.ti-c7x-141
+Built from:    dspc-cmake-toolchains
+Version:       master
+SHA:           5dc1b4b
+ 
+Recipe File Used: TI_Release_2hr.recipe
+Built on:      Fri Sep 13 18:39:55 EDT 2024
+Build name:    release.awecore.ti-c7x-141
+Built from:    awecore-recipes
+Version:       master
+SHA:           c3ae317
+ 
+AWECore Build -- Module Set: awe-mod-dspc-snd
+Built on:      Fri Sep 13 18:39:58 EDT 2024
+Build name:    release.awecore.ti-c7x-141
+Built from:    awe-mod-dspc-snd
+Version:       SND-1.0.9
+SHA:           ddd3592
+ 
+
+Includes 7200 second evaluation timeout.

@@ -1,0 +1,37 @@
+
+                        AWECORE TI RELEASE NOTES
+
+===============================================================================
+VERSION:  1
+RELEASE DATE: 2023-Oct-16
+-------------------------------------------------------------------------------
+    NEW FEATURES
+    - First release with optimized code
+    - Includes following Vectorlib functions optimized for c7x target
+		- Vec_BiquadNCascadeWrapper_c7x.c
+		- Vec_BiquadSparseV6Wrapper_c7x.c
+		- Vec_Biquad_2ch_c7x.c
+		- Vec_Biquad_4ch_c7x.c
+		- Vec_Biquad_c7x.c
+		- Vec_CircRead_c7x.c
+		- Vec_CircWriteRead_c7x.c
+		- Vec_CircWrite_c7x.c
+		- Vec_Copy32_c7x.c
+		- Vec_DelayNChanV2Wrapper_c7x.c
+		- Vec_DelayNChanWrapper_c7x.c
+		- Vec_DelayWrapper_c7x.c
+		- Vec_Fill_c7x.c
+		- Vec_FloatToFract32_c7x.c
+		- Vec_Fract32ToFloat_c7x.c
+		- Vec_ScaleAdd_c7x.c
+		- Vec_ScaleSmooth_c7x.c
+		- Vec_Scale_c7x.c
+		- Vec_SmoothNCoeffArray_c7x.c
+
+    KNOWN LIMITATIONS
+	- Smoothing on coefficients not working as expected. Set the smoothing coefficient to 0 for now
+	- Number of active biquad stages in each channel cannot be more than the initial count. 
+          i.e. If the module has 2 channels with 8 stages per channel with first 4 stages are active and remaining 4 stages are bypassed per channel, 
+          it won't work if any of the bypassed stages in any channel are made active during runtime. 
+          i.e. max stages are locked to initial active count
+	

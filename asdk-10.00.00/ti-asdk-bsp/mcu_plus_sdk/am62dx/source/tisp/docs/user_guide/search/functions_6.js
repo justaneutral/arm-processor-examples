@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['fft1dbatched_297',['fft1dBatched',['../classTISP_1_1FFTLIB_1_1fft1dBatched.html#a8595d7dfcaf9d95d9f00e2b45a6200ef',1,'TISP::FFTLIB::fft1dBatched']]],
+  ['fftlib_5ffft1dbatched_5fi32fc_5fc32fc_5fo32fc_5fcn_298',['FFTLIB_fft1dBatched_i32fc_c32fc_o32fc_cn',['../TISP__1dBatched__test__cn_8cpp.html#a4201dc4c29714045c5d4ed27230d162c',1,'FFTLIB_fft1dBatched_i32fc_c32fc_o32fc_cn(float *RESTRICT pX, float *RESTRICT pW, float *RESTRICT pY, uint32_t numPoints, uint32_t numChannels):&#160;TISP_1dBatched_test_cn.cpp'],['../TISP__fft1dBatched__superNode__test__cn_8cpp.html#a4201dc4c29714045c5d4ed27230d162c',1,'FFTLIB_fft1dBatched_i32fc_c32fc_o32fc_cn(float *RESTRICT pX, float *RESTRICT pW, float *RESTRICT pY, uint32_t numPoints, uint32_t numChannels):&#160;TISP_fft1dBatched_superNode_test_cn.cpp'],['../TISP__fft2d__superNode__test__cn_8cpp.html#a4201dc4c29714045c5d4ed27230d162c',1,'FFTLIB_fft1dBatched_i32fc_c32fc_o32fc_cn(float *RESTRICT pX, float *RESTRICT pW, float *RESTRICT pY, uint32_t numPoints, uint32_t numChannels):&#160;TISP_fft2d_superNode_test_cn.cpp']]]
+];

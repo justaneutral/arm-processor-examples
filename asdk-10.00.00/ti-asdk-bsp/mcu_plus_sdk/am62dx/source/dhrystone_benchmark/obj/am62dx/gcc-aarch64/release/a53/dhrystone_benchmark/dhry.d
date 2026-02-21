@@ -1,0 +1,32 @@
+dhry.obj: src/dhry.c src/dhry.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/TaskP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/ClockP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/CycleCounterP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/config/am62dx/a53/FreeRTOS_POSIX_portable.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/FreeRTOS-Plus-POSIX/include/portable/FreeRTOS_POSIX_portable_default.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/config/am62dx/a53/FreeRTOSConfig.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/projdefs.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/portable.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/portable/GCC/ARM_CA53/portmacro.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/HwiP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/event_groups.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/timers.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/task.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/list.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/semphr.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/queue.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel/include/task.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/FreeRTOS_POSIX/sys/types.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX_types.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/FreeRTOS-Plus-POSIX/include/FreeRTOS_POSIX_internal.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/private/iot_doubly_linked_list.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/FreeRTOS_POSIX/pthread.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/FreeRTOS_POSIX/sched.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/FreeRTOS_POSIX/time.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX/include/FreeRTOS_POSIX/signal.h

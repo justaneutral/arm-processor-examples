@@ -1,0 +1,31 @@
+obj/am62dx/ti-arm-clang/release/r5f/lwip-contrib-freertos//rtp.obj: \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/contrib/apps/rtp/rtp.c \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/opt.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-config/am62dx/lwipopts.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-port/freertos/include/lwipopts_os.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/debug.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/arch.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-port/include/arch/cc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/nortos/dpl/common/printf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/sys.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/err.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-port/include/arch/sys_arch.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/sockets.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/ip_addr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/def.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/ip4_addr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/ip6_addr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/netif.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/pbuf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/stats.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/mem.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/memp.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/priv/memp_std.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-config/am62dx/lwippools.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/priv/memp_priv.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/priv/mem_priv.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/inet.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/errno.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/contrib/apps/rtp/rtp.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/contrib/apps/rtp/rtpdata.h

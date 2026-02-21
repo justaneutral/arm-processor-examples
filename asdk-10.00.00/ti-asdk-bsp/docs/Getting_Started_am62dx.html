@@ -1,0 +1,299 @@
+<!DOCTYPE html> <html> <head> <meta charset="UTF-8"> <title>Getting Started with Audio SDK on AM62Dx EVM</title> </head>
+
+<!-- START PRE --> <link rel="stylesheet"
+href="web_support/strapdown/v/0.2/fonts/ubuntu-regular-woff.css"/>
+<link rel="stylesheet"
+href="web_support/strapdown/v/0.2/fonts/glyphicons-halflings-regular.css"/>
+<link rel="stylesheet"
+href="web_support/strapdown/v/0.2/themes/united2.min.css"/> <link
+rel="stylesheet"
+href="web_support/strapdown/v/0.2/themes/bootstrap-responsive.min.css"/>
+<link rel="stylesheet"
+href="web_support/strapdown/v/0.2/strapdown.css"/> <link rel="shortcut
+icon" type="image/x-icon" href="metadata/favicon.ico" /> <!-- END PRE
+-->
+
+<xmp style="display:none;" class="col-xs-6">
+
+Objective
+=========
+The objective of this document is to get started with Audio SDK on AM62Dx EVM. It walks through the steps needed to 
+run the prebuilt binaries, set build environment. The EVM supports 8-channels of ADC input and 8-channels of DAC 
+output. The document will also go through build commands for various configurations supported.
+
+Initial Setup
+=============
+
+EVM Setup
+---------
+AM62Dx EVM will be used to demo audio signal chain. 
+Here is top-view of the EVM.
+![](images/am62dx_evm.png)  
+
+For detailed instruction on EVM setup, refer to 
+<a href="https://software-dl.ti.com/mcu-plus-sdk/esd/AM62AX/10_00_00_18/exports/docs/api_guide_am62ax/EVM_SETUP_PAGE.html#EVM_CABLES" 
+ target="_blank">AM62dx EVM Setup</a>. </br>
+Following items will be required to demo:
+ - USB-C cable to power supply the board
+ - Micro-usb connector for XDS110 emulator, to debug using TI Code Composer Studio 
+ - Micro-usb connector for UART console.
+ - Ethernet cable for tuning interface
+ - Micro-SD card for SD-Boot mode
+
+
+Format bootable SD card
+-----------------------
+ * <b>Windows Platform </b>
+  * Start `diskpart` in run-box
+  * Type `list disk` and then press Enter.
+  * Type `select disk [n]` and press Enter. n - represents the disk number of your bootable SD card
+  * Type `clean` and then press Enter
+  * Type `create partition primary` and then press Enter.
+  * Type `format fs=fat32 quick` and then press Enter to format SD card.
+  * After formatting, type `exit` and then press Enter. 
+
+
+ * <b>Linux Platform </b>
+  * Connect the micro SD card to the PC using any card reader
+  * Check if it's detected by either using the `sudo dmesg` command or the `lsblk` command
+  * Unmount any mounted partitions using the `umount` command
+  * Launch the `fdisk` utitility. `sudo fdisk [/dev/mmcblk0]`
+  * Delete all the existing partitions using fdisk utility, option `d`
+  * Create new partition using option `n`
+  * Make the first partition as bootable by setting the BOOT flag, option `a`
+  * Format the first partition with FAT32, option `t`. Hex code or alias (type L to list all): `c`
+  * Write all the changes
+
+
+<hr style="border:1px solid red">
+
+Running Prebuilt Binaries
+=========================
+
+The release provides prebuilt binaries which have been tested in SD boot mode.
+- The prebuilt binaries are located at:
+  `sdk_install_loc/bin/am62dx/sd_card`
+- Format the micro-sd card in FAT filesystem
+- Copy the prebuilt binaries to the micro-sd card and insert SD card in EVM SD-CARD slot
+- Set the board in SD boot mode and powercycle the board</br> 
+  BOOTMODE [ 8 : 15 ] (SW1) = 0100 0000</br>
+  BOOTMODE [ 0 :  7 ] (SW2) = 1100 0010
+  ![SD Boot](images/boot_pins_sd_card_boot_mode.png)
+- Connect Ternimal using UART port (`second` of 4 ports). Refer 
+  <a href="https://software-dl.ti.com/mcu-plus-sdk/esd/AM62aX/08_06_00_18/exports/docs/api_guide_am62ax/EVM_SETUP_PAGE.html#CCS_UART_TERMINAL" 
+  target="_blank">Setup UART Terminal</a> page for details.
+- After power cycle, the console will print ip-address. Use the ip-address for 
+  AWEServer/AWEDesigner. The console output should like below.
+  ![SD Boot Console](images/sd_boot_console_log.png)
+- Default SD card has 4 files:
+  - `tiboot3.bin` : SD Card bootloader
+  - `dm` : System firmware which runs on Wakeup R5F 
+  - `app` : Tuning gateway application which runs on MCU/R5F 
+  - `app_dsp` : The DSP application which runs on C7x and includes AWECore 
+  - Default behavior is <a href="#config1-c7x-mcu-r5f">config1</a>. 
+    If <a href="#config2-a53-core0-mcu-r5f">config2</a> or 
+    <a href="#config3-multi-instance-c7x-a53-core0-mcu-r5f">config3</a> is needed,
+    delete `app_dsp` from root folder of SD card and copy the file(s) from respective folder 
+    to root folder.
+    
+<hr style="border:1px solid red">
+
+Build Environment - Tools Needed
+================================
+
+<table>
+  <tr>
+    <th><a href="https://www.ti.com" target="_blank">Tool-chains</a></th>
+    <th>Windows host machine</th>
+    <th>Linux host machine</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.ti.com/tool/CCSTUDIO?keyMatch=CODE%20COMPOSER%20STUDIO%20DOWNLOAD" target="_blank">TI Code Composer Studio (12.7.0)</a></td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-J1VdearkvK/12.7.0/CCS12.7.0.00007_win64.zip" target="_blank">
+      Windows Installer</a></td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-J1VdearkvK/12.7.0/CCS12.7.0.00007_linux-x64.tar.gz" target="_blank">Linux Installer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ti.com/tool/SYSCONFIG?keyMatch=SYSCONFIG%20TOOL" target="_blank">TI SysConfig Tool (1.20.999)</a></td>
+    <td>Windows Installer - Download from OneRelease link</td>
+    <td>Linux Installer - Download from OneRelease link</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ti.com/tool/ARM-CGT?keyMatch=ARM%20LLVM%20COMPILER" target="_blank">TI ARM LLVM Compiler (3.2.2 LTS)</a></td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-ayxs93eZNN/3.2.2.LTS/ti_cgt_armllvm_3.2.2.LTS_windows-x64_installer.exe" target="_blank">
+      Windows Installer</a></td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-ayxs93eZNN/3.2.2.LTS/ti_cgt_armllvm_3.2.2.LTS_linux-x64_installer.bin" target="_blank">
+      Linux Installer</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ti.com/tool/C7000-CGT?keyMatch=C7000%20COMPILER%20DOWNLOAD" target="_blank">TI C7000 Compiler (4.1.0 LTS)</a></td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-707zYe3Rik/4.1.0.LTS/ti_cgt_c7000_4.1.0.LTS_windows-x64_installer.exe" target="_blank">
+      Windows Installer</a> </td>
+    <td><a href="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-707zYe3Rik/4.1.0.LTS/ti_cgt_c7000_4.1.0.LTS_linux-x64_installer.bin" target="_blank">
+      Linux Installer</a> </td>
+  </tr>
+  <tr>
+    <td>ARM GNU Compiler (9.2-2019.12)</td>
+    <td><a href="https://developer.arm.com/-/media/Files/downloads/gnu-a/9.2-2019.12/binrel/gcc-arm-9.2-2019.12-mingw-w64-i686-aarch64-none-elf.tar.xz" target="_blank">
+      Windows Host Machine</a></td>
+    <td><a href="https://developer.arm.com/-/media/Files/downloads/gnu-a/9.2-2019.12/binrel/gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf.tar.xz" target="_blank">
+      Linux host Machine</a></td>
+  </tr>
+</table>
+
+<hr style="border:1px solid red">
+
+Building Applications 
+=====================
+* The low-level drivers and freeRTOS kernel are provided by <b>MCU PLUS SDK</b>. 
+  The MCU_PLUS_SDK is included in the release. It is located at `[audio_sdk_install_folder]/mcu_plus_sdk/am62dx`
+* Make sure tools-chains used in the build system matches with tools installed. Open 
+  `[audio_sdk_install_folder]/mcu_plus_sdk/imports.mak` file. </br>
+  `GCC_ARCH64_VERSION`=9.2-2019.12 </br>
+  `CGT_C7X_VERSION`=4.1.0.LTS </br>
+  `CGT_ARMLLVM_VERSION`=3.2.2.LTS </br>
+  `SYSCONFIG_VERSION`=1.20.999 </br>
+  `SYSCONFIG_BUILD`=3426 </br>
+* <b>Note: </b>If the versions in this file does not match with your install, update 
+  the file with the installed version and save the file.
+* <u><b>Note: For windows platform</b></u>:
+  * update user path: set PATH=%PATH%;c:\ti\ccs1270\ccs\utils\bin
+  * use `gmake.exe` to build 
+* Go to `[audio_sdk_install_folder]/audio_app/am62d`
+  * run `make clean` : This will clean the folder.
+  * run `make` : This will build for all cores
+    * c7x 
+    * a53 
+    * a53 (smp mode)
+    * mcu/r5f
+* #####<b>To Build for multi-instance, set environment variable BUILD_AWE_MULTI=1</b>
+  * Windows: `set BUILD_AWE_MULTI=1`
+  * Linux: `export BUILD_AWE_MULTI=1`
+  * Run make command mentioned in previous step
+
+Building MCU/R5F for static IP address
+-------------------------------------- 
+* MCU/R5F is configured to use DHCP for ip-address 
+* To configure for <b>static ip-address</b> follow the steps below:
+  * Go to ti-asdk-bsp/audio_app/am62d/mcu-r5f/ti-arm-clang folder.
+  * Open makefile and comment the enable DHCP build
+      ```
+      DEFINES_common := \
+                  -DSOC_AM62DX \
+                  -DETH_TUNING \
+      #           -DAWE_ENET_ENABLE_DHCP \
+      ```
+  * Save and build using <b>gmake or make</b>
+  * Copy `audioApp_mcur5f.release.appimage.hs_fs` and save as `app` to SD card
+
+Building MCU/R5F for UART-based tuning interface
+------------------------------------------------  
+* MCU/R5F is configured for ethernet based tuning interface  
+* To configure for <b>UART-based tuning interface</b> follow the steps below:
+  * Go to [audio_sdk_install_folder]/audio_app/am62d/mcu-r5f/ti-arm-clang folder.
+  * Open makefile and comment build config as below.
+      ```
+      DEFINES_common := \
+                  -DSOC_AM62DX \
+      #           -DETH_TUNING \
+      #           -DAWE_ENET_ENABLE_DHCP \
+      ```
+  * Save and build using <b>gmake or make</b>
+  * Copy `audioApp_mcur5f.release.appimage.hs_fs` and save as `app` to SD card
+  * Use RS232 for AWEServer, and use 3<sup>rd</sup> COM-port out of the 4-ports
+    mounted.
+  
+<hr style="border:1px solid red">
+
+Running Application 
+=================== 
+
+The release supports audio processing in various configurations. The document 
+will walk through all supported configurations. 
+
+Config1: C7x & MCU/R5F
+---------------------- 
+In this configuration, C7x will be processing the audio signal chains and mcu/r5f 
+will be used as tuning gateway. 
+![C7x Primary](images/get_start_cfg1.png)
+
+<u><b>SD Card setup</b></u>
+ * `tiboo3.bin` : This is SD secondary bootloader
+ * `dm` : This is binary run on DM/R5F, and it runs system firmware
+ * `app` : This binary gets loaded on mcu/r5f, and it works as tuning gateway 
+ * `app_dsp` : This code runs on C7x dsp, it runs audio signal-chain and AWEcore 
+
+<b>Steps to run</b>
+ * Open UART console and check for ip-address.
+ * On Windows computer, launch `AWE Server` and connect using TCP/IP with IP address given by DHCP server 
+ * Now launch `Awe Designer` and open the layout file and press 'Launch icon'.
+
+Config2: A53/core0 & MCU/R5F
+---------------------------- 
+In this configuration, A53-core0 will be processing the audio signal chains and mcu/r5f 
+will be used as tuning gateway. 
+![A53 Primary](images/get_start_cfg2.png)
+
+<u><b>SD Card setup</b></u>
+ * `tiboo3.bin` : This is SD secondary bootloader
+ * `dm` : This is binary run on DM/R5F, and it runs system firmware
+ * `app` : This binary gets loaded on mcu/r5f, and it works as tuning gateway 
+ * `app_a53` : This code runs on A53-core0, it runs audio signal-chain and AWEcore 
+
+ <b>Steps to run</b>
+ * Open UART console and check for ip-address.
+ * On Windows computer, launch `AWE Server` and connect using TCP/IP with IP address given by DHCP server 
+ * Now launch `Awe Designer` and open the layout file and press 'Launch icon'.
+   
+
+Config3: Multi-Instance C7x, A53/core0 & MCU/R5F
+------------------------------------------------  
+In this configuration, C7x will configure Codec, MCASP, DMA. It will be processing 
+the audio signal chains as primary. A53/Core0 will be secondary core for audio 
+processing. The mcu/r5f will be used as tuning gateway. 
+![C7x/A53](images/get_start_cfg3.png)
+
+<u><b>SD Card setup</b></u>
+ * `tiboo3.bin` : This is SD secondary bootloader
+ * `dm` : This is binary run on DM/R5F, and it runs system firmware
+ * `app` : This binary gets loaded on mcu/r5f, and it works as tuning gateway 
+ * `app_dsp` : This code runs on C7x dsp, it runs audio signal-chain and AWEcore 
+ * `app_a53` : This code runs on A53-core0, it runs as coprocessor as required in signal-chain
+
+ <b>Steps to run</b>
+ * Open UART console and check for ip-address.
+ * On Windows computer, launch `AWE Server` and connect using TCP/IP with IP address given by DHCP server 
+ * Now launch `Awe Designer` and open the layout file and press 'Launch icon'.
+
+
+<hr style="border:1px solid red">
+
+Audio Weaver documentation
+==========================
+
+The detailed documentation on Audio Weaver and AWE Designer can be found on 
+DSP Concepts website.
+ * <a href="https://w.dspconcepts.com/hubfs/Docs-AWECore/AWECore_API_Doc/index.html" target="_blank">AWE Core Documentation</a>
+ * <a href="https://documentation.dspconcepts.com/awe-designer/latest-version/getting-started-with-awe-designer" target="_blank">
+  AWE Designer Getting Started Guide</a> 
+  
+----------------------------------------------------------------
+
+<div align="center" style="margin-top: 4em; font-size: smaller;"> <a
+rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="web_support/cc_license_icon.png" /></a><br />This work is licensed
+under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</div>
+
+</xmp>
+
+<link rel="stylesheet"
+href="web_support/highlight/styles/zenburn.css"/> <script
+src="web_support/strapdown/vendor/jquery-1.11.2.min.js"></script>
+<script src="web_support/strapdown/vendor/bootstrap.min.js"></script>
+<script src="web_support/highlight/highlight.pack.js"></script> <script
+src="web_support/strapdown/v/0.2/strapdown.js"></script>
+
+</html>

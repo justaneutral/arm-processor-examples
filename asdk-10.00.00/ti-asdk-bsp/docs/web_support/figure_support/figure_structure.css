@@ -1,0 +1,9 @@
+.figure {
+  text-align: center;
+  object-fit: contain;
+}
+
+.figure .figcaption {
+  text-align: center;
+  font-weight: bold;
+}

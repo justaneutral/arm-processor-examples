@@ -1,0 +1,38 @@
+obj/am62dx/ti-arm-clang/release/dm-r5f/drivers//ddr_perf.obj: \
+  ddr/ddr_perf.c ddr/ddr_perf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/soc_config.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/soc_config.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ddr/v1/soc/ddr_soc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ddr/v1/soc/am62dx/ddr_soc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/cslr_soc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_soc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/csl_psilcfg_thread_map.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/csl_soc_firewalls.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/cslr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/tistdtypes.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/csl_utils.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/cslr64.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/csl_soc_psc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_dmss_defines.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_c7x256v0_clec.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_gicss0_common_0.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_main_gpiomux_introuter0.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_mcu_r5fss0_core0.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_r5fss0_core0.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_intr_wkup_mcu_gpiomux_introuter0.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_mcu_ctrl_mmr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_mcu_r5fss0_baseaddress.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_psc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_r5fss0_baseaddress.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_soc_baseaddress.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_soc_ctrl_mmr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_main_ctrl_mmr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_wkup_ctrl_mmr.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/am62dx/cslr_soc_defines.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/ClockP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/HwiP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ddr/v0/csl_emif.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ddr/v0/cslr_emif.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ddr/v1/csl_emif.h

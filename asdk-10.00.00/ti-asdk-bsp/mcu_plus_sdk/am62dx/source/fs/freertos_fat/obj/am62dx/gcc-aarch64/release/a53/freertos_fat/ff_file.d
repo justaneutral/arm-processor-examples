@@ -1,0 +1,24 @@
+ff_file.obj: \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/ff_file.c \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_headers.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/portable/nortos/FreeRTOS.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/portable/nortos/task.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/portable/nortos/FreeRTOS.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/portable/nortos/semphr.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/config/FreeRTOSFATConfig.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/FreeRTOSFATConfigDefaults.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/FreeRTOS_errno_FAT.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_error.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_string.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_ioman.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_fat.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_fatdef.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_memory.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_time.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_crc.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_file.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_dir.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_format.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_locking.h \
+ /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT/include/ff_old_config_defines.h

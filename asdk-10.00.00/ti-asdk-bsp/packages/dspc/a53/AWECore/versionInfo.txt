@@ -1,0 +1,45 @@
+
+AWECore cortexa Build
+Built on:      Tue Mar 05 09:45:48 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    awecore-common
+Version:       AWE-7455_TI_c7x
+SHA:           0568b3f
+ 
+AWECore CortexA cortexa Build
+Built on:      Tue Mar 05 09:45:51 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    awecore-cortexa
+Version:       v15.RC2
+SHA:           db3c4f7
+ 
+cortexa Build -- Toolchain Info: [aarch64-gcc-arm-9.2-elf]
+Built on:      Tue Mar 05 09:45:55 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    dspc-cmake-toolchains
+Version:       master
+SHA:           a93c44e
+ 
+Recipe File Used: TI_am62a_build.recipe
+Built on:      Tue Mar 05 09:45:58 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    awecore-recipes
+Version:       master
+SHA:           4f75d25
+ 
+AWECore Build -- Module Set: awe-mod-dspc-snd
+Built on:      Tue Mar 05 09:46:02 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    awe-mod-dspc-snd
+Version:       SND-1.0.6
+SHA:           646aeec
+ 
+AWECore Build -- Module Set: awe-mod-dspc-vui
+Built on:      Tue Mar 05 09:46:05 EST 2024
+Build name:    release.awe.cortexa-1836
+Built from:    awe-mod-dspc-vui
+Version:       VUI-1.2.10
+SHA:           f746c16
+ 
+
+Includes 7200 second evaluation timeout.

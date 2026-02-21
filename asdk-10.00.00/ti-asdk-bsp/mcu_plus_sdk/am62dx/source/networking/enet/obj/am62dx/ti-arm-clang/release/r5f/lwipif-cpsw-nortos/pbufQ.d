@@ -1,0 +1,27 @@
+obj/am62dx/ti-arm-clang/release/r5f/lwipif-cpsw-nortos//pbufQ.obj: \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/lwipif/src/pbufQ.c \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/pbuf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/opt.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-config/am62dx/lwipopts.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-port/nortos/include/lwipopts_os.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/debug.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/arch.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-port/include/arch/cc.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/nortos/dpl/common/printf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack/src/include/lwip/err.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/lwipif/inc/pbufQ.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_utils.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/enet_cfg.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/soc/k3/am62dx/enet_soc_cfg.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_types.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/hw_include/csl_types.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_mod_macport.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_mod.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_ioctl.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_mod_port.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/priv/core/enet_trace_priv.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/core/enet_trace.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core/include/phy/enetphy.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/HwiP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h

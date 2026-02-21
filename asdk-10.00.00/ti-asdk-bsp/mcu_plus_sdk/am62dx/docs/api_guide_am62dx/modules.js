@@ -1,0 +1,26 @@
+var modules =
+[
+    [ "APIs for Board Specific Device Drivers", "group__BOARD__MODULE.html", "group__BOARD__MODULE" ],
+    [ "APIs for Driver Porting Layer", "group__KERNEL__DPL.html", "group__KERNEL__DPL" ],
+    [ "APIs for Networking modules", "group__NETWORKING__MODULE.html", "group__NETWORKING__MODULE" ],
+    [ "APIs for SOC Specific Device Drivers", "group__DRV__MODULE.html", "group__DRV__MODULE" ],
+    [ "APIs for Security Drivers", "group__SECURITY__MODULE.html", "group__SECURITY__MODULE" ],
+    [ "Bind unibase to a specific platform", "group__unibase__binding.html", "group__unibase__binding" ],
+    [ "Configuration Utilities", "group__confutils.html", "group__confutils" ],
+    [ "Control logging", "group__logging.html", "group__logging" ],
+    [ "Doubly Linked List", "group__llist.html", "group__llist" ],
+    [ "EnetLLD_network", "group__EnetLLD__network.html", "group__EnetLLD__network" ],
+    [ "Expand and Shrink Array", "group__esarray.html", "group__esarray" ],
+    [ "General types and functions", "group__combase.html", "group__combase" ],
+    [ "General types and functions", "group__unibase.html", "group__unibase" ],
+    [ "Gptp", "group__gptp.html", "group__gptp" ],
+    [ "Network functions binding", "group__network.html", "group__network" ],
+    [ "Shared memory IPC utility functions", "group__IPC__shm.html", "group__IPC__shm" ],
+    [ "String Utilities", "group__strutils.html", "group__strutils" ],
+    [ "TI ENET LLD ethernet specific", "group__lld__ethernet.html", "group__lld__ethernet" ],
+    [ "TI ENET LLD thread specific", "group__lld__thread.html", "group__lld__thread" ],
+    [ "Thread functions binding", "group__thread.html", "group__thread" ],
+    [ "Timer and events utility functions", "group__timer.html", "group__timer" ],
+    [ "Utility Macros", "group__unibase__macros.html", "group__unibase__macros" ],
+    [ "xTimer utility functions", "group__xtimer.html", "group__xtimer" ]
+];

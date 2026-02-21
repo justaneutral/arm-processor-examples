@@ -1,0 +1,11 @@
+obj/release//board.obj: ../board.c
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/stdint.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_ti_config.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/linkage.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_stdint40.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/stdint.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/cdefs.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_types.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_types.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_stdint.h
+obj/release//board.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_stdint.h

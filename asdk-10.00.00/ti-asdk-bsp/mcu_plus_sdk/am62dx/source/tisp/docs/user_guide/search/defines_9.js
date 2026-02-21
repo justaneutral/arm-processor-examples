@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['tisp_5ffft1dbatched_5fi32fc_5fc32fc_5fo32fc_5fpblock_5fsize_396',['TISP_FFT1DBATCHED_I32FC_C32FC_O32FC_PBLOCK_SIZE',['../TISP__fft1dBatched_8hpp.html#af233f4ae2b2a955dc74eb73ffd41b46b',1,'TISP_fft1dBatched.hpp']]],
+  ['tisp_5fmax_5fdma_5fchannel_5fsuper_5fnode_397',['TISP_MAX_DMA_CHANNEL_SUPER_NODE',['../TISP__superNode_8hpp.html#a8d6c8096c57b59958fb97e903f3735c4',1,'TISP_superNode.hpp']]],
+  ['total_5fdma_5fchannels_398',['TOTAL_DMA_CHANNELS',['../TISP__blockCopy__sqr__superNode__test_8cpp.html#af735330464f703ba17ace5e7e08a8804',1,'TOTAL_DMA_CHANNELS():&#160;TISP_blockCopy_sqr_superNode_test.cpp'],['../TISP__fft1dBatched__superNode__test_8cpp.html#af735330464f703ba17ace5e7e08a8804',1,'TOTAL_DMA_CHANNELS():&#160;TISP_fft1dBatched_superNode_test.cpp'],['../TISP__fft2d__superNode__test_8cpp.html#af735330464f703ba17ace5e7e08a8804',1,'TOTAL_DMA_CHANNELS():&#160;TISP_fft2d_superNode_test.cpp'],['../TISP__blockCopy__superNode__test_8cpp.html#af735330464f703ba17ace5e7e08a8804',1,'TOTAL_DMA_CHANNELS():&#160;TISP_blockCopy_superNode_test.cpp'],['../TISP__blockCopy__transpose__superNode__test_8cpp.html#af735330464f703ba17ace5e7e08a8804',1,'TOTAL_DMA_CHANNELS():&#160;TISP_blockCopy_transpose_superNode_test.cpp']]]
+];

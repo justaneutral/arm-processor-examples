@@ -1,0 +1,26 @@
+obj/am62dx/ti-arm-clang/release/dm-r5f/drivers//lpddr4.obj: \
+  ddr/cdn_drv/common/lpddr4.c ddr/cdn_drv/common/include/cdn_errno.h \
+  ddr/cdn_drv/common/include/cps_drv_lpddr4.h \
+  ddr/cdn_drv/common/include/cps.h \
+  ddr/cdn_drv/common/include/cdn_stdtypes.h \
+  ddr/cdn_drv/common/include/cdn_stdint.h \
+  ddr/cdn_drv/common/include/lpddr4_if.h \
+  ddr/cdn_drv/common/include/../../v1/include/lpddr4_if.h \
+  ddr/cdn_drv/common/include/../../v1/include/../../common/include/cdn_stdtypes.h \
+  ddr/cdn_drv/common/lpddr4.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_ctl_regs.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_ddr_controller_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_pi_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_data_slice_0_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_data_slice_1_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_data_slice_2_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_data_slice_3_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_address_slice_0_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_address_slice_1_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_address_slice_2_macros.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_phy_core_macros.h \
+  ddr/cdn_drv/common/lpddr4_sanity.h ddr/cdn_drv/common/lpddr4_am6x.h \
+  ddr/cdn_drv/common/../v1/include/lpddr4_ctl_regs_rw_masks.h \
+  ddr/cdn_drv/common/../v1/include/../../common/include/cdn_stdint.h \
+  ddr/cdn_drv/common/lpddr4_am6x_sanity.h \
+  ddr/cdn_drv/common/include/lpddr4_structs_if.h

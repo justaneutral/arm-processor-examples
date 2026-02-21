@@ -1,0 +1,30 @@
+obj/am62dx/ti-arm-clang/release/r5f/tsn_uniconf-freertos//ieee1588-ptp-tt.obj: \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/ieee1588-ptp-tt.c \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_buildconf/sitara_buildconf.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/unibase.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/unibase_macros.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_logging.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_esarray.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_strutils.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_llist.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_confutils.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_fileio.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_unibase/ub_getmem.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../yang_modules.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../yang_db_access.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_combase/cb_thread.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_combase/tilld/cb_lld_thread.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_combase/tilld/sitara/lld_thread.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/ClockP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/TaskP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SemaphoreP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../../uc_dbal.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../../hal/uc_hwal.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../../hal/../uc_dbal.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../../uc_notice.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../../yangs/yang_db_access.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/cores/generated/../../yang_node.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/ieee1588-ptp-tt.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack/tsn_uniconf/yangs/yang_db_access.h

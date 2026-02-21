@@ -1,0 +1,19 @@
+obj/am62dx/ti-arm-clang/release/r5f/sciclient_direct//Osal_wrapper.obj: \
+  Osal_wrapper.c \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/dpl/common/ClockP_freertos_priv.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/HwiP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SystemP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/DebugP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/ClockP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/SemaphoreP.h \
+  /home/pdourbal/ti/asdk-10.00.00/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/dpl/TimerP.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/FreeRTOS.h \
+  ../../../kernel/freertos/config/am62dx/r5f/FreeRTOSConfig.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/projdefs.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/portable.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/deprecated_definitions.h \
+  ../../../kernel/freertos/portable/TI_ARM_CLANG/ARM_CR5F/portmacro.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/mpu_wrappers.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/timers.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/task.h \
+  ../../../kernel/freertos/FreeRTOS-Kernel/include/list.h

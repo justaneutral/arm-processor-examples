@@ -1,0 +1,123 @@
+
+                              DSPC VUI RELEASE NOTES
+
+===============================================================================
+VERSION:  1.2.10
+RELEASE DATE: 2023-Jun-23
+-------------------------------------------------------------------------------
+    NEW FEATURES
+        - New SbDOAV2 module implements a Direction of Arrival algorithm
+
+===============================================================================
+VERSION:  1.2.9
+RELEASE DATE: 2023-Apr-17
+-------------------------------------------------------------------------------
+    BUG FIXES
+        - Optimized stereo Kalman AEC for HiFi5
+        - Optimized mono and stereo AEC's for CortexA
+        - Fixed scripting issue in stereo Kalman AEC test
+        - Fixed crash in SCNRv4 module on the HiFi4
+        - Moved some VUI modules from the 'DSP Concepts IP' folder to 'Voice' in module browser
+
+===============================================================================
+VERSION:  1.2.8
+RELEASE DATE: 2022-Nov-9
+-------------------------------------------------------------------------------
+    NEW FEATURES
+        - New 5 reference channel Kalman AEC module for improved performance of MC module
+        - Created profile_dspc_vui MATLAB script to profile all VUI modules
+
+    BUG FIXES
+        - Now include SCNRv4 module in all builds
+
+===============================================================================
+VERSION:  1.2.7.A
+RELEASE DATE: 2022-Jul-21
+-------------------------------------------------------------------------------
+    BUG FIXES
+        - Fixed the Beamformer inspector after updates to Designer repo
+
+===============================================================================
+VERSION:  1.2.7
+RELEASE DATE: 2022-Jul-5
+-------------------------------------------------------------------------------
+    NEW FEATURES
+        - New SCNR v4 module for improved Single Channel Noise Reduction
+        - Support for HiFi5 Kalman AEC optimizations
+        - Optimized mono Kalman AEC for HiFi4
+
+    BUG FIXES
+        - Fixed issue where numTaps could exceed maxTaps in AEC modules
+        - W2 weights in Kalman AEC's will now default to 1.0 instead of stale values when adaptation is frozen
+
+===============================================================================
+VERSION:  1.2.6
+RELEASE DATE: 2022-Mar-9
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES                              
+        - Ordering of data in weights output pin in Kalman AEC modules updated for convenience (potential for compatibility issues)
+        - AEC v1 module optimized for SHARC and C66xx platforms
+        - Cleaned up warning message when running regression test for Sb2MicAIAV1 module 
+        - Updated tests to complete and pass for SCNRv2, SbStereoAECV1, and SbAECV1
+
+===============================================================================
+VERSION:  1.2.5
+RELEASE DATE: 2021-Oct-31
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Updates to SbKalmanAEC modules: removed edit box for FFT size, and improved pin naming for clarity
+        - Adding SbKalmanAECMono to ST-VUI libraries
+        
+===============================================================================
+VERSION:  1.2.4
+RELEASE DATE: 2021-May-21
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Internal improvements
+    
+===============================================================================
+VERSION:  1.2.3
+RELEASE DATE: 2021-Apr-30
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Improved Kalman AEC algorithms to gracefully handle case where reference signal is zero
+        - Forced Kalman AEC modules to always have firstRun variable set on first run        
+        - Created new 3 and 4 reference channel Kalman AEC modules. These show improved performance over MC on certain targets    
+        - Fix to HiFi4 compiler bug for the stereo Kalman AEC module
+        - Fixes for module tests across multiple targets
+    
+===============================================================================
+VERSION:  1.2.2
+RELEASE DATE: 2021-Apr-20
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Improved regression tests to avoid memory allocation and false SNR failures
+        - Expanded support for module system testing 
+        - Added SSE2 build option to VS project to avoid float denormalization issues on Windows
+        - Corrected display of heat map for Beamformer V3 module inspector
+
+
+===============================================================================
+VERSION:  1.2.1
+RELEASE DATE: 2021-March-16
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - 3 new AEC modules: Sb Kalman AEC Mono, Stereo, and MultiChannel. These modules provide the following new features
+            - Significant optimizations across all targets
+            - A single module can now process multiple input channels, which saves memory and MIPS
+            - Optional freeze and reset input pins are available to allow for greater control of algorithm
+            - Various internal states and weights can be output on pins for further processing and debugging
+        - System tests now supported for these AEC modules:
+            SbStereoAECV1, SbStereoAECRNSOut, SbMultiAECV1, SbMultiAECRNSOut
+        - Various fixes to GCC DOA module, so it now works on Native target
+        - Fixed SCNRv2 regression test issue causing disconnect from Server for STM32 targets
+        - Beamformer inspector will now always close
+        - Fix to RNSOut AEC modules to avoid double suppression when outputing RNS weights
+
+
+KNOWN ISSUES
+    - GCC DOA module test fails on CortexM targets because IFFT size is larger than CortexM AWECore supports (4096)
+    - Kalman AEC modules are only compatible with Designer builds 8.C.1.2 or later
+    - Mono and Stereo Kalman AEC module tests will always run on core 0 if run as standalone tests. Can run test_dspc_vui(1, COREID) to test entire module pack on correct core. 
+    - System tests not supported or fail to run for some modules
+        

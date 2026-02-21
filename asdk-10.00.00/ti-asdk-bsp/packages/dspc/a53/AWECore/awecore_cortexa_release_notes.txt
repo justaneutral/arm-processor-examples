@@ -1,0 +1,96 @@
+
+                    AWECORE ARM CORTEXA RELEASE NOTES
+
+===============================================================================
+VERSION: 15
+RELEASE DATE: 2024-Mar-15
+-------------------------------------------------------------------------------
+    INTERNAL UPDATES ONLY
+
+===============================================================================
+VERSION: 14
+RELEASE DATE: 2023-Dec-15
+-------------------------------------------------------------------------------
+    UPDATES
+        - Build system improvements for QNX target support
+
+===============================================================================
+VERSION: 13
+RELEASE DATE: 2023-Apr-7
+-------------------------------------------------------------------------------
+    UPDATES
+        - Optimized the Biquad High Percision Vectorlib functions
+        - Updated Subtract function to support inputs with increments greater than 1
+
+===============================================================================
+VERSION: 12
+RELEASE DATE: 2023-Jan-25
+-------------------------------------------------------------------------------
+    UPDATES
+        - Internal updates to support latest AWE Core library (8.D.1)
+
+===============================================================================
+VERSION: 11
+RELEASE DATE: 2022-Sept-21
+-------------------------------------------------------------------------------
+    UPDATES
+        - Internal code management improvements
+
+===============================================================================
+VERSION: 10
+RELEASE DATE: 2022-Jul-5
+-------------------------------------------------------------------------------
+    UPDATES
+        - Optimized the decibel conversion Vectorlib functions
+        - Optimized the circular read/write Vectorlib functions
+        - Fixed debug builds
+
+===============================================================================
+VERSION:  9
+RELEASE DATE: 2022-May-22
+-------------------------------------------------------------------------------
+    UPDATES
+        - Internal coding and build system improvements
+
+===============================================================================
+VERSION:  8
+RELEASE DATE: 2022-Jan-7
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Remove fract32 modules by default from AWECore build ModuleList.h
+        - Internal updates to support new FilterBankFIRNChan module
+
+===============================================================================
+VERSION:  7
+RELEASE DATE: 2021-Nov-12
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Fixed an issue impacting multi-instance AWECore/OS applications
+        - CortexA FFT/IFFT/CFFT modules will now produce correct results in multi-instance applications
+
+===============================================================================
+VERSION:  6
+RELEASE DATE: 2021-Oct-31
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Internal support added for more toolchains
+
+===============================================================================
+VERSION:  5
+RELEASE DATE: 2021-May-17
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - No longer checking for divide by zero in real Divide module
+        - Updated all FIR functions to no longer require reversing coefficients
+
+===============================================================================
+VERSION:  4
+RELEASE DATE: 2021-March-16
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+        - Fix to Table Interpolation function to improve accuracy in AEC module use cases
+        - Optimized FIR Interpolator and Decimator modules
+
+    KNOWN ISSUES
+        - FIR modules force coefficients to be in reverse order. This can cause issues when users are manually updating the coefficients at run time.
+

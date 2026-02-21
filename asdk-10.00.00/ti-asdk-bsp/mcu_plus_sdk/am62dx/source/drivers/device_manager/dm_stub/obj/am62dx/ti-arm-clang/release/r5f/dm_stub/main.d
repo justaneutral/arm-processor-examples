@@ -1,0 +1,30 @@
+obj/am62dx/ti-arm-clang/release/r5f/dm_stub//main.obj: \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/main.c \
+  ../rm_pm_hal/rm_pm_hal_src/include/lib/bitops.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/types/short_types.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/tisci/lpm/tisci_lpm.h \
+  ../sciclient_direct/soc/am62ax/config.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/tisci/tisci_protocol.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/types/errno.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/lpscs.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/psc_raw.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/types/sbool.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/pll.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/baseaddress.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/pll_16fft_raw.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/mcu_ctrl_mmr.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/wkup_ctrl_mmr.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/wake_data.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/include/soc/am62ax/lpm_data.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/lpm_io.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/types/address_types.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/ctrlmmr_raw.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/ddr.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/lpm_serial_8250.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/lpm_string.h \
+  ../rm_pm_hal/rm_pm_hal_src/pm/include/types.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/lpm_trace.h \
+  ../rm_pm_hal/rm_pm_hal_src/include/lib/trace_protocol.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/sec_proxy.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/timeout.h \
+  ../rm_pm_hal/rm_pm_hal_src/lpm/vim_raw.h

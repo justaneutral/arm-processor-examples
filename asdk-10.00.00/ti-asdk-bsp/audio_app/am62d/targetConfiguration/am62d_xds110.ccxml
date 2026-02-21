@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="Texas Instruments XDS110 USB Debug Probe_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS110 USB Debug Probe_0" href="connections/TIXDS110_Connection.xml" id="Texas Instruments XDS110 USB Debug Probe_0" xml="TIXDS110_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS110 USB Debug Probe_0">
+            <instance XML_version="1.2" href="drivers/tixds510cs_dap.xml" id="drivers" xml="tixds510cs_dap.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cortexA53.xml" id="drivers" xml="tixds510cortexA53.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cortexM.xml" id="drivers" xml="tixds510cortexM.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510cortexR.xml" id="drivers" xml="tixds510cortexR.xml" xmlpath="drivers"/>       
+            <instance XML_version="1.2" href="drivers/tixds510c75x.xml" id="drivers" xml="tixds510c75x.xml" xmlpath="drivers"/>          
+            <instance XML_version="1.2" href="drivers/tixds510csstm.xml" id="drivers" xml="tixds510csstm.xml" xmlpath="drivers"/>  
+            <instance XML_version="1.2" href="drivers/tixds510ctset2.xml" id="drivers" xml="tixds510ctset2.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds510etbcs.xml" id="drivers" xml="tixds510etbcs.xml" xmlpath="drivers"/>
+            <property Type="choicelist" Value="3" id="SWD Mode Settings"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="AM62A_SK_EVM_0" href="boards/AM62A_SK_EVM.xml" id="AM62A_SK_EVM_0" xml="AM62A_SK_EVM.xml" xmlpath="boards"/>
+                <board XML_version="1.2" description="AM62A StarterKit Evaluation Module with LPDDR4" id="AM62A_SK_EVM_0">
+                    <device HW_revision="1.0" XML_version="1.2" description="AM62A - Cortex A53 Sitara(tm) Embedded Processor" id="AM62A_0" partnum="AM62A" simulation="no">
+                        <router HW_revision="1.0" XML_version="1.2" description="CS_DAP Router" id="CS_DAP_0" isa="CS_DAP">
+                            <subpath id="A53SS0_CORE0">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="A53SS0_CORE0_0" description="A53SS0 A53 Core 0" deviceSim="false" id="CortexA53_0" isa="CortexA53"/>
+                            </subpath>
+                            <subpath id="A53SS0_CORE1">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="A53SS0_CORE1_0" description="A53SS0 A53 Core 1" deviceSim="false" id="CortexA53_1" isa="CortexA53"/>
+                            </subpath>
+                            <subpath id="A53SS0_CORE2">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="A53SS0_CORE2_0" description="A53SS0 A53 Core 2" deviceSim="false" id="CortexA53_2" isa="CortexA53"/>
+                            </subpath>
+                            <subpath id="A53SS0_CORE3">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="A53SS0_CORE3_0" description="A53SS0 A53 Core 3" deviceSim="false" id="CortexA53_3" isa="CortexA53"/>
+                            </subpath>
+                            <subpath id="SMS0_TIFS">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="SMS0_TIFS_0" description="SMS TIFS M4F CPU" deviceSim="false" id="SMS_CM4_0_TIFS" isa="Cortex_M4F"/>
+                            </subpath>
+                            <subpath id="SMS0_HSM">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="SMS0_HSM_0" description="SMS HSM M4F CPU" deviceSim="false" id="SMS_CM4_1_HSM" isa="Cortex_M4F"/>
+                            </subpath>
+                            <subpath id="MCU_R5FSS0">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="MCU_R5FSS0_0" description="MCU R5F CPU" deviceSim="false" id="MCUSS_Cortex_R5" isa="Cortex_R5"/>
+                            </subpath>
+                            <subpath id="WKUP_R5FSS0">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="WKUP_R5FSS0_0" description="WKUP R5F CPU" deviceSim="false" id="WKUP_Cortex_R5" isa="Cortex_R5"/>
+                            </subpath>
+                            <subpath id="C7XSS0">
+                                <cpu HW_revision="1.0" XML_version="1.2" desc="C7XSS0_0" description="C7XSS0 C75x CPU" deviceSim="false" id="C75X_0" isa="TMS320C75XX"/>
+                            </subpath>
+                        </router>
+                    </device>
+                </board>
+            </platform>
+        </connection>
+    </configuration>    
+</configurations>

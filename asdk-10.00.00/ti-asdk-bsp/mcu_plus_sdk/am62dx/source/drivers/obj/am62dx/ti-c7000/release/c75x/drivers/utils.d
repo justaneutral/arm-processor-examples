@@ -1,0 +1,14 @@
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: utils/utils.c
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: utils/utils.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/stdint.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_ti_config.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/linkage.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/_stdint40.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/stdint.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/cdefs.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_types.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_types.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/machine/_stdint.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/sys/_stdint.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/string.h
+obj/am62dx/ti-c7000/release/c75x/drivers//utils.obj: /home/pdourbal/ti/ti-cgt-c7000_5.0.0.LTS/include/xlocale/_string.h

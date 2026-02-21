@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Uninstall Audio SDK
+Comment=Uninstall
+Icon=
+Exec=/home/p/ti/asdk-10.00.00/uninstall
+Terminal=false
+Path=/home/p/ti/asdk-10.00.00
