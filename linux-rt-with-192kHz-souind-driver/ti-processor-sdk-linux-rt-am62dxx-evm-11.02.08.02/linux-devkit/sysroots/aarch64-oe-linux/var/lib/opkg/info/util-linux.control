@@ -1,0 +1,17 @@
+Package: util-linux
+Version: 2.39.3-r0.158
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-1.0-or-later & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & MIT
+Architecture: aarch64
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: util-linux-libuuid
+Recommends: util-linux-addpart, util-linux-agetty, util-linux-blkdiscard, util-linux-blkid, util-linux-blkpr, util-linux-blkzone, util-linux-blockdev, util-linux-cal, util-linux-cfdisk, util-linux-chcpu, util-linux-chfn, util-linux-chmem, util-linux-choom, util-linux-chrt, util-linux-chsh, util-linux-col, util-linux-colcrt, util-linux-colrm, util-linux-column, util-linux-ctrlaltdel, util-linux-delpart, util-linux-dmesg, util-linux-eject, util-linux-fadvise, util-linux-fallocate, util-linux-fcntl-lock, util-linux-fdisk, util-linux-fincore, util-linux-findfs, util-linux-findmnt, util-linux-flock, util-linux-fsck, util-linux-fsck.cramfs, util-linux-fsfreeze, util-linux-fstrim, util-linux-getopt, util-linux-hardlink, util-linux-hexdump, util-linux-hwclock, util-linux-ionice, util-linux-ipcmk, util-linux-ipcrm, util-linux-ipcs, util-linux-irqtop, util-linux-isosize, util-linux-kill, util-linux-last, util-linux-ldattach, util-linux-logger, util-linux-look, util-linux-losetup, util-linux-lsblk, util-linux-lscpu, util-linux-lsfd, util-linux-lsipc, util-linux-lsirq, util-linux-lslocks, util-linux-lslogins, util-linux-lsmem, util-linux-lsns, util-linux-mcookie, util-linux-mesg, util-linux-mkfs, util-linux-mkfs.cramfs, util-linux-mkswap, util-linux-more, util-linux-mount, util-linux-mountpoint, util-linux-namei, util-linux-nologin, util-linux-nsenter, util-linux-partx, util-linux-pipesz, util-linux-pivot-root, util-linux-prlimit, util-linux-readprofile, util-linux-rename, util-linux-renice, util-linux-resizepart, util-linux-rev, util-linux-rfkill, util-linux-rtcwake, util-linux-runuser, util-linux-script, util-linux-scriptlive, util-linux-scriptreplay, util-linux-setarch, util-linux-setpriv, util-linux-setsid, util-linux-setterm, util-linux-sfdisk, util-linux-su, util-linux-sulogin, util-linux-swaplabel, util-linux-swapoff, util-linux-swapon, util-linux-switch-root, util-linux-taskset, util-linux-uclampset, util-linux-ul, util-linux-umount, util-linux-unshare, util-linux-utmpdump, util-linux-uuidd, util-linux-uuidgen, util-linux-uuidparse, util-linux-waitpid, util-linux-wall, util-linux-wdctl, util-linux-whereis, util-linux-wipefs, util-linux-write, util-linux-zramctl
+Source: util-linux_2.39.3.bb

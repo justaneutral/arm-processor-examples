@@ -1,0 +1,16 @@
+Package: nativesdk-qemu
+Version: 8.2.7-r0.194
+Description: Fast open source processor emulator
+ QEMU is a hosted virtual machine monitor: it emulates the machine's
+ processor through dynamic binary translation and provides a set of
+ different hardware and device models for the machine, enabling it to run
+ a variety of guest operating systems
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-qemu-common, nativesdk-qemu-system-aarch64, nativesdk-qemu-system-arm, nativesdk-qemu-system-i386, nativesdk-qemu-system-loongarch64, nativesdk-qemu-system-mips, nativesdk-qemu-system-mips64, nativesdk-qemu-system-mips64el, nativesdk-qemu-system-mipsel, nativesdk-qemu-system-ppc, nativesdk-qemu-system-ppc64, nativesdk-qemu-system-riscv32, nativesdk-qemu-system-riscv64, nativesdk-qemu-system-sh4, nativesdk-qemu-system-x86-64, nativesdk-qemu-user-aarch64, nativesdk-qemu-user-arm, nativesdk-qemu-user-i386, nativesdk-qemu-user-loongarch64, nativesdk-qemu-user-mips, nativesdk-qemu-user-mips.real, nativesdk-qemu-user-mips64, nativesdk-qemu-user-mips64el, nativesdk-qemu-user-mipsel, nativesdk-qemu-user-ppc, nativesdk-qemu-user-ppc64, nativesdk-qemu-user-ppc64le, nativesdk-qemu-user-riscv32, nativesdk-qemu-user-riscv64, nativesdk-qemu-user-sh4, nativesdk-qemu-user-x86-64
+Source: qemu_8.2.7.bb

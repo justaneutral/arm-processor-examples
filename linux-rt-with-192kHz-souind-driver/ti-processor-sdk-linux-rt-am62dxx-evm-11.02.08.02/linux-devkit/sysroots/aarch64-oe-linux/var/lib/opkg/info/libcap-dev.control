@@ -1,0 +1,17 @@
+Package: libcap-dev
+Version: 2.69-r0.166
+Description: Library for getting/setting POSIX.1e capabilities - Development files
+ A library providing the API to access POSIX capabilities. These allow
+ giving various kinds of specific privileges to individual users, without
+ giving them full root permissions.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause | GPL-2.0-only
+Architecture: aarch64
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap
+Recommends: glibc-dev, libcap (= 2.69-r0.166), libpam-dev
+Source: libcap_2.69.bb

@@ -1,0 +1,8 @@
+/usr/include/sbc	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/sbc/sbc.h	0100644
+/usr/lib/pkgconfig/sbc.pc	0100644
+/usr/lib/libsbc.so	0120777	libsbc.so.1.3.1
+/usr/include	040755

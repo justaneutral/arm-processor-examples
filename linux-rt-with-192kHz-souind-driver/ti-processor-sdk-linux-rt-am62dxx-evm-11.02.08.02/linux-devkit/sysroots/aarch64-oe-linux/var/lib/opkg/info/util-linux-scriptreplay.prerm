@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  scriptreplay /usr/bin/scriptreplay.util-linux

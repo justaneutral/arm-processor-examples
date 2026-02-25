@@ -1,0 +1,15 @@
+Package: open62541-dev
+Version: 1.3.8-r0.322
+Description: open62541 version 1.3.8-r0 - Development files
+ open62541 is an implementation of OPC UA (OPC Unified Architecture)  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MPL-2.0 & BSD-3-Clause & MIT
+Architecture: aarch64
+OE: open62541
+Homepage: https://github.com/open62541/open62541.git
+Recommends: glibc-dev, mbedtls-dev, open62541 (= 1.3.8-r0.322)
+Source: open62541_1.3.8.bb

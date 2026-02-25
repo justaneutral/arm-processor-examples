@@ -1,0 +1,77 @@
+/usr/lib/udev/rules.d/70-camera.rules	0100644
+/usr/lib/udev/rules.d/70-mouse.rules	0100644
+/usr/lib/systemd/system/systemd-hwdb-update.service	0100644
+/usr/sbin/udevadm	0120777	/usr/bin/udevadm
+/usr/lib/udev/rules.d/75-net-description.rules	0100644
+/usr/lib/systemd/system	040755
+/usr/lib/udev/rules.d/70-joystick.rules	0100644
+/usr/lib/udev/rules.d/60-dmi-id.rules	0100644
+/usr/lib/systemd/system/systemd-udevd.service	0100644
+/usr/lib/udev/rules.d/60-serial.rules	0100644
+/usr/bin/systemd-hwdb	0100755
+/usr/lib/udev/rules.d/README	0100644
+/usr/lib/udev/rules.d/64-btrfs.rules	0100644
+/usr/lib	040755
+/usr/lib/udev/rules.d/60-persistent-storage.rules	0100644
+/usr/lib/udev/rules.d/60-fido-id.rules	0100644
+/usr/lib/udev/scsi_id	0100755
+/usr/lib/systemd/system/sysinit.target.wants/systemd-udevd.service	0120777	../systemd-udevd.service
+/usr/lib/udev/rules.d/80-net-setup-link.rules	0100644
+/usr/lib/udev/mtd_probe	0100755
+/usr/lib/udev/rules.d/60-input-id.rules	0100644
+/etc/udev/rules.d/touchscreen.rules	0100644
+/usr/lib/systemd/system/systemd-udev-trigger.service	0100644
+/usr/lib/systemd/network	040755
+/usr/sbin	040755
+/usr/lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket	0120777	../systemd-udevd-kernel.socket
+/usr/lib/udev/rules.d/75-probe_mtd.rules	0100644
+/usr/lib/systemd/system/sysinit.target.wants/systemd-udev-trigger.service	0120777	../systemd-udev-trigger.service
+/usr/lib/udev/rules.d/70-touchpad.rules	0100644
+/usr/lib/systemd/system/systemd-udevd-control.socket	0100644
+/etc/udev/iocost.conf	0100644
+/usr/lib/systemd/system/initrd-udevadm-cleanup-db.service	0100644
+/usr/lib/udev/fido_id	0100755
+/usr/lib/systemd/system/systemd-udev-settle.service	0100644
+/usr/lib/udev/ata_id	0100755
+/usr/lib/udev/rules.d/60-block.rules	0100644
+/usr/lib/udev/rules.d/60-persistent-input.rules	0100644
+/usr/lib/udev/rules.d/81-net-dhcp.rules	0100644
+/etc/udev/hwdb.d	040755
+/usr/lib/udev/rules.d/60-cdrom_id.rules	0100644
+/usr/bin/udevadm	0100755
+/usr/bin	040755
+/usr/lib/udev/rules.d/78-sound-card.rules	0100644
+/usr/lib/udev/rules.d/50-udev-default.rules	0100644
+/usr/lib/systemd/systemd-udevd	0120777	../../bin/udevadm
+/usr/lib/udev/rules.d/90-vconsole.rules	0100644
+/usr/lib/udev/rules.d/60-persistent-storage-mtd.rules	0100644
+/usr/lib/udev/cdrom_id	0100755
+/usr	040755
+/etc	040755
+/usr/lib/udev/iocost	0100755
+/usr/lib/udev/rules.d/60-autosuspend.rules	0100644
+/usr/lib/systemd	040755
+/usr/lib/udev/rules.d/60-infiniband.rules	0100644
+/usr/lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket	0120777	../systemd-udevd-control.socket
+/usr/lib/udev/rules.d/60-sensor.rules	0100644
+/usr/lib/udev/v4l_id	0100755
+/usr/lib/udev/rules.d/60-persistent-alsa.rules	0100644
+/usr/lib/udev/rules.d/70-memory.rules	0100644
+/usr/lib/udev/rules.d/60-persistent-storage-tape.rules	0100644
+/etc/udev/udev.conf	0100644
+/etc/udev	040755
+/etc/udev/rules.d	040755
+/usr/lib/udev/rules.d/60-drm.rules	0100644
+/usr/lib/systemd/system/sysinit.target.wants	040755
+/usr/lib/udev/rules.d/90-iocost.rules	0100644
+/usr/lib/systemd/system/sockets.target.wants	040755
+/usr/lib/udev/rules.d/80-drivers.rules	0100644
+/usr/lib/systemd/system/systemd-udevd-kernel.socket	0100644
+/usr/sbin/udevd	0120777	/usr/lib/systemd/systemd-udevd
+/usr/lib/systemd/network/99-default.link	0100644
+/usr/lib/udev/rules.d/60-evdev.rules	0100644
+/usr/lib/udev/dmi_memory_id	0100755
+/usr/lib/udev/rules.d/70-power-switch.rules	0100644
+/usr/lib/udev	040755
+/usr/lib/udev/rules.d	040755
+/usr/lib/udev/rules.d/60-persistent-v4l.rules	0100644

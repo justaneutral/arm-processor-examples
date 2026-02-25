@@ -1,0 +1,15 @@
+Package: nativesdk-ca-certificates
+Version: 20250419-r0.1
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+Section: misc
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later & MPL-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-ca-certificates
+Homepage: http://packages.debian.org/sid/ca-certificates
+Depends: nativesdk-openssl, nativesdk-openssl-bin
+Source: ca-certificates_20250419.bb

@@ -1,0 +1,14 @@
+Package: nativesdk-python3-shell
+Version: 3.12.12-r0.20
+Description: Python shell-like functionality
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-python3-core, nativesdk-python3-stringold
+Source: python3_3.12.12.bb

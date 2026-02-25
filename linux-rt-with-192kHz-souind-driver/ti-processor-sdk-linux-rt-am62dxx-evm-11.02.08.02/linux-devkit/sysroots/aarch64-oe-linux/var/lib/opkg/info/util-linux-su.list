@@ -1,0 +1,6 @@
+/usr/bin/su.util-linux	0104755
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/etc/pam.d	040755
+/etc/pam.d/su-l	0120777	su

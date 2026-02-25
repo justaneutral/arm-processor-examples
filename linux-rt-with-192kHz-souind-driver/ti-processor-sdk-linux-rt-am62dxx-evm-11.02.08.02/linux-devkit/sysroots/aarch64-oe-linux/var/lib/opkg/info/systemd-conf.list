@@ -1,0 +1,11 @@
+/usr/lib/systemd/logind.conf.d	040755
+/usr/lib	040755
+/usr/lib/systemd/system.conf.d/00-systemd-conf.conf	0100644
+/usr/lib/systemd/network	040755
+/usr/lib/systemd/journald.conf.d	040755
+/usr/lib/systemd/logind.conf.d/00-systemd-conf.conf	0100644
+/usr	040755
+/usr/lib/systemd	040755
+/usr/lib/systemd/system.conf.d	040755
+/usr/lib/systemd/journald.conf.d/00-systemd-conf.conf	0100644
+/usr/lib/systemd/network/80-wired.network	0100644

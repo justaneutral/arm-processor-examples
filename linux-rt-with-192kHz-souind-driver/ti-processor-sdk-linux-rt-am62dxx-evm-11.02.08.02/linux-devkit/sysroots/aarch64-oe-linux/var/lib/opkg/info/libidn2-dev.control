@@ -1,0 +1,17 @@
+Package: libidn2-dev
+Version: 2.3.7-r0.71
+Description: Internationalized Domain Name support library - Development files
+ Implementation of the Stringprep, Punycode and IDNA specifications
+ defined by the IETF Internationalized Domain Names (IDN) working group.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: (GPL-2.0-or-later | LGPL-3.0-only) & GPL-3.0-or-later & Unicode-DFS-2016
+Architecture: aarch64
+OE: libidn2
+Homepage: http://www.gnu.org/software/libidn/
+Depends: libidn2
+Recommends: glibc-dev, libidn2-0 (= 2.3.7-r0.71), libunistring-dev
+Source: libidn2_2.3.7.bb

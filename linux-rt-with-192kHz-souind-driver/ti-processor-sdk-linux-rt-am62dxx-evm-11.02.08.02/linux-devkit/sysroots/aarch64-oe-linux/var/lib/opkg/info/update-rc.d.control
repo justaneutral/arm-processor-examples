@@ -1,0 +1,13 @@
+Package: update-rc.d
+Version: 0.8+git0+b8f9501050-r0.6
+Description: manage symlinks in /etc/rcN.d
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: all
+OE: update-rc.d
+Homepage: http://github.com/philb/update-rc.d/
+Source: update-rc.d_0.8.bb

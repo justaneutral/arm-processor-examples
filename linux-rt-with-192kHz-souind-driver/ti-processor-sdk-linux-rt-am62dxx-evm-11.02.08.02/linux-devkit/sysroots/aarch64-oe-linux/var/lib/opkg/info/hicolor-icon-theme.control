@@ -1,0 +1,13 @@
+Package: hicolor-icon-theme
+Version: 0.17-r0.20
+Description: Default icon theme that all icon themes automatically inherit from
+ The hicolor-icon-theme package contains a default fallback theme for
+ implementations of the icon theme specification.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: all
+OE: hicolor-icon-theme
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme
+Source: hicolor-icon-theme_0.17.bb

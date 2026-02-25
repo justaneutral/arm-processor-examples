@@ -1,0 +1,15 @@
+/usr/bin/speaker-test	0100755
+/usr/share/sounds/alsa/Noise.wav	0100644
+/usr/share/sounds/alsa/Rear_Left.wav	0100644
+/usr/share/sounds/alsa/Side_Left.wav	0100644
+/usr/share/sounds/alsa/Front_Right.wav	0100644
+/usr/bin	040755
+/usr/share/sounds/alsa/Rear_Center.wav	0100644
+/usr	040755
+/usr/share/sounds/alsa/Front_Left.wav	0100644
+/usr/share/sounds/alsa	040755
+/usr/share/sounds	040755
+/usr/share/sounds/alsa/Side_Right.wav	0100644
+/usr/share	040755
+/usr/share/sounds/alsa/Front_Center.wav	0100644
+/usr/share/sounds/alsa/Rear_Right.wav	0100644

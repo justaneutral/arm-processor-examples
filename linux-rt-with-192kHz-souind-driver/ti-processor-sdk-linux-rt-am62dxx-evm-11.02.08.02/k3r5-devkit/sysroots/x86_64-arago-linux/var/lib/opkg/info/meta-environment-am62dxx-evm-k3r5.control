@@ -1,0 +1,11 @@
+Package: meta-environment-am62dxx-evm-k3r5
+Version: 1.0-r0.144
+Description: Package of environment files for SDK
+ Package of environment files for SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-k3r5-nativesdk
+OE: meta-environment-am62dxx-evm-k3r5
+Source: meta-environment.bb

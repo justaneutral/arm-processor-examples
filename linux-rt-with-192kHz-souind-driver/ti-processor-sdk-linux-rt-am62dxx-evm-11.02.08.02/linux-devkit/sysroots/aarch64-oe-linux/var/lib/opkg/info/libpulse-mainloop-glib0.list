@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libpulse-mainloop-glib.so.0.0.6	0100755
+/usr/lib/libpulse-mainloop-glib.so.0	0120777	libpulse-mainloop-glib.so.0.0.6
+/usr	040755

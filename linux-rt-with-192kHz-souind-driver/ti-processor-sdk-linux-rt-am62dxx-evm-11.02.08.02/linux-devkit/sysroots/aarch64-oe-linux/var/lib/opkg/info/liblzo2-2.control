@@ -1,0 +1,15 @@
+Package: liblzo2-2
+Version: 2.10-r0.71
+Description: Lossless data compression library
+ A portable lossless data compression library written in ANSI C that
+ offers pretty fast compression and *extremely* fast decompression.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: lzo
+Source: lzo_2.10.bb

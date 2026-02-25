@@ -1,0 +1,16 @@
+Package: nativesdk-cmake
+Version: 3.28.3-r0.189
+Description: Cross-platform, open-source make system
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates
+ native makefiles and workspaces that can be used in the compiler
+ environment of your choice.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & BSD-1-Clause & MIT & BSD-1-Clause & MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-cmake
+Homepage: http://www.cmake.org/
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcurl4 (>= 8.7.1), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libz1 (>= 1.3.1)
+Source: cmake_3.28.3.bb

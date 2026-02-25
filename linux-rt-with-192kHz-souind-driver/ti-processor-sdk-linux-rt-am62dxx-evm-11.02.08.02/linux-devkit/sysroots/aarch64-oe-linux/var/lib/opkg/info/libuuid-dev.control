@@ -1,0 +1,20 @@
+Package: libuuid-dev
+Version: 2.39.3-r0.65
+Description: A suite of basic system administration utilities - Development files
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: util-linux-libuuid
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: util-linux-libuuid
+Recommends: glibc-dev, libuuid1 (= 2.39.3-r0.65)
+Provides: util-linux-libuuid-dev
+Source: util-linux-libuuid_2.39.3.bb

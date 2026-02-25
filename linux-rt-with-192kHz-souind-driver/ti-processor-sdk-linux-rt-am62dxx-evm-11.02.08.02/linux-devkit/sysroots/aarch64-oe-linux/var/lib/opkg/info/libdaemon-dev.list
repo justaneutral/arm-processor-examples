@@ -1,0 +1,14 @@
+/usr/include/libdaemon/dlog.h	0100644
+/usr/lib	040755
+/usr/include/libdaemon/dnonblock.h	0100644
+/usr/include/libdaemon	040755
+/usr/include/libdaemon/dfork.h	0100644
+/usr/lib/libdaemon.so	0120777	libdaemon.so.0.5.0
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/libdaemon/daemon.h	0100644
+/usr/include/libdaemon/dexec.h	0100644
+/usr/lib/pkgconfig/libdaemon.pc	0100644
+/usr/include/libdaemon/dpid.h	0100644
+/usr/include/libdaemon/dsignal.h	0100644
+/usr/include	040755

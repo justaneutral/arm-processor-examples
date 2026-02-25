@@ -1,0 +1,6 @@
+/usr/bin/seatd	0100755
+/usr/lib	040755
+/usr/bin	040755
+/usr/lib/libseat.so.1	0100755
+/usr	040755
+/usr/bin/seatd-launch	0100755

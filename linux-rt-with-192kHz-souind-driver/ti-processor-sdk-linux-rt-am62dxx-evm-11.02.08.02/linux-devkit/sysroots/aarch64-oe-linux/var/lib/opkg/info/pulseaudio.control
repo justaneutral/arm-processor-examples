@@ -1,0 +1,13 @@
+Package: pulseaudio
+Version: 17.0-r0.431
+Description: Sound server for Linux and Unix-like operating systems
+ A general purpose sound server intended to run as a middleware between
+ your applications and your hardware devices, either using ALSA or OSS.
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & MIT & BSD-3-Clause
+Architecture: aarch64
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Source: pulseaudio_17.0.bb

@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/lib/python3.12/__pycache__	040755
+/usr/lib/python3.12/bdb.py	0100644
+/usr/lib/python3.12/pdb.py	0100755
+/usr/lib/python3.12	040755
+/usr	040755
+/usr/lib/python3.12/__pycache__/pdb.cpython-312.pyc	0100644
+/usr/lib/python3.12/__pycache__/bdb.cpython-312.pyc	0100644

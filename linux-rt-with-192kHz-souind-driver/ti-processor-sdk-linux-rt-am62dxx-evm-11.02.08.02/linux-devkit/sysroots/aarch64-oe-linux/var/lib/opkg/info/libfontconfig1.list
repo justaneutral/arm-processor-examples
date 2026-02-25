@@ -1,0 +1,80 @@
+/etc/fonts/conf.d	040755
+/etc/fonts/conf.d/10-sub-pixel-none.conf	0120777	../../../usr/share/fontconfig/conf.avail/10-sub-pixel-none.conf
+/usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf	0100644
+/usr/share/fontconfig/conf.avail/25-unhint-nonlatin.conf	0100644
+/usr/share/fontconfig/conf.avail	040755
+/usr/share/fontconfig/conf.avail/10-yes-antialias.conf	0100644
+/etc/fonts/conf.d/10-scale-bitmap-fonts.conf	0120777	../../../usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+/var	040755
+/etc/fonts/conf.d/60-generic.conf	0120777	../../../usr/share/fontconfig/conf.avail/60-generic.conf
+/usr/share/fontconfig/conf.avail/11-lcdfilter-none.conf	0100644
+/usr/lib/libfontconfig.so.1.12.1	0100755
+/usr/share/fontconfig/conf.avail/60-generic.conf	0100644
+/usr/share/fontconfig/conf.avail/70-no-bitmaps.conf	0100644
+/usr/lib	040755
+/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf	0100644
+/usr/share/fontconfig/conf.avail/49-sansserif.conf	0100644
+/etc/fonts	040755
+/usr/share/fontconfig/conf.avail/65-khmer.conf	0100644
+/etc/fonts/conf.d/69-unifont.conf	0120777	../../../usr/share/fontconfig/conf.avail/69-unifont.conf
+/usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf	0100644
+/usr/share/fontconfig/conf.avail/69-unifont.conf	0100644
+/etc/fonts/conf.d/45-generic.conf	0120777	../../../usr/share/fontconfig/conf.avail/45-generic.conf
+/etc/fonts/conf.d/40-nonlatin.conf	0120777	../../../usr/share/fontconfig/conf.avail/40-nonlatin.conf
+/usr/share/fontconfig/conf.avail/45-generic.conf	0100644
+/usr/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf	0100644
+/etc/fonts/conf.d/10-hinting-slight.conf	0120777	../../../usr/share/fontconfig/conf.avail/10-hinting-slight.conf
+/etc/fonts/conf.d/11-lcdfilter-default.conf	0120777	../../../usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+/var/cache	040755
+/etc/fonts/conf.d/51-local.conf	0120777	../../../usr/share/fontconfig/conf.avail/51-local.conf
+/usr/share/fontconfig/conf.avail/10-autohint.conf	0100644
+/etc/fonts/conf.d/45-latin.conf	0120777	../../../usr/share/fontconfig/conf.avail/45-latin.conf
+/etc/fonts/conf.d/65-nonlatin.conf	0120777	../../../usr/share/fontconfig/conf.avail/65-nonlatin.conf
+/etc/fonts/conf.d/60-latin.conf	0120777	../../../usr/share/fontconfig/conf.avail/60-latin.conf
+/usr/share/xml/fontconfig	040755
+/usr/share/xml/fontconfig/fonts.dtd	0100644
+/etc/fonts/conf.d/49-sansserif.conf	0120777	../../../usr/share/fontconfig/conf.avail/49-sansserif.conf
+/etc/fonts/conf.d/48-spacing.conf	0120777	../../../usr/share/fontconfig/conf.avail/48-spacing.conf
+/usr/share/fontconfig/conf.avail/48-spacing.conf	0100644
+/usr/share/fontconfig/conf.avail/30-metric-aliases.conf	0100644
+/usr/share/fontconfig/conf.avail/10-no-antialias.conf	0100644
+/usr/lib/libfontconfig.so.1	0120777	libfontconfig.so.1.12.1
+/usr/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf	0100644
+/usr/share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf	0100644
+/usr/share/xml	040755
+/usr/share/fontconfig/conf.avail/50-user.conf	0100644
+/usr/share/fontconfig/conf.avail/51-local.conf	0100644
+/usr/share/fontconfig/conf.avail/10-hinting-medium.conf	0100644
+/usr	040755
+/etc	040755
+/etc/fonts/conf.d/65-fonts-persian.conf	0120777	../../../usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+/usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf	0100644
+/usr/share/fontconfig/conf.avail/45-latin.conf	0100644
+/usr/share/fontconfig/conf.avail/40-nonlatin.conf	0100644
+/etc/fonts/fonts.conf	0100644
+/var/cache/fontconfig	040755
+/usr/share/fontconfig/conf.avail/60-latin.conf	0100644
+/usr/share/fontconfig/conf.avail/90-synthetic.conf	0100644
+/usr/share/fontconfig/conf.avail/80-delicious.conf	0100644
+/usr/share/fontconfig/conf.avail/10-sub-pixel-none.conf	0100644
+/etc/fonts/conf.d/50-user.conf	0120777	../../../usr/share/fontconfig/conf.avail/50-user.conf
+/usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf	0100644
+/usr/share/fontconfig/conf.avail/11-lcdfilter-legacy.conf	0100644
+/usr/share/fontconfig	040755
+/usr/share/fontconfig/conf.avail/10-unhinted.conf	0100644
+/usr/share/fontconfig/conf.avail/10-hinting-none.conf	0100644
+/usr/share/fontconfig/conf.avail/65-nonlatin.conf	0100644
+/usr/share/fontconfig/conf.avail/10-hinting-full.conf	0100644
+/usr/share/fontconfig/conf.avail/11-lcdfilter-light.conf	0100644
+/etc/fonts/conf.d/10-yes-antialias.conf	0120777	../../../usr/share/fontconfig/conf.avail/10-yes-antialias.conf
+/etc/fonts/conf.d/30-metric-aliases.conf	0120777	../../../usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+/usr/share/fontconfig/conf.avail/65-fonts-persian.conf	0100644
+/usr/share	040755
+/etc/fonts/conf.d/90-synthetic.conf	0120777	../../../usr/share/fontconfig/conf.avail/90-synthetic.conf
+/etc/fonts/conf.d/80-delicious.conf	0120777	../../../usr/share/fontconfig/conf.avail/80-delicious.conf
+/usr/share/fontconfig/conf.avail/10-hinting-slight.conf	0100644
+/etc/fonts/conf.d/20-unhint-small-vera.conf	0120777	../../../usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+/usr/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf	0100644
+/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf	0100644
+/usr/share/fontconfig/conf.avail/35-lang-normalize.conf	0100644
+/etc/fonts/conf.d/README	0100644

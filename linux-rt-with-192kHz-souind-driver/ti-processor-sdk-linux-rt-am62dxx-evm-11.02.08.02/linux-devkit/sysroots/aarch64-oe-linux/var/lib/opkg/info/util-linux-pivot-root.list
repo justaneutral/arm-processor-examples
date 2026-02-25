@@ -1,0 +1,3 @@
+/usr/sbin	040755
+/usr	040755
+/usr/sbin/pivot_root.util-linux	0100755

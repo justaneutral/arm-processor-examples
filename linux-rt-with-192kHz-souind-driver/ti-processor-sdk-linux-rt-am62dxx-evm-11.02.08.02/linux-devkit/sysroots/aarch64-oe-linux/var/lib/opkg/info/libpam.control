@@ -1,0 +1,16 @@
+Package: libpam
+Version: 1.5.3-r0.72
+Description: Linux-PAM (Pluggable Authentication Modules)
+ Linux-PAM (Pluggable Authentication Modules for Linux), a flexible
+ mechanism for authenticating users
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later | BSD-3-Clause
+Architecture: aarch64
+OE: libpam
+Homepage: https://fedorahosted.org/linux-pam/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Recommends: libpam-runtime-suffix
+Provides: libpam-suffix
+Source: libpam_1.5.3.bb

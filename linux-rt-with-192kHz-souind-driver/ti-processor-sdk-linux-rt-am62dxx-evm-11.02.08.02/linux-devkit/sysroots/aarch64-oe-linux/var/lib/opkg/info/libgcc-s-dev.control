@@ -1,0 +1,18 @@
+Package: libgcc-s-dev
+Version: 13.4.0-r0.39
+Description: GNU cc and gcc C compilers - Development files
+ The GNU Compiler Collection includes front ends for C, C++, Objective-C,
+ Fortran, Ada, Go, and D, as well as libraries for these languages
+ (libstdc++,...). GCC was originally written as the compiler for the GNU
+ operating system.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-GCC-exception
+Architecture: aarch64
+OE: libgcc
+Homepage: http://www.gnu.org/software/gcc/
+Recommends: glibc-dev, libgcc1 (= 13.4.0-r0.39)
+Provides: libgcc-dev
+Source: libgcc_13.4.bb

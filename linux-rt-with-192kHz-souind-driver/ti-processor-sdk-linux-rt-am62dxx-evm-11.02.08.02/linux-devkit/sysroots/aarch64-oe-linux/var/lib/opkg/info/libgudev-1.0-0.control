@@ -1,0 +1,18 @@
+Package: libgudev-1.0-0
+Version: 238-r0.426
+Description: GObject wrapper for libudev
+ This library makes it much simpler to use libudev from programs already
+ using GObject. It also makes it possible to easily use libudev from other
+ programming languages, such as Javascript, because of GObject
+ introspection support.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libgudev
+Homepage: https://wiki.gnome.org/Projects/libgudev
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libglib-2.0-0 (>= 2.78.6), libudev1 (>= 255.21)
+Provides: libgudev
+Conflicts: systemd (<= 220)
+Source: libgudev_238.bb

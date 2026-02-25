@@ -1,0 +1,14 @@
+Package: libgdk-pixbuf-2.0-loader-gif
+Version: 2.42.12-r0.375
+Description: GDK pixbuf loader for gif
+ GDK pixbuf loader for gif
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: gdk-pixbuf
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgdk-pixbuf-2.0-0 (>= 2.42.12), libglib-2.0-0 (>= 2.78.6)
+Provides: gdk-pixbuf-loader-gif
+Source: gdk-pixbuf_2.42.12.bb

@@ -1,0 +1,16 @@
+Package: libkmod2
+Version: 31-r0.84
+Description: Tools for managing Linux kernel modules
+ kmod is a set of tools to handle common tasks with Linux kernel modules
+ like                insert, remove, list, check properties, resolve
+ dependencies and aliases.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: kmod
+Homepage: http://kernel.org/pub/linux/utils/kernel/kmod/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcrypto3 (>= 3.2.6), liblzma5 (>= 5.4.7), libz1 (>= 1.3.1)
+Provides: libkmod
+Source: kmod_31.bb

@@ -1,0 +1,19 @@
+/var	040755
+/usr/lib/systemd/system	040755
+/usr/lib	040755
+/usr/lib/systemd/system/var-volatile-lib.service	0100644
+/usr/sbin/mount-copybind	0100755
+/var/cache	040755
+/usr/sbin	040755
+/etc/tmpfiles.d	040755
+/usr/lib/systemd/system/var-volatile-spool.service	0100644
+/usr/lib/systemd/system-preset/98-volatile-binds.preset	0100644
+/srv	040755
+/etc/tmpfiles.d/etc.conf	0120777	/dev/null
+/usr	040755
+/etc	040755
+/usr/lib/systemd/system/var-volatile-cache.service	0100644
+/usr/lib/systemd	040755
+/usr/lib/systemd/system-preset	040755
+/etc/tmpfiles.d/home.conf	0120777	/dev/null
+/usr/lib/systemd/system/var-volatile-srv.service	0100644

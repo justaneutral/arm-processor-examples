@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/libxcrypt.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/crypt.h	0100644
+/usr/include	040755
+/usr/lib/pkgconfig/libcrypt.pc	0120777	libxcrypt.pc
+/usr/lib/libcrypt.so	0120777	libcrypt.so.2.0.0

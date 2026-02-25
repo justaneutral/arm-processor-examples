@@ -1,0 +1,14 @@
+Package: libmp3lame-dev
+Version: 3.100-r0.70
+Description: High quality MP3 audio encoder
+ LAME is an educational tool to be used for learning about MP3 encoding.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.0-or-later
+Architecture: aarch64
+OE: lame
+Homepage: https://lame.sourceforge.io/
+Depends: libmp3lame
+Recommends: glibc-dev, ncurses-dev
+Source: lame_3.100.bb

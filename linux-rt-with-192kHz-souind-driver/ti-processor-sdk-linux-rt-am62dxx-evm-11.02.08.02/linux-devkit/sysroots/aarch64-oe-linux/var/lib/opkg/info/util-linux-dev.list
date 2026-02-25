@@ -1,0 +1,20 @@
+/usr/include/blkid/blkid.h	0100644
+/usr/lib/pkgconfig/blkid.pc	0100644
+/usr/lib/libfdisk.so	0120777	libfdisk.so.1.1.0
+/usr/lib/libblkid.so	0120777	libblkid.so.1.1.0
+/usr/lib	040755
+/usr/include/libmount	040755
+/usr/include/blkid	040755
+/usr/include/libmount/libmount.h	0100644
+/usr/include/libsmartcols	040755
+/usr/include/libfdisk/libfdisk.h	0100644
+/usr	040755
+/usr/include/libsmartcols/libsmartcols.h	0100644
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/mount.pc	0100644
+/usr/include/libfdisk	040755
+/usr/lib/libmount.so	0120777	libmount.so.1.1.0
+/usr/lib/pkgconfig/smartcols.pc	0100644
+/usr/lib/libsmartcols.so	0120777	libsmartcols.so.1.1.0
+/usr/include	040755
+/usr/lib/pkgconfig/fdisk.pc	0100644

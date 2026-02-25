@@ -1,0 +1,16 @@
+Package: libmnl0
+Version: 1.0.5-r0.66
+Description: Minimalistic user-space Netlink utility library
+ Minimalistic user-space library oriented to Netlink developers, providing
+ functions for common tasks in parsing, validating, and constructing both
+ the Netlink header and TLVs.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libmnl
+Homepage: https://www.netfilter.org/projects/libmnl/index.html
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libmnl
+Source: libmnl_1.0.5.bb

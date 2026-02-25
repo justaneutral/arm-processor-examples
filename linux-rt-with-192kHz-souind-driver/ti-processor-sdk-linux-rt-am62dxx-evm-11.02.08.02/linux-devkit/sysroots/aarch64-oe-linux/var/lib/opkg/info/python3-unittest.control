@@ -1,0 +1,14 @@
+Package: python3-unittest
+Version: 3.12.12-r0.6
+Description: Python unit testing framework
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: aarch64
+OE: python3
+Homepage: http://www.python.org
+Depends: python3-asyncio, python3-core, python3-difflib, python3-io, python3-logging, python3-netclient, python3-numbers, python3-pprint, python3-stringold
+Source: python3_3.12.12.bb

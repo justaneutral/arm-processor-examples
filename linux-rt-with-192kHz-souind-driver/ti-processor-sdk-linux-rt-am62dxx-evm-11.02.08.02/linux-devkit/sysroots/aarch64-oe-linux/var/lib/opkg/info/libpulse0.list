@@ -1,0 +1,7 @@
+/usr/lib/libpulse.so.0	0120777	libpulse.so.0.24.3
+/usr/lib/libpulse.so.0.24.3	0100755
+/usr/lib	040755
+/usr	040755
+/etc	040755
+/etc/pulse	040755
+/etc/pulse/client.conf	0100644

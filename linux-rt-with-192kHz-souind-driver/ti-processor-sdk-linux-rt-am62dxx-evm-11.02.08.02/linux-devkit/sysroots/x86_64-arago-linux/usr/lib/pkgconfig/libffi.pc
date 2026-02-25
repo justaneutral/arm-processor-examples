@@ -1,0 +1,11 @@
+prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+exec_prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib
+toolexeclibdir=${libdir}
+includedir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.6
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

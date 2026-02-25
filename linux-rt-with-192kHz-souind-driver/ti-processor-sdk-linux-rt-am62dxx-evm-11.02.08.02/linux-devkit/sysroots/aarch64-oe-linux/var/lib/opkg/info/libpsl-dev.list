@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/libpsl.so	0120777	libpsl.so.5.3.5
+/usr/include/libpsl.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/libpsl.pc	0100644
+/usr/include	040755

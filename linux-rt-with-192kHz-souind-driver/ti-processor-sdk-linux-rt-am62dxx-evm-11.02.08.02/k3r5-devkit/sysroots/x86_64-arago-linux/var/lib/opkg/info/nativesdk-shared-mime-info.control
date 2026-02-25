@@ -1,0 +1,13 @@
+Package: nativesdk-shared-mime-info
+Version: 2.4-r0.158
+Description: Shared MIME type database and specification
+ The shared-mime-info package contains the core database of common types.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libxml2-2 (>= 2.12.10)
+Source: shared-mime-info_2.4.bb

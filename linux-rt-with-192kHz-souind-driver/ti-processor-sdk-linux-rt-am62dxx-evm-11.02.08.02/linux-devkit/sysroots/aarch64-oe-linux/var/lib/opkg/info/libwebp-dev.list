@@ -1,0 +1,22 @@
+/usr/include/webp/mux_types.h	0100644
+/usr/lib/libwebpmux.so	0120777	libwebpmux.so.3.0.13
+/usr/lib/libwebp.so	0120777	libwebp.so.7.1.8
+/usr/lib	040755
+/usr/include/webp/sharpyuv/sharpyuv.h	0100644
+/usr/include/webp/encode.h	0100644
+/usr/include/webp/decode.h	0100644
+/usr/include/webp/types.h	0100644
+/usr/lib/pkgconfig/libwebpdemux.pc	0100644
+/usr/lib/pkgconfig/libwebpmux.pc	0100644
+/usr/include/webp/sharpyuv/sharpyuv_csp.h	0100644
+/usr/include/webp/demux.h	0100644
+/usr/lib/pkgconfig/libsharpyuv.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/libwebpdemux.so	0120777	libwebpdemux.so.2.0.14
+/usr/include/webp/sharpyuv	040755
+/usr/lib/pkgconfig/libwebp.pc	0100644
+/usr/lib/libsharpyuv.so	0120777	libsharpyuv.so.0.0.1
+/usr/include	040755
+/usr/include/webp	040755
+/usr/include/webp/mux.h	0100644

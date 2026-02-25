@@ -1,0 +1,20 @@
+Package: cryptodev-module
+Version: 1.14-r0.arago0.553
+Description: A /dev/crypto device driver kernel module
+ Cryptodev-linux is a device that allows access to Linux kernel
+ cryptographic drivers; thus allowing of userspace applications to take
+ advantage of hardware accelerators. Cryptodev-linux is implemented as a
+ standalone module that requires no dependencies other than a stock linux
+ kernel. Its API is compatible with OpenBSD's cryptodev userspace API
+ (/dev/crypto).
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62dxx_evm
+OE: cryptodev-module
+Homepage: http://cryptodev-linux.org/
+Depends: kernel-module-cryptodev-6.12.57-ti-rt-g31b07ab8dfbc
+Replaces: ocf-linux
+Conflicts: ocf-linux
+Source: cryptodev-module_1.14.bb

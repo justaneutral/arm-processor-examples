@@ -1,0 +1,14 @@
+Package: nativesdk-linux-libc-headers-dev
+Version: 6.6-r0.3
+Description: Sanitized set of kernel headers for the C library's use - Development files
+ Designed to maintain an Application Programming Interface (API) stable
+ version of the Linux headers  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-linux-libc-headers
+Homepage: https://www.kernel.org/
+Source: linux-libc-headers_6.6.bb

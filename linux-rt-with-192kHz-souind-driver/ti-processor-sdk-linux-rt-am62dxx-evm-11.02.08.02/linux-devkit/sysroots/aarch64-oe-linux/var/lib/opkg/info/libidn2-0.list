@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libidn2.so.0.4.0	0100755
+/usr/lib/libidn2.so.0	0120777	libidn2.so.0.4.0

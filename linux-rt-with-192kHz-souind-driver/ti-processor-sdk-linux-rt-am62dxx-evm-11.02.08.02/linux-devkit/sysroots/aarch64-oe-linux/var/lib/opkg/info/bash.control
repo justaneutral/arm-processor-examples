@@ -1,0 +1,18 @@
+Package: bash
+Version: 5.2.21-r0.arago0.67
+Description: An sh-compatible command language interpreter
+ Bash is the GNU Project's Bourne Again SHell, a complete implementation
+ of the IEEE POSIX and Open Group shell specification with interactive
+ command line editing, job control on architectures that support it, csh-
+ like features such as history substitution and brace expansion, and a
+ slew of other features.
+Section: base/shell
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: bash
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Depends: base-files, libc6 (>= 2.39+git47+58cbbd43fe), libtinfo5 (>= 6.4), update-alternatives-opkg
+Provides: /bin/bash, /bin/sh
+Source: bash_5.2.21.bb

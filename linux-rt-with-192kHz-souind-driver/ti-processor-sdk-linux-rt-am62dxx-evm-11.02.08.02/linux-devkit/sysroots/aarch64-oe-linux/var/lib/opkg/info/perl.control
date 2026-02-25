@@ -1,0 +1,14 @@
+Package: perl
+Version: 5.38.4-r0.43
+Description: Perl scripting language
+ Perl is a highly capable, feature-rich programming language
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Artistic-1.0 | GPL-1.0-or-later
+Architecture: aarch64
+OE: perl
+Homepage: http://www.perl.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcrypt2 (>= 4.4.36), perl-module-config-heavy
+Provides: perl-module-config, perl-module-config-git, perl-module-strict, perl-module-vars, perl-module-warnings, perl-module-warnings-register
+Source: perl_5.38.4.bb

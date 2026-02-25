@@ -1,0 +1,6 @@
+/usr/lib/libgcrypt.so.20.4.3	0100755
+/usr/lib	040755
+/usr/bin	040755
+/usr/lib/libgcrypt.so.20	0120777	libgcrypt.so.20.4.3
+/usr	040755
+/usr/bin/mpicalc	0100755

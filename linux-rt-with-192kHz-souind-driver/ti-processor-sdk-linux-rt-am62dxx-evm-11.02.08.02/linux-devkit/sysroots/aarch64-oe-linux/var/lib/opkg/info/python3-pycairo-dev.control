@@ -1,0 +1,16 @@
+Package: python3-pycairo-dev
+Version: 1.26.0-r0.374
+Description: Python bindings for the Cairo canvas library - Development files
+ Python bindings for the Cairo canvas library.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only & MPL-1.1
+Architecture: aarch64
+OE: python3-pycairo
+Homepage: http://cairographics.org/pycairo
+Depends: cairo-dev
+Recommends: cairo-dev, glibc-dev, python3-dev, python3-pycairo (= 1.26.0-r0.374)
+Source: python3-pycairo_1.26.0.bb

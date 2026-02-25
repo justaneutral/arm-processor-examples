@@ -1,0 +1,8 @@
+/usr/share/licenses	040755
+/usr/share/licenses/SDL2/LICENSE.txt	0100644
+/usr/lib	040755
+/usr/lib/libSDL2-2.0.so.0	0120777	libSDL2-2.0.so.0.3000.1
+/usr	040755
+/usr/lib/libSDL2-2.0.so.0.3000.1	0100755
+/usr/share	040755
+/usr/share/licenses/SDL2	040755

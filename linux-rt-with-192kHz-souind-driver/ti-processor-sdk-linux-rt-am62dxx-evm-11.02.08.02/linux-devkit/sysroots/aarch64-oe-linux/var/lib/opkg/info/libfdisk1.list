@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libfdisk.so.1	0120777	libfdisk.so.1.1.0
+/usr/lib/libfdisk.so.1.1.0	0100755
+/usr	040755

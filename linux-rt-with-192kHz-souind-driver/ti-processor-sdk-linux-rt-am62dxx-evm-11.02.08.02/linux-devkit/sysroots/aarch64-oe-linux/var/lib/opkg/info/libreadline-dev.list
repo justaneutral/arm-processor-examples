@@ -1,0 +1,17 @@
+/usr/lib	040755
+/usr/include/readline/history.h	0100644
+/usr/include/readline/rltypedefs.h	0100644
+/usr/include/readline/tilde.h	0100644
+/usr/include/readline/rlconf.h	0100644
+/usr/lib/pkgconfig/history.pc	0100644
+/usr/include/readline/rlstdc.h	0100644
+/usr/lib/libhistory.so	0120777	libhistory.so.8.2
+/usr/lib/pkgconfig/readline.pc	0100644
+/usr/include/readline/readline.h	0100644
+/usr/include/readline	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/readline/keymaps.h	0100644
+/usr/lib/libreadline.so	0120777	libreadline.so.8.2
+/usr/include/readline/chardefs.h	0100644
+/usr/include	040755

@@ -1,0 +1,18 @@
+/usr/include/gudev-1.0/gudev	040755
+/usr/lib/pkgconfig/gudev-1.0.pc	0100644
+/usr/include/gudev-1.0/gudev/gudevenumerator.h	0100644
+/usr/lib/libgudev-1.0.so	0120777	libgudev-1.0.so.0
+/usr/lib	040755
+/usr/include/gudev-1.0/gudev/gudevenumtypes.h	0100644
+/usr/include/gudev-1.0/gudev/gudevdevice.h	0100644
+/usr/share/gir-1.0	040755
+/usr/share/gir-1.0/GUdev-1.0.gir	0100644
+/usr/include/gudev-1.0	040755
+/usr	040755
+/usr/include/gudev-1.0/gudev/gudevenums.h	0100644
+/usr/lib/pkgconfig	040755
+/usr/include/gudev-1.0/gudev/gudev.h	0100644
+/usr/include/gudev-1.0/gudev/gudevtypes.h	0100644
+/usr/share	040755
+/usr/include/gudev-1.0/gudev/gudevclient.h	0100644
+/usr/include	040755

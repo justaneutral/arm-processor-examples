@@ -1,0 +1,15 @@
+Package: libmicrohttpd12
+Version: 1.0.1-r0.168
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application
+ A small C library that is supposed to make it easy to run an HTTP server
+ as part of another application.
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libmicrohttpd
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgnutls30 (>= 3.8.4)
+Provides: libmicrohttpd
+Source: libmicrohttpd_1.0.1.bb

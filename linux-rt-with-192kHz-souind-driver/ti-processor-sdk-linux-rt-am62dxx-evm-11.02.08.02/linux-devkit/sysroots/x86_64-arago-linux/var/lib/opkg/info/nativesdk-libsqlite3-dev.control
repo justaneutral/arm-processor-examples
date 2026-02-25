@@ -1,0 +1,18 @@
+Package: nativesdk-libsqlite3-dev
+Version: 3:3.45.3-r0.159
+Description: Embeddable SQL database engine
+ A library that implements a small, fast, self-contained, high-
+ reliability, full-featured, SQL database engine. SQLite is the most used
+ database engine in the world. SQLite is built into all mobile phones and
+ most computers and comes bundled inside countless other applications that
+ people use every day
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: x86_64-nativesdk
+OE: nativesdk-sqlite3
+Homepage: http://www.sqlite.org
+Depends: nativesdk-libsqlite3
+Recommends: nativesdk-glibc-dev
+Source: sqlite3_3.45.3.bb

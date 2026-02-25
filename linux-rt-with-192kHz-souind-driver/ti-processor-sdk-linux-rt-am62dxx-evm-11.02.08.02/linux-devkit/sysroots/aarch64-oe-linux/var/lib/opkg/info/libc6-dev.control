@@ -1,0 +1,17 @@
+Package: libc6-dev
+Version: 2.39+git47+58cbbd43fe-r0.63
+Description: GLIBC (GNU C Library) - Development files
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: glibc, glibc-extra-nss, glibc-thread-db, libnss-db, linux-libc-headers-dev, malloc-debug
+Recommends: glibc-extra-nss-dev, glibc-thread-db-dev, glibc-utils-dev, libc6 (= 2.39+git47+58cbbd43fe-r0.63), libgcc-initial-dev, libnss-db-dev, linux-libc-headers-dev, malloc-debug-dev
+Provides: eglibc-dev, glibc-dev, libc-dev, libc6-dev, virtual-libc-dev
+Source: glibc_2.39.bb

@@ -1,0 +1,13 @@
+Package: systemd-conf
+Version: 1:1.0-r0.7
+Description: Systemd system configuration
+ Systemd may require slightly different configuration for different
+ machines.  For example, qemu machines require a longer
+ DefaultTimeoutStartSec setting.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: systemd-conf
+Source: systemd-conf_1.0.bb

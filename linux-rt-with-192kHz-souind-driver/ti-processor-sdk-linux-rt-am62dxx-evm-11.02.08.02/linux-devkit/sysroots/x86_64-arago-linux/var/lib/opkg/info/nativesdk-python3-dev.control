@@ -1,0 +1,17 @@
+Package: nativesdk-python3-dev
+Version: 3.12.12-r0.20
+Description: Python development package
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-python3-core, nativesdk-update-alternatives-opkg
+Recommends: nativesdk-bash-dev, nativesdk-bzip2-dev, nativesdk-expat-dev, nativesdk-gdbm-compat-dev, nativesdk-gdbm-dev, nativesdk-glibc-dev, nativesdk-ldconfig-dev, nativesdk-libbz2-dev, nativesdk-libcrypto-dev, nativesdk-libedit-dev, nativesdk-libffi-dev, nativesdk-libgcc-dev, nativesdk-liblzma-dev, nativesdk-libnsl2-dev, nativesdk-libpython3-dev, nativesdk-libsqlite3-dev, nativesdk-libssl-dev, nativesdk-libtirpc-dev, nativesdk-libxcrypt-dev, nativesdk-ncurses-dev, nativesdk-ncurses-libncursesw-dev, nativesdk-ncurses-libpanelw-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-openssl-dev, nativesdk-python3-2to3-dev, nativesdk-python3-asyncio-dev, nativesdk-python3-audio-dev, nativesdk-python3-codecs-dev, nativesdk-python3-compile-dev, nativesdk-python3-compression-dev, nativesdk-python3-core-dev, nativesdk-python3-crypt-dev, nativesdk-python3-ctypes-dev, nativesdk-python3-curses-dev, nativesdk-python3-datetime-dev, nativesdk-python3-db-dev, nativesdk-python3-debugger-dev, nativesdk-python3-difflib-dev, nativesdk-python3-doctest-dev, nativesdk-python3-email-dev, nativesdk-python3-ensurepip-dev, nativesdk-python3-fcntl-dev, nativesdk-python3-html-dev, nativesdk-python3-idle-dev, nativesdk-python3-image-dev, nativesdk-python3-io-dev, nativesdk-python3-json-dev, nativesdk-python3-logging-dev, nativesdk-python3-mailbox-dev, nativesdk-python3-math-dev, nativesdk-python3-mime-dev, nativesdk-python3-misc-dev, nativesdk-python3-mmap-dev, nativesdk-python3-modules-dev, nativesdk-python3-multiprocessing-dev, nativesdk-python3-netclient-dev, nativesdk-python3-netserver-dev, nativesdk-python3-numbers-dev, nativesdk-python3-pickle-dev, nativesdk-python3-pkgutil-dev, nativesdk-python3-plistlib-dev, nativesdk-python3-pprint-dev, nativesdk-python3-profile-dev, nativesdk-python3-pydoc-dev, nativesdk-python3-resource-dev, nativesdk-python3-shell-dev, nativesdk-python3-sqlite3-dev, nativesdk-python3-statistics-dev, nativesdk-python3-stringold-dev, nativesdk-python3-syslog-dev, nativesdk-python3-terminal-dev, nativesdk-python3-threading-dev, nativesdk-python3-tkinter-dev, nativesdk-python3-tomllib-dev, nativesdk-python3-unittest-dev, nativesdk-python3-unixadmin-dev, nativesdk-python3-venv-dev, nativesdk-python3-xml-dev, nativesdk-python3-xmlrpc-dev, nativesdk-python3-zoneinfo-dev, nativesdk-sqlite3-dev, nativesdk-update-alternatives-opkg-dev, nativesdk-util-linux-libuuid-dev, nativesdk-xz-dev, nativesdk-zlib-dev
+Source: python3_3.12.12.bb

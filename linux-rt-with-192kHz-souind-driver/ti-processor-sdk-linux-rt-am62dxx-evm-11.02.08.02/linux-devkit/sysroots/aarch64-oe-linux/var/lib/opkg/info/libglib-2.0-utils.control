@@ -1,0 +1,16 @@
+Package: libglib-2.0-utils
+Version: 1:2.78.6-r0.161
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & BSD-3-Clause & PD
+Architecture: aarch64
+OE: glib-2.0
+Homepage: https://developer.gnome.org/glib/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libglib-2.0-0 (>= 2.78.6)
+Provides: glib-2.0-utils
+Source: glib-2.0_2.78.6.bb

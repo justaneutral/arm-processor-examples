@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-bad
+Version: 1.22.12-r0.1619
+Description: 'Bad' GStreamer plugins and helper libraries 
+ 'Bad' GStreamer plugins and helper libraries .
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & GPL-2.0-or-later
+Architecture: aarch64
+OE: gstreamer1.0-plugins-bad
+Homepage: https://gstreamer.freedesktop.org/
+Recommends: gstreamer1.0-plugins-bad-meta
+Source: gstreamer1.0-plugins-bad_1.22.12.bb

@@ -1,0 +1,6 @@
+/usr/bin/mount.util-linux	0104755
+/etc/default/mountall	0100644
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/etc/default	040755

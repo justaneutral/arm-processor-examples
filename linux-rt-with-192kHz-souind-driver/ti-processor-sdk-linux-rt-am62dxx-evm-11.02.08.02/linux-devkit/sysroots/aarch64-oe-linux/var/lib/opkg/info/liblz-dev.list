@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/liblz.so	0120777	liblz.so.1.14
+/usr/include/lzlib.h	0100644
+/usr	040755
+/usr/include	040755

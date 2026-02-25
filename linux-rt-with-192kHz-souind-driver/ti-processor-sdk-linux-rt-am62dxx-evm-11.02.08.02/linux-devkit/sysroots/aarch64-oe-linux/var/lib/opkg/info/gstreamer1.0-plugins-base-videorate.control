@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-base-videorate
+Version: 1.22.12-r0.1526
+Description: GStreamer 1.0 plugin for videorate
+ GStreamer 1.0 plugin for videorate
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: gstreamer1.0-plugins-base
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.22.12), libglib-2.0-0 (>= 2.78.6), libgstvideo-1.0-0 (>= 1.22.12)
+Source: gstreamer1.0-plugins-base_1.22.12.bb

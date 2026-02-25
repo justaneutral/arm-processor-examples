@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/bin	040755
+/usr/bin/yat2m	0100755
+/usr	040755
+/usr/lib/libgpg-error.so.0	0120777	libgpg-error.so.0.35.0
+/usr/lib/libgpg-error.so.0.35.0	0100755

@@ -1,0 +1,12 @@
+/usr/bin/newgrp.shadow	0104755
+/etc/pam.d/login	0100644
+/usr/bin/su.shadow	0104755
+/usr/bin/sg	0120777	newgrp.shadow
+/usr/bin	040755
+/usr/bin/groups.shadow	0100755
+/usr	040755
+/etc	040755
+/etc/pam.d	040755
+/usr/bin/login.shadow	0100755
+/etc/login.defs	0100644
+/etc/pam.d/su	0100644

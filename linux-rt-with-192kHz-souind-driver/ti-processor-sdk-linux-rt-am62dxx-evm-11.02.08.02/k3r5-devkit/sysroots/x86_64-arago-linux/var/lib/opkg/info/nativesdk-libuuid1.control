@@ -1,0 +1,17 @@
+Package: nativesdk-libuuid1
+Version: 2.39.3-r0.94
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-util-linux-libuuid
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe)
+Provides: nativesdk-util-linux-libuuid
+Source: util-linux-libuuid_2.39.3.bb

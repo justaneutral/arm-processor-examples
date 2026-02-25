@@ -1,0 +1,26 @@
+/usr/include/uniwbrk.h	0100644
+/usr/lib	040755
+/usr/include/unitypes.h	0100644
+/usr/include/unistring/inline.h	0100644
+/usr/include/unistring/stdint.h	0100644
+/usr/include/unistr.h	0100644
+/usr/include/unistring/woe32dll.h	0100644
+/usr/lib/libunistring.so	0120777	libunistring.so.5.1.0
+/usr/include/unilbrk.h	0100644
+/usr/include/unistring/cdefs.h	0100644
+/usr/include/unistring/stdbool.h	0100644
+/usr/include/uninorm.h	0100644
+/usr/include/uniwidth.h	0100644
+/usr/include/unictype.h	0100644
+/usr/include/unicase.h	0100644
+/usr/include/unistring/version.h	0100644
+/usr/include/unigbrk.h	0100644
+/usr	040755
+/usr/include/unistring	040755
+/usr/include/uniname.h	0100644
+/usr/include/unistring/iconveh.h	0100644
+/usr/include/unistring/localcharset.h	0100644
+/usr/include/unistdio.h	0100644
+/usr/include/uniconv.h	0100644
+/usr/include/unimetadata.h	0100644
+/usr/include	040755

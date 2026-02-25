@@ -1,0 +1,11 @@
+prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+exec_prefix=${prefix}
+libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 3.2.6
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}

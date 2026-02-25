@@ -1,0 +1,15 @@
+#############################################
+#####   Pkg-Config file for libxcrypt   #####
+#############################################
+
+prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+exec_prefix=${prefix}
+
+libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib
+includedir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/include
+
+Name: libxcrypt
+Version: 4.4.36
+Description: Extended crypt library for DES, MD5, Blowfish and others
+Libs: -L${libdir} -lcrypt
+Cflags: -I${includedir}

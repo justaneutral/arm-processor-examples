@@ -1,0 +1,6 @@
+/usr/bin/mtdev-test	0100755
+/usr/lib	040755
+/usr/lib/libmtdev.so.1	0120777	libmtdev.so.1.0.0
+/usr/lib/libmtdev.so.1.0.0	0100755
+/usr/bin	040755
+/usr	040755

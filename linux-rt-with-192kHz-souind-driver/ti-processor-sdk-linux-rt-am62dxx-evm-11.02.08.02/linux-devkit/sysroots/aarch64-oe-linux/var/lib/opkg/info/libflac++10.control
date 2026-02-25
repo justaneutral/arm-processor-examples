@@ -1,0 +1,15 @@
+Package: libflac++10
+Version: 1.4.3-r0.66
+Description: Free Lossless Audio Codec
+ FLAC stands for Free Lossless Audio Codec, a lossless audio compression
+ format.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause
+Architecture: aarch64
+OE: flac
+Homepage: https://xiph.org/flac/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libflac12 (>= 1.4.3), libgcc1 (>= 13.4.0), libogg0 (>= 1.3.5), libstdc++6 (>= 13.4.0)
+Provides: libflac++
+Source: flac_1.4.3.bb

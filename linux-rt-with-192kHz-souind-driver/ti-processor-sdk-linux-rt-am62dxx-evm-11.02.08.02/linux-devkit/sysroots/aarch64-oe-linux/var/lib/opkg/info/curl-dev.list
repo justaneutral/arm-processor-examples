@@ -1,0 +1,24 @@
+/usr/include/curl/curlver.h	0100644
+/usr/include/curl/easy.h	0100644
+/usr/lib	040755
+/usr/include/curl/header.h	0100644
+/usr/include/curl/multi.h	0100644
+/usr/lib/pkgconfig/libcurl.pc	0100644
+/usr/include/curl/curl.h	0100644
+/usr/include/curl/urlapi.h	0100644
+/usr/include/curl/websockets.h	0100644
+/usr/lib/libcurl.so	0120777	libcurl.so.4.8.0
+/usr/bin	040755
+/usr	040755
+/usr/include/curl/stdcheaders.h	0100644
+/usr/lib/pkgconfig	040755
+/usr/include/curl	040755
+/usr/include/curl/mprintf.h	0100644
+/usr/share/aclocal	040755
+/usr/include/curl/typecheck-gcc.h	0100644
+/usr/share/aclocal/libcurl.m4	0100644
+/usr/bin/curl-config	0100755
+/usr/share	040755
+/usr/include/curl/options.h	0100644
+/usr/include/curl/system.h	0100644
+/usr/include	040755

@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr/lib/libusb.so	0120777	libusb-0.1.so.4.4.4
+/usr/bin	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/bin/libusb-config	0100755
+/usr/lib/pkgconfig/libusb.pc	0100644
+/usr/include	040755
+/usr/include/usb.h	0100644

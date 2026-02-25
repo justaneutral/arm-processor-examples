@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libcrypt.so.2	0120777	libcrypt.so.2.0.0
+/usr	040755
+/usr/lib/libcrypt.so.2.0.0	0100755

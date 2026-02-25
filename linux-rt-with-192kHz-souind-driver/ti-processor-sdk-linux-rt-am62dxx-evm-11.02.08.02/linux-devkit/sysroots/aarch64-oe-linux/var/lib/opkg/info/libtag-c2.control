@@ -1,0 +1,19 @@
+Package: libtag-c2
+Version: 2.0.1-r0.63
+Description: Library for reading and editing the meta-data of popular audio formats
+ Platform-independent library (tested on Windows/Linux) for reading and
+ writing metadata in media files, including video, audio, and photo
+ formats. This is a convenient one-stop-shop to present or tag all your
+ media collection, regardless of which format/container these might use.
+ You can read/write the standard or more common tags/properties of a
+ media, or you can also create and retrieve your own custom tags.
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only | MPL-1.1
+Architecture: aarch64
+OE: taglib
+Homepage: http://taglib.github.io/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libstdc++6 (>= 13.4.0), libtag2 (>= 2.0.1)
+Provides: taglib-c
+Source: taglib_2.0.1.bb

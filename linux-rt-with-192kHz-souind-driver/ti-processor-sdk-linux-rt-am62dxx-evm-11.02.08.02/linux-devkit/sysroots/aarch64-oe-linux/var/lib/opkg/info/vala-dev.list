@@ -1,0 +1,15 @@
+/usr/share/aclocal/vapigen.m4	0100644
+/usr/lib	040755
+/usr/share/aclocal/vala.m4	0100644
+/usr/include/vala-0.56/valagee.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/vapigen.pc	0120777	vapigen-0.56.pc
+/usr/lib/pkgconfig/libvala-0.56.pc	0100644
+/usr/share/aclocal	040755
+/usr/lib/pkgconfig/vapigen-0.56.pc	0100644
+/usr/include/vala-0.56/vala.h	0100644
+/usr/lib/libvala-0.56.so	0120777	libvala-0.56.so.0.0.0
+/usr/share	040755
+/usr/include	040755
+/usr/include/vala-0.56	040755

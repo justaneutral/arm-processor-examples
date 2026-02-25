@@ -1,0 +1,8 @@
+/usr/lib	040755
+/etc/ssl	040755
+/etc/ssl/openssl.cnf	0100644
+/usr/lib/ssl-3/openssl.cnf.dist	0100644
+/usr	040755
+/etc	040755
+/usr/lib/ssl-3/openssl.cnf	0120777	../../../etc/ssl/openssl.cnf
+/usr/lib/ssl-3	040755

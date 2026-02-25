@@ -1,0 +1,14 @@
+Package: weston
+Version: 13.0.1-r0.tisoc1_tisdk_0.132
+Description: Weston, a Wayland compositor
+ Weston is the reference implementation of a Wayland compositor
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: weston
+Homepage: http://wayland.freedesktop.org
+Depends: base-files, base-passwd, libc6 (>= 2.39+git47+58cbbd43fe), libcairo2 (>= 1.18.0), libevdev (>= 1.13.1), libfontconfig1 (>= 2.15.0), libglib-2.0-0 (>= 2.78.6), libinput10 (>= 1.25.0), libjpeg62 (>= 3.0.1), libpixman-1-0 (>= 0.42.2), libpng16-16 (>= 1.6.42), libsystemd0 (>= 255.21), libweston-13-0 (>= 13.0.1), libxkbcommon0 (>= 1.6.0), pango (>= 1.52.1), shadow, wayland (>= 1.22.0), xkeyboard-config
+Recommends: liberation-fonts, weston-init
+Source: weston_13.0.1.bb

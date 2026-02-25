@@ -1,0 +1,16 @@
+Package: nativesdk-libxau6
+Version: 1:1.0.11-r0.151
+Description: Xau: X Authority Database library
+ libxau provides the main interfaces to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and
+ server-side.
+Section: x11/libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libxau
+Homepage: http://www.x.org
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libxau
+Source: libxau_1.0.11.bb

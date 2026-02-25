@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libcom_err.so.2.1	0100755
+/usr/lib/libcom_err.so.2	0120777	libcom_err.so.2.1
+/usr	040755

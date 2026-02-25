@@ -1,0 +1,20 @@
+Package: nativesdk-gettext
+Version: 0.22.5-r0.131
+Description: Utilities and libraries for producing multi-lingual messages
+ GNU gettext is a set of tools that provides a framework to help other
+ programs produce multi-lingual messages. These tools include a set of
+ conventions about how programs should be written to support message
+ catalogs, a directory and file naming organization for the message
+ catalogs themselves, a runtime library supporting the retrieval of
+ translated messages, and a few stand-alone programs to massage in various
+ ways the sets of translatable and already translated strings.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later & LGPL-2.1-or-later & MIT & MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-gettext
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgettextlib (>= 0.22.5), nativesdk-libgettextsrc (>= 0.22.5)
+Conflicts: nativesdk-proxy-libintl
+Source: gettext_0.22.5.bb

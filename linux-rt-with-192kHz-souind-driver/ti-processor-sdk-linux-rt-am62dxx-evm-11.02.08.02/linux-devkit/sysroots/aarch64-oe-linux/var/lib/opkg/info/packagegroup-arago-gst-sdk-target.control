@@ -1,0 +1,12 @@
+Package: packagegroup-arago-gst-sdk-target
+Version: 1.0-r15.1
+Description: Task to build and install header and libs in sdk
+ Task to build and install header and libs in sdk.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: packagegroup-arago-gst-sdk-target
+Depends: gstreamer1.0-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-good-dev
+Source: packagegroup-arago-gst-sdk-target.bb

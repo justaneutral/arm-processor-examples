@@ -1,0 +1,15 @@
+Package: nativesdk-meson
+Version: 1.3.1-r0.206
+Description: A high performance build system
+ Meson is a build system designed to increase programmer productivity. It
+ does this by providing a fast, simple and easy to use interface for
+ modern software development tools and practices.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: x86_64-nativesdk
+OE: nativesdk-meson
+Homepage: http://mesonbuild.com
+Depends: nativesdk-ninja, nativesdk-python3-modules, nativesdk-python3-pkg-resources
+Source: meson_1.3.1.bb

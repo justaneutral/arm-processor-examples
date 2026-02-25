@@ -1,0 +1,13 @@
+Package: shadow-base
+Version: 4.14.2-r0.153
+Description: Tools to change and administer password and group data
+ Tools to change and administer password and group data
+Section: base/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: shadow
+Homepage: http://github.com/shadow-maint/shadow
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcrypt2 (>= 4.4.36), libpam (>= 1.5.3), update-alternatives-opkg
+Source: shadow_4.14.2.bb

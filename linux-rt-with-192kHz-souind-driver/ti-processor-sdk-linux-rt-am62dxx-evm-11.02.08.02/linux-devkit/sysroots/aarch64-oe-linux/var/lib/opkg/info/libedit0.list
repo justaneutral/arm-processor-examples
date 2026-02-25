@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libedit.so.0	0120777	libedit.so.0.0.72
+/usr	040755
+/usr/lib/libedit.so.0.0.72	0100755

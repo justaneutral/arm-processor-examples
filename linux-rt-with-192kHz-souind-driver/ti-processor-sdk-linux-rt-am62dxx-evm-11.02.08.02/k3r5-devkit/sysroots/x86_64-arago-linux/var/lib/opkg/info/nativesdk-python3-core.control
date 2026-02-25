@@ -1,0 +1,15 @@
+Package: nativesdk-python3-core
+Version: 3.12.12-r0.15
+Description: Python interpreter and core modules
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-libbz2-1 (>= 1.0.8), nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libedit0 (>= 20230828-3.1), nativesdk-liblzma5 (>= 5.4.7), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-libz1 (>= 1.3.1), nativesdk-python3-compression
+Recommends: nativesdk-python3-modules
+Source: python3_3.12.12.bb

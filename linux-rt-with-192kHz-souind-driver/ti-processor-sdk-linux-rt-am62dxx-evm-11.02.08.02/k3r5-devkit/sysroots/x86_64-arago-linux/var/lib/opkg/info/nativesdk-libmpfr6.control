@@ -1,0 +1,19 @@
+Package: nativesdk-libmpfr6
+Version: 4.2.1-r0.93
+Description: C library for multiple-precision floating-point computations with exact rounding
+ The GNU Multiple Precision Floating-Point Reliable Library (GNU MPFR) is
+ a GNU portable C library for arbitrary-precision binary floating-point
+ computation with correct rounding, based on GNU Multi-Precision Library.
+ MPFR's computation is both efficient and has a well-defined semantics:
+ the functions are completely specified on all the possible operands and
+ the results do not depend on the platform.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-3.0-or-later
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-mpfr
+Homepage: https://www.mpfr.org/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0)
+Provides: nativesdk-mpfr
+Source: mpfr_4.2.1.bb

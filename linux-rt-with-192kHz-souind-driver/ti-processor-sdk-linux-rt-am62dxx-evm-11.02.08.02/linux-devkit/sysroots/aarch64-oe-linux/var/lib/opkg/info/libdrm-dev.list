@@ -1,0 +1,76 @@
+/usr/include/libdrm/msm_drm.h	0100644
+/usr/include/libdrm/vc4_drm.h	0100644
+/usr/include/libdrm/vc4_packet.h	0100644
+/usr/include/libdrm/drm_mode.h	0100644
+/usr/include/libdrm/radeon_bo.h	0100644
+/usr/include/freedreno/freedreno_drmif.h	0100644
+/usr/lib/libdrm_amdgpu.so	0120777	libdrm_amdgpu.so.1
+/usr/lib	040755
+/usr/include/libdrm/mga_drm.h	0100644
+/usr/include/libdrm/nouveau/nvif/unpack.h	0100644
+/usr/lib/pkgconfig/libdrm_amdgpu.pc	0100644
+/usr/include/libdrm/nouveau	040755
+/usr/include/libdrm/r600_pci_ids.h	0100644
+/usr/include/libdrm/intel_aub.h	0100644
+/usr/include/libdrm/radeon_cs_int.h	0100644
+/usr/include/libdrm/radeon_bo_int.h	0100644
+/usr/include/libdrm/vc4_qpu_defines.h	0100644
+/usr/include/libdrm/nouveau_drm.h	0100644
+/usr/include/omap/omap_drm.h	0100644
+/usr/lib/pkgconfig/libdrm_vc4.pc	0100644
+/usr/include/libdrm/nouveau/nvif/if0002.h	0100644
+/usr/include/libdrm/i915_drm.h	0100644
+/usr/lib/pkgconfig/libdrm_omap.pc	0100644
+/usr/include/freedreno/freedreno_ringbuffer.h	0100644
+/usr/include/libdrm/nouveau/nvif/class.h	0100644
+/usr/include/libdrm/nouveau/nvif/if0003.h	0100644
+/usr/lib/pkgconfig/libdrm_freedreno.pc	0100644
+/usr/include/libdrm/amdgpu.h	0100644
+/usr/lib/libdrm.so	0120777	libdrm.so.2
+/usr/include/libdrm/radeon_cs.h	0100644
+/usr/include/libdrm/sis_drm.h	0100644
+/usr/include/libdrm/tegra_drm.h	0100644
+/usr/lib/libdrm_etnaviv.so	0120777	libdrm_etnaviv.so.1
+/usr/lib/libdrm_nouveau.so	0120777	libdrm_nouveau.so.2
+/usr/include/libdrm/radeon_surface.h	0100644
+/usr/include/libdrm/vmwgfx_drm.h	0100644
+/usr/include/libdrm/drm_fourcc.h	0100644
+/usr/include/libdrm/virtgpu_drm.h	0100644
+/usr/include/freedreno	040755
+/usr/include/libdrm/amdgpu_drm.h	0100644
+/usr/lib/pkgconfig/libdrm_intel.pc	0100644
+/usr/include/libdrm/savage_drm.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/libdrm/radeon_drm.h	0100644
+/usr/lib/libdrm_radeon.so	0120777	libdrm_radeon.so.1
+/usr/include/libdrm	040755
+/usr/include/libdrm/etnaviv_drmif.h	0100644
+/usr/include/libdrm/r128_drm.h	0100644
+/usr/lib/libdrm_freedreno.so	0120777	libdrm_freedreno.so.1
+/usr/include/libdrm/omap_drmif.h	0100644
+/usr/include/libdrm/intel_debug.h	0100644
+/usr/include/omap	040755
+/usr/lib/libdrm_intel.so	0120777	libdrm_intel.so.1
+/usr/include/libdrm/radeon_cs_gem.h	0100644
+/usr/lib/libdrm_omap.so	0120777	libdrm_omap.so.1
+/usr/lib/pkgconfig/libdrm_radeon.pc	0100644
+/usr/include/libdrm/nouveau/nvif/cl9097.h	0100644
+/usr/include/libdrm/radeon_bo_gem.h	0100644
+/usr/include/libdrm/nouveau/nouveau.h	0100644
+/usr/include/libdrm/nouveau/nvif/cl0080.h	0100644
+/usr/include/libsync.h	0100644
+/usr/lib/pkgconfig/libdrm_etnaviv.pc	0100644
+/usr/lib/pkgconfig/libdrm_nouveau.pc	0100644
+/usr/include/libdrm/drm.h	0100644
+/usr/include/libdrm/via_drm.h	0100644
+/usr/include/xf86drmMode.h	0100644
+/usr/include/libdrm/nouveau/nvif/ioctl.h	0100644
+/usr/include/libdrm/mach64_drm.h	0100644
+/usr/include/libdrm/nouveau/nvif	040755
+/usr/include/libdrm/drm_sarea.h	0100644
+/usr/include	040755
+/usr/include/libdrm/qxl_drm.h	0100644
+/usr/include/libdrm/intel_bufmgr.h	0100644
+/usr/lib/pkgconfig/libdrm.pc	0100644
+/usr/include/xf86drm.h	0100644

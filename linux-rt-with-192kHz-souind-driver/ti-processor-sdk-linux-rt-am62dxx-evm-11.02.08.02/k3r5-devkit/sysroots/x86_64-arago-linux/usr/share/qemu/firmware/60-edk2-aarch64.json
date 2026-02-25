@@ -1,0 +1,31 @@
+{
+    "description": "UEFI firmware for aarch64",
+    "interface-types": [
+        "uefi"
+    ],
+    "mapping": {
+        "device": "flash",
+        "executable": {
+            "filename": "/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/share/qemu/edk2-aarch64-code.fd",
+            "format": "raw"
+        },
+        "nvram-template": {
+            "filename": "/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/share/qemu/edk2-arm-vars.fd",
+            "format": "raw"
+        }
+    },
+    "targets": [
+        {
+            "architecture": "aarch64",
+            "machines": [
+                "virt-*"
+            ]
+        }
+    ],
+    "features": [
+        "verbose-static"
+    ],
+    "tags": [
+
+    ]
+}

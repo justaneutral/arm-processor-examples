@@ -1,0 +1,6 @@
+/usr/lib/systemd/system	040755
+/usr/lib	040755
+/usr/lib/systemd/system/systemd-vconsole-setup.service	0100644
+/usr/lib/systemd/systemd-vconsole-setup	0100755
+/usr	040755
+/usr/lib/systemd	040755

@@ -1,0 +1,16 @@
+Package: opkg-dev
+Version: 1:0.6.3-r0.85
+Description: Open Package Manager - Development files
+ Opkg is a lightweight package management system based on Ipkg.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: opkg
+Homepage: https://git.yoctoproject.org/opkg/
+Depends: libopkg
+Recommends: glibc-dev, libarchive-dev, libopkg-dev, libsolv-dev, opkg (= 1:0.6.3-r0.85), opkg-arch-config-dev, update-alternatives-opkg-dev, zstd-dev
+Source: opkg_0.6.3.bb

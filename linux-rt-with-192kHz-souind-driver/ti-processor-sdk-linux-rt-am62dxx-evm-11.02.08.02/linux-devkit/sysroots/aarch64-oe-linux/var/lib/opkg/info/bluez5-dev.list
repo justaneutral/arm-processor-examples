@@ -1,0 +1,18 @@
+/usr/include/bluetooth/hci.h	0100644
+/usr/lib	040755
+/usr/include/bluetooth/sdp_lib.h	0100644
+/usr/lib/pkgconfig/bluez.pc	0100644
+/usr/include/bluetooth/l2cap.h	0100644
+/usr/lib/libbluetooth.so	0120777	libbluetooth.so.3.19.12
+/usr/include/bluetooth/bluetooth.h	0100644
+/usr/include/bluetooth/bnep.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/bluetooth/hidp.h	0100644
+/usr/include/bluetooth	040755
+/usr/include/bluetooth/sco.h	0100644
+/usr/include/bluetooth/hci_lib.h	0100644
+/usr/include/bluetooth/rfcomm.h	0100644
+/usr/include/bluetooth/cmtp.h	0100644
+/usr/include	040755
+/usr/include/bluetooth/sdp.h	0100644

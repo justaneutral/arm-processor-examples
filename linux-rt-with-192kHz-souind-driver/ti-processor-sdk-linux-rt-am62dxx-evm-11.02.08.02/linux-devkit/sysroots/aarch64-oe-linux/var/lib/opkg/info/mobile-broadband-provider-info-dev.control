@@ -1,0 +1,16 @@
+Package: mobile-broadband-provider-info-dev
+Version: 1:20240407-r0.47
+Description: Mobile Broadband Service Provider Database - Development files
+ Mobile Broadband Service Provider Database stores service provider
+ specific information. When this Database is available the information can
+ be fetched there  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: aarch64
+OE: mobile-broadband-provider-info
+Homepage: http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders
+Recommends: mobile-broadband-provider-info (= 1:20240407-r0.47)
+Source: mobile-broadband-provider-info_git.bb

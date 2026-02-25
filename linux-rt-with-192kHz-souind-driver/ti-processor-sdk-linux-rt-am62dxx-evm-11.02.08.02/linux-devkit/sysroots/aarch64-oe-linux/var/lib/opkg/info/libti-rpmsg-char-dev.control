@@ -1,0 +1,15 @@
+Package: libti-rpmsg-char-dev
+Version: 0.6.10+git0+057b1a2492-r0.0
+Description: TI RPMsg Char Utility Library - Development files
+ TI RPMsg Char Utility Library.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: ti-rpmsg-char
+Depends: ti-rpmsg-char
+Recommends: glibc-dev, libti-rpmsg-char0 (= 0.6.10+git0+057b1a2492-r0.0)
+Provides: ti-rpmsg-char-dev
+Source: ti-rpmsg-char_git.bb

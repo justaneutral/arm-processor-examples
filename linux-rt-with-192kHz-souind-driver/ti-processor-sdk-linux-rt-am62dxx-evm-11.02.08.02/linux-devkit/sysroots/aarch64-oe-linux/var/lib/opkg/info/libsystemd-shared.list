@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/systemd	040755
+/usr/lib/systemd/libsystemd-shared-255.so	0100755

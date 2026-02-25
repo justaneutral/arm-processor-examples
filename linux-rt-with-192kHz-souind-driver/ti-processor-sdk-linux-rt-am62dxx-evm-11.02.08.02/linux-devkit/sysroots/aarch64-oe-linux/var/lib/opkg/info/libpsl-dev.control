@@ -1,0 +1,18 @@
+Package: libpsl-dev
+Version: 0.21.5-r0.65
+Description: Public Suffix List library - Development files
+ The libpsl package provides a library for accessing and resolving
+ information from the Public Suffix List (PSL). The PSL is a set of domain
+ names beyond the standard suffixes, such as .com.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libpsl
+Homepage: https://rockdaboot.github.io/libpsl/
+Depends: libpsl
+Recommends: glibc-dev, icu-dev, libicudata-dev, libicuuc-dev, libpsl5 (= 0.21.5-r0.65)
+Source: libpsl_0.21.5.bb

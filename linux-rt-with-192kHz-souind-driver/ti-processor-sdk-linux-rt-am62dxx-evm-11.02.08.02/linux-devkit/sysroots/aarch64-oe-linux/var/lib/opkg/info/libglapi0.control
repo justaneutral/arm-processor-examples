@@ -1,0 +1,19 @@
+Package: libglapi0
+Version: 2:24.0.7-r0.396
+Description: A free implementation of the OpenGL API
+ Mesa is an open-source implementation of the OpenGL specification - a
+ system for rendering interactive 3D graphics.  A variety of device
+ drivers allows Mesa to be used in many different environments ranging
+ from software emulation to complete hardware acceleration for modern
+ GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure
+ and X.org environment.
+Section: x11
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: mesa
+Homepage: http://mesa3d.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libglapi
+Source: mesa_24.0.7.bb

@@ -1,0 +1,17 @@
+Package: libseccomp-dev
+Version: 2.5.5-r0.59
+Description: interface to seccomp filtering mechanism - Development files
+ The libseccomp library provides an easy to use, platform independent,
+ interface to the Linux Kernel's syscall filtering mechanism: seccomp.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libseccomp
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp
+Recommends: glibc-dev, libseccomp (= 2.5.5-r0.59)
+Source: libseccomp_2.5.5.bb

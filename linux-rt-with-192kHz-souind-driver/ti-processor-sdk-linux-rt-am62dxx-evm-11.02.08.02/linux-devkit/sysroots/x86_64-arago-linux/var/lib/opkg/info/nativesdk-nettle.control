@@ -1,0 +1,15 @@
+Package: nativesdk-nettle
+Version: 3.9.1-r0.147
+Description: A low level cryptographic library
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a context-
+ independent set of cryptographic algorithms
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-3.0-or-later | GPL-2.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-nettle
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0)
+Source: nettle_3.9.1.bb

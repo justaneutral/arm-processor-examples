@@ -1,0 +1,18 @@
+Package: libusb-1.0-dev
+Version: 1.0.27-r0.358
+Description: Userspace library to access USB (version 1.0) - Development files
+ A cross-platform library to access USB devices from Linux, macOS,
+ Windows, OpenBSD/NetBSD, Haiku and Solaris userspace.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libusb1
+Homepage: https://libusb.info
+Depends: libusb1
+Recommends: glibc-dev, libudev-dev, libusb-1.0-0 (= 1.0.27-r0.358), udev-dev
+Provides: libusb1-dev
+Source: libusb1_1.0.27.bb

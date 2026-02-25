@@ -1,0 +1,19 @@
+Package: libdrm-dev
+Version: 2.4.120-r0.arago4.68
+Description: Userspace interface to the kernel DRM services - Development files
+ The runtime library for accessing the kernel DRM services.  DRM stands
+ for \"Direct Rendering Manager\", which is the kernel portion of the
+ \"Direct Rendering Infrastructure\" (DRI).  DRI is required for many
+ hardware accelerated OpenGL drivers.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libdrm
+Homepage: http://dri.freedesktop.org
+Depends: libdrm, libdrm-amdgpu, libdrm-etnaviv, libdrm-freedreno, libdrm-intel, libdrm-nouveau, libdrm-omap, libdrm-radeon
+Recommends: glibc-dev, libdrm-amdgpu-dev, libdrm-etnaviv-dev, libdrm-freedreno-dev, libdrm-intel-dev, libdrm-nouveau-dev, libdrm-omap-dev, libdrm-radeon-dev, libdrm2 (= 2.4.120-r0.arago4.68), libpciaccess-dev, libpthread-stubs-dev
+Source: libdrm_2.4.120.bb

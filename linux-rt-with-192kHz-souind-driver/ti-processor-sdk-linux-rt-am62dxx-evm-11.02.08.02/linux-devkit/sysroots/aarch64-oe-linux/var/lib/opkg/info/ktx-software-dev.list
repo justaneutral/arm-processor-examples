@@ -1,0 +1,14 @@
+/usr/include/ktxvulkan.h	0100644
+/usr/lib	040755
+/usr/include/ktx.h	0100644
+/usr/lib/cmake/ktx/KtxTargets.cmake	0100644
+/usr/lib/cmake/ktx	040755
+/usr/lib/cmake/ktx/KtxTargets-noconfig.cmake	0100644
+/usr/lib/cmake/ktx/KtxConfig.cmake	0100644
+/usr/lib/cmake/ktx/KtxConfigVersion.cmake	0100644
+/usr	040755
+/usr/include/KHR	040755
+/usr/lib/cmake	040755
+/usr/lib/libktx.so	0120777	libktx.so.4
+/usr/include/KHR/khr_df.h	0100644
+/usr/include	040755

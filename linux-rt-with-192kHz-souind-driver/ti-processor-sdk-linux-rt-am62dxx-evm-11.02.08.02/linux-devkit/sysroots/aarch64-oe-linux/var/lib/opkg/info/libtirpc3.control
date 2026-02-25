@@ -1,0 +1,14 @@
+Package: libtirpc3
+Version: 1.3.4-r0.66
+Description: Transport-Independent RPC library
+ Libtirpc is a port of Suns Transport-Independent RPC library to Linux
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libtirpc
+Homepage: http://sourceforge.net/projects/libtirpc/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libtirpc
+Source: libtirpc_1.3.4.bb

@@ -1,0 +1,16 @@
+Package: nativesdk-libedit-dev
+Version: 20230828-3.1-r1.142
+Description: BSD replacement for libreadline - Development files
+ Command line editor library providing generic line editing, history, and
+ tokenization functions  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-libedit
+Homepage: http://www.thrysoee.dk/editline/
+Depends: nativesdk-libedit
+Recommends: nativesdk-glibc-dev, nativesdk-libedit0 (= 20230828-3.1-r1.142), nativesdk-ncurses-dev, nativesdk-ncurses-libncurses-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-update-alternatives-opkg-dev
+Source: libedit_20230828-3.1.bb

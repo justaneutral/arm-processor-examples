@@ -1,0 +1,64 @@
+# Check for LD_LIBRARY_PATH being set, which can break SDK and generally is a bad practice
+# http://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html#AEN80
+# http://xahlee.info/UnixResource_dir/_/ldpath.html
+# Only disable this check if you are absolutely know what you are doing!
+if [ ! -z "${LD_LIBRARY_PATH:-}" ]; then
+    echo "Your environment is misconfigured, you probably need to 'unset LD_LIBRARY_PATH'"
+    echo "but please check why this was set in the first place and that it's safe to unset."
+    echo "The SDK will not operate correctly in most cases when LD_LIBRARY_PATH is set."
+    echo "For more references see:"
+    echo "  http://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html#AEN80"
+    echo "  http://xahlee.info/UnixResource_dir/_/ldpath.html"
+    return 1
+fi
+
+export SDKTARGETSYSROOT=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/armv7at2hf-vfp-oe-eabi
+export PATH=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/bin:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/sbin:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/bin:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/sbin:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/bin/../x86_64-arago-linux/bin:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/bin/arm-oe-eabi:/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/bin/arm-oe-linux-musl:"$PATH"
+export PKG_CONFIG_SYSROOT_DIR=$SDKTARGETSYSROOT
+export PKG_CONFIG_PATH=$SDKTARGETSYSROOT/usr/lib/pkgconfig:$SDKTARGETSYSROOT/usr/share/pkgconfig
+export CONFIG_SITE=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/site-config-armv7at2hf-vfp-oe-eabi
+export OECORE_NATIVE_SYSROOT="/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux"
+export OECORE_TARGET_SYSROOT="$SDKTARGETSYSROOT"
+export OECORE_ACLOCAL_OPTS="-I /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/share/aclocal"
+export OECORE_BASELIB="lib"
+export OECORE_TARGET_ARCH="arm"
+export OECORE_TARGET_OS="eabi"
+unset command_not_found_handle
+export CC="arm-oe-eabi-gcc  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=hard -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=$SDKTARGETSYSROOT"
+export CXX="arm-oe-eabi-g++  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=hard -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=$SDKTARGETSYSROOT"
+export CPP="arm-oe-eabi-gcc -E  -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=hard -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=$SDKTARGETSYSROOT"
+export AS="arm-oe-eabi-as "
+export LD="arm-oe-eabi-ld  --sysroot=$SDKTARGETSYSROOT"
+export GDB=arm-oe-eabi-gdb
+export STRIP=arm-oe-eabi-strip
+export RANLIB=arm-oe-eabi-ranlib
+export OBJCOPY=arm-oe-eabi-objcopy
+export OBJDUMP=arm-oe-eabi-objdump
+export READELF=arm-oe-eabi-readelf
+export AR=arm-oe-eabi-ar
+export NM=arm-oe-eabi-nm
+export M4=m4
+export TARGET_PREFIX=arm-oe-eabi-
+export CONFIGURE_FLAGS="--target=arm-oe-eabi --host=arm-oe-eabi --build=x86_64-linux --with-libtool-sysroot=$SDKTARGETSYSROOT"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types "
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed "
+export CPPFLAGS=""
+export KCFLAGS="--sysroot=$SDKTARGETSYSROOT"
+export OECORE_DISTRO_VERSION="2025.01"
+export OECORE_SDK_VERSION="2025.01"
+export ARCH=arm
+export CROSS_COMPILE=arm-oe-eabi-
+export OECORE_TUNE_CCARGS=" -march=armv7-a -mthumb -mfpu=vfp -mfloat-abi=hard"
+
+# Append environment subscripts
+if [ -d "$OECORE_TARGET_SYSROOT/environment-setup.d" ]; then
+    for envfile in $OECORE_TARGET_SYSROOT/environment-setup.d/*.sh; do
+	    . $envfile
+    done
+fi
+if [ -d "$OECORE_NATIVE_SYSROOT/environment-setup.d" ]; then
+    for envfile in $OECORE_NATIVE_SYSROOT/environment-setup.d/*.sh; do
+	    . $envfile
+    done
+fi

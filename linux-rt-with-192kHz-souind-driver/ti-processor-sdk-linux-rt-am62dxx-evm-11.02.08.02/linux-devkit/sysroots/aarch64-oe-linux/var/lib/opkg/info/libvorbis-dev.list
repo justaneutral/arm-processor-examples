@@ -1,0 +1,17 @@
+/usr/include/vorbis	040755
+/usr/lib	040755
+/usr/include/vorbis/vorbisfile.h	0100644
+/usr/lib/libvorbisfile.so	0120777	libvorbisfile.so.3.3.8
+/usr/lib/libvorbis.so	0120777	libvorbis.so.0.4.9
+/usr/include/vorbis/vorbisenc.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/share/aclocal	040755
+/usr/lib/pkgconfig/vorbisfile.pc	0100644
+/usr/include/vorbis/codec.h	0100644
+/usr/share/aclocal/vorbis.m4	0100644
+/usr/share	040755
+/usr/lib/pkgconfig/vorbis.pc	0100644
+/usr/include	040755
+/usr/lib/pkgconfig/vorbisenc.pc	0100644
+/usr/lib/libvorbisenc.so	0120777	libvorbisenc.so.2.0.12

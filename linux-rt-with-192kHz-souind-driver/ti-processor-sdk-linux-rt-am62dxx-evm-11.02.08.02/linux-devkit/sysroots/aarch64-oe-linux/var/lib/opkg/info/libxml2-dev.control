@@ -1,0 +1,21 @@
+Package: libxml2-dev
+Version: 2.12.10-r0.189
+Description: XML C Parser Library and Toolkit - Development files
+ The XML Parser Library allows for manipulation of XML files.  Libxml2
+ exports Push and Pull type parser interfaces for both XML and HTML.  It
+ can do DTD validation at parse time, on a parsed document instance or
+ with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and
+ Xinclude implementations.  It also has a SAX like interface, which is
+ designed to be compatible with Expat.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libxml2
+Homepage: https://gitlab.gnome.org/GNOME/libxml2
+Depends: libxml2
+Recommends: glibc-dev, libxml2 (= 2.12.10-r0.189), python3-core-dev, python3-dev, zlib-dev
+Source: libxml2_2.12.10.bb

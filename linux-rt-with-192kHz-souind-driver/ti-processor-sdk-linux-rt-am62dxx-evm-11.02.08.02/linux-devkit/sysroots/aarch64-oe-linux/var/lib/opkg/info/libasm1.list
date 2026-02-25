@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libasm-0.191.so	0100755
+/usr/lib/libasm.so.1	0120777	libasm-0.191.so
+/usr	040755

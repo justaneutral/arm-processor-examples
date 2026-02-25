@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/scriptreplay scriptreplay /usr/bin/scriptreplay.util-linux 80

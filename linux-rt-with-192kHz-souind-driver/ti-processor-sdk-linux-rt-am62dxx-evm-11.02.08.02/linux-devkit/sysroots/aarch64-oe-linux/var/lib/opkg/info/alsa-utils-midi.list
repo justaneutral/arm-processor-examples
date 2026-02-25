@@ -1,0 +1,5 @@
+/usr/bin/arecordmidi	0100755
+/usr/bin	040755
+/usr/bin/amidi	0100755
+/usr	040755
+/usr/bin/aplaymidi	0100755

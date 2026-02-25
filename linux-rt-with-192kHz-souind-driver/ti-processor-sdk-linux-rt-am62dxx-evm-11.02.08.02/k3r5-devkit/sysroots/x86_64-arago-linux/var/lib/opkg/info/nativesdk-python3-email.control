@@ -1,0 +1,14 @@
+Package: nativesdk-python3-email
+Version: 3.12.12-r0.15
+Description: Python email support
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-netclient, nativesdk-python3-stringold
+Source: python3_3.12.12.bb

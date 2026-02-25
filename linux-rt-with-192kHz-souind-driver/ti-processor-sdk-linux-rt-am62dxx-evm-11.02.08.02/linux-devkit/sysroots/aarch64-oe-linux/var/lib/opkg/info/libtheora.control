@@ -1,0 +1,14 @@
+Package: libtheora
+Version: 1.1.1-r0.69
+Description: Theora Video Codec
+ The libtheora reference implementation provides the standard encoder and
+ decoder under a BSD license.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libtheora
+Homepage: http://xiph.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libogg0 (>= 1.3.5)
+Source: libtheora_1.1.1.bb

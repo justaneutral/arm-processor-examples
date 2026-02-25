@@ -1,0 +1,15 @@
+Package: opkg-arch-config-dev
+Version: 1.0-r0.7
+Description: Architecture-dependent configuration for opkg - Development files
+ Architecture-dependent configuration for opkg.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: opkg-arch-config
+Homepage: https://git.yoctoproject.org/opkg/
+Recommends: opkg-arch-config (= 1.0-r0.7)
+Source: opkg-arch-config_1.0.bb

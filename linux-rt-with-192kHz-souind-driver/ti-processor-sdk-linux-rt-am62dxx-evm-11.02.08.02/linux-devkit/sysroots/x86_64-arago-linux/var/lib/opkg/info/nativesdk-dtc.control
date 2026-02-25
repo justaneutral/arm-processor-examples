@@ -1,0 +1,14 @@
+Package: nativesdk-dtc
+Version: 1.7.0-r0.145
+Description: Device Tree Compiler
+ The Device Tree Compiler is a toolchain for working with device tree
+ source and binary files.
+Section: bootloader
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only | BSD-2-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-dtc
+Homepage: https://devicetree.org/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Source: dtc_1.7.0.bb

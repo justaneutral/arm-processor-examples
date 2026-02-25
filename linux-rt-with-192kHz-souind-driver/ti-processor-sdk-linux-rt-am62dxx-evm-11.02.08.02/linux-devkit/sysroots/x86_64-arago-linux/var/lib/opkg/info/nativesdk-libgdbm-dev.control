@@ -1,0 +1,19 @@
+Package: nativesdk-libgdbm-dev
+Version: 1.23-r0.154
+Description: Key/value database library with extensible hashing - Development files
+ Library of database functions that use extensible hashing and work
+ similar to the standard UNIX dbm. These routines are provided to a
+ programmer needing to create and manipulate a hashed database.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: nativesdk-gdbm, nativesdk-gdbm-compat
+Recommends: nativesdk-gdbm-compat-dev, nativesdk-glibc-dev, nativesdk-libgdbm6 (= 1.23-r0.154)
+Provides: nativesdk-gdbm-dev
+Source: gdbm_1.23.bb

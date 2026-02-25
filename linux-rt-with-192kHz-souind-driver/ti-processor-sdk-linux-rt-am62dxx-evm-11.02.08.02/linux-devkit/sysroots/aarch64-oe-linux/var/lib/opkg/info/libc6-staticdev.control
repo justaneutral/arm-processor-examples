@@ -1,0 +1,16 @@
+Package: libc6-staticdev
+Version: 2.39+git47+58cbbd43fe-r0.63
+Description: GLIBC (GNU C Library) - Development files (Static Libraries)
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.  This package contains static libraries for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: libc6-dev (= 2.39+git47+58cbbd43fe-r0.63)
+Provides: eglibc-staticdev, glibc-staticdev, libc-staticdev
+Source: glibc_2.39.bb

@@ -1,0 +1,17 @@
+Package: libsolv-dev
+Version: 0.7.28-r0.73
+Description: Library for solving packages and reading repositories - Development files
+ This is libsolv, a free package dependency solver using a satisfiability
+ algorithm for solving packages and reading repositories  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libsolv
+Homepage: https://github.com/openSUSE/libsolv
+Depends: libsolv, libsolvext
+Recommends: expat-dev, glibc-dev, libsolv1 (= 0.7.28-r0.73), libsolvext-dev, libzstd-dev, zlib-dev, zstd-dev
+Source: libsolv_0.7.28.bb

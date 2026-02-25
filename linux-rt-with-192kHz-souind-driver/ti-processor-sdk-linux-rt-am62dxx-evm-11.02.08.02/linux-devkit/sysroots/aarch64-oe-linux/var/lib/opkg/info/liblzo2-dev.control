@@ -1,0 +1,18 @@
+Package: liblzo2-dev
+Version: 2.10-r0.71
+Description: Lossless data compression library - Development files
+ A portable lossless data compression library written in ANSI C that
+ offers pretty fast compression and *extremely* fast decompression.   This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: lzo
+Recommends: glibc-dev, liblzo2-2 (= 2.10-r0.71)
+Provides: lzo-dev
+Source: lzo_2.10.bb

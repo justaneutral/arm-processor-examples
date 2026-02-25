@@ -1,0 +1,14 @@
+Package: opencl-headers-dev
+Version: 2024.05.08-r0.7
+Description: OpenCL API Headers - Development files
+ OpenCL compute API headers from Khronos Group  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: opencl-headers
+Recommends: opencl-headers (= 2024.05.08-r0.7)
+Source: opencl-headers_2023.12.14.bb

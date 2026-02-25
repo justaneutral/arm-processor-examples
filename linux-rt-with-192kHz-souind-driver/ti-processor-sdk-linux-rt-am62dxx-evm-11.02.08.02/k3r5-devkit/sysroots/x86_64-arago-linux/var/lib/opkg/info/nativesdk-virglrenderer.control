@@ -1,0 +1,16 @@
+Package: nativesdk-virglrenderer
+Version: 1.0.1-r0.163
+Description: VirGL virtual OpenGL renderer
+ Virgil is a research project to investigate the possibility of creating a
+ virtual 3D GPU for use inside qemu virtual machines, that allows the
+ guest operating system to use the capabilities of the host GPU to
+ accelerate 3D rendering.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-virglrenderer
+Homepage: https://virgil3d.github.io/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libdrm2 (>= 2.4.120), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libx11-6 (>= 1.8.9)
+Source: virglrenderer_1.0.1.bb

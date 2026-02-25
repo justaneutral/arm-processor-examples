@@ -1,0 +1,16 @@
+Package: util-linux-swaponoff
+Version: 2.39.3-r0.158
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-1.0-or-later & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & MIT
+Architecture: aarch64
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: util-linux-swapoff, util-linux-swapon
+Source: util-linux_2.39.3.bb

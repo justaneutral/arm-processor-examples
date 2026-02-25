@@ -1,0 +1,20 @@
+Package: i2c-tools-dev
+Version: 4.3-r0.66
+Description: Set of i2c tools for linux - Development files
+ The i2c-tools package contains a heterogeneous set of I2C tools for
+ Linux: a bus probing tool, a chip dumper, register-level SMBus access
+ helpers, EEPROM decoding scripts, EEPROM programming tools, and a python
+ module for SMBus access. All versions of Linux are supported, as long as
+ I2C support is included in the kernel.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: i2c-tools
+Homepage: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+Depends: i2c-tools
+Recommends: glibc-dev, i2c-tools (= 4.3-r0.66), perl-dev, perl-module-carp-dev, perl-module-constant-dev, perl-module-fcntl-dev, perl-module-file-basename-dev, perl-module-posix-dev, perl-module-strict-dev, perl-module-vars-dev, update-alternatives-opkg-dev
+Source: i2c-tools_4.3.bb

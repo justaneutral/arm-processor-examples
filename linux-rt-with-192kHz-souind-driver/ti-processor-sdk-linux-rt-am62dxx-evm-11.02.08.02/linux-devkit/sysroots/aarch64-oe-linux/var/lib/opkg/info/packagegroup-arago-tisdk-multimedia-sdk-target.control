@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-multimedia-sdk-target
+Version: 1.0-r12.2
+Description: Task to build and install header and libs into sdk
+ Task to build and install header and libs into sdk.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: packagegroup-arago-tisdk-multimedia-sdk-target
+Depends: fftw-dev, libsndfile1-dev, packagegroup-arago-gst-sdk-target
+Source: packagegroup-arago-tisdk-multimedia-sdk-target.bb

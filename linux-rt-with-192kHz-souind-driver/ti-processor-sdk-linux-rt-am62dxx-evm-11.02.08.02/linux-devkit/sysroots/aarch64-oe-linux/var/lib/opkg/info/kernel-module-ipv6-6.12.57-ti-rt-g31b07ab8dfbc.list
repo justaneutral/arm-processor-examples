@@ -1,0 +1,8 @@
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/kernel/net	040755
+/usr/lib	040755
+/usr/lib/modules	040755
+/usr	040755
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/kernel/net/ipv6/ipv6.ko	0100644
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/kernel	040755
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc	040755
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/kernel/net/ipv6	040755

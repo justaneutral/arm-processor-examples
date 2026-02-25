@@ -1,0 +1,12 @@
+/usr/lib/systemd/system/emptty.service	0100644
+/usr/lib/systemd/system	040755
+/usr/lib	040755
+/etc/pam.d/emptty	0100644
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/usr/bin/emptty	0100755
+/usr/lib/systemd	040755
+/usr/lib/systemd/system-preset	040755
+/etc/pam.d	040755
+/usr/lib/systemd/system-preset/98-emptty.preset	0100644

@@ -1,0 +1,14 @@
+/usr/lib/libwayland-cursor.so.0.22.0	0100755
+/usr/lib	040755
+/usr/share/wayland	040755
+/usr/lib/libwayland-server.so.0.22.0	0100755
+/usr/lib/libwayland-cursor.so.0	0120777	libwayland-cursor.so.0.22.0
+/usr/lib/libwayland-client.so.0.22.0	0100755
+/usr/share/wayland/wayland.dtd	0100644
+/usr/share/wayland/wayland.xml	0100644
+/usr	040755
+/usr/lib/libwayland-client.so.0	0120777	libwayland-client.so.0.22.0
+/usr/lib/libwayland-server.so.0	0120777	libwayland-server.so.0.22.0
+/usr/share	040755
+/usr/lib/libwayland-egl.so.1.22.0	0100755
+/usr/lib/libwayland-egl.so.1	0120777	libwayland-egl.so.1.22.0

@@ -1,0 +1,15 @@
+Package: libpciaccess0
+Version: 0.18-r0.69
+Description: Generic PCI access library for X
+ libpciaccess provides functionality for X to access the PCI bus and
+ devices in a platform-independent way.
+Section: x11/libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: libpciaccess
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libpciaccess
+Source: libpciaccess_0.18.bb

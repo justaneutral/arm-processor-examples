@@ -1,0 +1,15 @@
+Package: elfutils
+Version: 0.191-r0.185
+Description: Utilities and libraries for handling compiled object files
+ elfutils is a collection of utilities and libraries to read, create and
+ modify ELF binary files, find and handle DWARF debug data, symbols,
+ thread state and stacktraces for processes and core files on GNU/Linux.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: elfutils
+Homepage: https://sourceware.org/elfutils
+Depends: libarchive (>= 3.7.9), libasm1 (>= 0.191), libc6 (>= 2.39+git47+58cbbd43fe), libdebuginfod1 (>= 0.191), libdw1 (>= 0.191), libelf1 (>= 0.191), libgcc1 (>= 13.4.0), libmicrohttpd12 (>= 1.0.1), libsqlite3-0 (>= 3.45.3), libstdc++6 (>= 13.4.0)
+Source: elfutils_0.191.bb

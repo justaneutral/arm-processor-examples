@@ -1,0 +1,15 @@
+Package: libpthread-stubs-dev
+Version: 0.5-r0.54
+Description: Library that provides weak aliases for pthread functions - Development files
+ This library provides weak aliases for pthread functions not provided in
+ libc or otherwise available by default.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libpthread-stubs
+Homepage: http://xcb.freedesktop.org
+Source: libpthread-stubs_0.5.bb

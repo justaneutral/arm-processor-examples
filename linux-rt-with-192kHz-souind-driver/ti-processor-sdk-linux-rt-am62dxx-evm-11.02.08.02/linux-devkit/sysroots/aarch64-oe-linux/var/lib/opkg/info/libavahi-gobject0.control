@@ -1,0 +1,19 @@
+Package: libavahi-gobject0
+Version: 0.8-r0.464
+Description: Avahi IPv4LL network address configuration daemon
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It
+ allows programs to publish and discover services and hosts running on a
+ local network with no specific configuration. This tool implements
+ IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF
+ RFC3927), a protocol for automatic IP address configuration from the
+ link-local 169.254.0.0/16 range without the need for a central server.
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: avahi
+Homepage: http://avahi.org
+Depends: libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavahi-glib1 (>= 0.8), libc6 (>= 2.39+git47+58cbbd43fe), libdbus-1-3 (>= 1.14.10), libglib-2.0-0 (>= 2.78.6)
+Provides: libavahi-gobject
+Source: avahi_0.8.bb

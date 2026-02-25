@@ -1,0 +1,12 @@
+set -e
+set +e
+if [ -n "$D" ]; then
+    ln -sf fitImage-6.12.57-ti-rt-g31b07ab8dfbc $D/boot/fitImage > /dev/null 2>&1
+else
+    ln -sf fitImage-6.12.57-ti-rt-g31b07ab8dfbc boot/fitImage > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Filesystem on boot/ doesn't support symlinks, falling back to copied image (fitImage)."
+        install -m 0644 boot/fitImage-6.12.57-ti-rt-g31b07ab8dfbc boot/fitImage
+    fi
+fi
+set -e

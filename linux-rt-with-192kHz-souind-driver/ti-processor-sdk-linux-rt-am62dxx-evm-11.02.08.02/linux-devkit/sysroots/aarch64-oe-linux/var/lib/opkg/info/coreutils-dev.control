@@ -1,0 +1,16 @@
+Package: coreutils-dev
+Version: 9.4-r0.156
+Description: The basic file, shell and text manipulation utilities - Development files
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Recommends: acl-dev, attr-dev, bash-dev, coreutils (= 9.4-r0.156), findutils-dev, gawk-dev, gmp-dev, libcap-dev, shadow-dev
+Source: coreutils_9.4.bb

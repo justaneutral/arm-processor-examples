@@ -1,0 +1,13 @@
+Package: python3-pycairo
+Version: 1.26.0-r0.374
+Description: Python bindings for the Cairo canvas library
+ Python bindings for the Cairo canvas library.
+Section: python-devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only & MPL-1.1
+Architecture: aarch64
+OE: python3-pycairo
+Homepage: http://cairographics.org/pycairo
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcairo2 (>= 1.18.0)
+Source: python3-pycairo_1.26.0.bb

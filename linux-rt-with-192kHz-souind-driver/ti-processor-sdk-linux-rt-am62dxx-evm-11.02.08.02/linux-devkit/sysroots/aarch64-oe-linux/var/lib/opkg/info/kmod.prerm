@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  insmod /usr/sbin/insmod.kmod
+	update-alternatives --remove  modprobe /usr/sbin/modprobe.kmod
+	update-alternatives --remove  rmmod /usr/sbin/rmmod.kmod
+	update-alternatives --remove  modinfo /usr/sbin/modinfo.kmod
+	update-alternatives --remove  bin-lsmod /usr/bin/lsmod.kmod
+	update-alternatives --remove  lsmod /usr/bin/lsmod.kmod
+	update-alternatives --remove  depmod /usr/sbin/depmod.kmod

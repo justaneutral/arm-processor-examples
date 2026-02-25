@@ -1,0 +1,16 @@
+Package: nativesdk-openssl-dev
+Version: 3.2.6-r0.15
+Description: Secure Socket Layer - Development files
+ Secure Socket Layer (SSL) binary and related cryptographic tools.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: x86_64-nativesdk
+OE: nativesdk-openssl
+Homepage: http://www.openssl.org/
+Depends: nativesdk-libcrypto, nativesdk-libssl
+Recommends: nativesdk-glibc-dev, nativesdk-libcrypto-dev, nativesdk-libssl-dev, nativesdk-openssl (= 3.2.6-r0.15), nativesdk-openssl-conf-dev, nativesdk-perl-dev
+Source: openssl_3.2.6.bb

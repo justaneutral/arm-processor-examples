@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/libbz2.so	0120777	libbz2.so.1.0.8
+/usr/include/bzlib.h	0100644
+/usr	040755
+/usr/include	040755

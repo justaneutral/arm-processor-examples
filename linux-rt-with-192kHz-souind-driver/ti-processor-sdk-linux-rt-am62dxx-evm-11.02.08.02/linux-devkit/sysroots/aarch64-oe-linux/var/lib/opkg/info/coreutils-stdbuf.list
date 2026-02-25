@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/coreutils/libstdbuf.so	0100755
+/usr/lib/coreutils	040755
+/usr/bin/stdbuf	0100755
+/usr/bin	040755
+/usr	040755

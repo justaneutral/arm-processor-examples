@@ -1,0 +1,18 @@
+Package: mesa-vulkan-drivers
+Version: 2:24.0.7-r0.396
+Description: A free implementation of the OpenGL API
+ Mesa is an open-source implementation of the OpenGL specification - a
+ system for rendering interactive 3D graphics.  A variety of device
+ drivers allows Mesa to be used in many different environments ranging
+ from software emulation to complete hardware acceleration for modern
+ GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure
+ and X.org environment.
+Section: x11
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: mesa
+Homepage: http://mesa3d.org
+Depends: clang-libllvm (>= 18.1.8), libc6 (>= 2.39+git47+58cbbd43fe), libdrm2 (>= 2.4.120), libexpat1 (>= 2.6.4), libgcc1 (>= 13.4.0), libstdc++6 (>= 13.4.0), libz1 (>= 1.3.1), libzstd1 (>= 1.5.5), wayland (>= 1.22.0)
+Source: mesa_24.0.7.bb

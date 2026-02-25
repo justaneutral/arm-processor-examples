@@ -1,0 +1,15 @@
+Package: gdb-cross-canadian-arm
+Version: 14.2-r0.162
+Description: GNU debugger (cross-canadian gdb for arm target)
+ GDB, the GNU Project debugger, allows you to see what is going on inside
+ another program while it executes -- or what another program was doing at
+ the moment it crashed.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only
+Architecture: x86_64-k3r5-nativesdk
+OE: gdb-cross-canadian-arm
+Homepage: http://www.gnu.org/software/gdb/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libdebuginfod1 (>= 0.191), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libmpfr6 (>= 4.2.1), nativesdk-libncursesw5 (>= 6.4), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-libreadline8 (>= 8.2), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libtinfo5 (>= 6.4), nativesdk-libzstd1 (>= 1.5.5), nativesdk-python3-codecs, nativesdk-python3-core, nativesdk-python3-netclient
+Source: gdb-cross-canadian_14.2.bb

@@ -1,0 +1,17 @@
+Package: kmod-dev
+Version: 31-r0.84
+Description: Tools for managing Linux kernel modules - Development files
+ kmod is a set of tools to handle common tasks with Linux kernel modules
+ like                insert, remove, list, check properties, resolve
+ dependencies and aliases.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: kmod
+Homepage: http://kernel.org/pub/linux/utils/kernel/kmod/
+Depends: libkmod
+Recommends: bash-completion-dev, glibc-dev, kmod (= 31-r0.84), libcrypto-dev, libkmod-dev, liblzma-dev, openssl-dev, update-alternatives-opkg-dev, xz-dev, zlib-dev
+Source: kmod_31.bb

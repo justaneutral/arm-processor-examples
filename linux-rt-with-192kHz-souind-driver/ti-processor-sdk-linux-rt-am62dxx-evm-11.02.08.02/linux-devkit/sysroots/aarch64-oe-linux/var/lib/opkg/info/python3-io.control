@@ -1,0 +1,14 @@
+Package: python3-io
+Version: 3.12.12-r0.6
+Description: Python low-level I/O
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: aarch64
+OE: python3
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcrypto3 (>= 3.2.6), libssl3 (>= 3.2.6), python3-core, python3-crypt, python3-math, python3-netclient, python3-shell
+Source: python3_3.12.12.bb

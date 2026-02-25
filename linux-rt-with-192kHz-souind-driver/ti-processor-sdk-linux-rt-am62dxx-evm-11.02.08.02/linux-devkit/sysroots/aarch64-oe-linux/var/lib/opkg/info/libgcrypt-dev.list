@@ -1,0 +1,14 @@
+/usr/bin/dumpsexp	0100755
+/usr/include/gcrypt.h	0100644
+/usr/lib	040755
+/usr/bin/libgcrypt-config	0100755
+/usr/bin	040755
+/usr/share/aclocal/libgcrypt.m4	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/bin/hmac256	0100755
+/usr/lib/libgcrypt.so	0120777	libgcrypt.so.20.4.3
+/usr/share/aclocal	040755
+/usr/share	040755
+/usr/lib/pkgconfig/libgcrypt.pc	0100644
+/usr/include	040755

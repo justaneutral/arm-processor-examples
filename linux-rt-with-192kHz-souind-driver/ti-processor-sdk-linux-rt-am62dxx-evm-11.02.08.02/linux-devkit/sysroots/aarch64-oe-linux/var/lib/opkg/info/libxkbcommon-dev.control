@@ -1,0 +1,17 @@
+Package: libxkbcommon-dev
+Version: 1.6.0-r0.253
+Description: Generic XKB keymap library - Development files
+ libxkbcommon is a keymap compiler and support library which processes a
+ reduced subset of keymaps as defined by the XKB specification.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: libxkbcommon
+Homepage: http://www.xkbcommon.org
+Depends: libxkbcommon, libxkbregistry
+Recommends: bash-completion-dev, glibc-dev, libx11-compose-data-dev, libxkbcommon0 (= 1.6.0-r0.253), libxkbregistry-dev, libxml2-dev, wayland-dev, wayland-protocols-dev
+Source: libxkbcommon_1.6.0.bb

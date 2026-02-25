@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/libvulkan_lvp.so	0100755
+/usr/share/vulkan/icd.d/lvp_icd.aarch64.json	0100644
+/usr	040755
+/usr/share/vulkan/icd.d	040755
+/usr/share/vulkan	040755
+/usr/share	040755

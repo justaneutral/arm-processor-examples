@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-graphics-sdk-target
+Version: 1.0-r10.3
+Description: Task to install graphics packages on sdk target
+ Task to install graphics packages on sdk target.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: packagegroup-arago-tisdk-graphics-sdk-target
+Depends: ktx-software-dev, libdrm-dev, libegl-dev, libgl-dev, libgles1-dev, libgles2-dev, libgles3-dev, libsdl2-dev, nlohmann-json-dev, stb-dev, wayland-dev, weston-dev
+Source: packagegroup-arago-tisdk-graphics-sdk-target.bb

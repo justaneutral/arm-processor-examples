@@ -1,0 +1,14 @@
+Package: libti-rpmsg-char-staticdev
+Version: 0.6.10+git0+057b1a2492-r0.0
+Description: TI RPMsg Char Utility Library - Development files (Static Libraries)
+ TI RPMsg Char Utility Library.  This package contains static libraries
+ for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: ti-rpmsg-char
+Depends: libti-rpmsg-char-dev (= 0.6.10+git0+057b1a2492-r0.0)
+Provides: ti-rpmsg-char-staticdev
+Source: ti-rpmsg-char_git.bb

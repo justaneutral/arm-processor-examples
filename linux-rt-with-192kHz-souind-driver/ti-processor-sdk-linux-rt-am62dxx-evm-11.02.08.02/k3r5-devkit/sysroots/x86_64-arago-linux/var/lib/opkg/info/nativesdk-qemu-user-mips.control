@@ -1,0 +1,13 @@
+Package: nativesdk-qemu-user-mips
+Version: 8.2.7-r0.151
+Description: QEMU full user emulation binaries(mips)
+ QEMU full user emulation binaries(mips)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-bash, nativesdk-qemu-common
+Source: qemu_8.2.7.bb

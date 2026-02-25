@@ -1,0 +1,14 @@
+Package: libgsturidownloader-1.0-0
+Version: 1.22.12-r0.1619
+Description: GStreamer 1.0 gsturidownloader-1.0 library
+ GStreamer 1.0 gsturidownloader-1.0 library
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: gstreamer1.0-plugins-bad
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.22.12), libc6 (>= 2.39+git47+58cbbd43fe), libglib-2.0-0 (>= 2.78.6)
+Provides: libgsturidownloader-1.0
+Source: gstreamer1.0-plugins-bad_1.22.12.bb

@@ -1,0 +1,18 @@
+Package: libasound2
+Version: 1.2.11-r0.67
+Description: ALSA sound library
+ (Occasionally a.k.a. libasound) is a userspace library that provides a
+ level of abstraction over the /dev interfaces provided by the kernel
+ modules.
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only & GPL-2.0-or-later
+Architecture: aarch64
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Depends: alsa-conf, alsa-ucm-conf, libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: alsa-lib, libasound
+Replaces: libasound
+Conflicts: libasound
+Source: alsa-lib_1.2.11.bb

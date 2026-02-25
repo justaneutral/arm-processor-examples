@@ -1,0 +1,16 @@
+/usr/bin/mpg123-strip	0100755
+/usr/bin/mpg123-id3dump	0100755
+/usr/bin/out123	0100755
+/usr/lib	040755
+/usr/lib/mpg123	040755
+/usr/lib/libmpg123.so.0	0120777	libmpg123.so.0.48.3
+/usr/bin	040755
+/usr/lib/libmpg123.so.0.48.3	0100755
+/usr	040755
+/usr/lib/mpg123/output_dummy.so	0100755
+/usr/lib/libsyn123.so.0	0120777	libsyn123.so.0.2.3
+/usr/lib/libsyn123.so.0.2.3	0100755
+/usr/lib/libout123.so.0	0120777	libout123.so.0.5.1
+/usr/lib/libout123.so.0.5.1	0100755
+/usr/lib/mpg123/output_pulse.so	0100755
+/usr/bin/mpg123	0100755

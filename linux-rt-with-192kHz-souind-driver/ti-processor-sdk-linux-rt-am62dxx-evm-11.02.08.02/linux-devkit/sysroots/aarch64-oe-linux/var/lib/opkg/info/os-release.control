@@ -1,0 +1,13 @@
+Package: os-release
+Version: 1.0-r0.28
+Description: Operating system identification
+ The /usr/lib/os-release file contains operating system identification
+ data.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: os-release
+Homepage: https://www.freedesktop.org/software/systemd/man/os-release.html
+Source: os-release.bb

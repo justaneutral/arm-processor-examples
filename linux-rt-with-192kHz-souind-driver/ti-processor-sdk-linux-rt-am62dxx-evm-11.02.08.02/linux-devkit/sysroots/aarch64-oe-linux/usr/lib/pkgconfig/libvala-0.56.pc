@@ -1,0 +1,22 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+bindir=/usr/bin
+includedir=/usr/include
+datarootdir=${prefix}/share
+datadir=/usr/share
+pkgdatadir=/usr/share/vala-0.56
+pkglibdir=/usr/lib/vala-0.56
+vapidir=/usr/share/vala-0.56/vapi
+
+vapigen=/usr/bin/vapigen-0.56
+gen_introspect=/usr/lib/vala-0.56/gen-introspect-0.56
+vala_gen_introspect=/usr/bin/vala-gen-introspect-0.56
+
+Name: Vala
+Description: The Vala compiler library
+Version: 0.56.15
+Requires: glib-2.0 gobject-2.0
+Requires.private: gmodule-2.0
+Libs: -L${libdir} -lvala-0.56
+Cflags: -I${includedir}/vala-0.56

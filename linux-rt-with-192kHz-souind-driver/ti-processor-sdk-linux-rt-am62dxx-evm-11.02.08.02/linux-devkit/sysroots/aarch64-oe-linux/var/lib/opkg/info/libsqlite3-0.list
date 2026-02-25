@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libsqlite3.so.0	0120777	libsqlite3.so.0.8.6
+/usr/lib/libsqlite3.so.0.8.6	0100755

@@ -1,0 +1,22 @@
+Package: systemd
+Version: 1:255.21-r0.arago7_tisdk_0.69
+Description: A System and service manager
+ systemd is a system and service manager for Linux, compatible with SysV
+ and LSB init scripts. systemd provides aggressive parallelization
+ capabilities, uses socket and D-Bus activation for starting services,
+ offers on-demand starting of daemons, keeps track of processes using
+ Linux cgroups, supports snapshotting and restoring of the system state,
+ maintains mount and automount points and implements an elaborate
+ transactional dependency-based service control logic. It can work as a
+ drop-in replacement for sysvinit.
+Section: base/shell
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: base-files, base-passwd, dbus, kmod, ldconfig, libacl1 (>= 2.3.2), libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libcrypt2 (>= 4.4.36), libkmod2 (>= 31), libmount1 (>= 2.39.3), libnss-myhostname, libnss-systemd, libpam (>= 1.5.3), libseccomp (>= 2.5.5), libsystemd-shared (>= 255.21), pam-plugin-keyinit, pam-plugin-loginuid, pam-plugin-namespace, pam-plugin-unix, shadow, systemd-compat-units, systemd-udev-rules, systemd-vconsole-setup, udev (= 1:255.21-r0.arago7_tisdk_0.69), update-alternatives-opkg, update-rc.d, util-linux-agetty, util-linux-fsck, util-linux-mount, util-linux-swaponoff, util-linux-umount, volatile-binds
+Recommends: e2fsprogs-e2fsck, kernel-module-autofs4, kernel-module-ipv6, kernel-module-sch-fq-codel, kernel-module-unix, os-release, pam-plugin-umask, systemd-conf, systemd-crypt, systemd-extra-utils, udev-hwdb
+Conflicts: resolvconf, tiny-init
+Source: systemd_255.21.bb

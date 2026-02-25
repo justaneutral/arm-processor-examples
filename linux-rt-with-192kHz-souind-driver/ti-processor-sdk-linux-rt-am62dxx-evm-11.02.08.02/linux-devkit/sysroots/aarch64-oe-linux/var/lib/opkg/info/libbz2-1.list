@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libbz2.so.1.0.8	0100755
+/usr/lib/libbz2.so.1	0120777	libbz2.so.1.0.8
+/usr	040755

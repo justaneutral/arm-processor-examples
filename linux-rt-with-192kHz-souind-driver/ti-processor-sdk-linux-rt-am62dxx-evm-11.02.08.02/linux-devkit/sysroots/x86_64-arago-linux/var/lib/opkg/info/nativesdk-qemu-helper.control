@@ -1,0 +1,12 @@
+Package: nativesdk-qemu-helper
+Version: 1.0-r0.145
+Description: Qemu helper scripts
+ Qemu helper scripts.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu-helper
+Depends: nativesdk-pseudo, nativesdk-python3-fcntl, nativesdk-python3-logging, nativesdk-python3-shell, nativesdk-qemu, nativesdk-unfs3
+Source: nativesdk-qemu-helper_1.0.bb

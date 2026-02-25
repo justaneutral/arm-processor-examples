@@ -1,0 +1,719 @@
+/usr/share/alsa/ucm2/conf.virt.d	040755
+/usr/share/alsa/ucm2/platforms/bytcr	040755
+/usr/share/alsa/ucm2/HDA	040755
+/usr/share/alsa/ucm2/codecs/hda	040755
+/usr/share/alsa/ucm2/codecs/wsa883x/SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD.conf	0100644
+/usr/share/alsa/ucm2/conf.d/kblrt5660	040755
+/usr/share/alsa/ucm2/codecs/da7219	040755
+/usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i.conf	0100644
+/usr/share/alsa/ucm2/codecs/es8316/IN2-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C-HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/MOTU	040755
+/usr/share/alsa/ucm2/Intel/sof-glkda7219max/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-essx8336/sof-essx8336.conf	0120777	../../Intel/sof-essx8336/sof-essx8336.conf
+/usr/share/alsa/ucm2/HDA/HDA-Capture-value.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/SDP4430.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/IN3-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/Tegra/max98089/lge-x3-VoiceCall.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front-Speaker-Headset.conf	0100644
+/usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi2.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1DisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/NXP	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro	040755
+/usr/share/alsa/ucm2/MediaTek/mtk-rt5650/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/DisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt715/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/SOF/SOF.conf	0120777	../../Intel/SOF/SOF.conf
+/usr/share/alsa/ucm2/codecs/wsa884x/four-speakers	040755
+/usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtrt5645/chtrt5645.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa883x	040755
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf	0100644
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5	040755
+/usr/share/alsa/ucm2/Rockchip/es8316	040755
+/usr/share/alsa/ucm2/MediaTek/mt8395-evk/mt8395-evk.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-LongName.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/rk3588-es8316	040755
+/usr/share/alsa/ucm2/Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/SolidStateLabs	040755
+/usr/share/alsa/ucm2/codecs/cx2072x/InternalMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Slider WM8903.conf	0120777	../../Tegra/wm8903/Asus-Transformer.conf
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/FMAnalog.conf	0100644
+/usr/share/alsa/ucm2/codecs/wm5102/IN2-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-glkda7219ma/sof-glkda7219ma.conf	0120777	../../Intel/sof-glkda7219max/sof-glkda7219max.conf
+/usr/share/alsa/ucm2/conf.d/sof-soundwire	040755
+/usr/share/alsa/ucm2/HDA/HDA.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtmax98090/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/es8316/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-hda-dsp	040755
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M2.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8250/HiFi.conf	0100644
+/usr/share/alsa/ucm2/AMD/acp5x	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8096/apq8096.conf	0100644
+/usr/share/alsa/ucm2/Allwinner/A64/PinePhone/PinePhone.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa884x	040755
+/usr/share/alsa/ucm2/conf.d/sc8280xp/sc8280xp.conf	0120777	../../Qualcomm/sc8280xp/sc8280xp.conf
+/usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080-HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/HeadphonesEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660/sof-ehl-rt5660.conf	0120777	../../Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf
+/usr/share/alsa/ucm2/MediaTek/mt8195_demo	040755
+/usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop-HiFi.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430	040755
+/usr/share/alsa/ucm2/module/snd_soc_tegra_max98090.conf	0120777	../Tegra/max98090/max98090.conf
+/usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/SpeakerSeq.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic1EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/simple-card	040755
+/usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer.conf	0100644
+/usr/share/alsa/ucm2/codecs/nau8824/DMIC1_2.conf	0100644
+/usr/share/alsa/ucm2/conf.d/USB-Audio/USB-Audio.conf	0120777	../../USB-Audio/USB-Audio.conf
+/usr/share/alsa/ucm2/MediaTek/mt8365-evk	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/rk3588-es8316/rk3588-es8316.conf	0120777	../../Rockchip/rk3588-es8316/rk3588-es8316.conf
+/usr/share/alsa/ucm2/MediaTek/mt8395-evk/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcr-wm5102	040755
+/usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-wm5102/bytcr-wm5102.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/kblrt5660/kblrt5660.conf	0120777	../../Intel/kblrt5660/kblrt5660.conf
+/usr/share/alsa	040755
+/usr/share/alsa/ucm2/conf.d/simple-card/Librem 5.conf	0120777	../../NXP/iMX8/Librem_5/Librem 5.conf
+/usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C.conf	0100644
+/usr/share/alsa/ucm2/conf.d/SOF	040755
+/usr/share/alsa/ucm2/codecs/rt5645/init.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt700/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/broadwell-rt286	040755
+/usr/share/alsa/ucm2/conf.d/bytcr-rt5640/bytcr-rt5640.conf	0120777	../../Intel/bytcr-rt5640/bytcr-rt5640.conf
+/usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Steinberg	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/apq8016-sbc.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/chtnau8824	040755
+/usr/share/alsa/ucm2/AMD/acp3x-es83xx/acp3x-es83xx.conf	0100644
+/usr/share/alsa/ucm2/Tegra/alc5632	040755
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD-HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Gigabyte	040755
+/usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi1.conf	0100644
+/usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7-HiFi.conf	0100644
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8365-evk/mt8365-evk.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtmax98090/chtmax98090.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front.conf	0100644
+/usr/share/alsa/ucm2/conf.d/hda-dsp/hda-dsp.conf	0120777	../../Intel/hda-dsp/hda-dsp.conf
+/usr/share/alsa/ucm2/conf.d/sdm845	040755
+/usr/share/alsa/ucm2/conf.d/rk3399-gru-soun/rk3399-gru-soun.conf	0120777	../../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+/usr/share/alsa/ucm2/platforms/bytcr/PlatformDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc8280xp/sc8280xp.conf	0100644
+/usr/share/alsa/ucm2/codecs/cx2072x/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc7180	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/FMAnalog.conf	0100644
+/usr/share/alsa/ucm2/module/snd_soc_sdm845.conf	0120777	../Qualcomm/sdm845/sdm845.conf
+/usr/share/alsa/ucm2/sof-soundwire/rt711.conf	0100644
+/usr/share/alsa/ucm2/conf.d	040755
+/usr/share/alsa/ucm2/codecs/rt5651/HeadPhones-swapped.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sm8650	040755
+/usr/share/alsa/ucm2/sof-soundwire/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa883x/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/HDA-Intel	040755
+/usr/share/alsa/ucm2/Intel/bytcr-rt5651/bytcr-rt5651.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBlaze.conf	0120777	../../Tegra/max98090/max98090.conf
+/usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Common	040755
+/usr/share/alsa/ucm2/codecs/wcd934x/SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi1.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mtk-rt5650	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/VoiceCall.conf	0100644
+/usr/share/alsa/ucm2/codecs/max98090/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/platforms/bytcr/PlatformEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtnau8824	040755
+/usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt711-sdca	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Voice.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/HDA-Intel/HDA-Intel.conf	0120777	../../HDA/HDA.conf
+/usr/share/alsa/ucm2/codecs/es8316/IN2-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/wm5102/Speaker.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acpd7219m98357/acpd7219m98357.conf	0120777	../../AMD/acpd7219m98357/acpd7219m98357.conf
+/usr/share/alsa/ucm2/Intel/sof-essx8336/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm	040755
+/usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp62/acp62.conf	0120777	../../common/linked-card.conf
+/usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TL RT5631.conf	0120777	../../Tegra/rt5631/Asus-Transformer.conf
+/usr/share/alsa/ucm2/codecs/rt5645/DigitalMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/IN1-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/max98090/InternalMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp3xalc5682m98	040755
+/usr/share/alsa/ucm2/Allwinner	040755
+/usr/share/alsa/ucm2/codecs/wm5102	040755
+/usr/share/alsa/ucm2/codecs/rt5651/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/simple-card/rockchip,es8316-codec.conf	0120777	../../Rockchip/es8316/es8316.conf
+/usr/share/alsa/ucm2/conf.virt.d/.gitignore	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/DigitalMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd938x/init.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-essx8336	040755
+/usr/share/alsa/ucm2/Tegra/rt5631	040755
+/usr/share/alsa/ucm2/common/pcm	040755
+/usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7.conf	0100644
+/usr/share/alsa/ucm2/lib/ctl-remap.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcht-cx2072x	040755
+/usr/share/alsa/ucm2/Intel/sof-hda-dsp	040755
+/usr/share/alsa/ucm2/Qualcomm/sm8250/HDMI.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtrt5650/HiFi.conf	0100644
+/usr/share/alsa/ucm2/MediaTek	040755
+/usr/share/alsa/ucm2/AMD/acp5x/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/Speaker.conf	0100644
+/usr/share/alsa/ucm2/codecs/cs42l43/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0DisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Transformer WM8903.conf	0120777	../../Tegra/wm8903/Asus-Transformer.conf
+/usr/share/alsa/ucm2/codecs/es8316/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M4-HiFi.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/chtmax98090	040755
+/usr/share/alsa/ucm2/Tegra/rt5640	040755
+/usr/share/alsa/ucm2/conf.d/sof-mt8195_r101/sof-mt8195_r1019_5682.conf	0120777	../../MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+/usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording-Hifi.conf	0100644
+/usr/share/alsa/ucm/README.md	0100644
+/usr/share/alsa/ucm2/conf.d/chtnau8824/chtnau8824.conf	0120777	../../Intel/chtnau8824/chtnau8824.conf
+/usr/share/alsa/ucm2/conf.d/chtrt5645/chtrt5645.conf	0120777	../../Intel/chtrt5645/chtrt5645.conf
+/usr/share/alsa/ucm2/USB-Audio/Rane/SL-1.conf	0100644
+/usr/share/alsa/ucm2/common/direct-verb.conf	0100644
+/usr/share/alsa/ucm2/conf.d/gx-sound-card/GXL-P241.conf	0120777	../../Amlogic/p241/p241.conf
+/usr/share/alsa/ucm2/AMD/acp5x/acp5x.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/VoiceCall.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp3x-es83xx/acp3x-es83xx.conf	0120777	../../AMD/acp3x-es83xx/acp3x-es83xx.conf
+/usr/share/alsa/ucm2/conf.d/gx-sound-card/LIBRETECH-CC.conf	0120777	../../Amlogic/p241/p241.conf
+/usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195_demo/mt8195_demo.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic5EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Record.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/DB820c/DB820c.conf	0120777	../../Qualcomm/apq8096/apq8096.conf
+/usr/share/alsa/ucm2/Intel/skylake-rt286	040755
+/usr/share/alsa/ucm2/Intel/SOF	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/lib/card-init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660	040755
+/usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300T WM8903.conf	0120777	../../Tegra/wm8903/Asus-Transformer.conf
+/usr/share/alsa/ucm2/codecs/cx2072x	040755
+/usr/share/alsa/ucm	040755
+/usr/share/alsa/ucm2/Intel/chtnau8824/chtnau8824.conf	0100644
+/usr/share/alsa/ucm2/common/linked.conf	0100644
+/usr/share/alsa/ucm2/HDA/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra-hda/tegra-hda.conf	0120777	../../Tegra/tegra-hda/tegra-hda.conf
+/usr/share/alsa/ucm2/Tegra/alc5632/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf	0100644
+/usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi2.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio	040755
+/usr/share/alsa/ucm2/conf.d/rk3399-gru-soun	040755
+/usr/share/alsa/ucm2/codecs/cs42l43	040755
+/usr/share/alsa/ucm2/Intel/broxton-rt298/broxton-rt298.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195_demo/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/AMD/acpd7219m98357/acpd7219m98357.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-hda-dsp.conf	0120777	../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+/usr/share/alsa/ucm2/codecs/cx2072x/HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8390-evk/mt8390-evk.conf	0120777	../../MediaTek/mt8390-evk/mt8390-evk.conf
+/usr/share/alsa/ucm2/Amlogic	040755
+/usr/share/alsa/ucm2/Amlogic/p241/p241.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2.conf	0100644
+/usr/share/alsa/ucm2/Intel/SOF/SOF.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TG RT5631.conf	0120777	../../Tegra/rt5631/Asus-Transformer.conf
+/usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682	040755
+/usr/share/alsa/ucm2/conf.d/mt8195_demo/mt8195_demo.conf	0120777	../../MediaTek/mt8195_demo/mt8195_demo.conf
+/usr/share/alsa/ucm2/conf.d/rockchip_es8316/rockchip_es8316.conf	0120777	../../Rockchip/es8316/es8316.conf
+/usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi2.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-hda-dsp/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672	040755
+/usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672/cht-bsw-rt5672.conf	0120777	../../Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf
+/usr/share/alsa/ucm2/sof-soundwire/rt1316.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk817-sound/rk817-sound.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp6x/acp6x.conf	0120777	../../common/linked-card.conf
+/usr/share/alsa/ucm2/Rockchip/es8316/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/DigitalMic.conf	0100644
+/usr/share/alsa/ucm2/HDA/DualCodecs	040755
+/usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/init.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sdm845/HDMI.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Dell	040755
+/usr/share/alsa/ucm2/codecs/wsa881x/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/rt711-sdca.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/LG Optimus Vu MAX98089.conf	0120777	../../Tegra/max98089/lge-x3.conf
+/usr/share/alsa/ucm2/AMD/acp3xalc5682m98/HiFi.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/cs42l43.conf	0100644
+/usr/share/alsa/ucm2/conf.d/broadwell-rt286/broadwell-rt286.conf	0120777	../../Intel/broadwell-rt286/broadwell-rt286.conf
+/usr/share/alsa/ucm2/conf.d/mtk-rt5650/mtk-rt5650.conf	0120777	../../MediaTek/mtk-rt5650/mtk-rt5650.conf
+/usr/share/alsa/ucm2/codecs/rt5651/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf	0100644
+/usr/share/alsa/ucm2/Intel/hda-dsp	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFiLP.conf	0100644
+/usr/share/alsa/ucm2/OMAP	040755
+/usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8395-evk	040755
+/usr/share/alsa/ucm2/Rockchip/rk817-sound	040755
+/usr/share/alsa/ucm2/conf.d/mt8370-evk/mt8370-evk.conf	0120777	../../MediaTek/mt8370-evk/mt8370-evk.conf
+/usr/share/alsa/ucm2/Intel/bdw-rt5677/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp5x/Valve-Jupiter-1.conf	0120777	../../AMD/acp5x/acp5x.conf
+/usr/share/alsa/ucm2/Samsung	040755
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M4.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Audient	040755
+/usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/simple-card/rk817_int.conf	0120777	../../Rockchip/rk817-sound/rk817-sound.conf
+/usr/share/alsa/ucm2/codecs/rt5640/Speaker.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/AnalogMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-wm5102	040755
+/usr/share/alsa/ucm2/codecs/rt5640/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/simple-card/rk817_ext.conf	0120777	../../Rockchip/rk817-sound/rk817-sound.conf
+/usr/share/alsa/ucm2/Amlogic/p241/p241-HiFi.conf	0100644
+/usr/share/alsa/ucm2/NXP/iMX8	040755
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic3EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/HSMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/x1e80100	040755
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Amlogic/p241	040755
+/usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi.conf	0100644
+/usr/share/alsa/ucm2/common/ctl/remap.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8192_mt6359	040755
+/usr/share/alsa/ucm2/Qualcomm/x1e80100	040755
+/usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtmax98090	040755
+/usr/share/alsa/ucm2/codecs/wm5102/IN1-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sm8650/SM8650-QRD.conf	0120777	../../Qualcomm/sm8650/QRD/SM8650-QRD.conf
+/usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound	040755
+/usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-wm5102/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8370-evk	040755
+/usr/share/alsa/ucm2/Intel/hda-dsp/hda-dsp.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp/acp.conf	0120777	../../common/linked-card.conf
+/usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0009.conf	0100644
+/usr/share/alsa/ucm2/Intel/skylake-rt286/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/USB-Audio.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcht-es8316/bytcht-es8316.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcht-cx2072x/bytcht-cx2072x.conf	0120777	../../Intel/bytcht-cx2072x/bytcht-cx2072x.conf
+/usr/share/alsa/ucm2/Intel/broadwell-rt286/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Samsung/snow/snow.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtrt5645/HiFi.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/rt1308.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcht-es8316	040755
+/usr/share/alsa/ucm2/sof-soundwire/sof-soundwire.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd934x/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/HDA/HiFi-analog.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/max98090	040755
+/usr/share/alsa/ucm2/sof-soundwire/dmic.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk817-sound/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/es8316/IN1-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Tegra/max98089	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro	040755
+/usr/share/alsa/ucm2/conf.d/tegra	040755
+/usr/share/alsa/ucm2/Intel/sof-glkda7219max	040755
+/usr/share/alsa/ucm2/codecs/wm5102/IN3-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8250	040755
+/usr/share/alsa/ucm2/USB-Audio/Rane	040755
+/usr/share/alsa/ucm2/codecs/max98090/Speaker.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcht-cx2072x/bytcht-cx2072x.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Sony	040755
+/usr/share/alsa/ucm2/codecs/rt5645/HSMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt715-sdca/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp62	040755
+/usr/share/alsa/ucm2/Tegra/alc5632/Record.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp63	040755
+/usr/share/alsa/ucm2/module/snd_soc_omap_abe_twl6040.conf	0120777	../OMAP/abe-twl6040/abe-twl6040.conf
+/usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HDMI.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt713-sdca	040755
+/usr/share/alsa/ucm2/codecs/rt5672/DMIC1.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-skl_hda_card	0120777	sof-hda-dsp
+/usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0003.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/cs35l56.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi-MM1.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa881x/SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sdm845/LENOVO-81JL-LenovoYOGAC630_13Q50-LNVNB161216.conf	0120777	../../Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf
+/usr/share/alsa/ucm2/Tegra/max98090	040755
+/usr/share/alsa/ucm2/conf.d/sof-mt8195_r101	040755
+/usr/share/alsa/ucm2/lib	040755
+/usr/share/alsa/ucm2/Qualcomm/x1e80100/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Tegra/wm8903	040755
+/usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5/Librem 5.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5672/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt713-dmic/init.conf	0100644
+/usr/share/alsa/ucm2/AMD/acp3x-es83xx/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8195_demo	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8390-evk/mt8390-evk.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/IN2-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio-HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5672/Speaker.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp5x	040755
+/usr/share/alsa/ucm2/codecs/rt5640/HeadPhones2.conf	0100644
+/usr/share/alsa/ucm2/codecs/wm5102/HPOut2-Speaker.conf	0100644
+/usr/share/alsa/ucm2/conf.d/broxton-rt298	040755
+/usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic1EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock.conf	0100644
+/usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/SC7180	040755
+/usr/share/alsa/ucm2/conf.d/broxton-rt298/broxton-rt298.conf	0120777	../../Intel/broxton-rt298/broxton-rt298.conf
+/usr/share/alsa/ucm2/Intel/broxton-rt298/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk3588-es8316/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/init.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra-hda	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt713-sdca/init.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/SM8650-QRD.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa881x/SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/max98090/max98090.conf	0100644
+/usr/share/alsa/ucm2/conf.d/DB410c	040755
+/usr/share/alsa/ucm2/Intel/sof-essx8336/sof-essx8336.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcht-cx2072x/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp6x	040755
+/usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2-HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/init.conf	0100644
+/usr/share/alsa/ucm2/README.md	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc8280xp/LENOVO-X13s.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bdw-rt5677	040755
+/usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10.conf	0100644
+/usr/share/alsa/ucm2/codecs/max98090/Headphones.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0DisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5682/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mtk-rt5650/mtk-rt5650.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFi.conf	0100644
+/usr	040755
+/usr/share/alsa/ucm2/conf.d/sdm845/DB845c.conf	0120777	../../Qualcomm/sdm845/sdm845.conf
+/usr/share/alsa/ucm2/codecs/wm5102/IN1-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/cx2072x/DisableSeq.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8395-evk	040755
+/usr/share/alsa/ucm2/USB-Audio/AllenAndHeath	040755
+/usr/share/alsa/ucm2/MediaTek/mt8370-evk/mt8370-evk.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcr-wm5102/bytcr-wm5102.conf	0120777	../../Intel/bytcr-wm5102/bytcr-wm5102.conf
+/usr/share/alsa/ucm2/Tegra/max98090/max98090.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro	040755
+/usr/share/alsa/ucm2/codecs/es8316	040755
+/usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Prime TF201 RT5631.conf	0120777	../../Tegra/rt5631/Asus-Transformer.conf
+/usr/share/alsa/ucm2/codecs/cx2072x/Speaker.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44.conf	0100644
+/usr/share/alsa/ucm2/HDA/HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/Acer Iconia Tab A500 WM8903.conf	0120777	../../Tegra/wm8903/Acer-A500.conf
+/usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Infinity TF700T RT5631.conf	0120777	../../Tegra/rt5631/Asus-Transformer.conf
+/usr/share/alsa/ucm2/HDA/HiFi-acp.conf	0100644
+/usr/share/alsa/ucm2/codecs/nau8824/InternalMic.conf	0100644
+/usr/share/alsa/ucm2/Intel/bdw-rt5677	040755
+/usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtrt5650/chtrt5650.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/es8316/es8316.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-hda-dsp/sof-hda-dsp.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Pandaboard.conf	0100644
+/usr/share/alsa/ucm2/codecs/nau8824/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bdw-rt5677/bdw-rt5677.conf	0120777	../../Intel/bdw-rt5677/bdw-rt5677.conf
+/usr/share/alsa/ucm2/codecs/rt711-sdca/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass	040755
+/usr/share/alsa/ucm2/Qualcomm/sm8650/MTP	040755
+/usr/share/alsa/ucm2/sof-soundwire/rt715-sdca.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-Components.conf	0100644
+/usr/share/alsa/ucm2/common/direct.conf	0100644
+/usr/share/alsa/ucm2/common/pcm/split.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8192	040755
+/usr/share/alsa/ucm2/codecs/nau8824/Speaker.conf	0100644
+/usr/share/alsa/ucm2/AMD/acpd7219m98357	040755
+/usr/share/alsa/ucm2/common	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8096/HiFi.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/abe-twl6040.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M2-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk3588-es8316	040755
+/usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/max98090/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic2-IN1.conf	0100644
+/usr/share/alsa/ucm2/Samsung/snow/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Roland	040755
+/usr/share/alsa/ucm2/module/snd_soc_snow.conf	0120777	../Samsung/snow/snow.conf
+/usr/share/alsa/ucm2/MediaTek/mt8370-evk	040755
+/usr/share/alsa/ucm2/conf.d/bytcr-rt5651/bytcr-rt5651.conf	0120777	../../Intel/bytcr-rt5651/bytcr-rt5651.conf
+/usr/share/alsa/ucm2/codecs/wm5102/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/bdw-rt5677/bdw-rt5677.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Realtek	040755
+/usr/share/alsa/ucm2/codecs/rt5672/MonoSpeaker.conf	0100644
+/usr/share/alsa/ucm2/conf.d/gx-sound-card	040755
+/usr/share/alsa/ucm2/sof-soundwire/rt713-dmic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Rane/SL-1-HiFi.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/rt1318.conf	0100644
+/usr/share/alsa/ucm2/Intel/broadwell-rt286/broadwell-rt286.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5672/DMIC2.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682	040755
+/usr/share/alsa/ucm2/conf.d/bytcr-rt5640	040755
+/usr/share/alsa/ucm2/Intel/hda-dsp/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-glkda7219max/sof-glkda7219max.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/LG Optimus 4X HD MAX98089.conf	0120777	../../Tegra/max98089/lge-x3.conf
+/usr/share/alsa/ucm2/codecs/wcd934x/SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcht-es8316/bytcht-es8316.conf	0120777	../../Intel/bytcht-es8316/bytcht-es8316.conf
+/usr/share/alsa/ucm2/Tegra/max98090/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic0EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5640/bytcr-rt5640.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBig.conf	0120777	../../Tegra/max98090/max98090.conf
+/usr/share/alsa/ucm2/Intel/chtrt5645	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers/init.conf	0100644
+/usr/share/alsa/ucm2/conf.d/bytcr-rt5651	040755
+/usr/share/alsa/ucm2/conf.d/USB-Audio	040755
+/usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040	040755
+/usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/rt5682.conf	0100644
+/usr/share/alsa/ucm2/platforms	040755
+/usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/es8316/IN1-HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/Tegra/max98089/lge-x3-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp	040755
+/usr/share/alsa/ucm2/Rockchip/rk3588-es8316/rk3588-es8316.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtrt5650	040755
+/usr/share/alsa/ucm2/MediaTek/mt8365-evk/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0009.conf	0100644
+/usr/share/alsa/ucm2/conf.d/tegra/ASUS Google Nexus 7 ALC5642.conf	0120777	../../Tegra/rt5640/Google-Nexus-7.conf
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M6.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp63/acp63.conf	0120777	../../common/linked-card.conf
+/usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-skl_hda_card.conf	0120777	../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+/usr/share/alsa/ucm2/Allwinner/A64	040755
+/usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer-HiFi.conf	0100644
+/usr/share/alsa/ucm2/AMD/acp3xalc5682m98/acp3xalc5682m98.conf	0100644
+/usr/share/alsa/ucm2/conf.d/hda-dsp	040755
+/usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Allwinner/A64/PinePhone/VoiceCall.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Arturia	040755
+/usr/share/alsa/ucm2/sof-soundwire/cs42l43-dmic.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-LongName.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sdm845	040755
+/usr/share/alsa/ucm2/codecs/wcd934x	040755
+/usr/share/alsa/ucm2/Qualcomm/sm8650	040755
+/usr/share/alsa/ucm2/codecs/nau8824/MonoSpeaker.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/DEBUG.md	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/IN2-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/DB410c/DB410c.conf	0120777	../../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+/usr/share/alsa/ucm2/conf.d/acp3x-es83xx	040755
+/usr/share/alsa/ucm2/module	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Focusrite	040755
+/usr/share/alsa/ucm2/codecs/rt5645/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Tegra/tegra-hda	040755
+/usr/share/alsa/ucm2/USB-Audio/Digidesign	040755
+/usr/share/alsa/ucm2/codecs/da7219/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers	040755
+/usr/share/alsa/ucm2/conf.d/acpd7219m98357	040755
+/usr/share/alsa/ucm2/conf.d/mt8390-evk	040755
+/usr/share/alsa/ucm2/conf.d/simple-card/Librem 5 Devkit.conf	0120777	../../NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+/usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/SM8650-MTP.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640	040755
+/usr/share/alsa/ucm2/Intel/SOF/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer.conf	0100644
+/usr/share/alsa/ucm2/codecs/es8316/Speaker.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8192_mt6359/mt8192_mt6359_rt1015p_rt5682.conf	0120777	../../MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf
+/usr/share/alsa/ucm2/conf.d/SC7180/sc7180-rt5682-max98357a-1mic.conf	0120777	../../Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
+/usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0003.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645	040755
+/usr/share/alsa/ucm2/Intel/skylake-rt286/skylake-rt286.conf	0100644
+/usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/sof-glkda7219max/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/chtrt5645	040755
+/usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4-HiFi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf	0120777	../../Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+/usr/share/alsa/ucm2/Intel/bytcht-cx2072x	040755
+/usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/x1e80100/X1E80100-CRD.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD-HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Lenovo	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8096/HDMI.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/init.conf	0100644
+/usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf	0100644
+/usr/share/alsa/ucm2/Intel/broxton-rt298/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/module/snd_soc_rockchip_max98090.conf	0120777	../Rockchip/max98090/max98090.conf
+/usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt711/init.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sm8650/QRD	040755
+/usr/share/alsa/ucm2/codecs/rt5651	040755
+/usr/share/alsa/ucm2/Intel/broadwell-rt286	040755
+/usr/share/alsa/ucm2/Allwinner/A64/PinePhone	040755
+/usr/share/alsa/ucm2/codecs/wcd934x/DefaultDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/rt715.conf	0100644
+/usr/share/alsa/ucm2/conf.d/chtrt5650	040755
+/usr/share/alsa/ucm2/codecs/wsa883x/DefaultEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/conf.d/VEYRON-I2S	040755
+/usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt715-sdca	040755
+/usr/share/alsa/ucm2/HDA/DualCodecs/DualCodecs.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard	040755
+/usr/share/alsa/ucm2/conf.d/sm8650/SM8650-MTP.conf	0120777	../../Qualcomm/sm8650/MTP/SM8650-MTP.conf
+/usr/share/alsa/ucm2/conf.d/chtrt5650/chtrt5650.conf	0120777	../../Intel/chtrt5650/chtrt5650.conf
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Record.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire	040755
+/usr/share/alsa/ucm2/sof-soundwire/rt700.conf	0100644
+/usr/share/alsa/ucm2/HDA/DualCodecs/HiFi.conf	0100644
+/usr/share/alsa/ucm2/ucm.conf	0100644
+/usr/share/alsa/ucm2/Intel	040755
+/usr/share/alsa/ucm2/Intel/sof-ehl-rt5660	040755
+/usr/share/alsa/ucm2/codecs/rt700	040755
+/usr/share/alsa/ucm2/conf.d/x1e80100/X1E80100-CRD.conf	0120777	../../Qualcomm/x1e80100/X1E80100-CRD.conf
+/usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a	040755
+/usr/share/alsa/ucm2/conf.d/rockchip_es8316	040755
+/usr/share/alsa/ucm2/module/snd_soc_tegra_alc5632.conf	0120777	../Tegra/alc5632/alc5632.conf
+/usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming-Hifi.conf	0100644
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Voice.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5645/AnalogMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt713-dmic	040755
+/usr/share/alsa/ucm2/codecs/rt5672/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd934x/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic4EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/AMD	040755
+/usr/share/alsa/ucm2/HDA/Hdmi.conf	0100644
+/usr/share/alsa/ucm2/Samsung/snow	040755
+/usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1-Mixer.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5672	040755
+/usr/share/alsa/ucm2/codecs/wcd938x	040755
+/usr/share	040755
+/usr/share/alsa/ucm2/Qualcomm/sdm845/sdm845.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa884x/two-speakers	040755
+/usr/share/alsa/ucm2/codecs/rt711	040755
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof	040755
+/usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/IN1-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt715	040755
+/usr/share/alsa/ucm2/conf.d/mt8395-evk/mt8395-evk.conf	0120777	../../MediaTek/mt8395-evk/mt8395-evk.conf
+/usr/share/alsa/ucm2/conf.d/VEYRON-I2S/VEYRON-I2S.conf	0120777	../../Rockchip/max98090/max98090.conf
+/usr/share/alsa/ucm2/conf.d/chtmax98090/chtmax98090.conf	0120777	../../Intel/chtmax98090/chtmax98090.conf
+/usr/share/alsa/ucm2/Intel/cht-bsw-rt5672	040755
+/usr/share/alsa/ucm2/codecs/wm5102/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/conf.d/skylake-rt286	040755
+/usr/share/alsa/ucm2/Intel/bytcht-es8316	040755
+/usr/share/alsa/ucm2/USB-Audio/MOTU/M6-HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/max98090	040755
+/usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi1.conf	0100644
+/usr/share/alsa/ucm2/codecs	040755
+/usr/share/alsa/ucm2/codecs/es8316/MonoSpeaker.conf	0100644
+/usr/share/alsa/ucm2/codecs/hda/hdmi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5672/HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-soundwire/sof-soundwire.conf	0120777	../../sof-soundwire/sof-soundwire.conf
+/usr/share/alsa/ucm2/lib/generic.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/init.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5682	040755
+/usr/share/alsa/ucm2/codecs/wcd939x	040755
+/usr/share/alsa/ucm2/codecs/rt5640/MonoSpeaker.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2.conf	0100644
+/usr/share/alsa/ucm2/Intel/kblrt5660/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc8280xp/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/DigitalMics.conf	0100644
+/usr/share/alsa/ucm2/AMD/acp3xalc5682m98	040755
+/usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer-HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/UniversalAudio	040755
+/usr/share/alsa/ucm2/USB-Audio/GoXLR	040755
+/usr/share/alsa/ucm2/conf.d/tegra/Compal PAZ00.conf	0120777	../../Tegra/alc5632/alc5632.conf
+/usr/share/alsa/ucm2/Tegra/alc5632/alc5632.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD-HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-Components.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/apq8096	040755
+/usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HDMI.conf	0100644
+/usr/share/alsa/ucm2/codecs/max98090/HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3.conf	0100644
+/usr/share/alsa/ucm2/Intel/kblrt5660/kblrt5660.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8365-evk	040755
+/usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFiLP.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/SpeakerSeq.conf	0100644
+/usr/share/alsa/ucm2/Rockchip	040755
+/usr/share/alsa/ucm2/conf.d/sm8250	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/IN12-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/sof-soundwire/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro	040755
+/usr/share/alsa/ucm2/Intel/kblrt5660	040755
+/usr/share/alsa/ucm2/MediaTek/mt8390-evk/HiFi.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast-Hifi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/sof-glkda7219ma	040755
+/usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear-Line.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5640/IN3-InternalMic.conf	0100644
+/usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/module/snd_soc_apq8096.conf	0120777	../Qualcomm/apq8096/apq8096.conf
+/usr/share/alsa/ucm2/USB-Audio/NativeInstruments	040755
+/usr/share/alsa/ucm2/Intel/broxton-rt298	040755
+/usr/share/alsa/ucm2/codecs/nau8824/EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5640	040755
+/usr/share/alsa/ucm2/Tegra	040755
+/usr/share/alsa/ucm2/conf.d/sof-essx8336	040755
+/usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-LongName.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4.conf	0100644
+/usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock-HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/rt5651/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/module/snd_soc_apq8016_sbc.conf	0120777	../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+/usr/share/alsa/ucm2/Intel/sof-essx8336/HiFi.conf	0100644
+/usr/share/alsa/ucm2/codecs/nau8824	040755
+/usr/share/alsa/ucm2/MediaTek/mt8390-evk	040755
+/usr/share/alsa/ucm2/common/ctl	040755
+/usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10-Hifi.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mt8365-evk/mt8365-evk.conf	0120777	../../MediaTek/mt8365-evk/mt8365-evk.conf
+/usr/share/alsa/ucm2/codecs/cx2072x/HeadPhones.conf	0100644
+/usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/init.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/apq8016-sbc	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1EnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Intel/chtnau8824/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-Components.conf	0100644
+/usr/share/alsa/ucm2/AMD/acpd7219m98357/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Tegra/max98089/lge-x3.conf	0100644
+/usr/share/alsa/ucm2/conf.d/acp3xalc5682m98/acp3xalc5682m98.conf	0120777	../../AMD/acp3xalc5682m98/acp3xalc5682m98.conf
+/usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/init.conf	0100644
+/usr/share/alsa/ucm2	040755
+/usr/share/alsa/ucm2/Intel/bytcr-rt5651	040755
+/usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMicDisableSeq.conf	0100644
+/usr/share/alsa/ucm2/codecs/nau8824/HeadsetMic.conf	0100644
+/usr/share/alsa/ucm2/conf.d/mtk-rt5650	040755
+/usr/share/alsa/ucm2/conf.d/sc8280xp	040755
+/usr/share/alsa/ucm2/conf.d/skylake-rt286/skylake-rt286.conf	0120777	../../Intel/skylake-rt286/skylake-rt286.conf
+/usr/share/alsa/ucm2/module/snd_soc_rk3399_gru_sound.conf	0120777	../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+/usr/share/alsa/ucm2/MediaTek/mt8370-evk/HiFi.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc8280xp	040755
+/usr/share/alsa/ucm2/codecs/rt5651/MonoSpeaker.conf	0100644
+/usr/share/alsa/ucm2/AMD/acp3x-es83xx	040755
+/usr/share/alsa/ucm2/conf.d/simple-card/PinePhone.conf	0120777	../../Allwinner/A64/PinePhone/PinePhone.conf
+/usr/share/alsa/ucm2/sof-soundwire/rt713-sdca.conf	0100644
+/usr/share/alsa/ucm2/codecs/wsa881x	040755
+/usr/share/alsa/ucm2/codecs/wsa883x/SpeakerEnableSeq.conf	0100644
+/usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/HiFi.conf	0100644
+/usr/share/alsa/ucm2/common/linked-card.conf	0100644
+/usr/share/alsa/ucm2/conf.d/DB820c	040755

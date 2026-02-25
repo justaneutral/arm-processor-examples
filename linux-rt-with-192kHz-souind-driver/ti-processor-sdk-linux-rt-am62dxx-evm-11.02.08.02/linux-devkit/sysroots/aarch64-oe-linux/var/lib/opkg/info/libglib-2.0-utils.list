@@ -1,0 +1,15 @@
+/usr/bin/glib-mkenums	0100755
+/usr/bin/gresource	0100755
+/usr/bin/gtester	0100755
+/usr/bin/gapplication	0100755
+/usr/bin/gobject-query	0100755
+/usr/bin/glib-compile-schemas	0100755
+/usr/bin	040755
+/usr/bin/glib-gettextize	0100755
+/usr/bin/gtester-report	0100755
+/usr/bin/glib-genmarshal	0100755
+/usr/bin/gdbus	0100755
+/usr	040755
+/usr/bin/gio	0100755
+/usr/bin/glib-compile-resources	0100755
+/usr/bin/gsettings	0100755

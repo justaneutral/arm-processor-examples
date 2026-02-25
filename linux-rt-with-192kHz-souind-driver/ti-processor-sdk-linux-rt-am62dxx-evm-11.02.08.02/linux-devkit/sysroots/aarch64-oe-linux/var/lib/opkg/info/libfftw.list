@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/libfftw3.so.3	0120777	libfftw3.so.3.6.10
+/usr/lib/libfftw3_threads.so.3	0120777	libfftw3_threads.so.3.6.10
+/usr/lib/libfftw3_threads.so.3.6.10	0100755
+/usr	040755
+/usr/lib/libfftw3.so.3.6.10	0100755

@@ -1,0 +1,18 @@
+Package: gtk+3-dev
+Version: 3.24.41-r0.1521
+Description: Multi-platform toolkit for creating GUIs - Development files
+ GTK+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK+ is suitable for projects ranging
+ from small one-off projects to complete application suites.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.0-only & LGPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: gtk+3
+Homepage: http://www.gtk.org
+Depends: at-spi2-core-dev, cairo-dev, gdk-pixbuf-dev, glib-2.0-dev, libc6 (>= 2.39+git47+58cbbd43fe), libgdk-pixbuf-2.0-0 (>= 2.42.12), libglib-2.0-0 (>= 2.78.6), libgtk-3.0 (>= 3.24.41), pango-dev, wayland-protocols
+Recommends: at-spi2-core-dev, atk-dev, cairo-dev, cairo-gobject-dev, fontconfig-dev, fribidi-dev, gdk-pixbuf-dev, glib-2.0-dev, glib-2.0-utils-dev, glibc-dev, gobject-introspection-dev, harfbuzz-dev, jpeg-dev, libepoxy-dev, libgtk-3.0 (= 3.24.41-r0.1521), libpng-dev, libxkbcommon-dev, pango-dev, update-alternatives-opkg-dev, wayland-dev, wayland-protocols-dev
+Source: gtk+3_3.24.41.bb

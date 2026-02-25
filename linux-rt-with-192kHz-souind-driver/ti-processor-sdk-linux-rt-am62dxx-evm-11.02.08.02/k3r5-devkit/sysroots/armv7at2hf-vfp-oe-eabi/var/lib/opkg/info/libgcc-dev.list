@@ -1,0 +1,13 @@
+/usr/lib/arm-oe-linux	0120777	arm-oe-eabi
+/usr/lib/arm-oe-eabi	040755
+/usr/lib	040755
+/usr/lib/arm-oe-eabi/13.4.0/crti.o	0100644
+/usr/lib/arm-oe-eabi/13.4.0/libgcov.a	0100644
+/usr/lib/arm-oe-eabi/13.4.0/crtbegin.o	0100644
+/usr/lib/arm-oe-eabi/13.4.0/libgcc.a	0100644
+/usr/lib/arm-oe--gnueabi	0120777	arm-oe-eabi
+/usr	040755
+/usr/lib/arm-oe-eabi/13.4.0/crtn.o	0100644
+/usr/lib/arm-oe-eabi/13.4.0	040755
+/usr/lib/arm-oe-eabi/13.4.0/crtfastmath.o	0100644
+/usr/lib/arm-oe-eabi/13.4.0/crtend.o	0100644

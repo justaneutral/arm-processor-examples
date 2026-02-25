@@ -1,0 +1,13 @@
+Package: clang-libllvm
+Version: 18.1.8-r0.57
+Description: clang version 18.1.8-r0
+ LLVM based C/C++ compiler
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0-with-LLVM-exception
+Architecture: aarch64
+OE: clang
+Homepage: http://clang.llvm.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libedit0 (>= 20230828-3.1), libffi8 (>= 3.4.6), libgcc1 (>= 13.4.0), libstdc++6 (>= 13.4.0), libxml2 (>= 2.12.10), libz1 (>= 1.3.1), libzstd1 (>= 1.5.5)
+Source: clang_git.bb

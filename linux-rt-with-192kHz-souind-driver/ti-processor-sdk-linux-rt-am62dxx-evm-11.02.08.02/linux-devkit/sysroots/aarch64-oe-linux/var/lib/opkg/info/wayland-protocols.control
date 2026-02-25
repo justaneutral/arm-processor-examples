@@ -1,0 +1,15 @@
+Package: wayland-protocols
+Version: 1.33-r0.arago2.12
+Description: Collection of additional Wayland protocols
+ Wayland protocols that add functionality not available in the Wayland
+ core protocol. Such protocols either add completely new functionality, or
+ extend the functionality of some other protocol either in Wayland core,
+ or some other protocol in wayland-protocols.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: wayland-protocols
+Homepage: http://wayland.freedesktop.org
+Source: wayland-protocols_1.33.bb

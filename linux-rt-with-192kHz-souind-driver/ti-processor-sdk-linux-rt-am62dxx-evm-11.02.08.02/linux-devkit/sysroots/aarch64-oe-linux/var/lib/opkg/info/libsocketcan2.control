@@ -1,0 +1,14 @@
+Package: libsocketcan2
+Version: 0.0.12-r0.71
+Description: Control basic functions in socketcan from userspace
+ Control basic functions in socketcan from userspace.
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libsocketcan
+Homepage: http://www.pengutronix.de
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libsocketcan
+Source: libsocketcan_0.0.12.bb

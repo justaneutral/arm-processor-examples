@@ -1,0 +1,15 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/theoraenc.pc	0100644
+/usr/include/theora/theoraenc.h	0100644
+/usr/lib/libtheoraenc.so	0120777	libtheoraenc.so.1.1.2
+/usr/include/theora/theoradec.h	0100644
+/usr/include/theora/theora.h	0100644
+/usr/lib/libtheora.so	0120777	libtheora.so.0.3.10
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/theora	040755
+/usr/lib/pkgconfig/theora.pc	0100644
+/usr/include	040755
+/usr/include/theora/codec.h	0100644
+/usr/lib/pkgconfig/theoradec.pc	0100644
+/usr/lib/libtheoradec.so	0120777	libtheoradec.so.1.1.4

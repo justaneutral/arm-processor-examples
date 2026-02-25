@@ -1,0 +1,13 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/speexdsp.pc	0100644
+/usr/include/speex/speex_resampler.h	0100644
+/usr/include/speex/speex_jitter.h	0100644
+/usr/include/speex/speex_echo.h	0100644
+/usr/include/speex	040755
+/usr/include/speex/speexdsp_config_types.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/libspeexdsp.so	0120777	libspeexdsp.so.1.5.2
+/usr/include/speex/speexdsp_types.h	0100644
+/usr/include	040755
+/usr/include/speex/speex_preprocess.h	0100644

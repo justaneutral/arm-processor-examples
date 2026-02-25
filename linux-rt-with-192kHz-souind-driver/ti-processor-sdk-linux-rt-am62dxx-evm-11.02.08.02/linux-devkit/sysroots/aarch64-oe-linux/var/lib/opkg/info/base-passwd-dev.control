@@ -1,0 +1,17 @@
+Package: base-passwd-dev
+Version: 3.6.3-r0.79
+Description: Base system master password/group files - Development files
+ The master copies of the user database files (/etc/passwd and
+ /etc/group).  The update-passwd tool is also provided to keep the system
+ databases synchronized with these master files.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: base-passwd
+Homepage: https://launchpad.net/base-passwd
+Recommends: base-passwd (= 3.6.3-r0.79), glibc-dev
+Source: base-passwd_3.6.3.bb

@@ -1,0 +1,13 @@
+Package: python3-packaging
+Version: 23.2-r0.239
+Description: Core utilities for Python packages
+ Core utilities for Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0 | BSD-2-Clause
+Architecture: aarch64
+OE: python3-packaging
+Homepage: https://github.com/pypa/packaging
+Depends: python3-core, python3-profile
+Source: python3-packaging_23.2.bb

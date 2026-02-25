@@ -1,0 +1,16 @@
+Package: mtdev
+Version: 1.1.6-r0.68
+Description: Multitouch Protocol Translation Library
+ mtdev is a library which transforms all variants of kernel multitouch
+ events to the slotted type B protocol. The events put into mtdev may be
+ from any MT device, specifically type A without contact tracking, type A
+ with contact tracking, or type B with contact tracking
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: mtdev
+Homepage: http://bitmath.org/code/mtdev/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Source: mtdev_1.1.6.bb

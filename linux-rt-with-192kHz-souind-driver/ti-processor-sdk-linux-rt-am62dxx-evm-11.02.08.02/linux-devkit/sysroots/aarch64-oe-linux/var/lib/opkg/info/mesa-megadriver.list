@@ -1,0 +1,9 @@
+/usr/lib/dri/virtio_gpu_dri.so	0100755
+/usr/lib/dri	040755
+/usr/share/drirc.d/00-mesa-defaults.conf	0100644
+/usr/lib/dri/r300_dri.so	0100755
+/usr/lib/dri/swrast_dri.so	0100755
+/usr/lib/dri/kms_swrast_dri.so	0100755
+/usr/lib/dri/zink_dri.so	0100755
+/usr/lib/dri/nouveau_dri.so	0100755
+/usr/share/drirc.d	040755

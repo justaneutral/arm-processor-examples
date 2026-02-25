@@ -1,0 +1,13 @@
+Package: libstd-rs
+Version: 1.85.1-r0.21
+Description: Rust standard libaries
+ Rust standard libaries.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: (MIT | Apache-2.0) & Unicode-3.0
+Architecture: aarch64
+OE: libstd-rs
+Homepage: http://www.rust-lang.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0)
+Source: libstd-rs_1.85.1.bb

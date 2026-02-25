@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/include/microhttpd.h	0100644
+/usr/lib/libmicrohttpd.so	0120777	libmicrohttpd.so.12.62.1
+/usr/lib/pkgconfig/libmicrohttpd.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include	040755

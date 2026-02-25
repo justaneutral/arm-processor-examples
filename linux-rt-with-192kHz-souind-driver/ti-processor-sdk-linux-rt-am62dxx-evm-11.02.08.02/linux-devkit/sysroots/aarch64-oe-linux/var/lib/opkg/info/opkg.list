@@ -1,0 +1,9 @@
+/usr/bin/opkg	0100755
+/usr/share/opkg/intercept/update-modules	0100755
+/etc/opkg/opkg.conf	0100644
+/etc/opkg	040755
+/usr/share/opkg/intercept/depmod	0100755
+/usr/share/opkg	040755
+/usr/share/opkg/intercept/ldconfig	0100755
+/usr/share/opkg/intercept	040755
+/usr/bin/opkg-check-config	0100755

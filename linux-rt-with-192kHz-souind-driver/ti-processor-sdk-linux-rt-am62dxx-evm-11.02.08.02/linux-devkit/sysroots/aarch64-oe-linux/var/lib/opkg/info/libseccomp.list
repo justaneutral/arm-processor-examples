@@ -1,0 +1,6 @@
+/usr/lib/libseccomp.so.2	0120777	libseccomp.so.2.5.5
+/usr/lib	040755
+/usr/bin/scmp_sys_resolver	0100755
+/usr/bin	040755
+/usr	040755
+/usr/lib/libseccomp.so.2.5.5	0100755

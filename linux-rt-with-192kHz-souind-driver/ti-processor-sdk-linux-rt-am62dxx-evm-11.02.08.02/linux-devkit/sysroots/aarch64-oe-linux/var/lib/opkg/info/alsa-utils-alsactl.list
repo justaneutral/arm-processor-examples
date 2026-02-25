@@ -1,0 +1,27 @@
+/usr/lib/systemd/system/sound.target.wants/alsa-state.service	0120777	../alsa-state.service
+/usr/lib/systemd/system/alsa-state.service	0100644
+/usr/share/alsa/init/ca0106	0100644
+/var	040755
+/usr/lib/systemd/system	040755
+/usr/share/alsa/init/test	0100644
+/usr/lib	040755
+/usr/share/alsa	040755
+/usr/share/alsa/init/info	0100644
+/usr/share/alsa/init/hda	0100644
+/usr/lib/systemd/system/sound.target.wants/alsa-restore.service	0120777	../alsa-restore.service
+/usr/lib/systemd/system/sound.target.wants	040755
+/usr/sbin	040755
+/usr/share/alsa/init/default	0100644
+/usr/lib/udev/rules.d/90-alsa-restore.rules	0100644
+/var/lib	040755
+/usr/share/alsa/init	040755
+/usr/share/alsa/init/00main	0100644
+/usr	040755
+/usr/lib/systemd	040755
+/var/lib/alsa	040755
+/usr/share/alsa/init/help	0100644
+/usr/lib/systemd/system/alsa-restore.service	0100644
+/usr/share	040755
+/usr/sbin/alsactl	0100755
+/usr/lib/udev	040755
+/usr/lib/udev/rules.d	040755

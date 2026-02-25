@@ -1,0 +1,10 @@
+/usr/lib	040755
+/usr/lib/libwebp.so.7	0120777	libwebp.so.7.1.8
+/usr/lib/libsharpyuv.so.0	0120777	libsharpyuv.so.0.0.1
+/usr/lib/libsharpyuv.so.0.0.1	0100755
+/usr	040755
+/usr/lib/libwebpmux.so.3.0.13	0100755
+/usr/lib/libwebpmux.so.3	0120777	libwebpmux.so.3.0.13
+/usr/lib/libwebp.so.7.1.8	0100755
+/usr/lib/libwebpdemux.so.2	0120777	libwebpdemux.so.2.0.14
+/usr/lib/libwebpdemux.so.2.0.14	0100755

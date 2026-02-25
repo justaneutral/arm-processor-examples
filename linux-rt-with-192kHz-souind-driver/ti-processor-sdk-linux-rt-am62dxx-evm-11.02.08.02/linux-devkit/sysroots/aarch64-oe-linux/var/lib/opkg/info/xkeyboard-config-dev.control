@@ -1,0 +1,18 @@
+Package: xkeyboard-config-dev
+Version: 2.41-r0.52
+Description: Keyboard configuration database for X Window - Development files
+ The non-arch keyboard configuration database for X Window.  The goal is
+ to provide the consistent, well-structured, frequently released open
+ source of X keyboard configuration data for X Window System
+ implementations.  The project is targeted to XKB-based systems.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: xkeyboard-config
+Homepage: http://freedesktop.org/wiki/Software/XKeyboardConfig
+Recommends: util-macros-dev, xkeyboard-config (= 2.41-r0.52)
+Source: xkeyboard-config_2.41.bb

@@ -1,0 +1,4 @@
+/var	040755
+/var/lib	040755
+/var/lib/alsa	040755
+/var/lib/alsa/asound.state	0100755

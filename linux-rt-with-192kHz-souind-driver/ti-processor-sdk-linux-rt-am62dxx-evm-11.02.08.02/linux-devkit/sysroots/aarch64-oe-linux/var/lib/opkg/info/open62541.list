@@ -1,0 +1,4 @@
+/usr/bin/ua_server_ctt.exe	0100755
+/usr/bin/ua_client	0100755
+/usr/bin	040755
+/usr	040755

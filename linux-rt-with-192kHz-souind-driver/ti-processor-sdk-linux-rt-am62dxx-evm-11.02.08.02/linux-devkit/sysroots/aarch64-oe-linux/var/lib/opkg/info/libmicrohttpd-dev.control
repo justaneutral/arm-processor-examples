@@ -1,0 +1,16 @@
+Package: libmicrohttpd-dev
+Version: 1.0.1-r0.168
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application - Development files
+ A small C library that is supposed to make it easy to run an HTTP server
+ as part of another application.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libmicrohttpd
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Depends: libmicrohttpd
+Recommends: curl-dev, file-dev, glibc-dev, gnutls-dev, libgcrypt-dev, libmicrohttpd12 (= 1.0.1-r0.168)
+Source: libmicrohttpd_1.0.1.bb

@@ -1,0 +1,13 @@
+Package: can-utils
+Version: 2023.03-r0.69
+Description: Linux CAN network development utilities
+ Linux CAN network development utilities.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & BSD-3-Clause
+Architecture: aarch64
+OE: can-utils
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), update-alternatives-opkg
+Recommends: iproute2
+Source: can-utils_2023.03.bb

@@ -1,0 +1,17 @@
+Package: librsvg-2-2
+Version: 2.59.2-r0.156
+Description: Library for rendering SVG files
+ A small library to render Scalable Vector Graphics (SVG), associated with
+ the GNOME Project. It renders SVG files to Cairo surfaces. Cairo is the
+ 2D, antialiased drawing library that GNOME uses to draw things to the
+ screen or to generate output for printing.
+Section: x11/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: librsvg
+Homepage: https://gitlab.gnome.org/GNOME/librsvg
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcairo-gobject2 (>= 1.18.0), libcairo2 (>= 1.18.0), libgcc1 (>= 13.4.0), libgdk-pixbuf-2.0-0 (>= 2.42.12), libglib-2.0-0 (>= 2.78.6), libxml2 (>= 2.12.10), pango (>= 1.52.1)
+Provides: librsvg
+Source: librsvg_2.59.2.bb

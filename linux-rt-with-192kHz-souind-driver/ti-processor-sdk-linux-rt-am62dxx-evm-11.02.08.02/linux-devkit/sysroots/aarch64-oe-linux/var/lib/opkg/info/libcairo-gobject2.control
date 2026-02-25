@@ -1,0 +1,14 @@
+Package: libcairo-gobject2
+Version: 1.18.0-r0.172
+Description: The Cairo library GObject wrapper library
+ A GObject wrapper library for the Cairo API.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MPL-1.1 | LGPL-2.1-only
+Architecture: aarch64
+OE: cairo
+Homepage: http://cairographics.org
+Depends: libcairo2 (>= 1.18.0), libglib-2.0-0 (>= 2.78.6)
+Provides: cairo-gobject
+Source: cairo_1.18.0.bb

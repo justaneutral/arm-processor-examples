@@ -1,0 +1,20 @@
+/usr/lib/libical-glib.so.3.0.17	0100755
+/usr/lib	040755
+/usr/lib/libical_cxx.so.3.0.17	0100755
+/usr/libexec	040755
+/usr/lib/libicalss.so.3	0120777	libicalss.so.3.0.17
+/usr/lib/libical.so.3	0120777	libical.so.3.0.17
+/usr/lib/libicalvcal.so.3	0120777	libicalvcal.so.3.0.17
+/usr/libexec/libical	040755
+/usr/lib/libicalss_cxx.so.3	0120777	libicalss_cxx.so.3.0.17
+/usr	040755
+/usr/lib/girepository-1.0/ICal-3.0.typelib	0100644
+/usr/lib/libicalss.so.3.0.17	0100755
+/usr/lib/libicalss_cxx.so.3.0.17	0100755
+/usr/lib/girepository-1.0/ICalGLib-3.0.typelib	0100644
+/usr/lib/girepository-1.0	040755
+/usr/lib/libical-glib.so.3	0120777	libical-glib.so.3.0.17
+/usr/lib/libical_cxx.so.3	0120777	libical_cxx.so.3.0.17
+/usr/lib/libicalvcal.so.3.0.17	0100755
+/usr/lib/libical.so.3.0.17	0100755
+/usr/libexec/libical/ical-glib-src-generator	0100755

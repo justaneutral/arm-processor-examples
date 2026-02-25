@@ -1,0 +1,11 @@
+Package: packagegroup-arago-tisdk-connectivity-sdk-target
+Version: 1.0-r9.1
+Description: Task to install wireless headers and libraries into the SDK
+ Task to install wireless headers and libraries into the SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: packagegroup-arago-tisdk-connectivity-sdk-target
+Source: packagegroup-arago-tisdk-connectivity-sdk-target.bb

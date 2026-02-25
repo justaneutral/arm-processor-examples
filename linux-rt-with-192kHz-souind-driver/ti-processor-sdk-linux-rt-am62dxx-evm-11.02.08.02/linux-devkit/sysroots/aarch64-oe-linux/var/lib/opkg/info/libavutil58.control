@@ -1,0 +1,17 @@
+Package: libavutil58
+Version: 6.1.3-r0.10
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode,                mux, demux, stream, filter and play pretty much
+ anything that humans and machines                have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libavutil
+Source: ffmpeg_6.1.3.bb

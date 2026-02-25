@@ -1,0 +1,19 @@
+Package: curl-dev
+Version: 8.7.1-r0.88
+Description: Command line tool and library for client-side URL transfers - Development files
+ It uses URL syntax to transfer data to and from servers. curl is a widely
+ used because of its ability to be flexible and complete complex tasks.
+ For example, you can use curl for things like user authentication, HTTP
+ post, SSL connections, proxy support, FTP uploads, and more!  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: curl
+Architecture: aarch64
+OE: curl
+Homepage: https://curl.se/
+Depends: libcurl
+Recommends: curl (= 8.7.1-r0.88), glibc-dev, libcrypto-dev, libcurl-dev, libssl-dev, openssl-dev, zlib-dev
+Source: curl_8.7.1.bb

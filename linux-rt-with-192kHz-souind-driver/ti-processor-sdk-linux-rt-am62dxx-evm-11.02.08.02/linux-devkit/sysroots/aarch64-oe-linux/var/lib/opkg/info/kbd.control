@@ -1,0 +1,18 @@
+Package: kbd
+Version: 2.6.4-r0.145
+Description: Keytable files and keyboard utilities
+ The kbd project contains tools for managing Linux console (Linux console,
+ virtual terminals, keyboard, etc.) – mainly, what they do is loading
+ console fonts and keyboard maps.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later & LGPL-2.0-or-later
+Architecture: aarch64
+OE: kbd
+Homepage: http://www.kbd-project.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libpam (>= 1.5.3), update-alternatives-opkg
+Provides: console-tools
+Replaces: console-tools
+Conflicts: console-tools
+Source: kbd_2.6.4.bb

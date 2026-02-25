@@ -1,0 +1,14 @@
+Package: utfcpp-dev
+Version: 4.0.5-r0.41
+Description: UTF-8 with C++ in a Portable Way - Development files
+ UTF-8 with C++ in a Portable Way.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSL-1.0 & BSD-3-Clause
+Architecture: aarch64
+OE: utfcpp
+Homepage: https://github.com/nemtrif/utfcpp
+Recommends: utfcpp (= 4.0.5-r0.41)
+Source: utfcpp_4.0.5.bb

@@ -1,0 +1,12 @@
+Package: packagegroup-cross-canadian-am62dxx-evm-k3r5
+Version: 1.0-r0.0
+Description: Host SDK package for cross canadian toolchain
+ Host SDK package for cross canadian toolchain.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-k3r5-nativesdk
+OE: packagegroup-cross-canadian-am62dxx-evm-k3r5
+Depends: binutils-cross-canadian-arm, gcc-cross-canadian-arm, gdb-cross-canadian-arm, meta-environment-am62dxx-evm-k3r5
+Source: packagegroup-cross-canadian.bb

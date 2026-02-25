@@ -1,0 +1,11 @@
+/usr/sbin/i2cdetect.i2c-tools	0100755
+/usr/sbin/i2cdump.i2c-tools	0100755
+/usr/lib	040755
+/usr/lib/libi2c.so.0	0120777	libi2c.so.0.1.1
+/usr/sbin/eeprog	0100755
+/usr/sbin	040755
+/usr/sbin/i2cset.i2c-tools	0100755
+/usr	040755
+/usr/sbin/i2ctransfer.i2c-tools	0100755
+/usr/sbin/i2cget.i2c-tools	0100755
+/usr/lib/libi2c.so.0.1.1	0100755

@@ -1,0 +1,18 @@
+Package: libsndfile-dev
+Version: 1.2.2-r0.64
+Description: Audio format Conversion library - Development files
+ Library for reading and writing files containing sampled sound (such as
+ MS Windows WAV and the Apple/SGI AIFF format) through one standard
+ library interface.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libsndfile1
+Homepage: https://libsndfile.github.io/libsndfile/
+Depends: libsndfile1
+Recommends: alsa-lib-dev, flac-dev, glibc-dev, libflac-dev, libogg-dev, libsndfile1 (= 1.2.2-r0.64), libvorbis-dev
+Provides: libsndfile1-dev
+Source: libsndfile1_1.2.2.bb

@@ -1,0 +1,28 @@
+/usr/include/FLAC/all.h	0100644
+/usr/include/FLAC++/encoder.h	0100644
+/usr/lib/pkgconfig/flac.pc	0100644
+/usr/lib	040755
+/usr/include/FLAC/callback.h	0100644
+/usr/include/FLAC/format.h	0100644
+/usr/include/FLAC++/export.h	0100644
+/usr/include/FLAC/export.h	0100644
+/usr/include/FLAC++/metadata.h	0100644
+/usr/include/FLAC++	040755
+/usr/include/FLAC/stream_decoder.h	0100644
+/usr/lib/libFLAC.so	0120777	libFLAC.so.12.1.0
+/usr	040755
+/usr/lib/pkgconfig/flac++.pc	0100644
+/usr/lib/pkgconfig	040755
+/usr/include/FLAC	040755
+/usr/include/FLAC/assert.h	0100644
+/usr/share/aclocal	040755
+/usr/include/FLAC/stream_encoder.h	0100644
+/usr/share/aclocal/libFLAC.m4	0100644
+/usr/include/FLAC/ordinals.h	0100644
+/usr/include/FLAC++/decoder.h	0100644
+/usr/share/aclocal/libFLAC++.m4	0100644
+/usr/share	040755
+/usr/include	040755
+/usr/include/FLAC++/all.h	0100644
+/usr/include/FLAC/metadata.h	0100644
+/usr/lib/libFLAC++.so	0120777	libFLAC++.so.10.0.1

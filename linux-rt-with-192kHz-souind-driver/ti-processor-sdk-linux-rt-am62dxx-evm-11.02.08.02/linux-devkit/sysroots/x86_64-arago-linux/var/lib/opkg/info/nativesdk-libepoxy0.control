@@ -1,0 +1,17 @@
+Package: nativesdk-libepoxy0
+Version: 1.5.10-r0.266
+Description: OpenGL function pointer management library
+ It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(),
+ eglGetProcAddress(), etc. from the app developer, with very little
+ knowledge needed on their part. They get to read GL specs and write code
+ using undecorated function names like glCompileShader().
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libepoxy
+Homepage: https://github.com/anholt/libepoxy/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libepoxy
+Source: libepoxy_1.5.10.bb

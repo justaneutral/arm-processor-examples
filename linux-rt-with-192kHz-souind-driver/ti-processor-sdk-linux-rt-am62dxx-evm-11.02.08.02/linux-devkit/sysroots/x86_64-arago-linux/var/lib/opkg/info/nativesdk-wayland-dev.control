@@ -1,0 +1,20 @@
+Package: nativesdk-wayland-dev
+Version: 1.22.0-r0.218
+Description: Wayland, a protocol between a compositor and clients - Development files
+ Wayland is a protocol for a compositor to talk to its clients as well as
+ a C library implementation of that protocol. The compositor can be a
+ standalone display server running on Linux kernel modesetting and evdev
+ input devices, an X application, or a wayland client itself. The clients
+ can be traditional applications, X servers (rootless or fullscreen) or
+ other display servers.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-wayland
+Homepage: http://wayland.freedesktop.org
+Depends: nativesdk-wayland
+Recommends: nativesdk-expat-dev, nativesdk-glibc-dev, nativesdk-libffi-dev, nativesdk-libxml2-dev, nativesdk-wayland (= 1.22.0-r0.218)
+Source: wayland_1.22.0.bb

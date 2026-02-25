@@ -1,0 +1,14 @@
+Package: kernel-module-cryptodev-6.12.57-ti-rt-g31b07ab8dfbc
+Version: 1.14-r0.arago0.553
+Description: cryptodev kernel module
+ cryptodev kernel module; CryptoDev driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62dxx_evm
+OE: cryptodev-module
+Homepage: http://cryptodev-linux.org/
+Depends: kernel-6.12.57-ti-rt-g31b07ab8dfbc
+Provides: kernel-module-cryptodev
+Source: cryptodev-module_1.14.bb

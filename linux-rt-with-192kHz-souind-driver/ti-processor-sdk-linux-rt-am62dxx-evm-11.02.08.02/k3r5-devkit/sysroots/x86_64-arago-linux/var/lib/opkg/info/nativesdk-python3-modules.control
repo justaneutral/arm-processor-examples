@@ -1,0 +1,15 @@
+Package: nativesdk-python3-modules
+Version: 3.12.12-r0.15
+Description: All Python modules
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-python3-2to3, nativesdk-python3-asyncio, nativesdk-python3-audio, nativesdk-python3-codecs, nativesdk-python3-compile, nativesdk-python3-compression, nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-ctypes, nativesdk-python3-curses, nativesdk-python3-datetime, nativesdk-python3-db, nativesdk-python3-debugger, nativesdk-python3-difflib, nativesdk-python3-doctest, nativesdk-python3-email, nativesdk-python3-ensurepip, nativesdk-python3-fcntl, nativesdk-python3-html, nativesdk-python3-idle, nativesdk-python3-image, nativesdk-python3-io, nativesdk-python3-json, nativesdk-python3-logging, nativesdk-python3-mailbox, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-misc, nativesdk-python3-mmap, nativesdk-python3-multiprocessing, nativesdk-python3-netclient, nativesdk-python3-netserver, nativesdk-python3-numbers, nativesdk-python3-pickle, nativesdk-python3-pkgutil, nativesdk-python3-plistlib, nativesdk-python3-pprint, nativesdk-python3-profile, nativesdk-python3-pydoc, nativesdk-python3-resource, nativesdk-python3-shell, nativesdk-python3-sqlite3, nativesdk-python3-statistics, nativesdk-python3-stringold, nativesdk-python3-syslog, nativesdk-python3-terminal, nativesdk-python3-threading, nativesdk-python3-tkinter, nativesdk-python3-tomllib, nativesdk-python3-unittest, nativesdk-python3-unixadmin, nativesdk-python3-venv, nativesdk-python3-xml, nativesdk-python3-xmlrpc, nativesdk-python3-zoneinfo
+Provides: nativesdk-python3
+Source: python3_3.12.12.bb

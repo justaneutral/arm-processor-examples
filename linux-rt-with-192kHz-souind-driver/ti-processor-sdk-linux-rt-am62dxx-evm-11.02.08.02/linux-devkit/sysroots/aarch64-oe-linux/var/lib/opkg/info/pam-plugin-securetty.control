@@ -1,0 +1,14 @@
+Package: pam-plugin-securetty
+Version: 1.5.3-r0.72
+Description: PAM plugin for -securetty
+ PAM plugin for -securetty
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later | BSD-3-Clause
+Architecture: aarch64
+OE: libpam
+Homepage: https://fedorahosted.org/linux-pam/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libpam (>= 1.5.3), libpam-suffix
+Provides: pam-plugin-securetty-suffix
+Source: libpam_1.5.3.bb

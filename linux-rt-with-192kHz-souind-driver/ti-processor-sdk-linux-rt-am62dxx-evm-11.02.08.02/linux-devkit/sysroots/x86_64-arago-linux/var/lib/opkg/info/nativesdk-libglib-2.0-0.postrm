@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+    $INTERCEPT_DIR/postinst_intercept update_gio_module_cache nativesdk-libglib-2.0-0 \
+            mlprefix=nativesdk- \
+            binprefix=nativesdk- \
+            libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib \
+            libexecdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/libexec \
+            base_libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/lib \
+            bindir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin
+else
+    /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/libexec/nativesdk-gio-querymodules /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gio/modules/
+fi

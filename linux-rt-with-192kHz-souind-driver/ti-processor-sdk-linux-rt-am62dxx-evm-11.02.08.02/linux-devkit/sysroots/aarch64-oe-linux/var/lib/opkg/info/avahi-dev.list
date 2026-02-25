@@ -1,0 +1,54 @@
+/usr/include/avahi-common/timeval.h	0100644
+/usr/include/avahi-client/publish.h	0100644
+/usr/include/avahi-common/defs.h	0100644
+/usr/lib/pkgconfig/avahi-gobject.pc	0100644
+/usr/include/avahi-glib/glib-malloc.h	0100644
+/usr/include/avahi-common/thread-watch.h	0100644
+/usr/lib	040755
+/usr/lib/libavahi-gobject.so	0120777	libavahi-gobject.so.0.0.5
+/usr/include/avahi-common/simple-watch.h	0100644
+/usr/lib/libavahi-common.so	0120777	libavahi-common.so.3.5.4
+/usr/include/avahi-common/malloc.h	0100644
+/usr/include/avahi-core/rr.h	0100644
+/usr/include/avahi-glib	040755
+/usr/include/avahi-common/gccmacro.h	0100644
+/usr/lib/pkgconfig/avahi-glib.pc	0100644
+/usr/include/avahi-client/lookup.h	0100644
+/usr/include/avahi-core	040755
+/usr/include/avahi-gobject/ga-enums.h	0100644
+/usr/include/avahi-gobject/ga-entry-group.h	0100644
+/usr/lib/pkgconfig/avahi-core.pc	0100644
+/usr/share/gir-1.0	040755
+/usr/lib/pkgconfig/avahi-client.pc	0100644
+/usr/include/avahi-common/llist.h	0100644
+/usr/include/avahi-common/strlst.h	0100644
+/usr/include/avahi-common/address.h	0100644
+/usr/include/avahi-common/rlist.h	0100644
+/usr/include/avahi-client/client.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/avahi-gobject	040755
+/usr/include/avahi-client	040755
+/usr/include/avahi-core/lookup.h	0100644
+/usr/include/avahi-gobject/ga-record-browser.h	0100644
+/usr/include/avahi-common/error.h	0100644
+/usr/include/avahi-gobject/ga-error.h	0100644
+/usr/include/avahi-common/domain.h	0100644
+/usr/include/avahi-gobject/ga-service-resolver.h	0100644
+/usr/include/avahi-core/log.h	0100644
+/usr/lib/libavahi-glib.so	0120777	libavahi-glib.so.1.0.2
+/usr/include/avahi-gobject/ga-service-browser.h	0100644
+/usr/include/avahi-core/core.h	0100644
+/usr/share/gir-1.0/Avahi-0.6.gir	0100644
+/usr/include/avahi-core/publish.h	0100644
+/usr/include/avahi-glib/glib-watch.h	0100644
+/usr/share/gir-1.0/AvahiCore-0.6.gir	0100644
+/usr/share	040755
+/usr/lib/libavahi-core.so	0120777	libavahi-core.so.7.1.0
+/usr/include/avahi-common/watch.h	0100644
+/usr/include/avahi-common/alternative.h	0100644
+/usr/lib/libavahi-client.so	0120777	libavahi-client.so.3.2.9
+/usr/include	040755
+/usr/include/avahi-common	040755
+/usr/include/avahi-common/cdecl.h	0100644
+/usr/include/avahi-gobject/ga-client.h	0100644

@@ -1,0 +1,16 @@
+Package: icu
+Version: 74-2-r0.71
+Description: International Component for Unicode libraries
+ The International Component for Unicode (ICU) is a mature, portable set
+ of C/C++ and Java libraries for Unicode support, software
+ internationalization (I18N) and globalization (G11N), giving applications
+ the same results on all platforms.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ICU
+Architecture: aarch64
+OE: icu
+Homepage: http://site.icu-project.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libicudata74 (>= 74-2), libicui18n74 (>= 74-2), libicuio74 (>= 74-2), libicutu74 (>= 74-2), libicuuc74 (>= 74-2), libstdc++6 (>= 13.4.0)
+Source: icu_74-2.bb

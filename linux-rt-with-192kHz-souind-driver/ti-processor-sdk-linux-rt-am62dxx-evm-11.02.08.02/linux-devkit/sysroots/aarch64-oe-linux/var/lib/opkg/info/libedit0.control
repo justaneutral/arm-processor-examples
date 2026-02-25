@@ -1,0 +1,15 @@
+Package: libedit0
+Version: 20230828-3.1-r1.65
+Description: BSD replacement for libreadline
+ Command line editor library providing generic line editing, history, and
+ tokenization functions
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libedit
+Homepage: http://www.thrysoee.dk/editline/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libncurses5 (>= 6.4), libtinfo5 (>= 6.4)
+Provides: libedit
+Source: libedit_20230828-3.1.bb

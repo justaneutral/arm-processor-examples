@@ -1,0 +1,6 @@
+/usr/lib	040755
+/etc/xattr.conf	0100644
+/usr/lib/libattr.so.1.1.2501	0100755
+/usr	040755
+/etc	040755
+/usr/lib/libattr.so.1	0120777	libattr.so.1.1.2501

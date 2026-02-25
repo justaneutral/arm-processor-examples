@@ -1,0 +1,7 @@
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/modules.order	0100644
+/usr/lib	040755
+/usr/lib/modules	040755
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/modules.builtin	0100644
+/usr	040755
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc/modules.builtin.modinfo	0100644
+/usr/lib/modules/6.12.57-ti-rt-g31b07ab8dfbc	040755

@@ -1,0 +1,19 @@
+Package: mpg123-dev
+Version: 1.32.10-r0.308
+Description: Audio decoder for MPEG-1 Layer 1/2/3 - Development files
+ The core of mpg123 is an MPEG-1 Layer 1/2/3 decoding library, which can
+ be used by other programs. mpg123 also comes with a command-line tool
+ which can playback using ALSA, PulseAudio, OSS, and several other APIs,
+ and also can write the decoded audio to WAV.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: mpg123
+Homepage: http://mpg123.de/
+Depends: mpg123
+Recommends: glibc-dev, libpulse-dev, libpulse-simple-dev, mpg123 (= 1.32.10-r0.308), pulseaudio-dev
+Source: mpg123_1.32.10.bb

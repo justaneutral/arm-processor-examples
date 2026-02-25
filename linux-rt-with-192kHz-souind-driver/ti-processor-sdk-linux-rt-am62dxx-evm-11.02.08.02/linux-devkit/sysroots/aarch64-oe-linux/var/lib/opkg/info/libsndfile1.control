@@ -1,0 +1,15 @@
+Package: libsndfile1
+Version: 1.2.2-r0.64
+Description: Audio format Conversion library
+ Library for reading and writing files containing sampled sound (such as
+ MS Windows WAV and the Apple/SGI AIFF format) through one standard
+ library interface.
+Section: libs/multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libsndfile1
+Homepage: https://libsndfile.github.io/libsndfile/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libflac12 (>= 1.4.3), libogg0 (>= 1.3.5), libvorbis (>= 1.3.7)
+Source: libsndfile1_1.2.2.bb

@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libpanel.so.5.9	0100755
+/usr	040755
+/usr/lib/libpanel.so.5	0120777	libpanel.so.5.9

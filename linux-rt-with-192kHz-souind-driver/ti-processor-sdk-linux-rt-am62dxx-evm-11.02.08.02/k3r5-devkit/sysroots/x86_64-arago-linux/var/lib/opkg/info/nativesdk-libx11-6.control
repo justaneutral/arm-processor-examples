@@ -1,0 +1,16 @@
+Package: nativesdk-libx11-6
+Version: 1:1.8.9-r0.100
+Description: Xlib: C Language X Interface library
+ This package provides a client interface to the X Window System,
+ otherwise known as 'Xlib'.  It provides a complete API for the basic
+ functions of the window system.
+Section: x11/libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & BSD-1-Clause & HPND & HPND-sell-variant & ISC
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-libx11
+Homepage: http://www.x.org
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libxcb1 (>= 1.16)
+Provides: nativesdk-libx11
+Source: libx11_1.8.9.bb

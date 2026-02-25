@@ -1,0 +1,9 @@
+/usr/include/editline/readline.h	0100644
+/usr/lib	040755
+/usr/include/histedit.h	0100644
+/usr/lib/pkgconfig/libedit.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/editline	040755
+/usr/lib/libedit.so	0120777	libedit.so.0.0.72
+/usr/include	040755

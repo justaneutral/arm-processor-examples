@@ -1,0 +1,5 @@
+/usr/bin/getfacl	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/setfacl	0100755
+/usr/bin/chacl	0100755

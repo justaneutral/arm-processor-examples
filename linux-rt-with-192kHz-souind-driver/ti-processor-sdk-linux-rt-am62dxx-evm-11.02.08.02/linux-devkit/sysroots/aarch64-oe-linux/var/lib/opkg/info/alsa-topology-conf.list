@@ -1,0 +1,12 @@
+/usr/share/alsa/topology/bxtrt298/bxt_i2s.conf	0100644
+/usr/share/alsa	040755
+/usr/share/alsa/topology/broadwell	040755
+/usr/share/alsa/topology/hda-dsp/skl_hda_dsp_generic-tplg.conf	0100644
+/usr	040755
+/usr/share/alsa/topology/sklrt286	040755
+/usr/share/alsa/topology/bxtrt298	040755
+/usr/share/alsa/topology	040755
+/usr/share/alsa/topology/broadwell/broadwell.conf	0100644
+/usr/share/alsa/topology/sklrt286/skl_i2s.conf	0100644
+/usr/share	040755
+/usr/share/alsa/topology/hda-dsp	040755

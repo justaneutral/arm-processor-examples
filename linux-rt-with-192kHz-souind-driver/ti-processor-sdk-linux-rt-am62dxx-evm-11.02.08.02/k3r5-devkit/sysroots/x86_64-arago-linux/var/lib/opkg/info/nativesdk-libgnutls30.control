@@ -1,0 +1,15 @@
+Package: nativesdk-libgnutls30
+Version: 3.8.4-r0.94
+Description: GNU Transport Layer Security Library
+ a secure communications library implementing the SSL, TLS and DTLS
+ protocols and technologies around them.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-gnutls
+Homepage: https://gnutls.org/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libidn2-0 (>= 2.3.7), nativesdk-libtasn1-6 (>= 4.20.0), nativesdk-libunistring5 (>= 1.2), nativesdk-nettle (>= 3.9.1)
+Provides: nativesdk-gnutls
+Source: gnutls_3.8.4.bb

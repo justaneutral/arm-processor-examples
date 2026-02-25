@@ -1,0 +1,15 @@
+Package: nghttp2-dev
+Version: 1.61.0-r0.64
+Description: HTTP/2 C Library and tools - Development files
+ HTTP/2 C Library and tools.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: nghttp2
+Homepage: https://nghttp2.org/
+Depends: libnghttp2
+Recommends: glibc-dev, libnghttp2-dev, nghttp2 (= 1.61.0-r0.64), nghttp2-proxy-dev, openssl-dev, python3-core-dev, python3-io-dev, python3-shell-dev
+Source: nghttp2_1.61.0.bb

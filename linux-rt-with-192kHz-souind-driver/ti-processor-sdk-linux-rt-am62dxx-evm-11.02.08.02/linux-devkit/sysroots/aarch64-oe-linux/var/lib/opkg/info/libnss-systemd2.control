@@ -1,0 +1,14 @@
+Package: libnss-systemd2
+Version: 1:255.21-r0.arago7_tisdk_0.69
+Description: Systemd nss-systemd library
+ Systemd nss-systemd library
+Section: base/shell
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libcrypt2 (>= 4.4.36)
+Provides: libnss-systemd
+Source: systemd_255.21.bb

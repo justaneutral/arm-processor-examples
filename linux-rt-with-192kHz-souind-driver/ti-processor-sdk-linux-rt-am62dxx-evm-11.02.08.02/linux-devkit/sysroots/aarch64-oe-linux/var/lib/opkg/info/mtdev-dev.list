@@ -1,0 +1,9 @@
+/usr/lib/pkgconfig/mtdev.pc	0100644
+/usr/lib/libmtdev.so	0120777	libmtdev.so.1.0.0
+/usr/lib	040755
+/usr/include/mtdev.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/mtdev-plumbing.h	0100644
+/usr/include/mtdev-mapping.h	0100644
+/usr/include	040755

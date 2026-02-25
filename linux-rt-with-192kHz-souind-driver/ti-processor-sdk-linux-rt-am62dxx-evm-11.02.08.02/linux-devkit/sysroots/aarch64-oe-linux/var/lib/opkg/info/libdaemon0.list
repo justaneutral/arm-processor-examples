@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libdaemon.so.0.5.0	0100755
+/usr/lib/libdaemon.so.0	0120777	libdaemon.so.0.5.0

@@ -1,0 +1,14 @@
+Package: libtic5
+Version: 6.4-r0.69
+Description: ncurses tic library
+ ncurses tic library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libtinfo5 (>= 6.4)
+Provides: ncurses-libtic
+Source: ncurses_6.4.bb

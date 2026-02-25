@@ -1,0 +1,8 @@
+/usr/lib/libmbedx509.so.3.6.5	0100755
+/usr/lib	040755
+/usr/lib/libmbedtls.so.3.6.5	0100755
+/usr/lib/libmbedcrypto.so.3.6.5	0100755
+/usr	040755
+/usr/lib/libmbedcrypto.so.16	0120777	libmbedcrypto.so.3.6.5
+/usr/lib/libmbedx509.so.7	0120777	libmbedx509.so.3.6.5
+/usr/lib/libmbedtls.so.21	0120777	libmbedtls.so.3.6.5

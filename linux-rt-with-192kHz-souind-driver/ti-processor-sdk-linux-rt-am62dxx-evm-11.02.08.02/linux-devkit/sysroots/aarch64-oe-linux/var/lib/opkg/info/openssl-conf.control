@@ -1,0 +1,12 @@
+Package: openssl-conf
+Version: 3.2.6-r0.8
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: openssl
+Homepage: http://www.openssl.org/
+Source: openssl_3.2.6.bb

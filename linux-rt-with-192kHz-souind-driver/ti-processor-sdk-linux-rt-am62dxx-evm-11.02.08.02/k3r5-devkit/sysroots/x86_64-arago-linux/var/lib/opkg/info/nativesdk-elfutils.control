@@ -1,0 +1,15 @@
+Package: nativesdk-elfutils
+Version: 0.191-r0.132
+Description: Utilities and libraries for handling compiled object files
+ elfutils is a collection of utilities and libraries to read, create and
+ modify ELF binary files, find and handle DWARF debug data, symbols,
+ thread state and stacktraces for processes and core files on GNU/Linux.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-elfutils
+Homepage: https://sourceware.org/elfutils
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libasm1 (>= 0.191), nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libdebuginfod1 (>= 0.191), nativesdk-libdw1 (>= 0.191), nativesdk-libelf1 (>= 0.191), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libmicrohttpd12 (>= 1.0.1), nativesdk-libsqlite3-0 (>= 3.45.3), nativesdk-libstdc++6 (>= 13.4.0)
+Source: elfutils_0.191.bb

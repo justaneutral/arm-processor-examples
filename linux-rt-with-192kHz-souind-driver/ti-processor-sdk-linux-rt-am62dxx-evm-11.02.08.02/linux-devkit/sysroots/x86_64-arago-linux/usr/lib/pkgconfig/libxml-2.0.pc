@@ -1,0 +1,13 @@
+prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+exec_prefix=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr
+libdir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/lib
+includedir=/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/include
+modules=1
+
+Name: libXML
+Version: 2.12.10
+Description: libXML library version2.
+Requires.private:  zlib
+Libs: -L${libdir} -lxml2 
+Libs.private:    -lm  
+Cflags: -I${includedir}/libxml2 

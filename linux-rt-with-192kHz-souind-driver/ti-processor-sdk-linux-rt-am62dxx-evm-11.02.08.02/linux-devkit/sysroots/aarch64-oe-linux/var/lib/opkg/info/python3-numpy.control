@@ -1,0 +1,14 @@
+Package: python3-numpy
+Version: 1.26.4-r0.242
+Description: A sophisticated Numeric Processing Package for Python
+ NumPy is the fundamental package needed for scientific computing with
+ Python.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & BSD-2-Clause & PSF-2.0 & Apache-2.0 & MIT
+Architecture: aarch64
+OE: python3-numpy
+Homepage: https://numpy.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), python3-compression, python3-core, python3-ctypes, python3-datetime, python3-difflib, python3-doctest, python3-email, python3-json, python3-misc, python3-mmap, python3-multiprocessing, python3-netclient, python3-numbers, python3-pickle, python3-pkgutil, python3-pprint, python3-pydoc, python3-shell, python3-threading, python3-unittest
+Source: python3-numpy_1.26.4.bb

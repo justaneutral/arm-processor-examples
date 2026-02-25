@@ -1,0 +1,14 @@
+/usr/lib/aarch64-oe-linux/13.4.0	040755
+/usr/lib	040755
+/usr/lib/aarch64-oe-linux/13.4.0/libgcc.a	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/crtendS.o	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/libgcov.a	0100644
+/usr/lib/libgcc_s.so	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/crtend.o	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/crtfastmath.o	0100644
+/usr	040755
+/usr/lib/aarch64-oe-linux/13.4.0/crtbegin.o	0100644
+/usr/lib/aarch64-oe-linux	040755
+/usr/lib/aarch64-oe-linux/13.4.0/crtbeginS.o	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/crtbeginT.o	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/libgcc_eh.a	0100644

@@ -1,0 +1,13 @@
+/usr/bin/bzegrep	0120777	bzgrep
+/usr/bin/bzip2recover	0100755
+/usr/bin/bzmore	0100755
+/usr/bin/bzfgrep	0120777	bzgrep
+/usr/bin/bunzip2.bzip2	0120777	bzip2.bzip2
+/usr/bin/bzgrep	0100755
+/usr/bin/bzless	0120777	bzmore
+/usr/bin/bzdiff	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/bzcat.bzip2	0120777	bzip2.bzip2
+/usr/bin/bzcmp	0120777	bzdiff
+/usr/bin/bzip2.bzip2	0100755

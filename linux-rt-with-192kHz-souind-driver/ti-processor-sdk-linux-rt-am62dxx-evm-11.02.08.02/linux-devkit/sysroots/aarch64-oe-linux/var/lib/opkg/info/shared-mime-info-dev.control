@@ -1,0 +1,15 @@
+Package: shared-mime-info-dev
+Version: 2.4-r0.400
+Description: Shared MIME type database and specification - Development files
+ The shared-mime-info package contains the core database of common types.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Recommends: glib-2.0-dev, glibc-dev, libgcc-dev, libstdc++-dev, libxml2-dev, shared-mime-info (= 2.4-r0.400)
+Source: shared-mime-info_2.4.bb

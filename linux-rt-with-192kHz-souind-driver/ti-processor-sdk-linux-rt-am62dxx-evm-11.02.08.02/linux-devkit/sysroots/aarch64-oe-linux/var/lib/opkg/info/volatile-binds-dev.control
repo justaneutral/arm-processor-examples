@@ -1,0 +1,14 @@
+Package: volatile-binds-dev
+Version: 1.0-r0.12
+Description: Volatile bind mount setup and configuration for read-only-rootfs - Development files
+ Volatile bind mount setup and configuration for read-only-rootfs  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: volatile-binds
+Recommends: volatile-binds (= 1.0-r0.12)
+Source: volatile-binds.bb

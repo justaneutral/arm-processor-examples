@@ -1,0 +1,16 @@
+Package: libe2p2
+Version: 1.47.0-r0.155
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT
+Architecture: aarch64
+OE: e2fsprogs
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libe2p
+Source: e2fsprogs_1.47.0.bb

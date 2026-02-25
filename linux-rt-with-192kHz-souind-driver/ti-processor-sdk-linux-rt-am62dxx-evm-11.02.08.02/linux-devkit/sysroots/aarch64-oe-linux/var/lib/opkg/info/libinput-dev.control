@@ -1,0 +1,20 @@
+Package: libinput-dev
+Version: 1.25.0-r0.353
+Description: Library to handle input devices in Wayland compositors - Development files
+ libinput is a library to handle input devices in Wayland compositors and
+ to provide a generic X.Org input driver. It provides device detection,
+ device handling, input device event processing and abstraction so
+ minimize the amount of custom input code compositors need to provide the
+ common set of functionality that users expect.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libinput
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Depends: libinput
+Recommends: glibc-dev, libevdev-dev, libinput10 (= 1.25.0-r0.353), libudev-dev, mtdev-dev, udev-dev
+Source: libinput_1.25.0.bb

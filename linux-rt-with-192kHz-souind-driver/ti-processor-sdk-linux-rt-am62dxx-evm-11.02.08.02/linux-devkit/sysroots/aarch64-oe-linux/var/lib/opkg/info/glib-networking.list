@@ -1,0 +1,6 @@
+/usr/lib/gio	040755
+/usr/lib	040755
+/usr/lib/gio/modules/libgiognutls.so	0100755
+/usr	040755
+/usr/lib/gio/modules	040755
+/usr/lib/gio/modules/libgioenvironmentproxy.so	0100755

@@ -1,0 +1,18 @@
+Package: nativesdk-libnsl-dev
+Version: 2.0.1-r0.148
+Description: Library containing NIS functions using TI-RPC (IPv6 enabled) - Development files
+ This library contains the public client interface for NIS(YP) and NIS+
+ it was part of glibc and now is standalone packages. it also supports
+ IPv6  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-libnsl2
+Homepage: https://github.com/thkukuk/libnsl
+Depends: nativesdk-libnsl2, nativesdk-libtirpc-dev
+Recommends: nativesdk-glibc-dev, nativesdk-libnsl3 (= 2.0.1-r0.148), nativesdk-libtirpc-dev
+Provides: nativesdk-libnsl2-dev
+Source: libnsl2_git.bb

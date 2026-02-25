@@ -1,0 +1,8 @@
+prefix=/usr
+includedir=${prefix}/include
+
+Name: gstreamer-vulkan-wayland-1.0
+Description: GStreamer Vulkan support (Wayland Specifics)
+Version: 1.22.12
+Requires: gstreamer-vulkan-1.0, wayland-client
+Cflags: -I${includedir}/gstreamer-1.0

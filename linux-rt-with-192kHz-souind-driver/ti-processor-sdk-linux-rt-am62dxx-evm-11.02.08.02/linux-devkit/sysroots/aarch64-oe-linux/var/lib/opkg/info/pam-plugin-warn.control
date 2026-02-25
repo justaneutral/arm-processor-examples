@@ -1,0 +1,14 @@
+Package: pam-plugin-warn
+Version: 1.5.3-r0.72
+Description: PAM plugin for -warn
+ PAM plugin for -warn
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later | BSD-3-Clause
+Architecture: aarch64
+OE: libpam
+Homepage: https://fedorahosted.org/linux-pam/
+Depends: libpam (>= 1.5.3), libpam-suffix
+Provides: pam-plugin-warn-suffix
+Source: libpam_1.5.3.bb

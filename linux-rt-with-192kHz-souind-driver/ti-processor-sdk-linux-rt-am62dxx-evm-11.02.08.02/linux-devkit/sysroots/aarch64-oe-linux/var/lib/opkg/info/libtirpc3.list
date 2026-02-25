@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/libtirpc.so.3.0.0	0100755
+/etc/netconfig	0100644
+/usr	040755
+/etc	040755
+/usr/lib/libtirpc.so.3	0120777	libtirpc.so.3.0.0
+/etc/bindresvport.blacklist	0100644

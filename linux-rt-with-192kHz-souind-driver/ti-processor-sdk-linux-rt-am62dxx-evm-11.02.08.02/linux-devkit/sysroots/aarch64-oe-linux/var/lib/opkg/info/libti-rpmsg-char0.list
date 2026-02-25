@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libti_rpmsg_char.so.0	0120777	libti_rpmsg_char.so.0.6.10
+/usr/lib/libti_rpmsg_char.so.0.6.10	0100755
+/usr	040755

@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/go/pkg/linux_arm64_dynlink/libstd.so	0100644
+/usr/lib/go/pkg/linux_arm64_dynlink	040755
+/usr/lib/go	040755
+/usr	040755
+/usr/lib/go/pkg	040755

@@ -1,0 +1,20 @@
+Package: liblz-dev
+Version: 1.14-r0.67
+Description: Data compression library providing in-memory LZMA compression and decompression functions - Development files
+ Lzlib is a data compression library providing in-memory LZMA compression
+ and decompression functions, including integrity checking of the
+ decompressed data. The compressed data format used by the library is the
+ lzip format. Lzlib is written in C.   This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: aarch64
+OE: lzlib
+Homepage: https://www.nongnu.org/lzip/lzlib.html
+Depends: lzlib
+Recommends: glibc-dev, liblz1 (= 1.14-r0.67)
+Provides: lzlib-dev
+Source: lzlib_1.14.bb

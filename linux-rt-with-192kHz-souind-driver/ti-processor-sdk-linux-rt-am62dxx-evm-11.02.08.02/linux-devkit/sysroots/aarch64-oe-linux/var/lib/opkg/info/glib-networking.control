@@ -1,0 +1,15 @@
+Package: glib-networking
+Version: 2.78.1-r0.154
+Description: GLib networking extensions
+ glib-networking contains the implementations of certain GLib networking
+ features that cannot be implemented directly in GLib itself because of
+ their dependencies.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: glib-networking
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libglib-2.0-0 (>= 2.78.6), libgnutls30 (>= 3.8.4)
+Source: glib-networking_2.78.1.bb

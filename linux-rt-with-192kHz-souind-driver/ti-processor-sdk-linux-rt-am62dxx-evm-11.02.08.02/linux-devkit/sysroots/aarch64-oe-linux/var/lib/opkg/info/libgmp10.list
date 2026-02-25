@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libgmp.so.10.5.0	0100755
+/usr/lib/libgmp.so.10	0120777	libgmp.so.10.5.0
+/usr	040755

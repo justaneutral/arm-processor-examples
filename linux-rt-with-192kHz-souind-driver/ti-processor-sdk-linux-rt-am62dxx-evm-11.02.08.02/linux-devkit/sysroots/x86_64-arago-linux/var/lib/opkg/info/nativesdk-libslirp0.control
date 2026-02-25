@@ -1,0 +1,15 @@
+Package: nativesdk-libslirp0
+Version: 4.7.0-r0.143
+Description: A general purpose TCP-IP emulator
+ A general purpose TCP-IP emulator used by virtual machine hypervisors to
+ provide virtual networking services.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libslirp
+Homepage: https://gitlab.freedesktop.org/slirp/libslirp
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6)
+Provides: nativesdk-libslirp
+Source: libslirp_git.bb

@@ -1,0 +1,8 @@
+/usr/lib/gstreamer-1.0/libgstfreeverb.so	0100755
+/usr/lib	040755
+/usr/share/gstreamer-1.0	040755
+/usr/lib/gstreamer-1.0	040755
+/usr	040755
+/usr/share/gstreamer-1.0/presets/GstFreeverb.prs	0100644
+/usr/share/gstreamer-1.0/presets	040755
+/usr/share	040755

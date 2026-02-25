@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  xz /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/xz.xz
+	update-alternatives --remove  xzcat /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/xzcat.xz
+	update-alternatives --remove  unxz /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/unxz.xz
+	update-alternatives --remove  lzma /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/lzma.xz
+	update-alternatives --remove  lzcat /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/lzcat.xz
+	update-alternatives --remove  unlzma /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/unlzma.xz

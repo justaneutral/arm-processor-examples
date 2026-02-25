@@ -1,0 +1,16 @@
+Package: libical
+Version: 3.0.17-r0.380
+Description: iCal and scheduling (RFC 2445, 2446, 2447) library
+ An Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients
+ can communicate with calendar servers so users can store their calendar
+ data and arrange meetings with other users.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only | MPL-2.0
+Architecture: aarch64
+OE: libical
+Homepage: https://github.com/libical/libical
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libglib-2.0-0 (>= 2.78.6), libicui18n74 (>= 74-2), libicuuc74 (>= 74-2), libstdc++6 (>= 13.4.0), libxml2 (>= 2.12.10)
+Source: libical_3.0.17.bb

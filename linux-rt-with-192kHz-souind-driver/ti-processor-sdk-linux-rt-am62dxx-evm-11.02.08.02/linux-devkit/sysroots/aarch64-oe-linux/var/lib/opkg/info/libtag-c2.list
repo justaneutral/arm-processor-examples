@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libtag_c.so.2.0.1	0100755
+/usr/lib/libtag_c.so.2	0120777	libtag_c.so.2.0.1

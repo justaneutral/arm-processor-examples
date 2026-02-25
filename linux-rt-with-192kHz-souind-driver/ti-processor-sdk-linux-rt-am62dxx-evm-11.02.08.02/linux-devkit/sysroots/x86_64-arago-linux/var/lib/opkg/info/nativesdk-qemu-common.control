@@ -1,0 +1,16 @@
+Package: nativesdk-qemu-common
+Version: 8.2.7-r0.194
+Description: Fast open source processor emulator
+ QEMU is a hosted virtual machine monitor: it emulates the machine's
+ processor through dynamic binary translation and provides a set of
+ different hardware and device models for the machine, enabling it to run
+ a variety of guest operating systems
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libz1 (>= 1.3.1), nativesdk-virglrenderer (>= 1.0.1)
+Source: qemu_8.2.7.bb

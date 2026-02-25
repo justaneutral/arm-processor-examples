@@ -1,0 +1,17 @@
+Package: ofono-dev
+Version: 2.4-r0.436
+Description: open source telephony - Development files
+ oFono is a stack for mobile telephony devices on Linux. oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: ofono
+Homepage: http://www.ofono.org
+Depends: dbus-dev, glib-2.0-dev
+Recommends: bluez5-dev, dbus-dev, dbus-lib-dev, ell-dev, glib-2.0-dev, glibc-dev, libudev-dev, mobile-broadband-provider-info-dev, ofono (= 2.4-r0.436), python3-core-dev, python3-dbus-dev, python3-pygobject-dev, udev-dev
+Source: ofono_2.4.bb

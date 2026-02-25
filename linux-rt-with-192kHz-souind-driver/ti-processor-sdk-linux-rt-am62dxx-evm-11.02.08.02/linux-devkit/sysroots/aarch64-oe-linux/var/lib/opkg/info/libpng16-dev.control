@@ -1,0 +1,19 @@
+Package: libpng16-dev
+Version: 1.6.42-r0.67
+Description: PNG image format decoding library - Development files
+ An open source project to develop and maintain the reference library for
+ use in applications that read, create, and manipulate PNG (Portable
+ Network Graphics) raster image files.   This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Libpng
+Architecture: aarch64
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libpng
+Recommends: glibc-dev, libpng16-16 (= 1.6.42-r0.67), zlib-dev
+Provides: libpng-dev
+Source: libpng_1.6.42.bb

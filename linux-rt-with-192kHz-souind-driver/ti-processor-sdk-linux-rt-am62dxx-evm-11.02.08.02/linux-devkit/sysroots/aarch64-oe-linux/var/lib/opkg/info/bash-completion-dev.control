@@ -1,0 +1,17 @@
+Package: bash-completion-dev
+Version: 2.12.0-r0.41
+Description: Programmable Completion for Bash 4 - Development files
+ Collection of command line command completions for the Bash shell,
+ collection of helper functions to assist in creating new completions, and
+ set of facilities for loading completions automatically on demand, as
+ well as installing them.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: bash-completion
+Homepage: https://github.com/scop/bash-completion
+Recommends: bash-completion (= 2.12.0-r0.41), bash-dev
+Source: bash-completion_2.12.0.bb

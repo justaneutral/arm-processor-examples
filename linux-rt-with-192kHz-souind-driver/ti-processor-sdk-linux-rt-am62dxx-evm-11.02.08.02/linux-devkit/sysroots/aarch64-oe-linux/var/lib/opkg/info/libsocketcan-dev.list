@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/include/can_netlink.h	0100644
+/usr/lib/pkgconfig/libsocketcan.pc	0100644
+/usr/lib/libsocketcan.so	0120777	libsocketcan.so.2.3.1
+/usr/include/libsocketcan.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include	040755

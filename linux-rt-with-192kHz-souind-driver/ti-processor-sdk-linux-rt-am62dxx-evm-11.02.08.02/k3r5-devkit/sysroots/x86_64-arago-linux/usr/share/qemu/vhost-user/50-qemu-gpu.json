@@ -1,0 +1,5 @@
+{
+  "description": "QEMU vhost-user-gpu",
+  "type": "gpu",
+  "binary": "/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/libexec/vhost-user-gpu"
+}

@@ -1,0 +1,11 @@
+/usr/lib/pkgconfig/libpsx.pc	0100644
+/usr/lib	040755
+/usr/include/sys/psx_syscall.h	0100644
+/usr/lib/libcap.so	0120777	libcap.so.2
+/usr/lib/libpsx.so	0120777	libpsx.so.2
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/sys	040755
+/usr/include/sys/capability.h	0100644
+/usr/include	040755
+/usr/lib/pkgconfig/libcap.pc	0100644

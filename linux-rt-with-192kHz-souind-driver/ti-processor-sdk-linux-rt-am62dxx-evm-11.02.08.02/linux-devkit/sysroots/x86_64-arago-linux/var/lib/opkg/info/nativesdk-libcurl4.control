@@ -1,0 +1,18 @@
+Package: nativesdk-libcurl4
+Version: 8.7.1-r0.165
+Description: Command line tool and library for client-side URL transfers
+ It uses URL syntax to transfer data to and from servers. curl is a widely
+ used because of its ability to be flexible and complete complex tasks.
+ For example, you can use curl for things like user authentication, HTTP
+ post, SSL connections, proxy support, FTP uploads, and more!
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: curl
+Architecture: x86_64-nativesdk
+OE: nativesdk-curl
+Homepage: https://curl.se/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6), nativesdk-libssl3 (>= 3.2.6), nativesdk-libz1 (>= 1.3.1)
+Recommends: nativesdk-ca-certificates
+Provides: nativesdk-libcurl
+Source: curl_8.7.1.bb

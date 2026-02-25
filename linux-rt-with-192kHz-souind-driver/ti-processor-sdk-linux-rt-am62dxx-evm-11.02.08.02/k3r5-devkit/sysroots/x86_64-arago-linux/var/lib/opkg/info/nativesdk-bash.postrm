@@ -1,0 +1,2 @@
+set -e
+	printf "$(grep -v "^/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/bin/bash$" $D/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/etc/shells)\n" > $D/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/etc/shells

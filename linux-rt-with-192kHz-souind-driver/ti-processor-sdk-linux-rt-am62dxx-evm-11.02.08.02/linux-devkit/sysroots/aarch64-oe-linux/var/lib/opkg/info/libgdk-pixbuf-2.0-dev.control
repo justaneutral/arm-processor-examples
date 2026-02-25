@@ -1,0 +1,18 @@
+Package: libgdk-pixbuf-2.0-dev
+Version: 2.42.12-r0.375
+Description: Image loading library for GTK+ - Development files
+ The GDK Pixbuf library provides: Image loading and saving facilities,
+ fast scaling and compositing of pixbufs and Simple animation loading (ie.
+ animated GIFs)  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: gdk-pixbuf
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Depends: glib-2.0-dev, libc6 (>= 2.39+git47+58cbbd43fe), libgdk-pixbuf-2.0-0 (>= 2.42.12), libglib-2.0-0 (>= 2.78.6)
+Recommends: glib-2.0-dev, glibc-dev, gobject-introspection-dev, jpeg-dev, libgdk-pixbuf-2.0-0 (= 2.42.12-r0.375), libjpeg-turbo-dev, libpng-dev, shared-mime-info-dev
+Provides: gdk-pixbuf-dev
+Source: gdk-pixbuf_2.42.12.bb

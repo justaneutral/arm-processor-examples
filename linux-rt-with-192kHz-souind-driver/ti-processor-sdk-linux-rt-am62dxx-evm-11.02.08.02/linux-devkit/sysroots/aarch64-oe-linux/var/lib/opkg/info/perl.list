@@ -1,0 +1,26 @@
+/usr/lib/perl5/5.38.4	040755
+/usr/lib/perl5/5.38.4/warnings.pm	0100444
+/usr/lib	040755
+/usr/lib/perl5/config.sh	0100755
+/usr/lib/perl5/5.38.4/warnings	040755
+/usr/lib/perl5/5.38.4/vars.pm	0100444
+/usr/lib/perl5/5.38.4/aarch64-linux	040755
+/usr/lib/perl5/5.38.4/warnings/register.pm	0100444
+/usr/lib/perl5/5.38.4/ExtUtils/MANIFEST.SKIP	0100444
+/usr/lib/perl5/5.38.4/ExtUtils/typemap	0100755
+/usr/lib/libperl.so.5.38.0	0100555
+/usr/bin	040755
+/usr/lib/perl5/5.38.4/aarch64-linux/Config_heavy-target.pl	0120777	Config_heavy.pl
+/usr	040755
+/usr/lib/perl5/5.38.4/ExtUtils	040755
+/usr/bin/perl	0100755
+/usr/lib/perl5	040755
+/usr/lib/perl5/5.38.4/ExtUtils/xsubpp	0100444
+/usr/lib/perl5/5.38.4/aarch64-linux/Config_git.pl	0100444
+/usr/lib/libperl.so.5	0120777	libperl.so.5.38.0
+/usr/lib/perl5/5.38.4/strict.pm	0100444
+/usr/lib/perl5/site_perl	040755
+/usr/lib/perl5/5.38.4/aarch64-linux/Config.pm	0100444
+/usr/lib/perl5/site_perl/5.38.4/aarch64-linux	040755
+/usr/lib/perl5/site_perl/5.38.4	040755
+/usr/lib/perl5/5.38.4/Config.pm	0100755

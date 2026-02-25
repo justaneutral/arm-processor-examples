@@ -1,0 +1,22 @@
+/usr/include/lzma/lzma12.h	0100644
+/usr/include/lzma/hardware.h	0100644
+/usr/lib/pkgconfig/liblzma.pc	0100644
+/usr/include/lzma/index_hash.h	0100644
+/usr/include/lzma/vli.h	0100644
+/usr/lib	040755
+/usr/include/lzma/block.h	0100644
+/usr/include/lzma/stream_flags.h	0100644
+/usr/lib/liblzma.so	0120777	liblzma.so.5.4.7
+/usr/include/lzma/index.h	0100644
+/usr/include/lzma/check.h	0100644
+/usr/include/lzma.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/lzma	040755
+/usr/include/lzma/filter.h	0100644
+/usr/include/lzma/bcj.h	0100644
+/usr/include/lzma/container.h	0100644
+/usr/include/lzma/version.h	0100644
+/usr/include/lzma/base.h	0100644
+/usr/include	040755
+/usr/include/lzma/delta.h	0100644

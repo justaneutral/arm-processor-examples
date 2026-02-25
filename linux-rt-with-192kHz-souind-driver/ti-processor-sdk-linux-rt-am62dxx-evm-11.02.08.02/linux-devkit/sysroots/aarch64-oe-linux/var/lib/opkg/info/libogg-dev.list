@@ -1,0 +1,13 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/ogg.pc	0100644
+/usr/lib/libogg.so	0120777	libogg.so.0.8.5
+/usr/share/aclocal/ogg.m4	0100644
+/usr/include/ogg/config_types.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/share/aclocal	040755
+/usr/include/ogg/ogg.h	0100644
+/usr/include/ogg/os_types.h	0100644
+/usr/share	040755
+/usr/include	040755
+/usr/include/ogg	040755

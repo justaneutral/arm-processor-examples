@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/zstd.h	0100644
+/usr/include/zstd_errors.h	0100644
+/usr/lib/pkgconfig/libzstd.pc	0100644
+/usr/include/zdict.h	0100644
+/usr/include	040755
+/usr/lib/libzstd.so	0120777	libzstd.so.1.5.5

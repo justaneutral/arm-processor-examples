@@ -1,0 +1,14 @@
+Package: nativesdk-libxcb-randr0
+Version: 1.16-r0.104
+Description: XCB library module for randr
+ XCB library module for randr
+Section: x11/libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-libxcb
+Homepage: http://xcb.freedesktop.org
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libxau6 (>= 1.0.11), nativesdk-libxcb1 (>= 1.16), nativesdk-libxdmcp6 (>= 1.1.4)
+Provides: nativesdk-libxcb-randr
+Source: libxcb_1.16.bb

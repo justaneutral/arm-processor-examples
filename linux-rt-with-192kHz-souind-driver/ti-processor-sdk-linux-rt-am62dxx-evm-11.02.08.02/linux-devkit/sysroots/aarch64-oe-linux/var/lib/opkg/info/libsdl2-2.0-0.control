@@ -1,0 +1,16 @@
+Package: libsdl2-2.0-0
+Version: 2.30.1-r0.354
+Description: Simple DirectMedia Layer
+ Simple DirectMedia Layer is a cross-platform multimedia library designed
+ to provide low level access to audio, keyboard, mouse, joystick, 3D
+ hardware via OpenGL, and 2D video framebuffer.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Zlib & BSD-2-Clause  
+Architecture: aarch64
+OE: libsdl2
+Homepage: http://www.libsdl.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libsdl2
+Source: libsdl2_2.30.1.bb

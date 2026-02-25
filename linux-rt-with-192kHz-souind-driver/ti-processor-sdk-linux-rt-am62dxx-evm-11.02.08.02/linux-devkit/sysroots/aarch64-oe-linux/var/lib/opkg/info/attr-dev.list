@@ -1,0 +1,10 @@
+/usr/lib	040755
+/usr/include/attr	040755
+/usr/include/attr/libattr.h	0100644
+/usr/lib/pkgconfig/libattr.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/attr/error_context.h	0100644
+/usr/include/attr/attributes.h	0100644
+/usr/lib/libattr.so	0120777	libattr.so.1.1.2501
+/usr/include	040755

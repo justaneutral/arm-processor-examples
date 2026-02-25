@@ -1,0 +1,14 @@
+Package: nativesdk-libopkg1
+Version: 1:0.6.3-r0.180
+Description: Open Package Manager library
+ Opkg is a lightweight package management system based on Ipkg.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-opkg
+Homepage: https://git.yoctoproject.org/opkg/
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libsolv (>= 0.7.28)
+Provides: nativesdk-libopkg
+Source: opkg_0.6.3.bb

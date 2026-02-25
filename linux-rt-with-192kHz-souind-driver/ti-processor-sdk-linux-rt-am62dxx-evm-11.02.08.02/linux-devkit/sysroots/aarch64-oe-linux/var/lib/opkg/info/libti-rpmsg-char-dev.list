@@ -1,0 +1,6 @@
+/usr/include/ti_rpmsg_char.h	0100644
+/usr/lib	040755
+/usr/lib/libti_rpmsg_char.so	0120777	libti_rpmsg_char.so.0.6.10
+/usr	040755
+/usr/include/rproc_id.h	0100644
+/usr/include	040755

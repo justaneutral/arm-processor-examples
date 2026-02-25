@@ -1,0 +1,16 @@
+Package: at-spi2-core
+Version: 2.50.1-r0.437
+Description: Assistive Technology Service Provider Interface (dbus core)
+ It provides a Service Provider Interface for the Assistive Technologies
+ available on the GNOME platform and a library against which applications
+ can be linked.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: at-spi2-core
+Homepage: https://wiki.linuxfoundation.org/accessibility/d-bus
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libdbus-1-3 (>= 1.14.10), libglib-2.0-0 (>= 2.78.6)
+Provides: at-spi2-atk, atk
+Source: at-spi2-core_2.50.1.bb

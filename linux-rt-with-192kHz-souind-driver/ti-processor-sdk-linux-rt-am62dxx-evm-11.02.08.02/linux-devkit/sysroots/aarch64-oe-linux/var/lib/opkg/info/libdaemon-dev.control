@@ -1,0 +1,18 @@
+Package: libdaemon-dev
+Version: 0.14-r0.70
+Description: Lightweight C library which eases the writing of UNIX daemons - Development files
+ Lightweight daemon framework for OpenBSD. It provides facilities for
+ logging and a signal handler to enable graceful shutdown, as well as file
+ locking to ensure that only a single copy of a given daemon is running at
+ a time.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libdaemon
+Homepage: http://0pointer.de/lennart/projects/libdaemon/
+Depends: libdaemon
+Recommends: glibc-dev, libdaemon0 (= 0.14-r0.70)
+Source: libdaemon_0.14.bb

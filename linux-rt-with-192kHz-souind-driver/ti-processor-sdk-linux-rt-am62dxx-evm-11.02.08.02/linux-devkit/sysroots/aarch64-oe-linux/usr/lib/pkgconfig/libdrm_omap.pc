@@ -1,0 +1,11 @@
+prefix=/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdrm_omap
+Description: Userspace interface to omap kernel DRM services
+Version: 0.6
+Requires.private: libdrm
+Libs: -L${libdir} -ldrm_omap
+Libs.private: -pthread
+Cflags: -I${includedir} -I${includedir}/libdrm -I${includedir}/omap

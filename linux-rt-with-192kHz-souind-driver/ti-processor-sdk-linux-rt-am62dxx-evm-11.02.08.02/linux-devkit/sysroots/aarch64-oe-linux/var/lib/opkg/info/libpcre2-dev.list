@@ -1,0 +1,16 @@
+/usr/lib/pkgconfig/libpcre2-8.pc	0100644
+/usr/lib	040755
+/usr/lib/pkgconfig/libpcre2-posix.pc	0100644
+/usr/lib/pkgconfig/libpcre2-32.pc	0100644
+/usr/lib/pkgconfig/libpcre2-16.pc	0100644
+/usr/include/pcre2posix.h	0100644
+/usr/bin	040755
+/usr	040755
+/usr/lib/libpcre2-32.so	0120777	libpcre2-32.so.0.12.0
+/usr/lib/pkgconfig	040755
+/usr/lib/libpcre2-8.so	0120777	libpcre2-8.so.0.12.0
+/usr/bin/pcre2-config	0100755
+/usr/lib/libpcre2-16.so	0120777	libpcre2-16.so.0.12.0
+/usr/include/pcre2.h	0100644
+/usr/lib/libpcre2-posix.so	0120777	libpcre2-posix.so.3.0.5
+/usr/include	040755

@@ -1,0 +1,15 @@
+Package: nativesdk-libc6-thread-db
+Version: 2.39+git43+58cbbd43fe-r0.143
+Description: GLIBC (GNU C Library)
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-eglibc-thread-db, nativesdk-glibc-thread-db
+Source: glibc_2.39.bb

@@ -1,0 +1,18 @@
+/usr/bin/gpg-error	0100755
+/usr/lib	040755
+/usr/bin/gpg-error-config	0100755
+/usr/share/aclocal/gpgrt.m4	0100644
+/usr/lib/pkgconfig/gpg-error.pc	0100644
+/usr/include/gpgrt-64.h	0100644
+/usr/lib/libgpg-error.so	0120777	libgpg-error.so.0.35.0
+/usr/include/gpgrt.h	0100644
+/usr/bin/gpgrt-config	0100755
+/usr/include/gpg-error-64.h	0100644
+/usr/bin	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/share/aclocal	040755
+/usr/include/gpg-error.h	0100644
+/usr/share	040755
+/usr/share/aclocal/gpg-error.m4	0100644
+/usr/include	040755

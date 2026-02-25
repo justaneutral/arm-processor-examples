@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libdebuginfod-0.191.so	0100755
+/usr	040755
+/usr/lib/libdebuginfod.so.1	0120777	libdebuginfod-0.191.so

@@ -1,0 +1,13 @@
+Package: glibc-localedata-translit-neutral
+Version: 2.39+git-r0.61
+Description: locale definition for translit-neutral
+ locale definition for translit-neutral
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: glibc-localedata-translit-circle, glibc-localedata-translit-cjk-compat, glibc-localedata-translit-compat, glibc-localedata-translit-emojis, glibc-localedata-translit-font, glibc-localedata-translit-fraction, glibc-localedata-translit-narrow, glibc-localedata-translit-small, glibc-localedata-translit-wide
+Source: glibc-locale_2.39.bb

@@ -1,0 +1,15 @@
+/usr/include/xkbcommon	040755
+/usr/include/xkbcommon/xkbcommon-names.h	0100644
+/usr/lib	040755
+/usr/include/xkbcommon/xkbcommon-compat.h	0100644
+/usr/lib/pkgconfig/xkbregistry.pc	0100644
+/usr/lib/libxkbregistry.so	0120777	libxkbregistry.so.0
+/usr	040755
+/usr/include/xkbcommon/xkbcommon.h	0100644
+/usr/lib/pkgconfig	040755
+/usr/include/xkbcommon/xkbcommon-compose.h	0100644
+/usr/lib/pkgconfig/xkbcommon.pc	0100644
+/usr/lib/libxkbcommon.so	0120777	libxkbcommon.so.0
+/usr/include/xkbcommon/xkbregistry.h	0100644
+/usr/include/xkbcommon/xkbcommon-keysyms.h	0100644
+/usr/include	040755

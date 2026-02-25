@@ -1,0 +1,10 @@
+/usr/bin/fc-cache	0100755
+/usr/bin/fc-validate	0100755
+/usr/bin/fc-query	0100755
+/usr/bin/fc-scan	0100755
+/usr/bin/fc-match	0100755
+/usr/bin/fc-cat	0100755
+/usr/bin/fc-pattern	0100755
+/usr/bin/fc-list	0100755
+/usr/libexec/fc-cache	0100755
+/usr/bin/fc-conflist	0100755

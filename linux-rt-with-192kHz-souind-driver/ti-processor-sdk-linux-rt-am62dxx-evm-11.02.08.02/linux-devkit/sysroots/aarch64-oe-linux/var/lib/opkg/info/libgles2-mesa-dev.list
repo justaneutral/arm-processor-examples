@@ -1,0 +1,6 @@
+/usr/include/GLES2/gl2ext.h	0100644
+/usr/lib/pkgconfig/glesv2.pc	0100644
+/usr/include/GLES2/gl2platform.h	0100644
+/usr/include/GLES2/gl2.h	0100644
+/usr/lib/libGLESv2.so	0120777	libGLESv2.so.2
+/usr/include/GLES2	040755

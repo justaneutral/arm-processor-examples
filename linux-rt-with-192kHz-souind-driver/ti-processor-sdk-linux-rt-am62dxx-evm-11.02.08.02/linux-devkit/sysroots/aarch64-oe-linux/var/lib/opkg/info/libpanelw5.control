@@ -1,0 +1,14 @@
+Package: libpanelw5
+Version: 6.4-r0.69
+Description: ncurses panelw library
+ ncurses panelw library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libncursesw5 (>= 6.4), libtinfo5 (>= 6.4)
+Provides: ncurses-libpanelw
+Source: ncurses_6.4.bb

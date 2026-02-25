@@ -1,0 +1,11 @@
+/usr/lib	040755
+/usr/include/gmp-64.h	0100644
+/usr/include/gmp.h	0100644
+/usr/lib/pkgconfig/gmp.pc	0100644
+/usr/lib/libgmp.so	0120777	libgmp.so.10.5.0
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/gmpxx.h	0100644
+/usr/lib/pkgconfig/gmpxx.pc	0100644
+/usr/lib/libgmpxx.so	0120777	libgmpxx.so.4.7.0
+/usr/include	040755

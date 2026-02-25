@@ -1,0 +1,12 @@
+set -e
+set +e
+if [ -n "$D" ]; then
+    ln -sf Image-6.12.57-ti-rt-g31b07ab8dfbc $D/boot/Image > /dev/null 2>&1
+else
+    ln -sf Image-6.12.57-ti-rt-g31b07ab8dfbc boot/Image > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Filesystem on boot/ doesn't support symlinks, falling back to copied image (Image)."
+        install -m 0644 boot/Image-6.12.57-ti-rt-g31b07ab8dfbc boot/Image
+    fi
+fi
+set -e

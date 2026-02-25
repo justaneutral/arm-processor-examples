@@ -1,0 +1,13 @@
+/usr/bin/sprof	0100755
+/usr/bin/gencat	0100755
+/usr/bin/pcprofiledump	0100755
+/usr/bin/getent	0100755
+/usr/bin/locale	0100755
+/usr/sbin	040755
+/usr/bin/getconf	0100755
+/usr/bin/iconv	0100755
+/usr/bin/makedb	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/pldd	0100755
+/usr/sbin/iconvconfig	0100755

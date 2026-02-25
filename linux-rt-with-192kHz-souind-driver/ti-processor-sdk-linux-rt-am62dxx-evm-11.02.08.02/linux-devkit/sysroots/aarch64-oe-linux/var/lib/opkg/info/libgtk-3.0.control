@@ -1,0 +1,17 @@
+Package: libgtk-3.0
+Version: 3.24.41-r0.1521
+Description: Multi-platform toolkit for creating GUIs
+ GTK+ is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK+ is suitable for projects ranging
+ from small one-off projects to complete application suites.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.0-only & LGPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: gtk+3
+Homepage: http://www.gtk.org
+Depends: at-spi2-core (>= 2.50.1), glib-2.0-utils, libc6 (>= 2.39+git47+58cbbd43fe), libcairo-gobject2 (>= 1.18.0), libcairo2 (>= 1.18.0), libepoxy0 (>= 1.5.10), libfontconfig1 (>= 2.15.0), libfribidi0 (>= 1.0.14), libgdk-pixbuf-2.0-0 (>= 2.42.12), libglib-2.0-0 (>= 2.78.6), libharfbuzz0 (>= 8.3.0), libxkbcommon0 (>= 1.6.0), pango (>= 1.52.1), update-alternatives-opkg, wayland (>= 1.22.0)
+Recommends: adwaita-icon-theme-symbolic, gdk-pixbuf-loader-gif, gdk-pixbuf-loader-jpeg, gdk-pixbuf-loader-png, gdk-pixbuf-loader-xpm, glibc-gconv-iso8859-1, liberation-fonts, shared-mime-info
+Provides: gtk+3
+Source: gtk+3_3.24.41.bb

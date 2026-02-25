@@ -1,0 +1,18 @@
+Package: findutils-dev
+Version: 4.9.0-r0.79
+Description: find, locate, and xargs binaries - Development files
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: findutils
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: findutils (= 4.9.0-r0.79), glibc-dev, update-alternatives-opkg-dev
+Source: findutils_4.9.0.bb

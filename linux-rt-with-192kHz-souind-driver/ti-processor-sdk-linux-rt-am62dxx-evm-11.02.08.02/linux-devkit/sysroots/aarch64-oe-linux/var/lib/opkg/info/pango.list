@@ -1,0 +1,18 @@
+/usr/lib/girepository-1.0/PangoCairo-1.0.typelib	0100644
+/usr/lib	040755
+/usr/bin/pango-list	0100755
+/usr/lib/girepository-1.0/PangoFT2-1.0.typelib	0100644
+/usr/lib/libpangocairo-1.0.so.0.5200.1	0100755
+/usr/lib/libpangocairo-1.0.so.0	0120777	libpangocairo-1.0.so.0.5200.1
+/usr/bin	040755
+/usr/lib/libpangoft2-1.0.so.0.5200.1	0100755
+/usr	040755
+/usr/lib/girepository-1.0/PangoFc-1.0.typelib	0100644
+/usr/bin/pango-segmentation	0100755
+/usr/lib/girepository-1.0/PangoOT-1.0.typelib	0100644
+/usr/bin/pango-view	0100755
+/usr/lib/girepository-1.0/Pango-1.0.typelib	0100644
+/usr/lib/girepository-1.0	040755
+/usr/lib/libpango-1.0.so.0.5200.1	0100755
+/usr/lib/libpango-1.0.so.0	0120777	libpango-1.0.so.0.5200.1
+/usr/lib/libpangoft2-1.0.so.0	0120777	libpangoft2-1.0.so.0.5200.1

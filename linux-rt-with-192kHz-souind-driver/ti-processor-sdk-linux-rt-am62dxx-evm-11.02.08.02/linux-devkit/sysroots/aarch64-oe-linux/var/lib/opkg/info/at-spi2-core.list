@@ -1,0 +1,36 @@
+/usr/lib/girepository-1.0/Atspi-2.0.typelib	0100644
+/etc/xdg/autostart/at-spi-dbus-bus.desktop	0100644
+/usr/share/dbus-1/services/org.a11y.Bus.service	0100644
+/usr/lib/gtk-2.0/modules/libatk-bridge.so	0100755
+/usr/share/dbus-1/accessibility-services	040755
+/usr/lib	040755
+/usr/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop	0100644
+/usr/libexec	040755
+/usr/lib/libatspi.so.0	0120777	libatspi.so.0.0.1
+/usr/share/dbus-1	040755
+/usr/lib/systemd/user	040755
+/usr/share/defaults	040755
+/usr/lib/libatspi.so.0.0.1	0100755
+/usr/lib/girepository-1.0/Atk-1.0.typelib	0100644
+/usr/lib/gtk-2.0/modules	040755
+/usr/libexec/at-spi-bus-launcher	0100755
+/usr/share/defaults/at-spi2/accessibility.conf	0100644
+/usr/lib/gtk-2.0	040755
+/usr	040755
+/etc	040755
+/usr/lib/systemd	040755
+/etc/xdg/autostart	040755
+/usr/lib/libatk-bridge-2.0.so.0.0.0	0100755
+/usr/lib/libatk-1.0.so.0	0120777	libatk-1.0.so.0.25010.1
+/usr/lib/systemd/user/at-spi-dbus-bus.service	0100644
+/usr/share/dbus-1/services	040755
+/usr/lib/girepository-1.0	040755
+/usr/lib/gnome-settings-daemon-3.0	040755
+/usr/lib/libatk-1.0.so.0.25010.1	0100755
+/usr/share	040755
+/usr/lib/libatk-bridge-2.0.so.0	0120777	libatk-bridge-2.0.so.0.0.0
+/usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service	0100644
+/usr/share/defaults/at-spi2	040755
+/usr/lib/gnome-settings-daemon-3.0/gtk-modules	040755
+/etc/xdg	040755
+/usr/libexec/at-spi2-registryd	0100755

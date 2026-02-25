@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libusb-0.1.so.4.4.4	0100755
+/usr	040755
+/usr/lib/libusb-0.1.so.4	0120777	libusb-0.1.so.4.4.4

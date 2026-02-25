@@ -1,0 +1,16 @@
+Package: bash-completion
+Version: 2.12.0-r0.41
+Description: Programmable Completion for Bash 4
+ Collection of command line command completions for the Bash shell,
+ collection of helper functions to assist in creating new completions, and
+ set of facilities for loading completions automatically on demand, as
+ well as installing them.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: bash-completion
+Homepage: https://github.com/scop/bash-completion
+Depends: bash
+Source: bash-completion_2.12.0.bb

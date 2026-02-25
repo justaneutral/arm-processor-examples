@@ -1,0 +1,24 @@
+Package: libunistring-dev
+Version: 1.2-r0.68
+Description: Library for manipulating C and Unicode strings - Development files
+ Text files are nowadays usually encoded in Unicode, and may consist of
+ very different scripts from Latin letters to Chinese Hanzi with many
+ kinds of special characters accents, right-to-left writing marks,
+ hyphens, Roman numbers, and much more. But the POSIX platform APIs for
+ text do not contain adequate functions for dealing with particular
+ properties of many Unicode characters. In fact, the POSIX APIs for text
+ have several assumptions at their base which don't hold for Unicode text.
+ This library provides functions for manipulating Unicode strings and for
+ manipulating C strings according to the Unicode standard.  This package
+ contains documentation.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-3.0-or-later | GPL-2.0-or-later
+Architecture: aarch64
+OE: libunistring
+Homepage: http://www.gnu.org/software/libunistring/
+Depends: libunistring
+Recommends: glibc-dev, libunistring5 (= 1.2-r0.68)
+Source: libunistring_1.2.bb

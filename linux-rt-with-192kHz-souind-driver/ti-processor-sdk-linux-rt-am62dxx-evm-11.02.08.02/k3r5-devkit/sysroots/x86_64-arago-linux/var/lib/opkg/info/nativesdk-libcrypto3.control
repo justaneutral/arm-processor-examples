@@ -1,0 +1,15 @@
+Package: nativesdk-libcrypto3
+Version: 3.2.6-r0.10
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-openssl
+Homepage: http://www.openssl.org/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe)
+Recommends: nativesdk-openssl-conf, nativesdk-openssl-ossl-module-legacy
+Provides: nativesdk-libcrypto
+Source: openssl_3.2.6.bb

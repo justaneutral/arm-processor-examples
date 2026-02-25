@@ -1,0 +1,11 @@
+/usr/lib	040755
+/usr/lib/libcap-ng.so	0120777	libcap-ng.so.0.0.0
+/usr/lib/libdrop_ambient.so	0120777	libdrop_ambient.so.0.0.0
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/libcap-ng.pc	0100644
+/usr/share/aclocal	040755
+/usr/share/aclocal/cap-ng.m4	0100644
+/usr/share	040755
+/usr/include/cap-ng.h	0100644
+/usr/include	040755

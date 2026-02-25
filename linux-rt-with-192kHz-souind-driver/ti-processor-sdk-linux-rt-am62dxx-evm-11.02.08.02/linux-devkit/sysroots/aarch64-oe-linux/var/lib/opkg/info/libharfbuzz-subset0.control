@@ -1,0 +1,14 @@
+Package: libharfbuzz-subset0
+Version: 8.3.0-r0.374
+Description: Text shaping library
+ HarfBuzz is an OpenType text shaping engine.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libharfbuzz0 (>= 8.3.0)
+Provides: harfbuzz-subset
+Source: harfbuzz_8.3.0.bb

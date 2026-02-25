@@ -1,0 +1,4 @@
+/usr/sbin	040755
+/usr	040755
+/usr/sbin/alsaconf	0100755
+/usr/sbin/alsa-info.sh	0100755

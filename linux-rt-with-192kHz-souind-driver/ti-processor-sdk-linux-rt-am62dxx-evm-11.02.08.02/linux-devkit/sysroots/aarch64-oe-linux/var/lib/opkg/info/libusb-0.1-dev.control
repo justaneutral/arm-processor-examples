@@ -1,0 +1,18 @@
+Package: libusb-0.1-dev
+Version: 1:0.1.8-r0.361
+Description: libusb-0.1 compatibility layer for libusb1 - Development files
+ libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims
+ to look, feel and behave exactly like libusb-0.1  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libusb-compat
+Homepage: http://www.libusb.org/
+Depends: libusb-compat
+Recommends: glibc-dev, libusb-0.1-4 (= 1:0.1.8-r0.361), libusb1-dev
+Provides: libusb-compat-dev
+Source: libusb-compat_0.1.8.bb

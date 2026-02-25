@@ -1,0 +1,5 @@
+/usr/bin/gst-play-1.0	0100755
+/usr/bin/gst-discoverer-1.0	0100755
+/usr/bin	040755
+/usr/bin/gst-device-monitor-1.0	0100755
+/usr	040755

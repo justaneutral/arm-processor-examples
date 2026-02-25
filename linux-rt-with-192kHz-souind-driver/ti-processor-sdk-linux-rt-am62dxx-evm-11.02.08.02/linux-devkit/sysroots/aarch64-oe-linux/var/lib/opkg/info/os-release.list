@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/os-release	0100644
+/etc/os-release	0120777	../usr/lib/os-release
+/usr	040755
+/etc	040755

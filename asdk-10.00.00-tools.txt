@@ -1,0 +1,9 @@
+
+
+
+Tool-chains forLinux host machine
+TI Code Composer Studio (12.7.0) Linux Installer 12.7.0.00007	https://www.ti.com/tool/download/CCSTUDIO/12.7.0
+TI SysConfig Tool (1.20.999) 	 Linux Installer 1.20.0.3587	https://www.ti.com/tool/download/SYSCONFIG/1.20.0.3587
+TI ARM LLVM Compiler (3.2.2 LTS) Linux Installer 3.2.2 LTS	https://www.ti.com/tool/download/ARM-CGT-CLANG/3.2.2.LTS
+TI C7000 Compiler (4.1.0 LTS)	 Linux Installer 4.1.0 LTS	https://www.ti.com/tool/download/C7000-CGT/4.1.0.LTS
+ARM GNU Compiler (9.2-2019.12)	 Linux host Machine	https://developer.arm.com/-/media/Files/downloads/gnu-a/9.2-2019.12/binrel/gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf.tar.xz

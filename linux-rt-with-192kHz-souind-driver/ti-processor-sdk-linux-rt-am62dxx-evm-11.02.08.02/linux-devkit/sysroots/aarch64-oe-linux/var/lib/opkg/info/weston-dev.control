@@ -1,0 +1,16 @@
+Package: weston-dev
+Version: 13.0.1-r0.tisoc1_tisdk_0.132
+Description: Weston, a Wayland compositor - Development files
+ Weston is the reference implementation of a Wayland compositor  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: weston
+Homepage: http://wayland.freedesktop.org
+Depends: libweston-13, weston
+Recommends: base-files-dev, base-passwd-dev, cairo-dev, dbus-dev, drm-dev, fontconfig-dev, gdk-pixbuf-dev, glib-2.0-dev, glibc-dev, jpeg-dev, libdrm-dev, libegl-mesa-dev, libevdev-dev, libgbm-dev, libgles2-mesa-dev, libinput-dev, libjpeg-turbo-dev, libpng-dev, libsystemd-dev, libudev-dev, libweston-13-dev, libxkbcommon-dev, mtdev-dev, pango-dev, pixman-dev, seatd-dev, shadow-dev, shadow-sysroot-dev, systemd-dev, udev-dev, wayland-dev, wayland-protocols, wayland-protocols-dev, weston (= 13.0.1-r0.tisoc1_tisdk_0.132), xkeyboard-config-dev
+Source: weston_13.0.1.bb

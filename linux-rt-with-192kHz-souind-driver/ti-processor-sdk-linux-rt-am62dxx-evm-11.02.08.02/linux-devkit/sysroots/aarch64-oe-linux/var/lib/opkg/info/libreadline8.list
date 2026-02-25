@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/lib/libreadline.so.8.2	0100755
+/usr/lib/libhistory.so.8.2	0100755
+/etc/inputrc	0100644
+/usr/lib/libreadline.so.8	0120777	libreadline.so.8.2
+/usr	040755
+/etc	040755
+/usr/lib/libhistory.so.8	0120777	libhistory.so.8.2

@@ -1,0 +1,14 @@
+Package: fftw-dev
+Version: 3.3.10-r0.26
+Description: fftw version 3.3.10-r0 - Development files
+ FFTW  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: fftw
+Depends: libfftw, libfftwf, libfftwl
+Recommends: fftw (= 3.3.10-r0.26), glibc-dev, libfftw-dev, libfftwf-dev, libfftwl-dev
+Source: fftw_3.3.10.bb

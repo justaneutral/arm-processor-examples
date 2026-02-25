@@ -1,0 +1,13 @@
+Package: nativesdk-shadow
+Version: 4.14.2-r0.143
+Description: Tools to change and administer password and group data
+ Tools to change and administer password and group data
+Section: base/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-shadow
+Homepage: http://github.com/shadow-maint/shadow
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypt2 (>= 4.4.36), nativesdk-update-alternatives-opkg
+Source: shadow_4.14.2.bb

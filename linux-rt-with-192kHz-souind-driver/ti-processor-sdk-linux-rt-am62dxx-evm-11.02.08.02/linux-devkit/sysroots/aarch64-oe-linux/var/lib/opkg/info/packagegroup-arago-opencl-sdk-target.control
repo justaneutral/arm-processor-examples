@@ -1,0 +1,12 @@
+Package: packagegroup-arago-opencl-sdk-target
+Version: 1.0-r0.8
+Description: Task to install opencl packages on sdk target
+ Task to install opencl packages on sdk target.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-opencl-sdk-target
+Depends: opencl-clhpp-dev, opencl-headers-dev
+Source: packagegroup-arago-opencl-sdk-target.bb

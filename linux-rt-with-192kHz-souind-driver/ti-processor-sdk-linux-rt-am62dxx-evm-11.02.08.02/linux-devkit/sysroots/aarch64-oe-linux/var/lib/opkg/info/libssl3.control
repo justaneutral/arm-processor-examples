@@ -1,0 +1,14 @@
+Package: libssl3
+Version: 3.2.6-r0.8
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcrypto3 (>= 3.2.6)
+Provides: libssl
+Source: openssl_3.2.6.bb

@@ -1,0 +1,6 @@
+/usr/bin/setarch	0100755
+/usr/bin/uname26	0120777	setarch
+/usr/bin/linux32	0120777	setarch
+/usr/bin	040755
+/usr/bin/linux64	0120777	setarch
+/usr	040755

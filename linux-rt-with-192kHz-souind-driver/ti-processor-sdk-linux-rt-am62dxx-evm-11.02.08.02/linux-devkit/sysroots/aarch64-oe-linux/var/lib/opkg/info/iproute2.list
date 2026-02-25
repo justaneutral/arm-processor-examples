@@ -1,0 +1,7 @@
+/var	040755
+/usr/sbin	040755
+/usr/sbin/rtmon	0100755
+/var/lib	040755
+/usr	040755
+/usr/sbin/bridge	0100755
+/var/lib/arpd	040755

@@ -1,0 +1,13 @@
+Package: perl-module-config-heavy
+Version: 5.38.4-r0.43
+Description: perl module config-heavy
+ perl module config-heavy
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Artistic-1.0 | GPL-1.0-or-later
+Architecture: aarch64
+OE: perl
+Homepage: http://www.perl.org/
+Depends: perl
+Source: perl_5.38.4.bb

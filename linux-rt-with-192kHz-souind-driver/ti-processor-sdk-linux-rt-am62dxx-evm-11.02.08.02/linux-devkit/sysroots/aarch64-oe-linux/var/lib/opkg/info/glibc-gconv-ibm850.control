@@ -1,0 +1,13 @@
+Package: glibc-gconv-ibm850
+Version: 2.39+git-r0.61
+Description: gconv module for character set ibm850
+ gconv module for character set ibm850
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: glibc-gconv, libc6 (>= 2.39+git47+58cbbd43fe)
+Source: glibc-locale_2.39.bb

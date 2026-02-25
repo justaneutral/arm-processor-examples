@@ -1,0 +1,16 @@
+/usr/lib/python3.12/__pycache__/crypt.cpython-312.pyc	0100644
+/usr/lib/python3.12/hashlib.py	0100644
+/usr/lib	040755
+/usr/lib/python3.12/__pycache__	040755
+/usr/lib/python3.12/lib-dynload/_sha1.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12/lib-dynload/_sha2.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12/lib-dynload/_sha3.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12/lib-dynload/_blake2.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12/lib-dynload	040755
+/usr/lib/python3.12/__pycache__/hashlib.cpython-312.pyc	0100644
+/usr/lib/python3.12/lib-dynload/_hashlib.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12	040755
+/usr	040755
+/usr/lib/python3.12/crypt.py	0100644
+/usr/lib/python3.12/lib-dynload/_md5.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12/lib-dynload/_crypt.cpython-312-aarch64-linux-gnu.so	0100755

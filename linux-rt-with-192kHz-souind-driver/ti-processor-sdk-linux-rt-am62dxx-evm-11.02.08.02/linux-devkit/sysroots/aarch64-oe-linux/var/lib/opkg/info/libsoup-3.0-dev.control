@@ -1,0 +1,18 @@
+Package: libsoup-3.0-dev
+Version: 3.4.4-r0.386
+Description: An HTTP library implementation in C - Development files
+ libsoup is an HTTP client/server library for GNOME. It uses GObjects and
+ the glib main loop, to integrate well with GNOME applications.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.0-only
+Architecture: aarch64
+OE: libsoup
+Homepage: https://wiki.gnome.org/Projects/libsoup
+Depends: glib-2.0-dev, libsoup
+Recommends: glib-2.0-dev, glibc-dev, gobject-introspection-dev, libnghttp2-dev, libpsl-dev, libsoup (= 3.4.4-r0.386), libsqlite3-dev, libxml2-dev, nghttp2-dev, sqlite3-dev, vala-dev, zlib-dev
+Provides: libsoup-dev
+Source: libsoup_3.4.4.bb

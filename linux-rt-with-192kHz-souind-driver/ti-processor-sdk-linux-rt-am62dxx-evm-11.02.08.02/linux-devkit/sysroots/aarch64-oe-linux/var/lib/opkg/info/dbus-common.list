@@ -1,0 +1,25 @@
+/usr/lib/systemd/user/sockets.target.wants/dbus.socket	0120777	../dbus.socket
+/usr/lib/systemd/user/dbus.socket	0100644
+/usr/lib/systemd/user/sockets.target.wants	040755
+/usr/lib/systemd/system	040755
+/usr/share/dbus-1/system-services	040755
+/usr/share/dbus-1/session.conf	0100644
+/usr/share/dbus-1/system.conf	0100644
+/usr/lib/systemd/system/sockets.target.wants/dbus.socket	0120777	../dbus.socket
+/usr/lib	040755
+/usr/lib/sysusers.d/dbus.conf	0100644
+/usr/share/dbus-1	040755
+/usr/lib/systemd/system/dbus.socket	0100644
+/usr/lib/systemd/user	040755
+/usr/lib/sysusers.d	040755
+/usr	040755
+/etc	040755
+/usr/lib/systemd	040755
+/usr/share/dbus-1/services	040755
+/etc/dbus-1/session.conf	0100644
+/etc/dbus-1/system.conf	0100644
+/usr/share	040755
+/usr/lib/systemd/system/sockets.target.wants	040755
+/etc/dbus-1	040755
+/usr/share/dbus-1/system.d	040755
+/usr/share/dbus-1/session.d	040755

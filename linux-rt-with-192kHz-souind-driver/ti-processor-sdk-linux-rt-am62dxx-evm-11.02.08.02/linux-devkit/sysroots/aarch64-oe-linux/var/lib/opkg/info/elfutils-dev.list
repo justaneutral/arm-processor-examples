@@ -1,0 +1,24 @@
+/usr/lib/libdebuginfod.so	0120777	libdebuginfod-0.191.so
+/usr/include/elfutils/version.h	0100644
+/usr/lib/libdw.so	0120777	libdw.so.1
+/usr/lib/libasm.so	0120777	libasm.so.1
+/usr/lib/pkgconfig/libdebuginfod.pc	0100644
+/usr/lib	040755
+/usr/include/dwarf.h	0100644
+/usr/lib/libelf.so	0120777	libelf.so.1
+/usr/include/elfutils/debuginfod.h	0100644
+/usr/include/gelf.h	0100644
+/usr/include/nlist.h	0100644
+/usr/lib/pkgconfig/libdw.pc	0100644
+/usr/include/elfutils/libdwelf.h	0100644
+/usr	040755
+/usr/include/elfutils	040755
+/usr/lib/pkgconfig	040755
+/usr/include/elfutils/libasm.h	0100644
+/usr/lib/pkgconfig/libelf.pc	0100644
+/usr/include/elfutils/libdw.h	0100644
+/usr/include/elfutils/libdwfl.h	0100644
+/usr/include/elfutils/known-dwarf.h	0100644
+/usr/include	040755
+/usr/include/libelf.h	0100644
+/usr/include/elfutils/elf-knowledge.h	0100644

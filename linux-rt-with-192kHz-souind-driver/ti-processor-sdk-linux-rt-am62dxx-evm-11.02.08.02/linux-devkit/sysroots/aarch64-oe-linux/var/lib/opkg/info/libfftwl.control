@@ -1,0 +1,12 @@
+Package: libfftwl
+Version: 3.3.10-r0.26
+Description: fftw version 3.3.10-r0
+ FFTW
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: fftw
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Source: fftw_3.3.10.bb

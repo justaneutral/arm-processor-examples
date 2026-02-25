@@ -1,0 +1,22 @@
+Package: libtag-dev
+Version: 2.0.1-r0.63
+Description: Library for reading and editing the meta-data of popular audio formats - Development files
+ Platform-independent library (tested on Windows/Linux) for reading and
+ writing metadata in media files, including video, audio, and photo
+ formats. This is a convenient one-stop-shop to present or tag all your
+ media collection, regardless of which format/container these might use.
+ You can read/write the standard or more common tags/properties of a
+ media, or you can also create and retrieve your own custom tags.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only | MPL-1.1
+Architecture: aarch64
+OE: taglib
+Homepage: http://taglib.github.io/
+Depends: taglib, taglib-c
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libtag2 (= 2.0.1-r0.63), taglib-c-dev, utfcpp-dev, zlib-dev
+Provides: taglib-dev
+Source: taglib_2.0.1.bb

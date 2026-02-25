@@ -1,0 +1,17 @@
+Package: libogg-dev
+Version: 1.3.5-r0.74
+Description: Ogg bitstream and framing libary - Development files
+ libogg is the bitstream and framing library for the Ogg project. It
+ provides functions which are necessary to codec libraries like libvorbis.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libogg
+Homepage: http://xiph.org/
+Depends: libogg
+Recommends: glibc-dev, libogg0 (= 1.3.5-r0.74)
+Source: libogg_1.3.5.bb

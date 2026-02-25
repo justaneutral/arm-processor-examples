@@ -1,0 +1,28 @@
+/usr/include/systemd/sd-device.h	0100644
+/usr/include/systemd/sd-id128.h	0100644
+/usr/include/systemd/sd-bus.h	0100644
+/usr/share/pkgconfig	040755
+/usr/include/systemd/sd-bus-protocol.h	0100644
+/usr/include/systemd/sd-path.h	0100644
+/usr/lib	040755
+/usr/include/systemd/sd-event.h	0100644
+/usr/include/systemd/sd-bus-vtable.h	0100644
+/usr/include/systemd/sd-gpt.h	0100644
+/usr/lib/pkgconfig/libudev.pc	0100644
+/usr/lib/libsystemd.so	0120777	libsystemd.so.0
+/usr/include/systemd/sd-messages.h	0100644
+/usr/share/pkgconfig/systemd.pc	0100644
+/usr/share/pkgconfig/udev.pc	0100644
+/usr/include/systemd/_sd-common.h	0100644
+/usr/lib/libudev.so	0120777	libudev.so.1
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/systemd/sd-journal.h	0100644
+/usr/include/systemd	040755
+/usr/include/systemd/sd-hwdb.h	0100644
+/usr/lib/pkgconfig/libsystemd.pc	0100644
+/usr/include/systemd/sd-login.h	0100644
+/usr/include/libudev.h	0100644
+/usr/include/systemd/sd-daemon.h	0100644
+/usr/share	040755
+/usr/include	040755

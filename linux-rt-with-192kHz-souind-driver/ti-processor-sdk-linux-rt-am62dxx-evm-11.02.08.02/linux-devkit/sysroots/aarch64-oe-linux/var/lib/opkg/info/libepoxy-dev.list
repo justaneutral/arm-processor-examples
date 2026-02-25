@@ -1,0 +1,12 @@
+/usr/lib	040755
+/usr/include/epoxy/egl.h	0100644
+/usr/include/epoxy/egl_generated.h	0100644
+/usr/include/epoxy/gl_generated.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/epoxy/common.h	0100644
+/usr/include/epoxy/gl.h	0100644
+/usr/include/epoxy	040755
+/usr/lib/pkgconfig/epoxy.pc	0100644
+/usr/include	040755
+/usr/lib/libepoxy.so	0120777	libepoxy.so.0

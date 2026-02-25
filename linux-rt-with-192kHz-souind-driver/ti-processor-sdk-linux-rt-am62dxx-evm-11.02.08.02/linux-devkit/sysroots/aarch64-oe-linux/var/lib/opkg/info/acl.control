@@ -1,0 +1,14 @@
+Package: acl
+Version: 2.3.2-r0.64
+Description: Utilities for managing POSIX Access Control Lists
+ ACL allows you to provide different levels of access to files and folders
+ for different users.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libacl1 (>= 2.3.2), libc6 (>= 2.39+git47+58cbbd43fe)
+Source: acl_2.3.2.bb

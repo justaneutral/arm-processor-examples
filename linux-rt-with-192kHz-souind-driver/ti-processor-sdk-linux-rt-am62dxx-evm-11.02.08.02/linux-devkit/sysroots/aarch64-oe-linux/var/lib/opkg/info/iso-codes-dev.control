@@ -1,0 +1,16 @@
+Package: iso-codes-dev
+Version: 4.16.0-r0.12
+Description: ISO language, territory, currency, script codes and their translations - Development files
+ Provides lists of various ISO standards (e.g. country, language, language
+ scripts, and currency names) in one place, rather than repeated in many
+ programs throughout the system.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: all
+OE: iso-codes
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Recommends: iso-codes (= 4.16.0-r0.12)
+Source: iso-codes_4.16.0.bb

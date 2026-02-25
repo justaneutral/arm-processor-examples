@@ -1,0 +1,16 @@
+Package: iproute2
+Version: 6.7.0-r0.arago6.181
+Description: TCP / IP networking and traffic control utilities
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: iproute2
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Depends: iproute2-ip, libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libmnl0 (>= 1.0.5)
+Source: iproute2_6.7.0.bb

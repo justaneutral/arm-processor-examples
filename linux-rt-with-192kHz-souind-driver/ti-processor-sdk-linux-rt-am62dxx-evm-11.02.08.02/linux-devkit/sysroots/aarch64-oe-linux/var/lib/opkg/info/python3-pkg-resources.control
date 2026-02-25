@@ -1,0 +1,13 @@
+Package: python3-pkg-resources
+Version: 69.1.1-r0.234
+Description: Download, build, install, upgrade, and uninstall Python packages
+ Download, build, install, upgrade, and uninstall Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: python3-setuptools
+Homepage: https://pypi.org/project/setuptools
+Depends: python3-compression, python3-email, python3-plistlib, python3-pprint
+Source: python3-setuptools_69.1.1.bb

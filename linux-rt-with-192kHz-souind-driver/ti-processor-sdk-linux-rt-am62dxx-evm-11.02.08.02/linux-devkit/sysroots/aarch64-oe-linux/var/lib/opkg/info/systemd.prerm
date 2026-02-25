@@ -1,0 +1,18 @@
+set -e
+	if true; then
+		sed -e '/^hosts:/s/\s*\<myhostname\>//' \
+			-e '/^hosts:/s/\s*myhostname//' \
+			-i $D/etc/nsswitch.conf
+	fi
+	if true; then
+		sed -e '/^passwd:/s#\s*systemd##' \
+			-e '/^group:/s#\s*systemd##' \
+			-e '/^shadow:/s#\s*systemd##' \
+			-i $D/etc/nsswitch.conf
+	fi
+	update-alternatives --remove  halt /usr/bin/systemctl
+	update-alternatives --remove  reboot /usr/bin/systemctl
+	update-alternatives --remove  shutdown /usr/bin/systemctl
+	update-alternatives --remove  poweroff /usr/bin/systemctl
+	update-alternatives --remove  runlevel /usr/bin/systemctl
+	update-alternatives --remove  resolv-conf /etc/resolv-conf.systemd

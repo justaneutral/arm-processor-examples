@@ -1,0 +1,31 @@
+/usr/include/cairo/cairo.h	0100644
+/usr/lib/pkgconfig/cairo.pc	0100644
+/usr/lib/pkgconfig/cairo-tee.pc	0100644
+/usr/lib/libcairo.so	0120777	libcairo.so.2
+/usr/include/cairo/cairo-tee.h	0100644
+/usr/lib/pkgconfig/cairo-script-interpreter.pc	0100644
+/usr/lib	040755
+/usr/include/cairo/cairo-ps.h	0100644
+/usr/lib/pkgconfig/cairo-ft.pc	0100644
+/usr/include/cairo/cairo-deprecated.h	0100644
+/usr/lib/pkgconfig/cairo-svg.pc	0100644
+/usr/include/cairo/cairo-ft.h	0100644
+/usr/include/cairo/cairo-script.h	0100644
+/usr/include/cairo/cairo-gobject.h	0100644
+/usr/lib/pkgconfig/cairo-ps.pc	0100644
+/usr/lib/pkgconfig/cairo-pdf.pc	0100644
+/usr/include/cairo/cairo-pdf.h	0100644
+/usr/include/cairo/cairo-version.h	0100644
+/usr	040755
+/usr/lib/pkgconfig/cairo-fc.pc	0100644
+/usr/lib/pkgconfig	040755
+/usr/lib/libcairo-script-interpreter.so	0120777	libcairo-script-interpreter.so.2
+/usr/include/cairo	040755
+/usr/include/cairo/cairo-features.h	0100644
+/usr/include/cairo/cairo-svg.h	0100644
+/usr/lib/pkgconfig/cairo-script.pc	0100644
+/usr/lib/pkgconfig/cairo-png.pc	0100644
+/usr/include/cairo/cairo-script-interpreter.h	0100644
+/usr/lib/pkgconfig/cairo-gobject.pc	0100644
+/usr/include	040755
+/usr/lib/libcairo-gobject.so	0120777	libcairo-gobject.so.2

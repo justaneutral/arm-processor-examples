@@ -1,0 +1,17 @@
+Package: libevdev-dev
+Version: 1.13.1-r0.63
+Description: Wrapper library for evdev devices - Development files
+ A library for handling evdev kernel devices. It abstracts the evdev
+ ioctls through type-safe interfaces and provides functions to change the
+ appearance of the device.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: libevdev
+Homepage: http://www.freedesktop.org/wiki/Software/libevdev/
+Depends: libevdev
+Recommends: glibc-dev, libevdev (= 1.13.1-r0.63)
+Source: libevdev_1.13.1.bb

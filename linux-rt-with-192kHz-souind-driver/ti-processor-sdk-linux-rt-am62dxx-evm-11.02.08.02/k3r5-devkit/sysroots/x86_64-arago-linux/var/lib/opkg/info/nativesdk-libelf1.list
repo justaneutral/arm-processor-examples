@@ -1,0 +1,9 @@
+/usr/local	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots	040755
+/usr	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/lib/libelf-0.191.so	0100755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/lib	040755
+/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/k3r5-devkit/sysroots/x86_64-arago-linux/usr/lib/libelf.so.1	0120777	libelf-0.191.so

@@ -1,0 +1,16 @@
+Package: libatomic-ops-dev
+Version: 7.8.2-r0.48
+Description: A library for atomic integer operations - Development files
+ Package provides semi-portable access to hardware-provided atomic memory
+ update operations on a number of architectures.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & MIT
+Architecture: aarch64
+OE: libatomic-ops
+Homepage: https://github.com/bdwgc/libatomic_ops/
+Recommends: libatomic-ops (= 7.8.2-r0.48)
+Source: libatomic-ops_7.8.2.bb

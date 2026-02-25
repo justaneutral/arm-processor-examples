@@ -1,0 +1,13 @@
+Package: shadow
+Version: 4.14.2-r0.153
+Description: Tools to change and administer password and group data
+ Tools to change and administer password and group data
+Section: base/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: shadow
+Homepage: http://github.com/shadow-maint/shadow
+Depends: base-passwd, libattr1 (>= 2.5.1), libc6 (>= 2.39+git47+58cbbd43fe), libcrypt2 (>= 4.4.36), libpam (>= 1.5.3), libpam-runtime, pam-plugin-env, pam-plugin-faildelay, pam-plugin-group, pam-plugin-limits, pam-plugin-mail, pam-plugin-motd, pam-plugin-nologin, pam-plugin-rootok, pam-plugin-securetty, pam-plugin-shells, shadow-base, shadow-securetty, update-alternatives-opkg, util-linux-sulogin
+Source: shadow_4.14.2.bb

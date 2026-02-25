@@ -1,0 +1,16 @@
+Package: libpam-dev
+Version: 1.5.3-r0.72
+Description: Linux-PAM (Pluggable Authentication Modules) - Development files
+ Linux-PAM (Pluggable Authentication Modules for Linux), a flexible
+ mechanism for authenticating users  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later | BSD-3-Clause
+Architecture: aarch64
+OE: libpam
+Homepage: https://fedorahosted.org/linux-pam/
+Depends: libpam
+Recommends: bash-dev, coreutils-dev, glibc-dev, libpam (= 1.5.3-r0.72), libpam-suffix-dev, libxcrypt-dev, pam-plugin-access-suffix-dev, pam-plugin-debug-suffix-dev, pam-plugin-deny-suffix-dev, pam-plugin-permit-suffix-dev, pam-plugin-pwhistory-suffix-dev, pam-plugin-succeed-if-suffix-dev, pam-plugin-time-suffix-dev, pam-plugin-unix-suffix-dev, pam-plugin-warn-suffix-dev
+Source: libpam_1.5.3.bb

@@ -1,0 +1,30 @@
+/usr/lib/libgstnet-1.0.so.0	0120777	libgstnet-1.0.so.0.2212.0
+/usr/lib	040755
+/usr/libexec/gstreamer-1.0/gst-plugin-scanner	0100755
+/usr/libexec	040755
+/usr/bin/gst-inspect-1.0	0100755
+/usr/lib/gstreamer-1.0	040755
+/usr/lib/girepository-1.0/GstController-1.0.typelib	0100644
+/usr/lib/libgstcheck-1.0.so.0.2212.0	0100755
+/usr/lib/libgstreamer-1.0.so.0	0120777	libgstreamer-1.0.so.0.2212.0
+/usr/libexec/gstreamer-1.0	040755
+/usr/bin	040755
+/usr/bin/gst-launch-1.0	0100755
+/usr/libexec/gstreamer-1.0/gst-ptp-helper	0104755
+/usr/bin/gst-typefind-1.0	0100755
+/usr	040755
+/usr/lib/girepository-1.0/GstBase-1.0.typelib	0100644
+/usr/lib/libgstnet-1.0.so.0.2212.0	0100755
+/usr/lib/libgstcheck-1.0.so.0	0120777	libgstcheck-1.0.so.0.2212.0
+/usr/lib/libgstreamer-1.0.so.0.2212.0	0100755
+/usr/lib/libgstcontroller-1.0.so.0.2212.0	0100755
+/usr/lib/girepository-1.0	040755
+/usr/lib/libgstcontroller-1.0.so.0	0120777	libgstcontroller-1.0.so.0.2212.0
+/usr/lib/gstreamer-1.0/libgstcoretracers.so	0100755
+/usr/lib/libgstbase-1.0.so.0	0120777	libgstbase-1.0.so.0.2212.0
+/usr/lib/gstreamer-1.0/libgstcoreelements.so	0100755
+/usr/lib/libgstbase-1.0.so.0.2212.0	0100755
+/usr/lib/girepository-1.0/Gst-1.0.typelib	0100644
+/usr/lib/girepository-1.0/GstNet-1.0.typelib	0100644
+/usr/bin/gst-stats-1.0	0100755
+/usr/lib/girepository-1.0/GstCheck-1.0.typelib	0100644

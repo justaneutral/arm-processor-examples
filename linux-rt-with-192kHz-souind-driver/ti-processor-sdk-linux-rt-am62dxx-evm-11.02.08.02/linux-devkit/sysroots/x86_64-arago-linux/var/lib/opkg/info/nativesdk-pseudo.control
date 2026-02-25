@@ -1,0 +1,14 @@
+Package: nativesdk-pseudo
+Version: 1.9.0+git3+28dcefb809-r0.168
+Description: Pseudo gives fake root capabilities to a normal user
+ The pseudo utility offers a way to run commands in a virtualized root
+ environment.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-pseudo
+Homepage: http://git.yoctoproject.org/cgit/cgit.cgi/pseudo
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libsqlite3-0 (>= 3.45.3)
+Source: pseudo_git.bb

@@ -1,0 +1,18 @@
+Package: libgnutls-dev
+Version: 3.8.4-r0.67
+Description: GNU Transport Layer Security Library - Development files
+ a secure communications library implementing the SSL, TLS and DTLS
+ protocols and technologies around them.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: gnutls
+Homepage: https://gnutls.org/
+Depends: gnutls-openssl, gnutls-xx, libc6 (>= 2.39+git47+58cbbd43fe), libgnutls30 (>= 3.8.4)
+Recommends: glibc-dev, gmp-dev, gnutls-openssl-dev, gnutls-xx-dev, libgcc-dev, libgnutls30 (= 3.8.4-r0.67), libidn2-dev, libseccomp-dev, libstdc++-dev, libtasn1-dev, libunistring-dev, nettle-dev
+Provides: gnutls-dev
+Source: gnutls_3.8.4.bb

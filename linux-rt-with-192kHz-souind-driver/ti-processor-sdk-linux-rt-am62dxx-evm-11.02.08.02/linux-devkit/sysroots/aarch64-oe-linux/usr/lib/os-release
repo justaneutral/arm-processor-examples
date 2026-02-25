@@ -1,0 +1,6 @@
+ID=arago
+NAME="Arago"
+VERSION="2025.01"
+VERSION_ID=2025.01
+PRETTY_NAME="Arago 2025.01"
+CPE_NAME="cpe:/o:openembedded:arago:2025.01"

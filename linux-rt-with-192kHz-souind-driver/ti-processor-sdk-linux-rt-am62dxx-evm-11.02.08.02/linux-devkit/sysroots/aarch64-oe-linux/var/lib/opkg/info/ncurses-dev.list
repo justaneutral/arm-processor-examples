@@ -1,0 +1,56 @@
+/usr/lib/pkgconfig/ncurses.pc	0100644
+/usr/lib/libncurses.so	0100644
+/usr/include/term_entry.h	0100644
+/usr/include/cursesapp.h	0100644
+/usr/bin/ncurses6-config	0100755
+/usr/lib	040755
+/usr/include/etip.h	0100644
+/usr/lib/libform.so	0120777	libform.so.5
+/usr/lib/libcurses.so	0120777	libncurses.so
+/usr/lib/libmenu.so	0120777	libmenu.so.5
+/usr/bin/ncursesw6-config	0100755
+/usr/lib/libncursesw.so	0100644
+/usr/include/curses-64.h	0100644
+/usr/include/term.h	0100644
+/usr/include/menu.h	0100644
+/usr/include/cursesf.h	0100644
+/usr/lib/pkgconfig/ncurses++.pc	0100644
+/usr/lib/libtermcap.so	0100644
+/usr/include/form.h	0100644
+/usr/lib/libpanelw.so	0120777	libpanelw.so.5
+/usr/include/cursesw.h	0100644
+/usr/lib/pkgconfig/ticw.pc	0100644
+/usr/include/eti.h	0100644
+/usr/bin	040755
+/usr/lib/pkgconfig/tinfo.pc	0100644
+/usr/lib/libtinfo.so	0120777	libtinfo.so.5
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/form.pc	0100644
+/usr/lib/pkgconfig/menu.pc	0100644
+/usr/include/curses.h	0100644
+/usr/lib/pkgconfig/ncurses++w.pc	0100644
+/usr/lib/pkgconfig/ncursesw.pc	0100644
+/usr/include/cursslk.h	0100644
+/usr/include/panel.h	0100644
+/usr/lib/pkgconfig/panel.pc	0100644
+/usr/include/cursesm.h	0100644
+/usr/include/nc_tparm.h	0100644
+/usr/lib/libpanel.so	0120777	libpanel.so.5
+/usr/include/ncurses_dll.h	0100644
+/usr/include/ncurses.h	0120777	curses.h
+/usr/include/termcap.h	0100644
+/usr/lib/pkgconfig/tic.pc	0100644
+/usr/lib/pkgconfig/panelw.pc	0100644
+/usr/lib/libtic.so	0120777	libtic.so.5
+/usr/lib/pkgconfig/formw.pc	0100644
+/usr/include/unctrl.h	0100644
+/usr/bin/ncurses5-config	0100755
+/usr/lib/libformw.so	0120777	libformw.so.5
+/usr/lib/pkgconfig/menuw.pc	0100644
+/usr/lib/libmenuw.so	0120777	libmenuw.so.5
+/usr/include	040755
+/usr/lib/libticw.so	0120777	libticw.so.5
+/usr/include/tic.h	0100644
+/usr/include/cursesp.h	0100644
+/usr/bin/ncursesw5-config	0100755

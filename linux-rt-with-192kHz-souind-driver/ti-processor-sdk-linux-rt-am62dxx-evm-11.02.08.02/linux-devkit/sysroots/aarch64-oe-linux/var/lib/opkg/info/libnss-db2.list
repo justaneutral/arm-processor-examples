@@ -1,0 +1,7 @@
+/var	040755
+/var/db	040755
+/usr/lib	040755
+/var/db/makedbs.sh	0100755
+/usr/lib/libnss_db.so.2	0100755
+/usr	040755
+/var/db/Makefile	0100644

@@ -1,0 +1,14 @@
+Package: libstd-rs-dev
+Version: 1.85.1-r0.21
+Description: Rust standard libaries - Development files
+ Rust standard libaries.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: (MIT | Apache-2.0) & Unicode-3.0
+Architecture: aarch64
+OE: libstd-rs
+Homepage: http://www.rust-lang.org
+Recommends: glibc-dev, libgcc-dev, libstd-rs (= 1.85.1-r0.21)
+Source: libstd-rs_1.85.1.bb

@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-gtk-sdk-target
+Version: 1.0-r2.14
+Description: Task to install Gtk dev packages in SDK
+ Task to install Gtk dev packages in SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-tisdk-gtk-sdk-target
+Depends: gtk+3-dev
+Source: packagegroup-arago-tisdk-gtk-sdk-target.bb

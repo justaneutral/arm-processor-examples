@@ -1,0 +1,13 @@
+Package: open62541
+Version: 1.3.8-r0.322
+Description: open62541 version 1.3.8-r0
+ open62541 is an implementation of OPC UA (OPC Unified Architecture)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MPL-2.0 & BSD-3-Clause & MIT
+Architecture: aarch64
+OE: open62541
+Homepage: https://github.com/open62541/open62541.git
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), mbedtls (>= 3.6.5)
+Source: open62541_1.3.8.bb

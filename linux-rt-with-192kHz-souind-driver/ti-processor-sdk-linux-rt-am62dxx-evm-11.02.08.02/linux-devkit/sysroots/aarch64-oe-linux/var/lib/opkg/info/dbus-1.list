@@ -1,0 +1,12 @@
+/usr/libexec/dbus-daemon-launch-helper	0104755
+/usr/bin/dbus-daemon	0100755
+/usr/lib/systemd/system/dbus.target.wants/dbus.socket	0120777	../dbus.socket
+/usr/lib/systemd/system/dbus.target.wants	040755
+/usr/bin/dbus-cleanup-sockets	0100755
+/var/lib/dbus	040755
+/usr/bin/dbus-run-session	0100755
+/usr/bin/dbus-launch	0100755
+/usr/lib/systemd/user/dbus.service	0100644
+/usr/lib/systemd/system/multi-user.target.wants/dbus.service	0120777	../dbus.service
+/usr/lib/tmpfiles.d/dbus.conf	0100644
+/usr/lib/systemd/system/dbus.service	0100644

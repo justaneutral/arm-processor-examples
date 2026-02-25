@@ -1,0 +1,14 @@
+Package: python3-pygobject
+Version: 3.46.0-r0.376
+Description: Python GObject bindings
+ PyGObject is a Python package which provides bindings for GObject based
+ libraries such as GTK, GStreamer, WebKitGTK, GLib, GIO and many more.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: python3-pygobject
+Homepage: https://gitlab.gnome.org/GNOME/pygobject
+Depends: gobject-introspection (>= 1.78.1), libc6 (>= 2.39+git47+58cbbd43fe), libcairo-gobject2 (>= 1.18.0), libcairo2 (>= 1.18.0), libffi8 (>= 3.4.6), libglib-2.0-0 (>= 2.78.6), python3-core, python3-io, python3-pkgutil, python3-pycairo
+Source: python3-pygobject_3.46.0.bb

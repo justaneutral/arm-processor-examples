@@ -1,0 +1,14 @@
+Package: adwaita-icon-theme-symbolic
+Version: 45.0-r0.311
+Description: GTK+ icon theme
+ The Adwaita icon theme is the default icon theme of the GNOME desktop
+ This package package contains an icon theme for Gtk+ 3 applications.
+Section: x11/gnome
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Architecture: all
+OE: adwaita-icon-theme
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Source: adwaita-icon-theme_45.0.bb

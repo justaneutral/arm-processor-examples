@@ -1,0 +1,16 @@
+Package: gdbserver
+Version: 14.2-r0.357
+Description: GNU debugger
+ GDB, the GNU Project debugger, allows you to see what is going on inside
+ another program while it executes -- or what another program was doing at
+ the moment it crashed.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only
+Architecture: aarch64
+OE: gdb
+Homepage: http://www.gnu.org/software/gdb/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libstdc++6 (>= 13.4.0)
+Recommends: glibc-thread-db
+Source: gdb_14.2.bb

@@ -1,0 +1,18 @@
+Package: nativesdk-bash-dev
+Version: 5.2.21-r0.arago0.140
+Description: An sh-compatible command language interpreter - Development files
+ Bash is the GNU Project's Bourne Again SHell, a complete implementation
+ of the IEEE POSIX and Open Group shell specification with interactive
+ command line editing, job control on architectures that support it, csh-
+ like features such as history substitution and brace expansion, and a
+ slew of other features.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-bash
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Recommends: nativesdk-bash (= 5.2.21-r0.arago0.140), nativesdk-glibc-dev, nativesdk-ncurses-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-update-alternatives-opkg-dev
+Source: bash_5.2.21.bb

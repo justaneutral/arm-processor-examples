@@ -1,0 +1,21 @@
+Package: libell-dev
+Version: 0.64-r0.402
+Description: Embedded Linux Library - Development files
+ The Embedded Linux Library (ELL) provides core, low-level functionality
+ for system daemons. It typically has no dependencies other than the Linux
+ kernel, C standard library, and libdl (for dynamic linking). While ELL is
+ designed to be efficient and compact enough for use on embedded Linux
+ platforms, it is not limited to resource-constrained systems.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: ell
+Homepage: https://01.org/ell
+Depends: ell
+Recommends: dbus-dev, glibc-dev, libell0 (= 0.64-r0.402)
+Provides: ell-dev
+Source: ell_0.64.bb

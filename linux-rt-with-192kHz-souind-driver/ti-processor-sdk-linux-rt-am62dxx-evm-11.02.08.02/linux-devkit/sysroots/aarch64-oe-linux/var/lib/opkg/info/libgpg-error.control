@@ -1,0 +1,14 @@
+Package: libgpg-error
+Version: 1.48-r0.66
+Description: Small library that defines common error values for all GnuPG components
+ Contains common error codes and error handling functions used by GnuPG,
+ Libgcrypt, GPGME and more packages.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Source: libgpg-error_1.48.bb

@@ -1,0 +1,131 @@
+===============================================================================
+AM62D PCM6240 Driver Modification Log
+===============================================================================
+
+Date: 2026-02-25 04:56:19 Target Platform: TI AM62D2 EVM SDK: TI
+Processor SDK Linux RT 11.02.08.02 Kernel: 6.12.57-ti-rt-g31b07ab8dfbc
+Codec: TI PCM6240 (ADC) Architecture: aarch64 Toolchain:
+aarch64-oe-linux-gcc (Yocto linux-devkit)
+
+=============================================================================== 1.
+INITIAL CONDITION
+===============================================================================
+
+ALSA supported only:
+
+    RATE: [44100 48000]
+
+Root cause: Driver restriction in pcm6240.h and pcm6240.c.
+
+===============================================================================
+2. DRIVER CHANGES
+===============================================================================
+
+Modified pcm6240.h:
+
+    Expanded PCMDEVICE_RATES to include:
+        88200, 96000, 176400, 192000
+
+Modified pcm6240.c:
+
+    Extended fsrate validation switch in pcmdevice_hw_params()
+    to allow the same rate set.
+
+No filter configuration changes required. No rate-dependent register
+programming existed in driver.
+
+===============================================================================
+3. TOOLCHAIN SETUP
+===============================================================================
+
+Used:
+
+    source linux-devkit/environment-setup-aarch64-oe-linux
+
+Verified: ARCH=arm64 CROSS_COMPILE=aarch64-oe-linux-
+
+Did NOT use: Ubuntu cross compiler linux-devkit/environment-setup sudo
+
+===============================================================================
+4. KERNEL ALIGNMENT
+===============================================================================
+
+Extracted running kernel config from board:
+
+    zcat /proc/config.gz > running_config
+
+Copied as .config in kernel tree. Executed:
+
+    make olddefconfig
+
+===============================================================================
+5. FULL KERNEL BUILD
+===============================================================================
+
+Ran:
+
+    make -j$(nproc)
+
+Purpose: Generate vmlinux Generate Module.symvers Ensure correct symbol
+CRCs
+
+===============================================================================
+6. VERSION STRING FIX
+===============================================================================
+
+Board kernel version: 6.12.57-ti-rt-g31b07ab8dfbc
+
+Resolved trailing ‘+’ issue by: Patching scripts/setlocalversion Forcing
+exact version string match
+
+Final vermagic matched board exactly.
+
+===============================================================================
+7. MODULE BUILD
+===============================================================================
+
+Executed:
+
+    make M=sound/soc/codecs modules
+
+Produced:
+
+    snd-soc-pcm6240.ko
+
+Verified vermagic identical to running kernel.
+
+===============================================================================
+8. DEPLOYMENT
+===============================================================================
+
+On target:
+
+    Backed up original module
+    Replaced module
+    depmod -a
+    reboot
+
+===============================================================================
+9. VALIDATION
+===============================================================================
+
+ALSA verification:
+
+    RATE: [44100 192000]
+
+Capture tests successful at: 96 kHz 192 kHz
+
+Observed bandwidth at 192 kHz: ~96 kHz (Nyquist limit)
+
+No kernel errors observed.
+
+===============================================================================
+RESULT
+===============================================================================
+
+PCM6240 ADC successfully extended to 192 kHz operation. System stable.
+Clocking correct. Driver modification validated.
+
+===============================================================================
+END OF LOG
+===============================================================================

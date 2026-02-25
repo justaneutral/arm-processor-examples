@@ -1,0 +1,15 @@
+Package: nativesdk-libedit0
+Version: 20230828-3.1-r1.93
+Description: BSD replacement for libreadline
+ Command line editor library providing generic line editing, history, and
+ tokenization functions
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-libedit
+Homepage: http://www.thrysoee.dk/editline/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-libedit
+Source: libedit_20230828-3.1.bb

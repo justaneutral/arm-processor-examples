@@ -1,0 +1,8 @@
+/usr/lib/libweston-13/wayland-backend.so	0100755
+/usr/lib	040755
+/usr/lib/libweston-13/gl-renderer.so	0100755
+/usr/lib/libweston-13/drm-backend.so	0100755
+/usr/lib/libweston-13.so.0	0120777	libweston-13.so.0.0.1
+/usr/lib/libweston-13	040755
+/usr	040755
+/usr/lib/libweston-13.so.0.0.1	0100755

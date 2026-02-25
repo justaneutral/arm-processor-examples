@@ -1,0 +1,18 @@
+Package: libspeexdsp-dev
+Version: 1.2.1-r0.65
+Description: A patent-free DSP library - Development files
+ SpeexDSP is a patent-free, Open Source/Free Software DSP library.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: speexdsp
+Homepage: http://www.speex.org
+Depends: speexdsp
+Recommends: glibc-dev, libspeexdsp1 (= 1.2.1-r0.65)
+Provides: speexdsp-dev
+Conflicts: speex-dev (<< 1.2rc2)
+Source: speexdsp_1.2.1.bb

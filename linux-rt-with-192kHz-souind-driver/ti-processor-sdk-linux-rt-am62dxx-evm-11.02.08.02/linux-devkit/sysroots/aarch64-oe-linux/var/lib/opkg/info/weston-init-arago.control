@@ -1,0 +1,14 @@
+Package: weston-init-arago
+Version: 1.0-r0_tisdk_0.17
+Description: Configuration files for the Weston Wayland compositor
+ Configuration files for the Weston Wayland compositor.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: weston-init-arago
+Depends: base-files, base-passwd, emptty, kbd, shadow, weston
+Provides: virtual-emptty-conf, weston-init
+Conflicts: weston-init
+Source: weston-init-arago.bb

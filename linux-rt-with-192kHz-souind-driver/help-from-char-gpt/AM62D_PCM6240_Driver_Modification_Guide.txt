@@ -1,0 +1,273 @@
+===============================================================================
+TI AM62D2 EVM – PCM6240 Driver Modification & Rebuild Guide
+===============================================================================
+
+Document Type: Hybrid: Technical Report + Step‑By‑Step Tutorial +
+Validation Checklist
+
+Target: TI Processor SDK Linux RT 11.02.08.02 Kernel:
+6.12.57-ti-rt-g31b07ab8dfbc Codec: TI PCM6240 (ADC)
+
+Generated: 2026-02-25 02:36:11
+
+===============================================================================
+TABLE OF CONTENTS
+===============================================================================
+
+1.  Objective
+2.  Root Cause Analysis
+3.  Driver Modifications
+4.  Toolchain Setup (Correct Method)
+5.  Kernel Configuration Extraction
+6.  Full Kernel Build (Required)
+7.  Rebuilding the Codec Module
+8.  Verifying ABI Compatibility (vermagic)
+9.  Installing the Module on Target
+10. Functional Validation
+11. Troubleshooting Guide
+12. Technical Notes and Rationale
+13. Final Validation Checklist
+
+=============================================================================== 1.
+OBJECTIVE
+===============================================================================
+
+Enable higher ADC sampling rates (up to 192 kHz) for PCM6240 on TI
+AM62D2 EVM by:
+
+    • Modifying codec driver rate mask
+    • Adjusting runtime rate validation
+    • Rebuilding kernel properly
+    • Replacing kernel module safely
+    • Verifying runtime behavior
+
+PCM6240 hardware maximum rate: 192 kHz (384/768 kHz not supported by
+silicon)
+
+===============================================================================
+2. ROOT CAUSE ANALYSIS
+===============================================================================
+
+Initial ALSA limitation:
+
+    RATE: [44100 48000]
+
+Cause: The driver header pcm6240.h defines:
+
+        #define PCMDEVICE_RATES (SNDRV_PCM_RATE_44100 |
+                                 SNDRV_PCM_RATE_48000)
+
+Additionally, pcm6240.c rejects any rate not equal to 44100 or 48000
+inside pcmdevice_hw_params().
+
+This is a software restriction.
+
+===============================================================================
+3. DRIVER MODIFICATIONS
+===============================================================================
+
+File 1: sound/soc/codecs/pcm6240.h
+
+Change:
+
+    #define PCMDEVICE_RATES (SNDRV_PCM_RATE_44100 |
+                             SNDRV_PCM_RATE_48000)
+
+To:
+
+    #define PCMDEVICE_RATES (SNDRV_PCM_RATE_44100  |
+                             SNDRV_PCM_RATE_48000  |
+                             SNDRV_PCM_RATE_88200  |
+                             SNDRV_PCM_RATE_96000  |
+                             SNDRV_PCM_RATE_176400 |
+                             SNDRV_PCM_RATE_192000)
+
+------------------------------------------------------------------------
+
+File 2: sound/soc/codecs/pcm6240.c
+
+Locate function: pcmdevice_hw_params()
+
+Original switch:
+
+    switch (fsrate) {
+    case 48000:
+    case 44100:
+        break;
+    default:
+        return -EINVAL;
+    }
+
+Modify to:
+
+    switch (fsrate) {
+    case 44100:
+    case 48000:
+    case 88200:
+    case 96000:
+    case 176400:
+    case 192000:
+        break;
+    default:
+        return -EINVAL;
+    }
+
+No other rate‑dependent filter configuration exists in driver.
+
+===============================================================================
+4. TOOLCHAIN SETUP (CORRECT METHOD)
+===============================================================================
+
+Open fresh terminal.
+
+From SDK root:
+
+    source linux-devkit/environment-setup-aarch64-oe-linux
+
+Verify:
+
+    echo $ARCH
+    echo $CROSS_COMPILE
+    which aarch64-oe-linux-gcc
+
+Expected: ARCH=arm64 CROSS_COMPILE=aarch64-oe-linux-
+
+DO NOT source linux-devkit/environment-setup DO NOT use sudo
+
+===============================================================================
+5. KERNEL CONFIGURATION EXTRACTION
+===============================================================================
+
+On target board:
+
+    zcat /proc/config.gz > /tmp/running_config
+
+Copy to host kernel tree as:
+
+    board-support/ti-linux-kernel-6.12.57+git-ti-rt/.config
+
+On host:
+
+    cd board-support/ti-linux-kernel-6.12.57+git-ti-rt
+    make olddefconfig
+
+===============================================================================
+6. FULL KERNEL BUILD (REQUIRED)
+===============================================================================
+
+You MUST build the full kernel once to generate:
+
+    • vmlinux
+    • Module.symvers
+
+Run:
+
+    make -j$(nproc)
+
+This ensures: • Symbol CRCs match • Module ABI compatibility • No
+modpost errors
+
+===============================================================================
+7. REBUILDING THE CODEC MODULE
+===============================================================================
+
+After full build completes:
+
+    make M=sound/soc/codecs modules -j$(nproc)
+
+Resulting module:
+
+    sound/soc/codecs/snd-soc-pcm6240.ko
+
+===============================================================================
+8. VERIFYING ABI COMPATIBILITY (VERMAGIC)
+===============================================================================
+
+On host:
+
+    modinfo sound/soc/codecs/snd-soc-pcm6240.ko | grep vermagic
+
+On board:
+
+    modinfo /lib/modules/$(uname -r)/kernel/sound/soc/codecs/snd-soc-pcm6240.ko | grep vermagic
+
+They MUST match exactly.
+
+If mismatch → stop.
+
+===============================================================================
+9. INSTALLING THE MODULE ON TARGET
+===============================================================================
+
+On board:
+
+Backup original:
+
+    cp /lib/modules/$(uname -r)/kernel/sound/soc/codecs/snd-soc-pcm6240.ko        /lib/modules/$(uname -r)/kernel/sound/soc/codecs/snd-soc-pcm6240.ko.bak
+
+Copy new module into same directory.
+
+Then:
+
+    depmod -a
+    reboot
+
+===============================================================================
+10. FUNCTIONAL VALIDATION
+===============================================================================
+
+After reboot:
+
+Check new rate range:
+
+    aplay -D hw:0,0 --dump-hw-params /dev/zero
+
+Expected:
+
+    RATE: [44100 192000]
+
+Test capture:
+
+    arecord -D hw:0,0 -f S32_LE -c 2 -r 96000 -d 5 test96.wav
+    arecord -D hw:0,0 -f S32_LE -c 2 -r 192000 -d 5 test192.wav
+
+Check kernel log if failure:
+
+    dmesg | tail -n 100
+
+===============================================================================
+11. TROUBLESHOOTING
+===============================================================================
+
+Error: Module.symvers missing → Full kernel build not completed.
+
+Error: invalid module format → Wrong toolchain or mismatched .config
+
+Error: Unsupported sample rate → Runtime switch not modified.
+
+192 kHz fails to stream → Check BCLK generation and clock tree.
+
+===============================================================================
+12. TECHNICAL NOTES
+===============================================================================
+
+192 kHz stereo 32-bit: BCLK = 192000 × 32 × 2 = 12.288 MHz
+
+This is within normal McASP capability.
+
+PCM6240 does not support: 384 kHz 768 kHz
+
+Hardware limitation.
+
+===============================================================================
+13. FINAL VALIDATION CHECKLIST
+===============================================================================
+
+[ ] Toolchain sourced correctly [ ] Board config copied [ ] Full kernel
+built successfully [ ] Module rebuilt [ ] vermagic matches [ ] Module
+installed [ ] 192 kHz appears in ALSA [ ] 192 kHz capture tested
+successfully
+
+===============================================================================
+END OF DOCUMENT
+===============================================================================

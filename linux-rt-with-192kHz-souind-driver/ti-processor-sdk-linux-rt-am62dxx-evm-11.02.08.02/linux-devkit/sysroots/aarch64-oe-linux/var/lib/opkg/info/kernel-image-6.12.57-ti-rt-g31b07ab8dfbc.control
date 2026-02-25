@@ -1,0 +1,13 @@
+Package: kernel-image-6.12.57-ti-rt-g31b07ab8dfbc
+Version: 6.12.57+git2+31b07ab8df-r0_tisdk_8.2
+Description: Linux kernel for TI devices
+ Linux kernel for TI devices.
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62dxx_evm
+OE: linux-ti-staging-rt
+Depends: kernel-image-fitimage-6.12.57-ti-rt-g31b07ab8dfbc (= 6.12.57+git2+31b07ab8df-r0_tisdk_8.2), kernel-image-image-6.12.57-ti-rt-g31b07ab8dfbc (= 6.12.57+git2+31b07ab8df-r0_tisdk_8.2)
+Provides: kernel-image
+Source: linux-ti-staging-rt_6.12.bb

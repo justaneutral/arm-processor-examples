@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/libdrop_ambient.so.0.0.0	0100755
+/usr	040755
+/usr/lib/libcap-ng.so.0.0.0	0100755
+/usr/lib/libdrop_ambient.so.0	0120777	libdrop_ambient.so.0.0.0
+/usr/lib/libcap-ng.so.0	0120777	libcap-ng.so.0.0.0

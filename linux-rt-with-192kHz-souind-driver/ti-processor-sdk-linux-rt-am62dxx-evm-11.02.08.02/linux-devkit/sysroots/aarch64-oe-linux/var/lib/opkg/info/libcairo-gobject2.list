@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libcairo-gobject.so.2.11800.0	0100755
+/usr/lib/libcairo-gobject.so.2	0120777	libcairo-gobject.so.2.11800.0

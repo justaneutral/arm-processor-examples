@@ -1,0 +1,13 @@
+Package: shared-mime-info
+Version: 2.4-r0.400
+Description: Shared MIME type database and specification
+ The shared-mime-info package contains the core database of common types.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libglib-2.0-0 (>= 2.78.6), libstdc++6 (>= 13.4.0), libxml2 (>= 2.12.10)
+Source: shared-mime-info_2.4.bb

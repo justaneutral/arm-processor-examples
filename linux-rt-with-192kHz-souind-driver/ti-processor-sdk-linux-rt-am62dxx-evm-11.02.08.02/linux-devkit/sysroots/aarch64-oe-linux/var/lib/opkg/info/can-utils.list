@@ -1,0 +1,9 @@
+/usr/bin/mcp251xfd-dump	0100755
+/usr/bin/cangen	0100755
+/usr/bin/cansend.can-utils	0100755
+/usr/bin	040755
+/usr/bin/cansequence.can-utils	0100755
+/usr	040755
+/usr/bin/candump.can-utils	0100755
+/usr/bin/cansniffer	0100755
+/usr/bin/canplayer	0100755

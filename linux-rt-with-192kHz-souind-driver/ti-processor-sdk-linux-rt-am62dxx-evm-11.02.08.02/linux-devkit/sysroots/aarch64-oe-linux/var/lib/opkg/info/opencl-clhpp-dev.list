@@ -1,0 +1,13 @@
+/usr/share/pkgconfig	040755
+/usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfigVersion.cmake	0100644
+/usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppTargets.cmake	0100644
+/usr/share/pkgconfig/OpenCL-CLHPP.pc	0100644
+/usr/include/CL	040755
+/usr	040755
+/usr/share/cmake	040755
+/usr/include/CL/opencl.hpp	0100644
+/usr/share/cmake/OpenCLHeadersCpp	040755
+/usr/share	040755
+/usr/include	040755
+/usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfig.cmake	0100644
+/usr/include/CL/cl2.hpp	0100644

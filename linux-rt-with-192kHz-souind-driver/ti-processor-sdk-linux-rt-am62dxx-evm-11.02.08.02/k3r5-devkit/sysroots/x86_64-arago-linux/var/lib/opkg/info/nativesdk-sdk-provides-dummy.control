@@ -1,0 +1,15 @@
+Package: nativesdk-sdk-provides-dummy
+Version: 1.0-r0.88
+Description: Dummy packages which handle excluding packages from the sdk, e.g. ensuring perl is excluded from buildtools
+ Dummy packages which handle excluding packages from the sdk, e.g.
+ ensuring perl is excluded from buildtools.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: sdk-provides-dummy-k3r5-nativesdk
+OE: nativesdk-sdk-provides-dummy
+Provides: /bin/bash, /bin/sh, /usr/bin/env, libGL.so, libGL.so()(64bit), pkgconfig
+Replaces: pkgconfig
+Conflicts: /bin/bash, /bin/sh, /usr/bin/env, libGL.so, libGL.so()(64bit), pkgconfig
+Source: nativesdk-sdk-provides-dummy.bb

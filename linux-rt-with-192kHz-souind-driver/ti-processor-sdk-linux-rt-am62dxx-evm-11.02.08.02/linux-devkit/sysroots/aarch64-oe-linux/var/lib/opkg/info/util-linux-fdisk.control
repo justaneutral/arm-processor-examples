@@ -1,0 +1,13 @@
+Package: util-linux-fdisk
+Version: 2.39.3-r0.158
+Description: util-linux fdisk
+ util-linux fdisk
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-1.0-or-later
+Architecture: aarch64
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libfdisk1 (>= 2.39.3), libsmartcols1 (>= 2.39.3), libtinfo5 (>= 6.4), update-alternatives-opkg
+Source: util-linux_2.39.3.bb

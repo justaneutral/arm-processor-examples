@@ -1,0 +1,16 @@
+Package: libsocketcan-dev
+Version: 0.0.12-r0.71
+Description: Control basic functions in socketcan from userspace - Development files
+ Control basic functions in socketcan from userspace.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libsocketcan
+Homepage: http://www.pengutronix.de
+Depends: libsocketcan
+Recommends: glibc-dev, libsocketcan2 (= 0.0.12-r0.71)
+Source: libsocketcan_0.0.12.bb

@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libpcre2-32.so.0.12.0	0100755
+/usr	040755
+/usr/lib/libpcre2-32.so.0	0120777	libpcre2-32.so.0.12.0

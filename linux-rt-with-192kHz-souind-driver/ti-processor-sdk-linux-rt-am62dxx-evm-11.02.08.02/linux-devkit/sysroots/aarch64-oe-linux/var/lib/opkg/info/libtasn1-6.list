@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libtasn1.so.6.6.4	0100755
+/usr	040755
+/usr/lib/libtasn1.so.6	0120777	libtasn1.so.6.6.4

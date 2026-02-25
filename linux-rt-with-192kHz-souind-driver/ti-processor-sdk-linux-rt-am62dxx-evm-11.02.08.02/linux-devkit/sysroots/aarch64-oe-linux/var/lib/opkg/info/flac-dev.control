@@ -1,0 +1,16 @@
+Package: flac-dev
+Version: 1.4.3-r0.66
+Description: Free Lossless Audio Codec - Development files
+ FLAC stands for Free Lossless Audio Codec, a lossless audio compression
+ format.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause
+Architecture: aarch64
+OE: flac
+Homepage: https://xiph.org/flac/
+Depends: libflac, libflac++
+Recommends: flac (= 1.4.3-r0.66), glibc-dev, libflac++-dev, libflac-dev, libgcc-dev, libogg-dev, libstdc++-dev
+Source: flac_1.4.3.bb

@@ -1,0 +1,19 @@
+Package: bzip2-dev
+Version: 1.0.8-r0.69
+Description: Very high-quality data compression program - Development files
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: bzip2-1.0.6
+Architecture: aarch64
+OE: bzip2
+Homepage: https://sourceware.org/bzip2/
+Depends: libbz2
+Recommends: bzip2 (= 1.0.8-r0.69), glibc-dev, libbz2-dev, update-alternatives-opkg-dev
+Source: bzip2_1.0.8.bb

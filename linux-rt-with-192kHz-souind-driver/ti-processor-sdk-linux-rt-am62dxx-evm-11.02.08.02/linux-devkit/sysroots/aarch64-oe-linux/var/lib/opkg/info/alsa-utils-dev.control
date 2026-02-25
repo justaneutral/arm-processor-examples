@@ -1,0 +1,16 @@
+Package: alsa-utils-dev
+Version: 1.2.11-r0.363
+Description: ALSA sound utilities - Development files
+ collection of small and often extremely powerful applications designed to
+ allow users to control the various parts of the ALSA system.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Recommends: alsa-lib-dev, alsa-utils (= 1.2.11-r0.363), alsa-utils-aconnect-dev, alsa-utils-alsactl-dev, alsa-utils-alsaloop-dev, alsa-utils-alsamixer-dev, alsa-utils-alsatplg-dev, alsa-utils-alsaucm-dev, alsa-utils-amixer-dev, alsa-utils-aplay-dev, alsa-utils-aseqdump-dev, alsa-utils-aseqnet-dev, alsa-utils-iecset-dev, alsa-utils-midi-dev, alsa-utils-nhltdmicinfo-dev, alsa-utils-scripts-dev, alsa-utils-speakertest-dev, bash-dev, glibc-dev, libatopology-dev, libsamplerate0-dev, ncurses-dev, ncurses-libformw-dev, ncurses-libmenuw-dev, ncurses-libncursesw-dev, ncurses-libpanelw-dev, ncurses-libtinfo-dev, udev-dev
+Source: alsa-utils_1.2.11.bb

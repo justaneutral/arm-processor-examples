@@ -1,0 +1,12 @@
+Package: packagegroup-arago-tisdk-crypto-sdk-target
+Version: 1.0-r8.12
+Description: Task to install crypto dev packages in SDK
+ Task to install crypto dev packages in SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: packagegroup-arago-tisdk-crypto-sdk-target
+Depends: cryptodev-module-dev, openssl-dev
+Source: packagegroup-arago-tisdk-crypto-sdk-target.bb

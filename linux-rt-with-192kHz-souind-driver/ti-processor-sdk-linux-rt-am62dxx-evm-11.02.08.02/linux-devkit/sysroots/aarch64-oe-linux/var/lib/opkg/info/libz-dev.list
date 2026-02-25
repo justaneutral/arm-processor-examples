@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/include/zconf.h	0100644
+/usr/include/zlib.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/pkgconfig/zlib.pc	0100644
+/usr/include	040755
+/usr/lib/libz.so	0120777	libz.so.1.3.1

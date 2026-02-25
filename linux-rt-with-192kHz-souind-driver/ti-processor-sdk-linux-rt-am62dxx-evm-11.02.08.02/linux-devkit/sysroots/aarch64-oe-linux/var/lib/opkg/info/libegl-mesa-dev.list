@@ -1,0 +1,10 @@
+/usr/lib/libEGL.so	0120777	libEGL.so.1
+/usr/include/KHR/khrplatform.h	0100644
+/usr/lib/pkgconfig/egl.pc	0100644
+/usr/include/EGL/egl.h	0100644
+/usr/include/EGL	040755
+/usr/include/EGL/eglmesaext.h	0100644
+/usr/include/EGL/eglplatform.h	0100644
+/usr/include/KHR	040755
+/usr/include/EGL/eglext.h	0100644
+/usr/include/EGL/eglext_angle.h	0100644

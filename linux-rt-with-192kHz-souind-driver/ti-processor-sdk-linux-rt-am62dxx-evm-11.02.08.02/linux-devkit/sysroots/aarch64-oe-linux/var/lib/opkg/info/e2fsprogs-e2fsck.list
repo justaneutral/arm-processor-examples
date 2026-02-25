@@ -1,0 +1,6 @@
+/usr/sbin	040755
+/usr/sbin/fsck.ext2	0100755
+/usr/sbin/fsck.ext3	0100755
+/usr/sbin/fsck.ext4	0100755
+/usr/sbin/e2fsck	0100755
+/usr	040755

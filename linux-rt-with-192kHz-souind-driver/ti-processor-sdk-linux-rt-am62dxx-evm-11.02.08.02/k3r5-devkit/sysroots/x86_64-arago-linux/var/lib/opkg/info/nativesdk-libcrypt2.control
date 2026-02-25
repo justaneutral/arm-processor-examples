@@ -1,0 +1,14 @@
+Package: nativesdk-libcrypt2
+Version: 4.4.36-r0.95
+Description: Extended cryptographic library (from glibc)
+ Forked code from glibc libary to extract only crypto part.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-libxcrypt
+Homepage: https://github.com/besser82/libxcrypt
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe)
+Provides: nativesdk-libxcrypt
+Source: libxcrypt_4.4.36.bb

@@ -1,0 +1,19 @@
+Package: nativesdk-libxml2-2
+Version: 2.12.10-r0.152
+Description: XML C Parser Library and Toolkit
+ The XML Parser Library allows for manipulation of XML files.  Libxml2
+ exports Push and Pull type parser interfaces for both XML and HTML.  It
+ can do DTD validation at parse time, on a parsed document instance or
+ with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and
+ Xinclude implementations.  It also has a SAX like interface, which is
+ designed to be compatible with Expat.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libxml2
+Homepage: https://gitlab.gnome.org/GNOME/libxml2
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libz1 (>= 1.3.1)
+Provides: nativesdk-libxml2
+Source: libxml2_2.12.10.bb

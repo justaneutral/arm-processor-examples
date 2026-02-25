@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/gconv/gconv-modules.d	040755
+/usr/lib/gconv	040755
+/usr/lib/gconv/gconv-modules	0100755
+/usr	040755
+/usr/lib/gconv/gconv-modules.d/gconv-modules-extra.conf	0100755

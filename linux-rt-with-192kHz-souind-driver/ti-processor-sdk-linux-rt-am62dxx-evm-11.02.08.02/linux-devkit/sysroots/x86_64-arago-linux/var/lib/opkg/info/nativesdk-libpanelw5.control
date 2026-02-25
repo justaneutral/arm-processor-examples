@@ -1,0 +1,14 @@
+Package: nativesdk-libpanelw5
+Version: 6.4-r0.142
+Description: ncurses panelw library
+ ncurses panelw library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncursesw5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libpanelw
+Source: ncurses_6.4.bb

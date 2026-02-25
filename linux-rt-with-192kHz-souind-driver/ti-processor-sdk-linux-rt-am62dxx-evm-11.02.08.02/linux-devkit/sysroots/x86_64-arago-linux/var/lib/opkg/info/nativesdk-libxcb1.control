@@ -1,0 +1,16 @@
+Package: nativesdk-libxcb1
+Version: 1.16-r0.151
+Description: XCB: The X protocol C binding library
+ The X protocol C-language Binding (XCB) is a replacement for Xlib
+ featuring a small footprint, latency hiding, direct access to the
+ protocol, improved threading support, and extensibility.
+Section: x11/libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-libxcb
+Homepage: http://xcb.freedesktop.org
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libxau6 (>= 1.0.11), nativesdk-libxdmcp6 (>= 1.1.4)
+Provides: nativesdk-libxcb
+Source: libxcb_1.16.bb

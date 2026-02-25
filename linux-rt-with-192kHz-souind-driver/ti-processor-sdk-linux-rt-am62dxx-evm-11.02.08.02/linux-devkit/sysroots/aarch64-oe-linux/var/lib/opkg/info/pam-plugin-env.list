@@ -1,0 +1,6 @@
+/usr/lib	040755
+/etc/environment	0100644
+/usr/lib/security	040755
+/usr	040755
+/etc	040755
+/usr/lib/security/pam_env.so	0100755

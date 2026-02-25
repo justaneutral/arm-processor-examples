@@ -1,0 +1,10 @@
+/usr/lib/libharfbuzz.so.0.60830.0	0100755
+/usr/lib	040755
+/usr/lib/libharfbuzz-cairo.so.0	0120777	libharfbuzz-cairo.so.0.60830.0
+/usr/lib/libharfbuzz-cairo.so.0.60830.0	0100755
+/usr	040755
+/usr/lib/girepository-1.0/HarfBuzz-0.0.typelib	0100644
+/usr/lib/libharfbuzz.so.0	0120777	libharfbuzz.so.0.60830.0
+/usr/lib/girepository-1.0	040755
+/usr/lib/libharfbuzz-gobject.so.0	0120777	libharfbuzz-gobject.so.0.60830.0
+/usr/lib/libharfbuzz-gobject.so.0.60830.0	0100755

@@ -1,0 +1,12 @@
+/usr/lib	040755
+/etc/ssl	040755
+/etc/ssl/private	040755
+/usr/lib/ssl-3/ct_log_list.cnf	0100644
+/usr/lib/ssl-3/certs	0120777	../../../etc/ssl/certs
+/usr/lib/ssl-3/ct_log_list.cnf.dist	0100644
+/usr/lib/ossl-modules	040755
+/usr	040755
+/etc	040755
+/etc/ssl/certs	040755
+/usr/lib/ssl-3	040755
+/usr/lib/ssl-3/private	0120777	../../../etc/ssl/private

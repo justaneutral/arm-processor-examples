@@ -1,0 +1,14 @@
+/usr/lib/iproute2/rt_realms	0100644
+/usr/lib	040755
+/usr/lib/iproute2/rt_protos	0100644
+/usr/lib/iproute2/rt_scopes	0100644
+/usr/sbin	040755
+/usr/lib/iproute2	040755
+/usr/lib/iproute2/bpf_pinning	0100644
+/usr/lib/iproute2/nl_protos	0100644
+/usr	040755
+/usr/lib/iproute2/rt_tables	0100644
+/usr/sbin/ip.iproute2	0100755
+/usr/lib/iproute2/group	0100644
+/usr/lib/iproute2/ematch_map	0100644
+/usr/lib/iproute2/rt_dsfield	0100644

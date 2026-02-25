@@ -1,0 +1,10 @@
+/etc/profile.d/bash_completion.sh	0100644
+/etc/profile.d	040755
+/usr/share/bash-completion	040755
+/usr	040755
+/etc	040755
+/usr/share/bash-completion/bash_completion	0100644
+/etc/bash_completion.d/000_bash_completion_compat.bash	0100644
+/etc/bash_completion.d	040755
+/usr/share	040755
+/etc/bash_completion	0100644

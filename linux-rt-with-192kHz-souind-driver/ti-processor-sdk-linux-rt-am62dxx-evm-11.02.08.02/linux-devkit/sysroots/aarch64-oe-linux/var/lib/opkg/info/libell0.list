@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libell.so.0.0.2	0100755
+/usr	040755
+/usr/lib/libell.so.0	0120777	libell.so.0.0.2

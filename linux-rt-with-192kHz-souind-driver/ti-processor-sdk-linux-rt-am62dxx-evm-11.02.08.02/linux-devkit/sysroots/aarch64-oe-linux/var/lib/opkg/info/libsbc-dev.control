@@ -1,0 +1,17 @@
+Package: libsbc-dev
+Version: 2.0-r0.67
+Description: SBC Audio Codec - Development files
+ Bluetooth low-complexity, subband codec (SBC) library.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: sbc
+Homepage: https://www.bluez.org
+Depends: sbc
+Recommends: glibc-dev, libsbc1 (= 2.0-r0.67), libsndfile1-dev
+Provides: sbc-dev
+Source: sbc_2.0.bb

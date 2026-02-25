@@ -1,0 +1,15 @@
+Package: opencl-clhpp-dev
+Version: 2024.05.08-r0.7
+Description: OpenCL API C++ bindings - Development files
+ OpenCL API C++ bindings from Khronos  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: opencl-clhpp
+Depends: opencl-headers-dev
+Recommends: opencl-clhpp (= 2024.05.08-r0.7), opencl-headers-dev
+Source: opencl-clhpp_git.bb

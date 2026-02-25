@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/umount umount /usr/bin/umount.util-linux 80

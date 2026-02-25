@@ -1,0 +1,14 @@
+Package: libsamplerate0
+Version: 0.2.2-r0.73
+Description: Audio Sample Rate Conversion library
+ Also known as Secret Rabbit Code - a library for performing sample rate
+ conversion of audio data.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: aarch64
+OE: libsamplerate0
+Homepage: https://libsndfile.github.io/libsamplerate/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Source: libsamplerate0_0.2.2.bb

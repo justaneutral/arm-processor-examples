@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libmnl.so.0.2.0	0100755
+/usr/lib/libmnl.so.0	0120777	libmnl.so.0.2.0

@@ -1,0 +1,14 @@
+Package: ktx-software
+Version: 4.4.0-r0.2
+Description: KTX (Khronos Texture) Library and Tools 
+ KTX (Khronos Texture) is a lightweight container for textures for OpenGL,
+ Vulkan and other GPU APIs.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0 & BSD-1-Clause & BSD-2-Clause & BSD-3-Clause & BSL-1.0 	   & CC-BY-3.0 & CC-BY-4.0 & CC0-1.0 & Zlib & MIT & HI-Trademark & fmt & 	   Kodak & PNGSuite & ETCSLA & Cesium-Trademark-Terms
+Architecture: aarch64
+OE: ktx-software
+Homepage: https://github.com/KhronosGroup/KTX-Software
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgcc1 (>= 13.4.0), libstdc++6 (>= 13.4.0)
+Source: ktx-software_4.4.0.bb

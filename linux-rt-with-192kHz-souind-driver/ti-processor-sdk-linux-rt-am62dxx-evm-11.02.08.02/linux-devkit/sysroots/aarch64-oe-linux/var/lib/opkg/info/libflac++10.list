@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libFLAC++.so.10.0.1	0100755
+/usr	040755
+/usr/lib/libFLAC++.so.10	0120777	libFLAC++.so.10.0.1

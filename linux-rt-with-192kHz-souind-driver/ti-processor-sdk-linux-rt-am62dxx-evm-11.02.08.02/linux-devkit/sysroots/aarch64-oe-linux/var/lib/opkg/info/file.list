@@ -1,0 +1,9 @@
+/usr/lib/libmagic.so.1.0.0	0100755
+/usr/share/misc	040755
+/usr/lib	040755
+/usr/bin/file.file	0100755
+/usr/bin	040755
+/usr/share/misc/magic.mgc	0100644
+/usr	040755
+/usr/share	040755
+/usr/lib/libmagic.so.1	0120777	libmagic.so.1.0.0

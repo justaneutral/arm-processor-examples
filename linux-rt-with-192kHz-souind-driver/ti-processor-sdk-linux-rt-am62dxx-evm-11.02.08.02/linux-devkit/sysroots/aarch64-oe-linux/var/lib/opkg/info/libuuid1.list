@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libuuid.so.1	0120777	libuuid.so.1.3.0
+/usr	040755
+/usr/lib/libuuid.so.1.3.0	0100755

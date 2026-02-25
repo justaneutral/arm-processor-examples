@@ -1,0 +1,13 @@
+Package: python3-setuptools
+Version: 69.1.1-r0.234
+Description: Download, build, install, upgrade, and uninstall Python packages
+ Download, build, install, upgrade, and uninstall Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: python3-setuptools
+Homepage: https://pypi.org/project/setuptools
+Depends: python3-compile, python3-compression, python3-core, python3-ctypes, python3-email, python3-html, python3-json, python3-netserver, python3-numbers, python3-pickle, python3-pkg-resources, python3-pkgutil, python3-plistlib, python3-shell, python3-stringold, python3-threading, python3-unittest, python3-xml
+Source: python3-setuptools_69.1.1.bb

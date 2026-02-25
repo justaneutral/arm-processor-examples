@@ -1,0 +1,17 @@
+Package: libcrypt-dev
+Version: 4.4.36-r0.64
+Description: Extended cryptographic library (from glibc) - Development files
+ Forked code from glibc libary to extract only crypto part.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libxcrypt
+Homepage: https://github.com/besser82/libxcrypt
+Depends: libxcrypt
+Recommends: glibc-dev, libcrypt2 (= 4.4.36-r0.64)
+Provides: libxcrypt-dev
+Source: libxcrypt_4.4.36.bb

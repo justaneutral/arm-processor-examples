@@ -1,0 +1,15 @@
+Package: nativesdk-libtasn1-6
+Version: 4.20.0-r0.118
+Description: Library for ASN.1 and DER manipulation
+ A highly portable C library that encodes and decodes DER/BER data
+ following an ASN.1 schema.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-libtasn1
+Homepage: http://www.gnu.org/software/libtasn1/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libtasn1
+Source: libtasn1_4.20.0.bb

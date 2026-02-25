@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/insmod insmod /usr/sbin/insmod.kmod 70
+	update-alternatives --install /usr/sbin/modprobe modprobe /usr/sbin/modprobe.kmod 70
+	update-alternatives --install /usr/sbin/rmmod rmmod /usr/sbin/rmmod.kmod 70
+	update-alternatives --install /usr/sbin/modinfo modinfo /usr/sbin/modinfo.kmod 70
+	update-alternatives --install /usr/bin/lsmod bin-lsmod /usr/bin/lsmod.kmod 70
+	update-alternatives --install /usr/sbin/lsmod lsmod /usr/bin/lsmod.kmod 70
+	update-alternatives --install /usr/sbin/depmod depmod /usr/sbin/depmod.kmod 70

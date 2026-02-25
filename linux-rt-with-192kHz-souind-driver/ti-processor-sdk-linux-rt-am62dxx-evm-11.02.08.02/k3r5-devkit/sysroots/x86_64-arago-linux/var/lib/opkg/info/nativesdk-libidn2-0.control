@@ -1,0 +1,15 @@
+Package: nativesdk-libidn2-0
+Version: 2.3.7-r0.94
+Description: Internationalized Domain Name support library
+ Implementation of the Stringprep, Punycode and IDNA specifications
+ defined by the IETF Internationalized Domain Names (IDN) working group.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: (GPL-2.0-or-later | LGPL-3.0-only) & Unicode-DFS-2016
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-libidn2
+Homepage: http://www.gnu.org/software/libidn/
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libunistring5 (>= 1.2)
+Provides: nativesdk-libidn2
+Source: libidn2_2.3.7.bb

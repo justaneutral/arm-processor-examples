@@ -1,0 +1,14 @@
+Package: stb-dev
+Version: 2.31-r0.0
+Description: single-file public domain (or MIT licensed) libraries for C/C++ - Development files
+ single-file public domain (or MIT licensed) libraries for C/C++.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: stb
+Recommends: stb (= 2.31-r0.0)
+Source: stb_git.bb

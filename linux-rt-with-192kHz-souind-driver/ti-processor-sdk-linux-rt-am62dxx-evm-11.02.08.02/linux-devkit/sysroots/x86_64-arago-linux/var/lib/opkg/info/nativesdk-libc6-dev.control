@@ -1,0 +1,17 @@
+Package: nativesdk-libc6-dev
+Version: 2.39+git43+58cbbd43fe-r0.143
+Description: GLIBC (GNU C Library) - Development files
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: nativesdk-glibc, nativesdk-glibc-extra-nss, nativesdk-glibc-thread-db, nativesdk-libnss-db, nativesdk-linux-libc-headers-dev, nativesdk-malloc-debug
+Recommends: nativesdk-glibc-extra-nss-dev, nativesdk-glibc-thread-db-dev, nativesdk-glibc-utils-dev, nativesdk-libc6 (= 2.39+git43+58cbbd43fe-r0.143), nativesdk-libgcc-initial-dev, nativesdk-libnss-db-dev, nativesdk-linux-libc-headers-dev, nativesdk-malloc-debug-dev
+Provides: nativesdk-eglibc-dev, nativesdk-glibc-dev, nativesdk-libc-dev, nativesdk-libc6-dev, nativesdk-virtual-libc-dev
+Source: glibc_2.39.bb

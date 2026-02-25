@@ -1,0 +1,15 @@
+Package: libsolv1
+Version: 0.7.28-r0.73
+Description: Library for solving packages and reading repositories
+ This is libsolv, a free package dependency solver using a satisfiability
+ algorithm for solving packages and reading repositories
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: libsolv
+Homepage: https://github.com/openSUSE/libsolv
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: libsolv
+Source: libsolv_0.7.28.bb

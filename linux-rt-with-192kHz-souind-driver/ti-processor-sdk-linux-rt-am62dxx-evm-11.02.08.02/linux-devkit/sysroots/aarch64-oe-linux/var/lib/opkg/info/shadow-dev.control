@@ -1,0 +1,16 @@
+Package: shadow-dev
+Version: 4.14.2-r0.153
+Description: Tools to change and administer password and group data - Development files
+ Tools to change and administer password and group data  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: aarch64
+OE: shadow
+Homepage: http://github.com/shadow-maint/shadow
+Depends: shadow
+Recommends: attr-dev, base-passwd-dev, glibc-dev, libattr-dev, libpam-dev, libpam-runtime-dev, libxcrypt-dev, pam-plugin-env-dev, pam-plugin-faildelay-dev, pam-plugin-group-dev, pam-plugin-limits-dev, pam-plugin-mail-dev, pam-plugin-motd-dev, pam-plugin-nologin-dev, pam-plugin-rootok-dev, pam-plugin-securetty-dev, pam-plugin-shells-dev, shadow (= 4.14.2-r0.153), shadow-base-dev, shadow-securetty-dev, update-alternatives-opkg-dev, util-linux-sulogin-dev
+Source: shadow_4.14.2.bb

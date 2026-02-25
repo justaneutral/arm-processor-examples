@@ -1,0 +1,18 @@
+Package: libell0
+Version: 0.64-r0.402
+Description: Embedded Linux Library
+ The Embedded Linux Library (ELL) provides core, low-level functionality
+ for system daemons. It typically has no dependencies other than the Linux
+ kernel, C standard library, and libdl (for dynamic linking). While ELL is
+ designed to be efficient and compact enough for use on embedded Linux
+ platforms, it is not limited to resource-constrained systems.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: ell
+Homepage: https://01.org/ell
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: ell
+Source: ell_0.64.bb

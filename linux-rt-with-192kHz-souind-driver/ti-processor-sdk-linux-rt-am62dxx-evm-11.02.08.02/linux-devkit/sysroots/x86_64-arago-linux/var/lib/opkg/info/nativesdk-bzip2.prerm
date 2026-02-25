@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  bunzip2 /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/bunzip2.bzip2
+	update-alternatives --remove  bzcat /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/bzcat.bzip2
+	update-alternatives --remove  bzip2 /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/bzip2.bzip2

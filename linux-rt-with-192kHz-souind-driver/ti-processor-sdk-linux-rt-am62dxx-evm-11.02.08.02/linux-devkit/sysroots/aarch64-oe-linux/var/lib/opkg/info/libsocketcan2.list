@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libsocketcan.so.2	0120777	libsocketcan.so.2.3.1
+/usr	040755
+/usr/lib/libsocketcan.so.2.3.1	0100755

@@ -1,0 +1,18 @@
+Package: nativesdk-xz-dev
+Version: 5.4.7-r0.106
+Description: Utilities for managing LZMA compressed files - Development files
+ XZ Utils is free general-purpose data compression software with a high
+ compression ratio. XZ Utils were written for POSIX-like systems, but also
+ work on some not-so-POSIX systems. XZ Utils are the successor to LZMA
+ Utils.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD & GPL-2.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-xz
+Homepage: https://tukaani.org/xz/
+Depends: nativesdk-liblzma
+Recommends: nativesdk-glibc-dev, nativesdk-liblzma-dev, nativesdk-update-alternatives-opkg-dev, nativesdk-xz (= 5.4.7-r0.106)
+Source: xz_5.4.7.bb

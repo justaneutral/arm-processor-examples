@@ -1,0 +1,30 @@
+/usr/include/gnutls/gnutls.h	0100644
+/usr/include/gnutls/openssl.h	0100644
+/usr/include/gnutls/pkcs7.h	0100644
+/usr/include/gnutls/x509.h	0100644
+/usr/include/gnutls	040755
+/usr/lib	040755
+/usr/lib/libgnutlsxx.so	0120777	libgnutlsxx.so.30.0.0
+/usr/lib/libgnutls.so	0120777	libgnutls.so.30.38.0
+/usr/include/gnutls/dtls.h	0100644
+/usr/lib/libgnutls-openssl.so	0120777	libgnutls-openssl.so.27.0.2
+/usr/bin/gnutls-cli-debug	0100755
+/usr/include/gnutls/socket.h	0100644
+/usr/include/gnutls/ocsp.h	0100644
+/usr/include/gnutls/system-keys.h	0100644
+/usr/bin	040755
+/usr/include/gnutls/self-test.h	0100644
+/usr/include/gnutls/crypto.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/gnutls/gnutlsxx.h	0100644
+/usr/include/gnutls/compat.h	0100644
+/usr/include/gnutls/tpm.h	0100644
+/usr/include/gnutls/urls.h	0100644
+/usr/include/gnutls/pkcs11.h	0100644
+/usr/lib/pkgconfig/gnutls.pc	0100644
+/usr/include/gnutls/pkcs12.h	0100644
+/usr/include/gnutls/openpgp.h	0100644
+/usr/include/gnutls/abstract.h	0100644
+/usr/include/gnutls/x509-ext.h	0100644
+/usr/include	040755

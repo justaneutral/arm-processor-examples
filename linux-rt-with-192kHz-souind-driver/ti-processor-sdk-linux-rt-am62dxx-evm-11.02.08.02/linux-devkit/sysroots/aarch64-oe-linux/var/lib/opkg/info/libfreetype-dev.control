@@ -1,0 +1,20 @@
+Package: libfreetype-dev
+Version: 2.13.2-r0.arago0.70
+Description: Freetype font rendering library - Development files
+ FreeType is a software font engine that is designed to be small,
+ efficient, highly customizable, and portable while capable of producing
+ high-quality output (glyph images). It can be used in graphics libraries,
+ display servers, font conversion tools, text image generation tools, and
+ many other products as well.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: freetype
+Homepage: http://www.freetype.org/
+Depends: freetype
+Recommends: glibc-dev, libfreetype6 (= 2.13.2-r0.arago0.70), libpng-dev, zlib-dev
+Provides: freetype-dev
+Source: freetype_2.13.2.bb

@@ -1,0 +1,14 @@
+Package: nativesdk-libsolv
+Version: 0.7.28-r0.160
+Description: Library for solving packages and reading repositories
+ This is libsolv, a free package dependency solver using a satisfiability
+ algorithm for solving packages and reading repositories
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-libsolv
+Homepage: https://github.com/openSUSE/libsolv
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libz1 (>= 1.3.1), nativesdk-libzstd1 (>= 1.5.5)
+Source: libsolv_0.7.28.bb

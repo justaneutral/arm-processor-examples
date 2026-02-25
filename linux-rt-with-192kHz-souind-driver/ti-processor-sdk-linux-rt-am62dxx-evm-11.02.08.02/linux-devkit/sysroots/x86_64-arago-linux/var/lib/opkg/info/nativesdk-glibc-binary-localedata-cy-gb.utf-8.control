@@ -1,0 +1,12 @@
+Package: nativesdk-glibc-binary-localedata-cy-gb.utf-8
+Version: 2.39+git-r0.137
+Description: binary locale definition for cy-gb.utf-8
+ binary locale definition for cy-gb.utf-8
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Source: glibc-locale_2.39.bb

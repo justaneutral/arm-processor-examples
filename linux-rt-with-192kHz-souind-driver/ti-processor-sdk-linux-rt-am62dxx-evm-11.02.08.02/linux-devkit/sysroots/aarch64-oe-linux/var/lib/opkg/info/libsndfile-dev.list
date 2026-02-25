@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/sndfile.pc	0100644
+/usr/lib/libsndfile.so	0120777	libsndfile.so.1.0.37
+/usr/include/sndfile.hh	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/sndfile.h	0100644
+/usr/include	040755
+/usr/include/sndfile-64.h	0100644

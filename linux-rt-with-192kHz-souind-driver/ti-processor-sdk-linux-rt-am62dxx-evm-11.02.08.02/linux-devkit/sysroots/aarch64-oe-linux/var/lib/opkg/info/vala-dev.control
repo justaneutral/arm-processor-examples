@@ -1,0 +1,17 @@
+Package: vala-dev
+Version: 0.56.15-r0.365
+Description: C#-like programming language for easing GObject programming - Development files
+ Vala is a C#-like language dedicated to ease GObject programming. Vala
+ compiles to plain C and has no runtime environment nor penalities
+ whatsoever.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: vala
+Homepage: http://vala-project.org
+Depends: glib-2.0-dev, vala
+Recommends: glib-2.0-dev, glibc-dev, gobject-introspection-dev, vala (= 0.56.15-r0.365)
+Source: vala_0.56.15.bb

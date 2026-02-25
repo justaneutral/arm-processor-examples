@@ -1,0 +1,8 @@
+/usr/lib/libvorbisenc.so.2.0.12	0100755
+/usr/lib	040755
+/usr	040755
+/usr/lib/libvorbisfile.so.3	0120777	libvorbisfile.so.3.3.8
+/usr/lib/libvorbis.so.0.4.9	0100755
+/usr/lib/libvorbisenc.so.2	0120777	libvorbisenc.so.2.0.12
+/usr/lib/libvorbisfile.so.3.3.8	0100755
+/usr/lib/libvorbis.so.0	0120777	libvorbis.so.0.4.9

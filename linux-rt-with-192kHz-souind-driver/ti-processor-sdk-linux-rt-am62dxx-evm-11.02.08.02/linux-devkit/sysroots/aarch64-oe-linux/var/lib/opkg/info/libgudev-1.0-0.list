@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr	040755
+/usr/lib/libgudev-1.0.so.0.3.0	0100755
+/usr/lib/libgudev-1.0.so.0	0120777	libgudev-1.0.so.0.3.0
+/usr/lib/girepository-1.0	040755
+/usr/lib/girepository-1.0/GUdev-1.0.typelib	0100644

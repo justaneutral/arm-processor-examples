@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/libnettle.so.8	0120777	libnettle.so.8.8
+/usr/lib/libhogweed.so.6.8	0100644
+/usr	040755
+/usr/lib/libnettle.so.8.8	0100644
+/usr/lib/libhogweed.so.6	0120777	libhogweed.so.6.8

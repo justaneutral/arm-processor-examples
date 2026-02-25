@@ -1,0 +1,10 @@
+/usr/lib/libgomp.so	0120777	libgomp.so.1.0.0
+/usr/lib/aarch64-oe-linux/13.4.0	040755
+/usr/lib	040755
+/usr/lib/aarch64-oe-linux/13.4.0/include	040755
+/usr/lib/libgomp.spec	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/include/omp.h	0100644
+/usr	040755
+/usr/lib/aarch64-oe-linux	040755
+/usr/lib/aarch64-oe-linux/13.4.0/include/openacc.h	0100644
+/usr/lib/aarch64-oe-linux/13.4.0/include/acc_prof.h	0100644

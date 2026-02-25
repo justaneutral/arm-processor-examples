@@ -1,0 +1,14 @@
+Package: libweston-13-0
+Version: 13.0.1-r0.tisoc1_tisdk_0.132
+Description: Helper library for implementing 'wayland window managers'.
+ Weston is the reference implementation of a Wayland compositor
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: weston
+Homepage: http://wayland.freedesktop.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcairo2 (>= 1.18.0), libdrm2 (>= 2.4.120), libegl-mesa (>= 24.0.7), libfontconfig1 (>= 2.15.0), libgbm1 (>= 24.0.7), libgles2-mesa (>= 24.0.7), libglib-2.0-0 (>= 2.78.6), libinput10 (>= 1.25.0), libjpeg62 (>= 3.0.1), libpixman-1-0 (>= 0.42.2), libpng16-16 (>= 1.6.42), libudev1 (>= 255.21), libxkbcommon0 (>= 1.6.0), pango (>= 1.52.1), seatd (>= 0.8.0), wayland (>= 1.22.0)
+Provides: libweston-13
+Source: weston_13.0.1.bb

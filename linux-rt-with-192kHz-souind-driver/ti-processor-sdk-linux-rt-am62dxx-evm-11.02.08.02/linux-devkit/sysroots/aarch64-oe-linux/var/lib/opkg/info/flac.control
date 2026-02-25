@@ -1,0 +1,14 @@
+Package: flac
+Version: 1.4.3-r0.66
+Description: Free Lossless Audio Codec
+ FLAC stands for Free Lossless Audio Codec, a lossless audio compression
+ format.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause
+Architecture: aarch64
+OE: flac
+Homepage: https://xiph.org/flac/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libflac12 (>= 1.4.3)
+Source: flac_1.4.3.bb

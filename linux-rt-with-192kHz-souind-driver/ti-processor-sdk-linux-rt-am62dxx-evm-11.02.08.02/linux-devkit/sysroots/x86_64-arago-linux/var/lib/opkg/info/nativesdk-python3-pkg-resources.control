@@ -1,0 +1,13 @@
+Package: nativesdk-python3-pkg-resources
+Version: 69.1.1-r0.207
+Description: Download, build, install, upgrade, and uninstall Python packages
+ Download, build, install, upgrade, and uninstall Python packages.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-python3-setuptools
+Homepage: https://pypi.org/project/setuptools
+Depends: nativesdk-python3-compression, nativesdk-python3-email, nativesdk-python3-plistlib, nativesdk-python3-pprint
+Source: python3-setuptools_69.1.1.bb

@@ -1,0 +1,10 @@
+/usr/lib	040755
+/usr/lib/python3.12/__pycache__	040755
+/usr/lib/python3.12/__pycache__/cmd.cpython-312.pyc	0100644
+/usr/lib/python3.12/glob.py	0100644
+/usr/lib/python3.12/shlex.py	0100644
+/usr/lib/python3.12	040755
+/usr	040755
+/usr/lib/python3.12/__pycache__/glob.cpython-312.pyc	0100644
+/usr/lib/python3.12/cmd.py	0100644
+/usr/lib/python3.12/__pycache__/shlex.cpython-312.pyc	0100644

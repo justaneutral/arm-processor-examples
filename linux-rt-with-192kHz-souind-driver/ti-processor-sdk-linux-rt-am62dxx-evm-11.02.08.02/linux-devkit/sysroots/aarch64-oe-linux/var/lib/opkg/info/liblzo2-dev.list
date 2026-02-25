@@ -1,0 +1,20 @@
+/usr/include/lzo/lzo1c.h	0100644
+/usr/include/lzo/lzodefs.h	0100644
+/usr/lib/liblzo2.so	0120777	liblzo2.so.2.0.0
+/usr/include/lzo/lzoconf.h	0100644
+/usr/lib	040755
+/usr/include/lzo/lzo1f.h	0100644
+/usr/include/lzo/lzo1x.h	0100644
+/usr/include/lzo	040755
+/usr/include/lzo/lzo1y.h	0100644
+/usr/include/lzo/lzoutil.h	0100644
+/usr/include/lzo/lzo1z.h	0100644
+/usr/lib/pkgconfig/lzo2.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/lzo/lzo_asm.h	0100644
+/usr/include/lzo/lzo1a.h	0100644
+/usr/include/lzo/lzo1.h	0100644
+/usr/include	040755
+/usr/include/lzo/lzo1b.h	0100644
+/usr/include/lzo/lzo2a.h	0100644

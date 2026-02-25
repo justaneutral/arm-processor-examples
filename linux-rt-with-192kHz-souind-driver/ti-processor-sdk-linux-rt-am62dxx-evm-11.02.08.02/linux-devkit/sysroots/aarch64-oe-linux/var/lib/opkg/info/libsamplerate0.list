@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libsamplerate.so.0.2.2	0100755
+/usr/lib/libsamplerate.so.0	0120777	libsamplerate.so.0.2.2
+/usr	040755

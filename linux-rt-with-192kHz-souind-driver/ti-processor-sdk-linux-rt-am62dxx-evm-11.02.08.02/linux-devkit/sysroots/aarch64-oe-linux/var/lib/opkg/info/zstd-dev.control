@@ -1,0 +1,18 @@
+Package: zstd-dev
+Version: 1.5.5-r0.64
+Description: Zstandard - Fast real-time compression algorithm - Development files
+ Zstandard is a fast lossless compression algorithm, targeting real-time
+ compression scenarios at zlib-level and better compression ratios. It's
+ backed by a very fast entropy stage, provided by Huff0 and FSE library.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause | GPL-2.0-only
+Architecture: aarch64
+OE: zstd
+Homepage: http://www.zstd.net/
+Depends: libzstd
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libzstd-dev, zstd (= 1.5.5-r0.64)
+Source: zstd_1.5.5.bb

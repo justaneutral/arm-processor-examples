@@ -1,0 +1,21 @@
+/usr/include/security/pam_modutil.h	0100644
+/usr/lib	040755
+/usr/lib/pkgconfig/pam.pc	0100644
+/usr/include/security/pam_modules.h	0100644
+/usr/lib/libpam.so	0120777	libpam.so.0.85.1
+/usr/lib/pkgconfig/pam_misc.pc	0100644
+/usr/include/security/pam_client.h	0100644
+/usr/lib/libpamc.so	0120777	libpamc.so.0.82.1
+/usr/include/security/pam_misc.h	0100644
+/usr/include/security/_pam_macros.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/security/pam_appl.h	0100644
+/usr/include/security/pam_ext.h	0100644
+/usr/include/security/pam_filter.h	0100644
+/usr/lib/libpam_misc.so	0120777	libpam_misc.so.0.82.1
+/usr/lib/pkgconfig/pamc.pc	0100644
+/usr/include/security/_pam_types.h	0100644
+/usr/include	040755
+/usr/include/security	040755
+/usr/include/security/_pam_compat.h	0100644

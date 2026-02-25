@@ -1,0 +1,19 @@
+Package: libgudev-1.0-dev
+Version: 238-r0.426
+Description: GObject wrapper for libudev - Development files
+ This library makes it much simpler to use libudev from programs already
+ using GObject. It also makes it possible to easily use libudev from other
+ programming languages, such as Javascript, because of GObject
+ introspection support.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libgudev
+Homepage: https://wiki.gnome.org/Projects/libgudev
+Depends: glib-2.0-dev, libgudev
+Recommends: glib-2.0-dev, glibc-dev, gobject-introspection-dev, libgudev-1.0-0 (= 238-r0.426), libudev-dev, udev-dev
+Provides: libgudev-dev
+Source: libgudev_238.bb

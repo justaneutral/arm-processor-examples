@@ -1,0 +1,3 @@
+/usr/bin/kill
+/usr/bin/kill.coreutils 100
+/usr/bin/kill.util-linux 80

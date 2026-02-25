@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/pkgconfig/libopkg.pc	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/libopkg.so	0120777	libopkg.so.1.0.0

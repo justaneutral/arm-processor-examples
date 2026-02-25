@@ -1,0 +1,27 @@
+Package: mbedtls-dev
+Version: 3.6.5-r0.2
+Description: Lightweight crypto and SSL/TLS library - Development files
+ mbedtls is a lean open source crypto library          for providing SSL
+ and TLS support in your programs. It offers        an intuitive API and
+ documented header files, so you can actually    understand what the code
+ does. It features:
+ - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,
+ Camellia and XTEA                                                  - Hash
+ algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy
+ pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key
+ algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH
+ - SSL v3 and TLS 1.0, 1.1 and 1.2                                    -
+ Abstraction layers for ciphers, hashes, public key operations,
+ platform abstraction and threading                                  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0 | GPL-2.0-or-later
+Architecture: aarch64
+OE: mbedtls
+Homepage: https://tls.mbed.org/
+Depends: mbedtls
+Recommends: glibc-dev, mbedtls (= 3.6.5-r0.2), update-alternatives-opkg-dev
+Source: mbedtls_3.6.5.bb

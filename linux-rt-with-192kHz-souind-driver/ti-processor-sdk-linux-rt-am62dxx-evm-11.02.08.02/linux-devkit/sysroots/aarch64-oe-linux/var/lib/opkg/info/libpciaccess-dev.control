@@ -1,0 +1,17 @@
+Package: libpciaccess-dev
+Version: 0.18-r0.69
+Description: Generic PCI access library for X - Development files
+ libpciaccess provides functionality for X to access the PCI bus and
+ devices in a platform-independent way.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: libpciaccess
+Homepage: http://www.x.org
+Depends: libpciaccess
+Recommends: glibc-dev, libpciaccess0 (= 0.18-r0.69), util-macros-dev
+Source: libpciaccess_0.18.bb

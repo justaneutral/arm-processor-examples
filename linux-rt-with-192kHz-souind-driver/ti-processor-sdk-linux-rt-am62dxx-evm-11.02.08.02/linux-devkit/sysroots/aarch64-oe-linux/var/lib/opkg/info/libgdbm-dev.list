@@ -1,0 +1,11 @@
+/usr/include/gdbm/gdbm.h	0120777	../gdbm.h
+/usr/include/gdbm/ndbm.h	0120777	../ndbm.h
+/usr/lib	040755
+/usr/include/gdbm	040755
+/usr/lib/libgdbm_compat.so	0120777	libgdbm_compat.so.4.0.0
+/usr	040755
+/usr/include/gdbm.h	0100644
+/usr/lib/libgdbm.so	0120777	libgdbm.so.6.0.0
+/usr/include/ndbm.h	0100644
+/usr/include/dbm.h	0100644
+/usr/include	040755

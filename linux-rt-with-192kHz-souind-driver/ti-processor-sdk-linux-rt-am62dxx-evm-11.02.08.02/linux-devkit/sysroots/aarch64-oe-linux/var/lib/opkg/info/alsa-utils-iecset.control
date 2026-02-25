@@ -1,0 +1,14 @@
+Package: alsa-utils-iecset
+Version: 1.2.11-r0.363
+Description: ALSA utility for setting/showing IEC958 (S/PDIF) status bits
+ collection of small and often extremely powerful applications designed to
+ allow users to control the various parts of the ALSA system.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Depends: libasound2 (>= 1.2.11), libc6 (>= 2.39+git47+58cbbd43fe)
+Source: alsa-utils_1.2.11.bb

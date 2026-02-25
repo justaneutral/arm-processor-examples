@@ -1,0 +1,17 @@
+Package: libnss-mdns
+Version: 0.15.1-r0.454
+Description: Name Service Switch module for Multicast DNS (zeroconf) name resolution
+ nss-mdns is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing host name resolution via Multicast
+ DNS (aka Zeroconf, aka Apple Rendezvous, aka Apple Bonjour), effectively
+ allowing name resolution by common Unix/Linux programs in the ad-hoc mDNS
+ domain .local.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libnss-mdns
+Homepage: https://github.com/lathiat/nss-mdns
+Depends: avahi-daemon, libc6 (>= 2.39+git47+58cbbd43fe)
+Source: libnss-mdns_0.15.1.bb

@@ -1,0 +1,15 @@
+Package: opkg-arch-config
+Version: 1.0-r0.7
+Description: Architecture-dependent configuration for opkg
+ Architecture-dependent configuration for opkg.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62dxx_evm
+OE: opkg-arch-config
+Homepage: https://git.yoctoproject.org/opkg/
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Source: opkg-arch-config_1.0.bb

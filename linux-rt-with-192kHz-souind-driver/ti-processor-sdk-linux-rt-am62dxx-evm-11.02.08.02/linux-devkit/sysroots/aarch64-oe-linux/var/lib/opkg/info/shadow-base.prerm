@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  newgrp /usr/bin/newgrp.shadow
+	update-alternatives --remove  groups /usr/bin/groups.shadow
+	update-alternatives --remove  login /usr/bin/login.shadow
+	update-alternatives --remove  su /usr/bin/su.shadow

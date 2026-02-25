@@ -1,0 +1,25 @@
+/etc/terminfo/a/ansi	0100644
+/etc/terminfo/d/dumb	0100644
+/etc/terminfo/x/xterm-color	0100644
+/etc/terminfo/r/rxvt	0100644
+/etc/terminfo/a	040755
+/etc/terminfo/d	040755
+/etc/terminfo/s/screen-256color	0100644
+/etc/terminfo/l	040755
+/etc/terminfo/r	040755
+/etc/terminfo/s	040755
+/etc/terminfo/v	040755
+/etc/terminfo/x	040755
+/etc/terminfo/s/screen	0100644
+/etc/terminfo	040755
+/etc/terminfo/s/sun	0100644
+/etc	040755
+/etc/terminfo/x/xterm-256color	0100644
+/etc/terminfo/l/linux	0100644
+/etc/terminfo/v/vt100	0100644
+/etc/terminfo/v/vt102	0100644
+/etc/terminfo/v/vt52	0100644
+/etc/terminfo/v/vt200	0100644
+/etc/terminfo/x/xterm-xfree86	0100644
+/etc/terminfo/x/xterm	0120777	xterm-color
+/etc/terminfo/v/vt220	0100644

@@ -1,0 +1,27 @@
+/usr/bin/showkey.kbd	0100755
+/usr/bin/getkeycodes	0100755
+/usr/bin/mapscrn	0100755
+/usr/bin/unicode_start	0100755
+/usr/bin/deallocvt.kbd	0100755
+/usr/bin/kbdrate	0100755
+/usr/bin/dumpkeys	0100755
+/usr/bin/showconsolefont	0100755
+/usr/bin/vlock.kbd	0100755
+/usr/bin/fgconsole.kbd	0100755
+/usr/bin/chvt.kbd	0100755
+/usr/bin/unicode_stop	0100755
+/etc/pam.d/vlock.kbd	0100644
+/usr/bin/setleds	0100755
+/usr/bin/setvtrgb	0100755
+/usr/bin/loadkeys	0100755
+/usr/bin/psfaddtable	0120777	psfxtable
+/usr/bin/psfstriptable	0120777	psfxtable
+/usr/bin/psfgettable	0120777	psfxtable
+/usr/bin/loadunimap	0100755
+/usr/bin/psfxtable	0100755
+/usr/bin/openvt.kbd	0100755
+/usr/bin/setmetamode	0100755
+/usr/bin/kbdinfo	0100755
+/usr/bin/kbd_mode	0100755
+/usr/bin/setfont	0100755
+/usr/bin/setkeycodes	0100755

@@ -1,0 +1,10 @@
+/usr/include/libevdev-1.0/libevdev	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/libevdev-1.0	040755
+/usr/lib/pkgconfig/libevdev.pc	0100644
+/usr/lib/libevdev.so	0120777	libevdev.so.2.3.0
+/usr/include	040755
+/usr/include/libevdev-1.0/libevdev/libevdev-uinput.h	0100644
+/usr/include/libevdev-1.0/libevdev/libevdev.h	0100644

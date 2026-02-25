@@ -1,0 +1,17 @@
+Package: nativesdk-autoconf
+Version: 2.72e-r0.140
+Description: A GNU tool that produce shell scripts to automatically configure software
+ Autoconf is an extensible package of M4 macros that produce shell scripts
+ to automatically configure software source code packages. Autoconf
+ creates a configuration script for a package from a template file that
+ lists the operating system features that the package can use, in the form
+ of M4 macro calls.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-autoconf
+Homepage: http://www.gnu.org/software/autoconf/
+Depends: nativesdk-gnu-config, nativesdk-m4, nativesdk-perl, nativesdk-perl-module-bytes, nativesdk-perl-module-carp, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-errno, nativesdk-perl-module-exporter, nativesdk-perl-module-feature, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-compare, nativesdk-perl-module-file-copy, nativesdk-perl-module-file-find, nativesdk-perl-module-file-glob, nativesdk-perl-module-file-path, nativesdk-perl-module-file-spec, nativesdk-perl-module-file-spec-unix, nativesdk-perl-module-file-stat, nativesdk-perl-module-file-temp, nativesdk-perl-module-getopt-long, nativesdk-perl-module-io-file, nativesdk-perl-module-list-util, nativesdk-perl-module-overloading, nativesdk-perl-module-posix, nativesdk-perl-module-scalar-util, nativesdk-perl-module-symbol, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads
+Source: autoconf_2.72e.bb

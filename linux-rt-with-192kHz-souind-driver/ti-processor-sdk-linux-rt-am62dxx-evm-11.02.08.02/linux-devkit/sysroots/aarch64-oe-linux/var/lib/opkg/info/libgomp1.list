@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libgomp.so.1	0120777	libgomp.so.1.0.0
+/usr	040755
+/usr/lib/libgomp.so.1.0.0	0100755

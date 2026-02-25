@@ -1,0 +1,14 @@
+Package: util-macros-dev
+Version: 1:1.20.0-r0.52
+Description: X autotools macros - Development files
+ M4 autotools macros used by various X.org programs.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: util-macros
+Homepage: http://www.x.org
+Source: util-macros_1.20.0.bb

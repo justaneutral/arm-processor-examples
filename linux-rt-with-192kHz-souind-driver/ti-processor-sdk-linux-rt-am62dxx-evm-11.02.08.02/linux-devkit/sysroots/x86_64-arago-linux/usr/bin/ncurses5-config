@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ncurses5-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ncurses5-config'
+exit 1

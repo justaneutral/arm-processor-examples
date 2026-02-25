@@ -1,0 +1,14 @@
+Package: attr
+Version: 2.5.1-r0.70
+Description: Utilities for manipulating filesystem extended attributes
+ Implement the ability for a user to attach name:value pairs to objects
+ within the XFS filesystem.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libattr1 (>= 2.5.1), libc6 (>= 2.39+git47+58cbbd43fe), update-alternatives-opkg
+Source: attr_2.5.1.bb

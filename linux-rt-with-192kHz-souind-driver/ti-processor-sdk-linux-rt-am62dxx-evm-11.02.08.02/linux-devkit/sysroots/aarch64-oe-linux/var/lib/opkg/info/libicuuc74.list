@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/libicuuc.so.74.2	0100755
+/usr	040755
+/usr/lib/libicuuc.so.74	0120777	libicuuc.so.74.2

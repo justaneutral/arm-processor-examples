@@ -1,0 +1,17 @@
+Package: libfribidi0
+Version: 1.0.14-r0.63
+Description: Free Implementation of the Unicode Bidirectional Algorithm
+ It provides utility functions to aid in the development of interactive
+ editors and widgets that implement BiDi functionality. The BiDi algorithm
+ is a prerequisite for supporting right-to-left scripts such as Hebrew,
+ Arabic, Syriac, and Thaana.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: fribidi
+Homepage: http://fribidi.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe)
+Provides: fribidi
+Source: fribidi_1.0.14.bb

@@ -1,0 +1,17 @@
+Package: libharfbuzz-dev
+Version: 8.3.0-r0.374
+Description: Text shaping library - Development files
+ HarfBuzz is an OpenType text shaping engine.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: glib-2.0-dev, harfbuzz, harfbuzz-subset
+Recommends: cairo-dev, freetype-dev, glib-2.0-dev, glibc-dev, gobject-introspection-dev, icu-dev, libharfbuzz0 (= 8.3.0-r0.374)
+Provides: harfbuzz-dev
+Source: harfbuzz_8.3.0.bb

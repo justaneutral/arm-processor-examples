@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/python3.12/lib-dynload	040755
+/usr/lib/python3.12/lib-dynload/mmap.cpython-312-aarch64-linux-gnu.so	0100755
+/usr/lib/python3.12	040755
+/usr	040755

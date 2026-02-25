@@ -1,0 +1,12 @@
+Package: nlohmann-json
+Version: 3.11.3-r0.10
+Description: JSON for modern C++
+ JSON for modern C++.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: nlohmann-json
+Homepage: https://nlohmann.github.io/json/
+Source: nlohmann-json_3.11.3.bb

@@ -1,0 +1,14 @@
+Package: libxkbcommon0
+Version: 1.6.0-r0.253
+Description: libxkbcommon library
+ libxkbcommon library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT & MIT
+Architecture: aarch64
+OE: libxkbcommon
+Homepage: http://www.xkbcommon.org
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libx11-compose-data
+Provides: libxkbcommon
+Source: libxkbcommon_1.6.0.bb

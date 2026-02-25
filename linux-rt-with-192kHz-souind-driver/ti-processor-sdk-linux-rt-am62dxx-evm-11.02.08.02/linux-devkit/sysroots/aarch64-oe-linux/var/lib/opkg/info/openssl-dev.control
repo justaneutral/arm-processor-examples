@@ -1,0 +1,16 @@
+Package: openssl-dev
+Version: 3.2.6-r0.8
+Description: Secure Socket Layer - Development files
+ Secure Socket Layer (SSL) binary and related cryptographic tools.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libcrypto, libssl
+Recommends: cryptodev-linux-dev, glibc-dev, libcrypto-dev, libssl-dev, openssl (= 3.2.6-r0.8), openssl-conf-dev, perl-dev
+Source: openssl_3.2.6.bb

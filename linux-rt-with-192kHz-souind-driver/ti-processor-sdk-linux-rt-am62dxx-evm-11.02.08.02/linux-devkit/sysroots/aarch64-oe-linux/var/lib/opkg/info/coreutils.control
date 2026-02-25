@@ -1,0 +1,15 @@
+Package: coreutils
+Version: 9.4-r0.156
+Description: The basic file, shell and text manipulation utilities
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Depends: coreutils-stdbuf, libacl1 (>= 2.3.2), libattr1 (>= 2.5.1), libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libgmp10 (>= 6.3.0), update-alternatives-opkg
+Source: coreutils_9.4.bb

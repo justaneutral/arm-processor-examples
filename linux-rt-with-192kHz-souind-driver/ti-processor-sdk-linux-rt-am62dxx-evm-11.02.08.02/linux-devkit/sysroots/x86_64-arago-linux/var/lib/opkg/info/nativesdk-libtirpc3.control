@@ -1,0 +1,14 @@
+Package: nativesdk-libtirpc3
+Version: 1.3.4-r0.152
+Description: Transport-Independent RPC library
+ Libtirpc is a port of Suns Transport-Independent RPC library to Linux
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-libtirpc
+Homepage: http://sourceforge.net/projects/libtirpc/
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libtirpc
+Source: libtirpc_1.3.4.bb

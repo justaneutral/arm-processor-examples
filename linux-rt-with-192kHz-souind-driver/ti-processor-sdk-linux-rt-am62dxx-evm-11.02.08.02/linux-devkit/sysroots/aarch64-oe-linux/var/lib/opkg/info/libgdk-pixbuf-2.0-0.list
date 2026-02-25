@@ -1,0 +1,9 @@
+/usr/lib/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders	0100755
+/usr/lib	040755
+/usr/lib/libgdk_pixbuf-2.0.so.0.4200.12	0100755
+/usr/lib/libgdk_pixbuf-2.0.so.0	0120777	libgdk_pixbuf-2.0.so.0.4200.12
+/usr/lib/girepository-1.0/GdkPixdata-2.0.typelib	0100644
+/usr	040755
+/usr/lib/gdk-pixbuf-2.0	040755
+/usr/lib/girepository-1.0	040755
+/usr/lib/girepository-1.0/GdkPixbuf-2.0.typelib	0100644

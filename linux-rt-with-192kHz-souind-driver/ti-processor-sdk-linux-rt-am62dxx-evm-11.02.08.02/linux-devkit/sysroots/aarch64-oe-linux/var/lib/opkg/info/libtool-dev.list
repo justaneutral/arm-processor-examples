@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr/lib/libltdl.so	0120777	libltdl.so.7.3.2
+/usr/include/libltdl/lt_error.h	0100644
+/usr/include/libltdl/lt_dlloader.h	0100644
+/usr/include/ltdl.h	0100644
+/usr	040755
+/usr/include/libltdl	040755
+/usr/include/libltdl/lt_system.h	0100644
+/usr/include	040755

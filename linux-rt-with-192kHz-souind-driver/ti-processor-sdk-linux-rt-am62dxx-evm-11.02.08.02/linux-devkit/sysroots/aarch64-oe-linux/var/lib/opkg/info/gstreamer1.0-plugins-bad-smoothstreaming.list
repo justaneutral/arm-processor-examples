@@ -1,0 +1,4 @@
+/usr/lib	040755
+/usr/lib/gstreamer-1.0	040755
+/usr/lib/gstreamer-1.0/libgstsmoothstreaming.so	0100755
+/usr	040755

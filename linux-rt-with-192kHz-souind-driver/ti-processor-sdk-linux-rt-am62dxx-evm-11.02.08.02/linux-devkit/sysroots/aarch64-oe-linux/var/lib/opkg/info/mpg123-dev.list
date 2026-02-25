@@ -1,0 +1,14 @@
+/usr/include/mpg123.h	0100644
+/usr/lib	040755
+/usr/include/syn123.h	0100644
+/usr/include/out123.h	0100644
+/usr/lib/libsyn123.so	0120777	libsyn123.so.0.2.3
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/lib/libmpg123.so	0120777	libmpg123.so.0.48.3
+/usr/lib/pkgconfig/libsyn123.pc	0100644
+/usr/lib/libout123.so	0120777	libout123.so.0.5.1
+/usr/lib/pkgconfig/libmpg123.pc	0100644
+/usr/lib/pkgconfig/libout123.pc	0100644
+/usr/include	040755
+/usr/include/fmt123.h	0100644

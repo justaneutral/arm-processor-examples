@@ -1,0 +1,19 @@
+Package: cryptodev-linux-dev
+Version: 1.14-r0.51
+Description: A /dev/crypto device driver header file - Development files
+ Cryptodev-linux is a device that allows access to Linux kernel
+ cryptographic drivers; thus allowing of userspace applications to take
+ advantage of hardware accelerators. Cryptodev-linux is implemented as a
+ standalone module that requires no dependencies other than a stock linux
+ kernel. Its API is compatible with OpenBSD's cryptodev userspace API
+ (/dev/crypto).  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: cryptodev-linux
+Homepage: http://cryptodev-linux.org/
+Recommends: cryptodev-linux (= 1.14-r0.51)
+Source: cryptodev-linux_1.14.bb

@@ -1,0 +1,15 @@
+/usr/share/gettext/its/fontconfig.its	0100644
+/usr/share/gettext/its/fontconfig.loc	0100644
+/usr/include/fontconfig/fontconfig.h	0100644
+/usr/lib	040755
+/usr/include/fontconfig/fcprivate.h	0100644
+/usr/share/gettext	040755
+/usr/lib/libfontconfig.so	0120777	libfontconfig.so.1.12.1
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/fontconfig	040755
+/usr/share	040755
+/usr/include	040755
+/usr/share/gettext/its	040755
+/usr/include/fontconfig/fcfreetype.h	0100644
+/usr/lib/pkgconfig/fontconfig.pc	0100644

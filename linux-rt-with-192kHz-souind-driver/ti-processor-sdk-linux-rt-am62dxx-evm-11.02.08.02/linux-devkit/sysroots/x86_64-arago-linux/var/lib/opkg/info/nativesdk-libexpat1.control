@@ -1,0 +1,16 @@
+Package: nativesdk-libexpat1
+Version: 2.6.4-r0.167
+Description: A stream-oriented XML parser library
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-expat
+Homepage: https://github.com/libexpat/libexpat
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-expat
+Source: expat_2.6.4.bb

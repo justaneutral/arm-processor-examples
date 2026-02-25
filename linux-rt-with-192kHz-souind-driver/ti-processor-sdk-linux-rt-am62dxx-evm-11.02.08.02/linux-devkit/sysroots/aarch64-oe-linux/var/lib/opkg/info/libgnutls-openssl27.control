@@ -1,0 +1,15 @@
+Package: libgnutls-openssl27
+Version: 3.8.4-r0.67
+Description: GNU Transport Layer Security Library
+ a secure communications library implementing the SSL, TLS and DTLS
+ protocols and technologies around them.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later
+Architecture: aarch64
+OE: gnutls
+Homepage: https://gnutls.org/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libgmp10 (>= 6.3.0), libgnutls30 (>= 3.8.4), libidn2-0 (>= 2.3.7), libtasn1-6 (>= 4.20.0), libunistring5 (>= 1.2), nettle (>= 3.9.1)
+Provides: gnutls-openssl
+Source: gnutls_3.8.4.bb

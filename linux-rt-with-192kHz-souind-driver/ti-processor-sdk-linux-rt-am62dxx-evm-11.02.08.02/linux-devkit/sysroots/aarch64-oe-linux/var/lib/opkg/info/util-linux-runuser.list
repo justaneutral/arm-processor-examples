@@ -1,0 +1,7 @@
+/etc/pam.d/runuser-l	0100644
+/usr/sbin	040755
+/etc/pam.d/runuser	0100644
+/usr/sbin/runuser	0100755
+/usr	040755
+/etc	040755
+/etc/pam.d	040755

@@ -1,0 +1,14 @@
+Package: libsystemd0
+Version: 1:255.21-r0.arago7_tisdk_0.69
+Description: Systemd systemd library
+ Systemd systemd library
+Section: base/shell
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libzstd1 (>= 1.5.5)
+Provides: libsystemd
+Source: systemd_255.21.bb

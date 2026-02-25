@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/ip ip /usr/sbin/ip.iproute2 100

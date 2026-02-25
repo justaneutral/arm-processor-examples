@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/blockdev blockdev /usr/sbin/blockdev.util-linux 80

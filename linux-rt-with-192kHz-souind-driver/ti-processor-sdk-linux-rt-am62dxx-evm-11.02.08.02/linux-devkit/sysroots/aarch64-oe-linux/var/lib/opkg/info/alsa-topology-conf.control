@@ -1,0 +1,14 @@
+Package: alsa-topology-conf
+Version: 1.2.5.1-r0.8
+Description: ALSA topology configuration files
+ Provides a method for audio drivers to load their mixers, routing, PCMs
+ and capabilities from user space at runtime without changing any driver
+ source code.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: all
+OE: alsa-topology-conf
+Homepage: https://alsa-project.org
+Source: alsa-topology-conf_1.2.5.1.bb

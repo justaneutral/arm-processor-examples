@@ -1,0 +1,16 @@
+Package: acl-dev
+Version: 2.3.2-r0.64
+Description: Utilities for managing POSIX Access Control Lists - Development files
+ ACL allows you to provide different levels of access to files and folders
+ for different users.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & GPL-2.0-or-later
+Architecture: aarch64
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libacl
+Recommends: acl (= 2.3.2-r0.64), attr-dev, glibc-dev, libacl-dev, libattr-dev
+Source: acl_2.3.2.bb

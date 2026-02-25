@@ -1,0 +1,14 @@
+Package: libopkg1
+Version: 1:0.6.3-r0.85
+Description: Open Package Manager library
+ Opkg is a lightweight package management system based on Ipkg.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: opkg
+Homepage: https://git.yoctoproject.org/opkg/
+Depends: libarchive (>= 3.7.9), libc6 (>= 2.39+git47+58cbbd43fe), libsolv1 (>= 0.7.28)
+Provides: libopkg
+Source: opkg_0.6.3.bb

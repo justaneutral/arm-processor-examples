@@ -1,0 +1,16 @@
+Package: libtasn1-dev
+Version: 4.20.0-r0.58
+Description: Library for ASN.1 and DER manipulation - Development files
+ A highly portable C library that encodes and decodes DER/BER data
+ following an ASN.1 schema.   This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-or-later & LGPL-2.1-or-later
+Architecture: aarch64
+OE: libtasn1
+Homepage: http://www.gnu.org/software/libtasn1/
+Depends: libtasn1
+Recommends: glibc-dev, libtasn1-6 (= 4.20.0-r0.58)
+Source: libtasn1_4.20.0.bb

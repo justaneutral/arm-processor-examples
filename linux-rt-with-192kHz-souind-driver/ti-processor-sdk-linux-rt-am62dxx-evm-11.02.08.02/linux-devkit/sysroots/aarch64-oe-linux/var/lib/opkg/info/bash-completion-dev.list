@@ -1,0 +1,8 @@
+/usr/share/pkgconfig	040755
+/usr/share/cmake/bash-completion	040755
+/usr	040755
+/usr/share/cmake	040755
+/usr/share	040755
+/usr/share/pkgconfig/bash-completion.pc	0100644
+/usr/share/cmake/bash-completion/bash-completion-config-version.cmake	0100644
+/usr/share/cmake/bash-completion/bash-completion-config.cmake	0100644

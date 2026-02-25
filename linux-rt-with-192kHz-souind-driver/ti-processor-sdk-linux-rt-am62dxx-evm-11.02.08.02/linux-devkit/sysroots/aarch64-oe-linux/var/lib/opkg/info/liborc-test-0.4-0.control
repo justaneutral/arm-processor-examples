@@ -1,0 +1,14 @@
+Package: liborc-test-0.4-0
+Version: 0.4.40-r0.66
+Description: ORC orc-test-0.4 library
+ ORC orc-test-0.4 library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause & BSD-3-Clause
+Architecture: aarch64
+OE: orc
+Homepage: http://gstreamer.freedesktop.org/modules/orc.html
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), liborc-0.4-0 (>= 0.4.40)
+Provides: liborc-test-0.4
+Source: orc_0.4.40.bb

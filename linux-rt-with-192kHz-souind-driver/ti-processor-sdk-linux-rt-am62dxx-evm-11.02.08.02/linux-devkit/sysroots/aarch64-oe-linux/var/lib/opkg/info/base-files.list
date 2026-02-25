@@ -1,0 +1,51 @@
+/usr/games	040755
+/etc/skel	040755
+/dev	040755
+/var	040755
+/etc/nsswitch.conf	0100644
+/usr/share/misc	040755
+/var/lock	0120777	../run/lock
+/etc/host.conf	0100644
+/usr/lib	040755
+/var/backups	040755
+/var/tmp	0120777	volatile/tmp
+/etc/shells	0100644
+/etc/motd	0100644
+/var/volatile/tmp	041777
+/var/run	0120777	../run
+/etc/issue	0100644
+/usr/sbin	040755
+/var/volatile	040755
+/etc/fstab	0100644
+/tmp	041777
+/etc/skel/.bashrc	0100755
+/run	040755
+/usr/share/man	040755
+/home	040755
+/var/lib	040755
+/proc	040555
+/usr/bin	040755
+/root	040700
+/var/local	040755
+/etc/hostname	0100644
+/usr	040755
+/etc	040755
+/usr/share/info	040755
+/sys	040555
+/var/lib/misc	040755
+/var/log	0120777	volatile/log
+/etc/default	040755
+/media	040755
+/var/spool	040755
+/usr/share/dict	040755
+/etc/hosts	0100644
+/var/volatile/log	040755
+/etc/skel/.profile	0100755
+/etc/profile	0100644
+/usr/src	040755
+/usr/share	040755
+/etc/mtab	0120777	/proc/mounts
+/mnt	040755
+/usr/include	040755
+/etc/issue.net	0100644
+/boot	040755

@@ -1,0 +1,16 @@
+Package: curl
+Version: 8.7.1-r0.88
+Description: Command line tool and library for client-side URL transfers
+ It uses URL syntax to transfer data to and from servers. curl is a widely
+ used because of its ability to be flexible and complete complex tasks.
+ For example, you can use curl for things like user authentication, HTTP
+ post, SSL connections, proxy support, FTP uploads, and more!
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: curl
+Architecture: aarch64
+OE: curl
+Homepage: https://curl.se/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcurl4 (>= 8.7.1)
+Source: curl_8.7.1.bb

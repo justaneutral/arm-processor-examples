@@ -1,0 +1,6 @@
+/usr/bin/dbus-send	0100755
+/usr/bin/dbus-uuidgen	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/dbus-update-activation-environment	0100755
+/usr/bin/dbus-monitor	0100755

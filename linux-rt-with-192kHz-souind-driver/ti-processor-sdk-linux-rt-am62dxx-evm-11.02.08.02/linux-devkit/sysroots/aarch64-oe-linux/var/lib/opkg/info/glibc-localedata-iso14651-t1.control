@@ -1,0 +1,13 @@
+Package: glibc-localedata-iso14651-t1
+Version: 2.39+git-r0.61
+Description: locale definition for iso14651-t1
+ locale definition for iso14651-t1
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: aarch64
+OE: glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: glibc-localedata-iso14651-t1-common
+Source: glibc-locale_2.39.bb

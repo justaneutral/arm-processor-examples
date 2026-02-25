@@ -1,0 +1,25 @@
+/usr/bin/lzdiff	0120777	xzdiff
+/usr/bin/lzfgrep	0120777	xzgrep
+/usr/bin/lzcmp	0120777	xzdiff
+/usr/bin/xzegrep	0120777	xzgrep
+/usr/bin/unxz.xz	0120777	xz.xz
+/usr/bin/xzfgrep	0120777	xzgrep
+/usr/bin/xzdec	0100755
+/usr/bin/lzmadec	0100755
+/usr/bin	040755
+/usr/bin/xzcat.xz	0120777	xz.xz
+/usr/bin/unlzma.xz	0120777	xz.xz
+/usr/bin/xzmore	0100755
+/usr	040755
+/usr/bin/xz.xz	0100755
+/usr/bin/xzcmp	0120777	xzdiff
+/usr/bin/lzmore	0120777	xzmore
+/usr/bin/lzma.xz	0120777	xz.xz
+/usr/bin/xzgrep	0100755
+/usr/bin/xzless	0100755
+/usr/bin/lzgrep	0120777	xzgrep
+/usr/bin/lzcat.xz	0120777	xz.xz
+/usr/bin/lzmainfo	0100755
+/usr/bin/xzdiff	0100755
+/usr/bin/lzegrep	0120777	xzgrep
+/usr/bin/lzless	0120777	xzless

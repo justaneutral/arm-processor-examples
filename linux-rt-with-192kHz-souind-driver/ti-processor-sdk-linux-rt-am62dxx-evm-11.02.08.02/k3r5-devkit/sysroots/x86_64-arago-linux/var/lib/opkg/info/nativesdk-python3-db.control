@@ -1,0 +1,14 @@
+Package: nativesdk-python3-db
+Version: 3.12.12-r0.15
+Description: Python file-based database support
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PSF-2.0
+Architecture: x86_64-k3r5-nativesdk
+OE: nativesdk-python3
+Homepage: http://www.python.org
+Depends: nativesdk-libc6 (>= 2.39+git25+58cbbd43fe), nativesdk-libgdbm-compat4 (>= 1.23), nativesdk-python3-core
+Source: python3_3.12.12.bb

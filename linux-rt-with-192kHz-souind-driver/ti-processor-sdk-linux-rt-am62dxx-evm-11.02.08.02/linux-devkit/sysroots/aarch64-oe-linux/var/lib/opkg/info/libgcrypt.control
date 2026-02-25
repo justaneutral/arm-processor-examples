@@ -1,0 +1,15 @@
+Package: libgcrypt
+Version: 1.10.3-r0.148
+Description: General purpose cryptographic library based on the code from GnuPG
+ A cryptography library developed as a separated module of GnuPG. It can
+ also be used independently of GnuPG, but depends on its error-reporting
+ library Libgpg-error.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libgcrypt
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libc6 (>= 2.39+git47+58cbbd43fe), libcap (>= 2.69), libgpg-error (>= 1.48)
+Source: libgcrypt_1.10.3.bb

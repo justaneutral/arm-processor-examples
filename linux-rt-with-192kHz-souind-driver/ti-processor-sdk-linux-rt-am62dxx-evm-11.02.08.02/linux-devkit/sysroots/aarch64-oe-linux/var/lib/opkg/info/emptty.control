@@ -1,0 +1,15 @@
+Package: emptty
+Version: 0.14.0-r0_tisdk_0.106
+Description: Dead simple CLI Display Manager on TTY
+ Emptty is a simple display manager with a command line greeter It
+ supports both X11 and Wayland sessions, exporting required variables and
+ creating user paths as necessary.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: emptty
+Homepage: https://github.com/tvrzna/emptty
+Depends: go-runtime (>= 1.22.12), libc6 (>= 2.39+git47+58cbbd43fe), libpam (>= 1.5.3), pam-plugin-succeed-if, virtual-emptty-conf
+Source: emptty_0.14.0.bb

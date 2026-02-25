@@ -1,0 +1,11 @@
+Package: opencl-headers
+Version: 2024.05.08-r0.7
+Description: OpenCL API Headers
+ OpenCL compute API headers from Khronos Group
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: opencl-headers
+Source: opencl-headers_2023.12.14.bb

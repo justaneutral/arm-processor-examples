@@ -1,0 +1,17 @@
+/usr/include/speex/speex_header.h	0100644
+/usr/lib	040755
+/usr/include/speex/speex_types.h	0100644
+/usr/include/speex/speex_callbacks.h	0100644
+/usr/include/speex/speex_config_types.h	0100644
+/usr/share/aclocal/speex.m4	0100644
+/usr/include/speex	040755
+/usr/include/speex/speex_stereo.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/share/aclocal	040755
+/usr/include/speex/speex.h	0100644
+/usr/share	040755
+/usr/include	040755
+/usr/lib/pkgconfig/speex.pc	0100644
+/usr/lib/libspeex.so	0120777	libspeex.so.1.5.2
+/usr/include/speex/speex_bits.h	0100644

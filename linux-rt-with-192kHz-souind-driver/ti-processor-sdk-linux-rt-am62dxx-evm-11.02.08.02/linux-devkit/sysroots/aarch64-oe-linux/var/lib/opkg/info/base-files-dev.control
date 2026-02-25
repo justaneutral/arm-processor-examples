@@ -1,0 +1,15 @@
+Package: base-files-dev
+Version: 3.0.14-r0.arago5.0
+Description: Miscellaneous files for the base system - Development files
+ The base-files package creates the basic system directory structure and
+ provides a small set of key configuration files for the system.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62dxx_evm
+OE: base-files
+Recommends: base-files (= 3.0.14-r0.arago5.0)
+Source: base-files_3.0.14.bb

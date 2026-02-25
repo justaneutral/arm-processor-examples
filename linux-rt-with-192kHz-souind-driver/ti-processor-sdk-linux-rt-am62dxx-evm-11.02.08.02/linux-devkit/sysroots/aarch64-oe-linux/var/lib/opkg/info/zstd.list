@@ -1,0 +1,9 @@
+/usr/bin/zstdcat	0120777	zstd
+/usr/bin/unzstd	0120777	zstd
+/usr/bin/zstdgrep	0100755
+/usr/bin/zstdless	0100755
+/usr/bin	040755
+/usr/bin/zstd	0100755
+/usr	040755
+/usr/bin/zstdmt	0120777	zstd
+/usr/bin/pzstd	0100755

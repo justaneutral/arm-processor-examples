@@ -1,0 +1,17 @@
+Package: libtool-dev
+Version: 2.4.7-r0.72
+Description: Generic library support script - Development files
+ This is GNU libtool, a generic library support script. Libtool hides the
+ complexity of generating special library types (such as shared libraries)
+ behind a consistent interface.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: aarch64
+OE: libtool
+Homepage: http://www.gnu.org/software/libtool/libtool.html
+Depends: libltdl
+Recommends: bash-dev, glibc-dev, libltdl-dev, libtool (= 2.4.7-r0.72)
+Source: libtool_2.4.7.bb

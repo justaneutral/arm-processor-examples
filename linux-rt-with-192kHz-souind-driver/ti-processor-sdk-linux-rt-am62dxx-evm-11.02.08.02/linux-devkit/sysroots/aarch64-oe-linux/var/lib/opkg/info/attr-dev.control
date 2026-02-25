@@ -1,0 +1,16 @@
+Package: attr-dev
+Version: 2.5.1-r0.70
+Description: Utilities for manipulating filesystem extended attributes - Development files
+ Implement the ability for a user to attach name:value pairs to objects
+ within the XFS filesystem.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & GPL-2.0-or-later
+Architecture: aarch64
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libattr
+Recommends: attr (= 2.5.1-r0.70), glibc-dev, libattr-dev, update-alternatives-opkg-dev
+Source: attr_2.5.1.bb

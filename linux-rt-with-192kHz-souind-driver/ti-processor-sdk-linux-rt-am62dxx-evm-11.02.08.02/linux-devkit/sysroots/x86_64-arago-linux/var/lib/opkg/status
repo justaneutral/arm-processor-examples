@@ -1,0 +1,3196 @@
+Package: nativesdk-libncursesw5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libncursesw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 208904
+Installed-Time: 1765495410
+Auto-Installed: yes
+
+Package: nativesdk-libedit-dev
+Version: 20230828-3.1-r1.142
+Depends: nativesdk-libedit
+Recommends: nativesdk-glibc-dev, nativesdk-libedit0 (= 20230828-3.1-r1.142), nativesdk-ncurses-dev, nativesdk-ncurses-libncurses-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-update-alternatives-opkg-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 19808
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-python3-core
+Version: 3.12.12-r0.20
+Depends: nativesdk-libbz2-1 (>= 1.0.8), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libedit0 (>= 20230828-3.1), nativesdk-liblzma5 (>= 5.4.7), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-libz1 (>= 1.3.1), nativesdk-python3-compression
+Recommends: nativesdk-python3-modules
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 9406083
+Installed-Time: 1765495419
+Auto-Installed: yes
+
+Package: nativesdk-ninja
+Version: 1.11.1-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libstdc++6 (>= 13.4.0)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 310504
+Installed-Time: 1765495412
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-mk-mk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952049
+Installed-Time: 1765495464
+
+Package: nativesdk-qemu-system-arm
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 26274144
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-nl-nl.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951753
+Installed-Time: 1765495464
+
+Package: nativesdk-libcrypt2
+Version: 4.4.36-r0.155
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libxcrypt
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 202728
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-qemu-helper
+Version: 1.0-r0.145
+Depends: nativesdk-pseudo, nativesdk-python3-fcntl, nativesdk-python3-logging, nativesdk-python3-shell, nativesdk-qemu, nativesdk-unfs3
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 92014
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-us.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951685
+Installed-Time: 1765495460
+
+Package: nativesdk-libxml2-dev
+Version: 2.12.10-r0.152
+Depends: nativesdk-libxml2
+Recommends: nativesdk-glibc-dev, nativesdk-libxml2-2 (= 2.12.10-r0.152), nativesdk-python3-core-dev, nativesdk-python3-dev, nativesdk-zlib-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 415772
+Installed-Time: 1765495439
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-fr-ch.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951665
+Installed-Time: 1765495461
+
+Package: nativesdk-openssl-bin
+Version: 3.2.6-r0.15
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6), nativesdk-libssl3 (>= 3.2.6), nativesdk-openssl-conf
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 903464
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-openssl-dev
+Version: 3.2.6-r0.15
+Depends: nativesdk-libcrypto, nativesdk-libssl
+Recommends: nativesdk-glibc-dev, nativesdk-libcrypto-dev, nativesdk-libssl-dev, nativesdk-openssl (= 3.2.6-r0.15), nativesdk-openssl-conf-dev, nativesdk-perl-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2017585
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-opkg
+Version: 1:0.6.3-r0.180
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libopkg1 (>= 0.6.3), nativesdk-libsolv (>= 0.7.28)
+Provides: nativesdk-opkg-collateral
+Replaces: nativesdk-opkg-collateral, nativesdk-opkg-nogpg
+Conflicts: nativesdk-opkg-collateral
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Conffiles:
+ /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/etc/opkg/opkg.conf c9077cdbae58cee09b7a74bf3cdeabdf
+Installed-Size: 32167
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-tr-tr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2815163
+Installed-Time: 1765495466
+
+Package: nativesdk-glibc-binary-localedata-zh-tw.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952659
+Installed-Time: 1765495467
+
+Package: nativesdk-glibc-binary-localedata-ar-om.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952014
+Installed-Time: 1765495453
+
+Package: nativesdk-pkgconfig
+Version: 0.29.2+git0+d97db4fae4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6)
+Provides: nativesdk-pkgconfig(pkg-config)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 70596
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-python3-shell
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 79693
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-libfl2
+Version: 2.6.4-r0.151
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-flex-libfl
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 14240
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-kw.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952018
+Installed-Time: 1765495453
+
+Package: nativesdk-glibc-binary-localedata-hu-hu.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2966721
+Installed-Time: 1765495462
+
+Package: nativesdk-python3-venv
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-logging, nativesdk-python3-stringold
+Provides: nativesdk-python3-pyvenv
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 73140
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-py.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951674
+Installed-Time: 1765495460
+
+Package: nativesdk-glibc-binary-localedata-nl-be.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951691
+Installed-Time: 1765495464
+
+Package: nativesdk-glibc-binary-localedata-he-il.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951799
+Installed-Time: 1765495462
+
+Package: nativesdk-libc6-thread-db
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-eglibc-thread-db, nativesdk-glibc-thread-db
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 47816
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ku-tr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2815025
+Installed-Time: 1765495463
+
+Package: nativesdk-python3-pkg-resources
+Version: 69.1.1-r0.207
+Depends: nativesdk-python3-compression, nativesdk-python3-email, nativesdk-python3-plistlib, nativesdk-python3-pprint
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1392005
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-libzstd1
+Version: 1.5.5-r0.148
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libzstd
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 793440
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-tcy-in.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2954865
+Installed-Time: 1765495466
+
+Package: nativesdk-qemu-user-arm
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2986240
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-libreadline8
+Version: 8.2-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-readline
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Conffiles:
+ /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/etc/inputrc 27bb8dcd68671f6d61f6fda7333f3c26
+Installed-Size: 403793
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libgettextlib
+Version: 0.22.5-r0.131
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1669872
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-dz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952256
+Installed-Time: 1765495452
+
+Package: nativesdk-glibc-binary-localedata-eu-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951804
+Installed-Time: 1765495461
+
+Package: nativesdk-virglrenderer
+Version: 1.0.1-r0.223
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libdrm2 (>= 2.4.120), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libx11-6 (>= 1.8.9)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 669392
+Installed-Time: 1765495421
+Auto-Installed: yes
+
+Package: nativesdk-libc6-dev
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-glibc, nativesdk-glibc-extra-nss, nativesdk-glibc-thread-db, nativesdk-libnss-db, nativesdk-linux-libc-headers-dev, nativesdk-malloc-debug
+Recommends: nativesdk-glibc-extra-nss-dev, nativesdk-glibc-thread-db-dev, nativesdk-glibc-utils-dev, nativesdk-libc6 (= 2.39+git43+58cbbd43fe-r0.143), nativesdk-libgcc-initial-dev, nativesdk-libnss-db-dev, nativesdk-linux-libc-headers-dev, nativesdk-malloc-debug-dev
+Provides: nativesdk-eglibc-dev, nativesdk-glibc-dev, nativesdk-libc-dev, nativesdk-libc6-dev, nativesdk-virtual-libc-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2318387
+Installed-Time: 1765495411
+Auto-Installed: yes
+
+Package: binutils-cross-canadian-aarch64
+Version: 2.42-r0.123
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libfl2 (>= 2.6.4), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libstdc++6 (>= 13.4.0)
+Provides: binutils-cross-canadian-aarch64-symlinks
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 54875483
+Installed-Time: 1765495414
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-pl-pl.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951662
+Installed-Time: 1765495465
+
+Package: nativesdk-glibc-binary-localedata-sv-fi.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951677
+Installed-Time: 1765495466
+
+Package: nativesdk-libexpat-dev
+Version: 2.6.4-r0.167
+Depends: nativesdk-expat
+Recommends: nativesdk-glibc-dev, nativesdk-libexpat1 (= 2.6.4-r0.167)
+Provides: nativesdk-expat-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 65599
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-be-by.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952040
+Installed-Time: 1765495454
+
+Package: nativesdk-glibc-binary-localedata-so-so.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952868
+Installed-Time: 1765495465
+
+Package: nativesdk-glibc-binary-localedata-ca-ad.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952161
+Installed-Time: 1765495455
+
+Package: nativesdk-glibc-binary-localedata-es-bo.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951672
+Installed-Time: 1765495459
+
+Package: nativesdk-unfs3
+Version: 0.10.0-r0.140
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtirpc3 (>= 1.3.4)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 134336
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-bash
+Version: 5.2.21-r0.arago0.140
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4), nativesdk-update-alternatives-opkg
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1180864
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ka-ge.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952538
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-it-it.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951772
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-sl-si.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 469915
+Installed-Time: 1765495465
+
+Package: nativesdk-python3-math
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core, nativesdk-python3-crypt
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 127443
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-mg-mg.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951796
+Installed-Time: 1765495464
+
+Package: nativesdk-python3-xml
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libexpat1 (>= 2.6.4), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 833051
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-python3-tomllib
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 57714
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-sq-al.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2956124
+Installed-Time: 1765495466
+
+Package: nativesdk-qemu-user-loongarch64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2299368
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-gt.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951672
+Installed-Time: 1765495460
+
+Package: nativesdk-glibc-binary-localedata-gd-gb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952654
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-zh-hk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952286
+Installed-Time: 1765495467
+
+Package: nativesdk-libsolv
+Version: 0.7.28-r0.160
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libz1 (>= 1.3.1), nativesdk-libzstd1 (>= 1.5.5)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 719096
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-libgbm1
+Version: 2:24.0.7-r0.218
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libdrm2 (>= 2.4.120), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libxcb-randr0 (>= 1.16), nativesdk-wayland (>= 1.22.0)
+Provides: nativesdk-libgbm
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 60512
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-nn-no.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952273
+Installed-Time: 1765495464
+
+Package: nativesdk-libtirpc-dev
+Version: 1.3.4-r0.152
+Depends: nativesdk-libtirpc
+Recommends: nativesdk-glibc-dev, nativesdk-libtirpc3 (= 1.3.4-r0.152)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 182046
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-sv.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951676
+Installed-Time: 1765495460
+
+Package: nativesdk-glibc-binary-localedata-et-ee.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951762
+Installed-Time: 1765495461
+
+Package: nativesdk-glibc-binary-localedata-es-uy.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951656
+Installed-Time: 1765495460
+
+Package: nativesdk-glibc-binary-localedata-en-sc.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951767
+Installed-Time: 1765495458
+
+Package: nativesdk-glibc-binary-localedata-de-lu.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951779
+Installed-Time: 1765495457
+
+Package: nativesdk-glibc-binary-localedata-fo-fo.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952281
+Installed-Time: 1765495461
+
+Package: nativesdk-glibc-binary-localedata-oc-fr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951999
+Installed-Time: 1765495464
+
+Package: nativesdk-glibc-binary-localedata-gl-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951649
+Installed-Time: 1765495462
+
+Package: nativesdk-xz
+Version: 5.4.7-r0.106
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-liblzma5 (>= 5.4.7), nativesdk-update-alternatives-opkg
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 163451
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-bzip2-dev
+Version: 1.0.8-r0.154
+Depends: nativesdk-libbz2
+Recommends: nativesdk-bzip2 (= 1.0.8-r0.154), nativesdk-glibc-dev, nativesdk-libbz2-dev, nativesdk-update-alternatives-opkg-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 6240
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-openssl
+Version: 3.2.6-r0.15
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1820
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libffi8
+Version: 3.4.6-r0.156
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libffi
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 43528
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-sy.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952751
+Installed-Time: 1765495454
+
+Package: nativesdk-glibc-binary-localedata-ast-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951747
+Installed-Time: 1765495454
+
+Package: nativesdk-glibc-binary-localedata-sv-se.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951642
+Installed-Time: 1765495466
+
+Package: nativesdk-python3-sqlite3
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libsqlite3-0 (>= 3.45.3), nativesdk-python3-core, nativesdk-python3-datetime
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 158057
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-python3-netclient
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libuuid1 (>= 2.39.3), nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-email, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 969798
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-python3-resource
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 19352
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-bw.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951603
+Installed-Time: 1765495457
+
+Package: nativesdk-libpcre2
+Version: 10.43-r0.145
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 405872
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-python3-pickle
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 470106
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-dtc
+Version: 1.7.0-r0.145
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 283216
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libgmp10
+Version: 6.3.0-r0.147
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-gmp
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 488312
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-cmake
+Version: 3.28.3-r0.189
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcurl4 (>= 8.7.1), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libz1 (>= 1.3.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 33601064
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-sk-sk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953404
+Installed-Time: 1765495465
+
+Package: nativesdk-python3-unittest
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-asyncio, nativesdk-python3-core, nativesdk-python3-difflib, nativesdk-python3-io, nativesdk-python3-logging, nativesdk-python3-netclient, nativesdk-python3-numbers, nativesdk-python3-pprint, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 547047
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: packagegroup-cross-canadian-am62dxx-evm
+Version: 1.0-r0.0
+Depends: binutils-cross-canadian-aarch64, gcc-cross-canadian-aarch64, gdb-cross-canadian-aarch64, meta-environment-am62dxx-evm
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Time: 1765495439
+
+Package: nativesdk-glibc-binary-localedata-es-mx.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951673
+Installed-Time: 1765495460
+
+Package: nativesdk-bash-dev
+Version: 5.2.21-r0.arago0.140
+Recommends: nativesdk-bash (= 5.2.21-r0.arago0.140), nativesdk-glibc-dev, nativesdk-ncurses-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-update-alternatives-opkg-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 306658
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-mips
+Version: 8.2.7-r0.194
+Depends: nativesdk-bash, nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 137
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-qa.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952008
+Installed-Time: 1765495454
+
+Package: nativesdk-python3-compile
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 83960
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-gv-gb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952779
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-ar-sd.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952020
+Installed-Time: 1765495454
+
+Package: nativesdk-libgcc-s-dev
+Version: 13.4.0-r0.59
+Recommends: nativesdk-glibc-dev, nativesdk-libgcc1 (= 13.4.0-r0.59)
+Provides: nativesdk-libgcc-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 6509450
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-el-cy.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952453
+Installed-Time: 1765495457
+
+Package: nativesdk-glibc-binary-localedata-es-hn.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951670
+Installed-Time: 1765495460
+
+Package: nativesdk-libxml2-2
+Version: 2.12.10-r0.152
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libz1 (>= 1.3.1)
+Provides: nativesdk-libxml2
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1408096
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-mips.real
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2928480
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-bh.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952024
+Installed-Time: 1765495452
+
+Package: nativesdk-glibc-binary-localedata-fr-be.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951637
+Installed-Time: 1765495461
+
+Package: nativesdk-ca-certificates
+Version: 20250419-r0.1
+Depends: nativesdk-openssl, nativesdk-openssl-bin
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Conffiles:
+ /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/etc/ca-certificates.conf 74ab12711d4c60c7d2381b0cb9badb95
+ /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/etc/ssl/certs/ca-certificates.crt 31f736727b8fe7fa63c63d3c4ce84f98
+Installed-Size: 460684
+Installed-Time: 1765495421
+Auto-Installed: yes
+
+Package: nativesdk-python3-debugger
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-pprint, nativesdk-python3-shell, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 228085
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-mt-mt.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952492
+Installed-Time: 1765495464
+
+Package: nativesdk-glibc-binary-localedata-en-hk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952050
+Installed-Time: 1765495458
+
+Package: nativesdk-wayland-tools
+Version: 1.22.0-r0.218
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libxml2-2 (>= 2.12.10)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 47608
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libunistring5
+Version: 1.2-r0.139
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libunistring
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1818856
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libslirp0
+Version: 4.7.0-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6)
+Provides: nativesdk-libslirp
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 141168
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-aa-dj.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952256
+Installed-Time: 1765495452
+
+Package: nativesdk-libgdbm-compat4
+Version: 1.23-r0.154
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgdbm6 (>= 1.23)
+Provides: nativesdk-gdbm-compat
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 14472
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-bg-bg.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952364
+Installed-Time: 1765495454
+
+Package: nativesdk-buildtools-perl-dummy
+Version: 1.0-r0.155
+Provides: /usr/bin/perl, nativesdk-libxml-parser-perl, nativesdk-perl, nativesdk-perl-dev, nativesdk-perl-module-bytes, nativesdk-perl-module-carp, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-errno, nativesdk-perl-module-exporter, nativesdk-perl-module-feature, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-compare, nativesdk-perl-module-file-copy, nativesdk-perl-module-file-find, nativesdk-perl-module-file-glob, nativesdk-perl-module-file-path, nativesdk-perl-module-file-spec, nativesdk-perl-module-file-spec-unix, nativesdk-perl-module-file-stat, nativesdk-perl-module-file-temp, nativesdk-perl-module-getopt-long, nativesdk-perl-module-integer, nativesdk-perl-module-io-file, nativesdk-perl-module-list-util, nativesdk-perl-module-overloading, nativesdk-perl-module-posix, nativesdk-perl-module-scalar-util, nativesdk-perl-module-strict, nativesdk-perl-module-symbol, nativesdk-perl-module-text-parsewords, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads, nativesdk-perl-module-vars, nativesdk-perl-module-warnings
+Replaces: nativesdk-libxml-parser-perl, nativesdk-perl, nativesdk-perl-module-bytes, nativesdk-perl-module-carp, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-errno, nativesdk-perl-module-exporter, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-compare, nativesdk-perl-module-file-copy, nativesdk-perl-module-file-find, nativesdk-perl-module-file-glob, nativesdk-perl-module-file-path, nativesdk-perl-module-file-spec, nativesdk-perl-module-file-stat, nativesdk-perl-module-file-temp, nativesdk-perl-module-getopt-long, nativesdk-perl-module-io-file, nativesdk-perl-module-list-util, nativesdk-perl-module-overloading, nativesdk-perl-module-posix, nativesdk-perl-module-scalar-util, nativesdk-perl-module-strict, nativesdk-perl-module-text-parsewords, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads, nativesdk-perl-module-vars, nativesdk-perl-module-warnings
+Conflicts: /usr/bin/perl, nativesdk-libxml-parser-perl, nativesdk-perl, nativesdk-perl-dev, nativesdk-perl-module-bytes, nativesdk-perl-module-carp, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-errno, nativesdk-perl-module-exporter, nativesdk-perl-module-feature, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-compare, nativesdk-perl-module-file-copy, nativesdk-perl-module-file-find, nativesdk-perl-module-file-glob, nativesdk-perl-module-file-path, nativesdk-perl-module-file-spec, nativesdk-perl-module-file-spec-unix, nativesdk-perl-module-file-stat, nativesdk-perl-module-file-temp, nativesdk-perl-module-getopt-long, nativesdk-perl-module-integer, nativesdk-perl-module-io-file, nativesdk-perl-module-list-util, nativesdk-perl-module-overloading, nativesdk-perl-module-posix, nativesdk-perl-module-scalar-util, nativesdk-perl-module-strict, nativesdk-perl-module-symbol, nativesdk-perl-module-text-parsewords, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads, nativesdk-perl-module-vars, nativesdk-perl-module-warnings
+Status: install ok installed
+Architecture: buildtools-dummy-nativesdk
+Installed-Time: 1765495403
+
+Package: nativesdk-glibc-binary-localedata-en-ca.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951729
+Installed-Time: 1765495457
+
+Package: nativesdk-libmenu5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libmenu
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 35480
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libdw1
+Version: 0.191-r0.180
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libelf1 (>= 0.191), nativesdk-libz1 (>= 1.3.1)
+Provides: nativesdk-libdw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 651736
+Installed-Time: 1765495414
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ru-ua.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951858
+Installed-Time: 1765495465
+
+Package: nativesdk-libmpc3
+Version: 1.3.1-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libmpfr6 (>= 4.2.1)
+Provides: nativesdk-libmpc
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 135104
+Installed-Time: 1765495411
+Auto-Installed: yes
+
+Package: nativesdk-libexpat1
+Version: 2.6.4-r0.167
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-expat
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 182448
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-python3-mmap
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 32520
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-pe.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951729
+Installed-Time: 1765495460
+
+Package: nativesdk-qemu-user-aarch64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 4655776
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ga-ie.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952154
+Installed-Time: 1765495462
+
+Package: nativesdk-python3-pydoc
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-io
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1297870
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-lb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952740
+Installed-Time: 1765495453
+
+Package: nativesdk-python3-db
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgdbm-compat4 (>= 1.23), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 61254
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-de-it.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951857
+Installed-Time: 1765495456
+
+Package: nativesdk-glibc-binary-localedata-es-co.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951746
+Installed-Time: 1765495459
+
+Package: nativesdk-glibc-binary-localedata-ar-jo.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952738
+Installed-Time: 1765495453
+
+Package: nativesdk-glibc-binary-localedata-br-fr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952890
+Installed-Time: 1765495455
+
+Package: nativesdk-glibc-binary-localedata-en-za.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951740
+Installed-Time: 1765495458
+
+Package: nativesdk-qemu-user-mips64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2956864
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-libcrypt-dev
+Version: 4.4.36-r0.155
+Depends: nativesdk-libxcrypt
+Recommends: nativesdk-glibc-dev, nativesdk-libcrypt2 (= 4.4.36-r0.155)
+Provides: nativesdk-libxcrypt-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 11693
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libtool
+Version: 2.4.7-r0.171
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2171485
+Installed-Time: 1765495403
+Auto-Installed: yes
+
+Package: nativesdk-libmenuw5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncursesw5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libmenuw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 39608
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-python3-asyncio
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core, nativesdk-python3-io, nativesdk-python3-logging, nativesdk-python3-netclient, nativesdk-python3-numbers, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1370922
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-tn.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952248
+Installed-Time: 1765495454
+
+Package: nativesdk-libssl3
+Version: 3.2.6-r0.15
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6)
+Provides: nativesdk-libssl
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 943736
+Installed-Time: 1765495410
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-th-th.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953435
+Installed-Time: 1765495466
+
+Package: nativesdk-libform5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libform
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 69360
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-gb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951844
+Installed-Time: 1765495457
+
+Package: nativesdk-glibc-binary-localedata-fi-fi.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953776
+Installed-Time: 1765495461
+
+Package: nativesdk-glibc-binary-localedata-uz-uz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2955669
+Installed-Time: 1765495466
+
+Package: nativesdk-glibc-binary-localedata-ar-ma.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952112
+Installed-Time: 1765495453
+
+Package: nativesdk-glibc-binary-localedata-en-ie.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951657
+Installed-Time: 1765495458
+
+Package: nativesdk-libxcb-randr0
+Version: 1.16-r0.151
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libxau6 (>= 1.0.11), nativesdk-libxcb1 (>= 1.16), nativesdk-libxdmcp6 (>= 1.1.4)
+Provides: nativesdk-libxcb-randr
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 63824
+Installed-Time: 1765495410
+Auto-Installed: yes
+
+Package: nativesdk-libtirpc3
+Version: 1.3.4-r0.152
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libtirpc
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 160986
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-wayland
+Version: 1.22.0-r0.218
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libffi8 (>= 3.4.6)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 354505
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-mips
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 13079872
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-libstdc++6
+Version: 13.4.0-r0.61
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgcc1 (>= 13.4.0)
+Provides: nativesdk-libstdc++
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2444208
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-python3-codecs
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 64225
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-libformw5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncursesw5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libformw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 77744
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libelf1
+Version: 0.191-r0.180
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libz1 (>= 1.3.1)
+Provides: nativesdk-libelf
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 109176
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-python3-pkgutil
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-python3-syslog
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 19248
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-riscv32
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 15114016
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-dk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951661
+Installed-Time: 1765495457
+
+Package: nativesdk-python3-logging
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-io, nativesdk-python3-netserver, nativesdk-python3-pickle, nativesdk-python3-stringold, nativesdk-python3-threading
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 395367
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ru-ru.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951901
+Installed-Time: 1765495465
+
+Package: nativesdk-python3-crypt
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypt2 (>= 4.4.36), nativesdk-libcrypto3 (>= 3.2.6), nativesdk-python3-core, nativesdk-python3-math, nativesdk-python3-stringold
+Recommends: nativesdk-ca-certificates, nativesdk-openssl
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 288135
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-python3-curses
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncursesw5 (>= 6.4), nativesdk-libpanelw5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 210995
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-de-de.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951860
+Installed-Time: 1765495456
+
+Package: nativesdk-python3-xmlrpc
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-compression, nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-email, nativesdk-python3-html, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-netclient, nativesdk-python3-netserver, nativesdk-python3-numbers, nativesdk-python3-pydoc, nativesdk-python3-stringold, nativesdk-python3-xml
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 180808
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-libarchive
+Version: 3.7.9-r0.111
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-liblzma5 (>= 5.4.7), nativesdk-libz1 (>= 1.3.1), nativesdk-libzstd1 (>= 1.5.5)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 960888
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-da-dk.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952193
+Installed-Time: 1765495456
+
+Package: nativesdk-glibc-binary-localedata-uk-ua.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2909074
+Installed-Time: 1765495466
+
+Package: nativesdk-ncurses-terminfo-base
+Version: 6.4-r0.142
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 22615
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ko-kr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1351545
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-pt-br.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951665
+Installed-Time: 1765495465
+
+Package: nativesdk-glibc-binary-localedata-en-nz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951732
+Installed-Time: 1765495458
+
+Package: nativesdk-qemu-system-mipsel
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 13071680
+Installed-Time: 1765495431
+Auto-Installed: yes
+
+Package: nativesdk-libgdbm6
+Version: 1.23-r0.154
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-gdbm
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 72888
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-st-za.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951963
+Installed-Time: 1765495466
+
+Package: nativesdk-python3-email
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-netclient, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 954910
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-python3-mime
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 31778
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-libnss-db2
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-glibc-utils, nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libnss-db
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 48848
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-python3-modules
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-2to3, nativesdk-python3-asyncio, nativesdk-python3-audio, nativesdk-python3-codecs, nativesdk-python3-compile, nativesdk-python3-compression, nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-ctypes, nativesdk-python3-curses, nativesdk-python3-datetime, nativesdk-python3-db, nativesdk-python3-debugger, nativesdk-python3-difflib, nativesdk-python3-doctest, nativesdk-python3-email, nativesdk-python3-ensurepip, nativesdk-python3-fcntl, nativesdk-python3-html, nativesdk-python3-idle, nativesdk-python3-image, nativesdk-python3-io, nativesdk-python3-json, nativesdk-python3-logging, nativesdk-python3-mailbox, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-misc, nativesdk-python3-mmap, nativesdk-python3-multiprocessing, nativesdk-python3-netclient, nativesdk-python3-netserver, nativesdk-python3-numbers, nativesdk-python3-pickle, nativesdk-python3-pkgutil, nativesdk-python3-plistlib, nativesdk-python3-pprint, nativesdk-python3-profile, nativesdk-python3-pydoc, nativesdk-python3-resource, nativesdk-python3-shell, nativesdk-python3-sqlite3, nativesdk-python3-statistics, nativesdk-python3-stringold, nativesdk-python3-syslog, nativesdk-python3-terminal, nativesdk-python3-threading, nativesdk-python3-tkinter, nativesdk-python3-tomllib, nativesdk-python3-unittest, nativesdk-python3-unixadmin, nativesdk-python3-venv, nativesdk-python3-xml, nativesdk-python3-xmlrpc, nativesdk-python3-zoneinfo
+Provides: nativesdk-python3
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-tg-tj.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951976
+Installed-Time: 1765495466
+
+Package: nativesdk-liblzma5
+Version: 5.4.7-r0.106
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-liblzma
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 191256
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-ph.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952052
+Installed-Time: 1765495458
+
+Package: nativesdk-glibc-binary-localedata-es-ar.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951671
+Installed-Time: 1765495459
+
+Package: nativesdk-python3-profile
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 155941
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-x86-64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 24018144
+Installed-Time: 1765495430
+Auto-Installed: yes
+
+Package: nativesdk-libgnutls30
+Version: 3.8.4-r0.139
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libidn2-0 (>= 2.3.7), nativesdk-libtasn1-6 (>= 4.20.0), nativesdk-libunistring5 (>= 1.2), nativesdk-nettle (>= 3.9.1)
+Provides: nativesdk-gnutls
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2065176
+Installed-Time: 1765495411
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-so-ke.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952769
+Installed-Time: 1765495465
+
+Package: nativesdk-libgdbm-dev
+Version: 1.23-r0.154
+Depends: nativesdk-gdbm, nativesdk-gdbm-compat
+Recommends: nativesdk-gdbm-compat-dev, nativesdk-glibc-dev, nativesdk-libgdbm6 (= 1.23-r0.154)
+Provides: nativesdk-gdbm-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 16027
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-python3-ensurepip
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1863196
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-libdebuginfod1
+Version: 0.191-r0.180
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcurl4 (>= 8.7.1), nativesdk-libelf1 (>= 0.191)
+Provides: nativesdk-libdebuginfod
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 35560
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-ae.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952090
+Installed-Time: 1765495452
+
+Package: nativesdk-glibc-binary-localedata-fr-lu.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951649
+Installed-Time: 1765495461
+
+Package: nativesdk-python3-pprint
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 53651
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-python3-netserver
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-email, nativesdk-python3-html, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-netclient, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 136707
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-libz1
+Version: 1.3.1-r0.150
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-zlib
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 100832
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libxcb1
+Version: 1.16-r0.151
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libxau6 (>= 1.0.11), nativesdk-libxdmcp6 (>= 1.1.4)
+Provides: nativesdk-libxcb
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 154600
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-riscv64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 15159040
+Installed-Time: 1765495430
+Auto-Installed: yes
+
+Package: nativesdk-libxdmcp6
+Version: 1:1.1.4-r0.146
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libxdmcp
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 26768
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-zw.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951603
+Installed-Time: 1765495458
+
+Package: nativesdk-glibc-binary-localedata-yi-us.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2954041
+Installed-Time: 1765495467
+
+Package: nativesdk-glibc-binary-localedata-ar-iq.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952734
+Installed-Time: 1765495453
+
+Package: nativesdk-python3-io
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6), nativesdk-libssl3 (>= 3.2.6), nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-math, nativesdk-python3-netclient, nativesdk-python3-shell
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 859770
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-libcurl4
+Version: 8.7.1-r0.165
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6), nativesdk-libssl3 (>= 3.2.6), nativesdk-libz1 (>= 1.3.1)
+Recommends: nativesdk-ca-certificates
+Provides: nativesdk-libcurl
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 567592
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-mi-nz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953381
+Installed-Time: 1765495464
+
+Package: nativesdk-glibc-binary-localedata-es-ec.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951664
+Installed-Time: 1765495459
+
+Package: nativesdk-python3-zoneinfo
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core, nativesdk-python3-datetime
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 117537
+Installed-Time: 1765495421
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-mips64el
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 15115976
+Installed-Time: 1765495430
+Auto-Installed: yes
+
+Package: nativesdk-nettle
+Version: 3.9.1-r0.147
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 638824
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-libtic5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libtic
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 68264
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-libncurses5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libncurses
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 159368
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951728
+Installed-Time: 1765495459
+
+Package: nativesdk-python3-doctest
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-debugger, nativesdk-python3-difflib, nativesdk-python3-pprint, nativesdk-python3-shell, nativesdk-python3-stringold, nativesdk-python3-unittest
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 212481
+Installed-Time: 1765495437
+Auto-Installed: yes
+
+Package: nativesdk-libz-dev
+Version: 1.3.1-r0.150
+Depends: nativesdk-zlib
+Recommends: nativesdk-glibc-dev, nativesdk-libz1 (= 1.3.1-r0.150)
+Provides: nativesdk-zlib-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 113785
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-bs-ba.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953021
+Installed-Time: 1765495455
+
+Package: nativesdk-python3-2to3
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 687325
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ja-jp.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1079013
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-it-ch.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951728
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-es-pa.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951666
+Installed-Time: 1765495460
+
+Package: nativesdk-glibc-binary-localedata-kl-gl.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952628
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-es-do.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951705
+Installed-Time: 1765495459
+
+Package: nativesdk-libx11-6
+Version: 1:1.8.9-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libxcb1 (>= 1.16)
+Provides: nativesdk-libx11
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1341648
+Installed-Time: 1765495410
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-i386
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2469888
+Installed-Time: 1765495430
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-de-at.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951824
+Installed-Time: 1765495456
+
+Package: nativesdk-glibc-binary-localedata-ro-ro.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951970
+Installed-Time: 1765495465
+
+Package: nativesdk-python3-multiprocessing
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-ctypes, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mmap, nativesdk-python3-netclient, nativesdk-python3-pickle, nativesdk-python3-threading
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 716921
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-python3-compression
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 516822
+Installed-Time: 1765495419
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-lg-ug.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951832
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-fr-fr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951798
+Installed-Time: 1765495461
+
+Package: nativesdk-libmicrohttpd12
+Version: 1.0.1-r0.160
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgnutls30 (>= 3.8.4)
+Provides: nativesdk-libmicrohttpd
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 232552
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-tl-ph.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952332
+Installed-Time: 1765495466
+
+Package: nativesdk-qemu-system-loongarch64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 14105864
+Installed-Time: 1765495430
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-id-id.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951646
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-xh-za.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952204
+Installed-Time: 1765495467
+
+Package: nativesdk-python3-tkinter
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 880674
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-python3-misc
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-audio, nativesdk-python3-codecs, nativesdk-python3-core, nativesdk-python3-email, nativesdk-python3-numbers, nativesdk-python3-pickle, nativesdk-python3-pydoc
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2758455
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-au.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951741
+Installed-Time: 1765495457
+
+Package: nativesdk-sdk-provides-dummy
+Version: 1.0-r0.143
+Provides: /bin/bash, /bin/sh, /usr/bin/env, libGL.so, libGL.so()(64bit), pkgconfig
+Replaces: pkgconfig
+Conflicts: /bin/bash, /bin/sh, /usr/bin/env, libGL.so, libGL.so (), pkgconfig
+Status: install ok installed
+Architecture: sdk-provides-dummy-nativesdk
+Installed-Time: 1765495403
+
+Package: nativesdk-glibc-binary-localedata-es-ni.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951761
+Installed-Time: 1765495460
+
+Package: nativesdk-qemu
+Version: 8.2.7-r0.194
+Depends: nativesdk-qemu-common, nativesdk-qemu-system-aarch64, nativesdk-qemu-system-arm, nativesdk-qemu-system-i386, nativesdk-qemu-system-loongarch64, nativesdk-qemu-system-mips, nativesdk-qemu-system-mips64, nativesdk-qemu-system-mips64el, nativesdk-qemu-system-mipsel, nativesdk-qemu-system-ppc, nativesdk-qemu-system-ppc64, nativesdk-qemu-system-riscv32, nativesdk-qemu-system-riscv64, nativesdk-qemu-system-sh4, nativesdk-qemu-system-x86-64, nativesdk-qemu-user-aarch64, nativesdk-qemu-user-arm, nativesdk-qemu-user-i386, nativesdk-qemu-user-loongarch64, nativesdk-qemu-user-mips, nativesdk-qemu-user-mips.real, nativesdk-qemu-user-mips64, nativesdk-qemu-user-mips64el, nativesdk-qemu-user-mipsel, nativesdk-qemu-user-ppc, nativesdk-qemu-user-ppc64, nativesdk-qemu-user-ppc64le, nativesdk-qemu-user-riscv32, nativesdk-qemu-user-riscv64, nativesdk-qemu-user-sh4, nativesdk-qemu-user-x86-64
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-ve.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951751
+Installed-Time: 1765495461
+
+Package: nativesdk-glibc-binary-localedata-zh-cn.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 3166948
+Installed-Time: 1765495467
+
+Package: nativesdk-python3-dev
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-python3-core, nativesdk-update-alternatives-opkg
+Recommends: nativesdk-bash-dev, nativesdk-bzip2-dev, nativesdk-expat-dev, nativesdk-gdbm-compat-dev, nativesdk-gdbm-dev, nativesdk-glibc-dev, nativesdk-ldconfig-dev, nativesdk-libbz2-dev, nativesdk-libcrypto-dev, nativesdk-libedit-dev, nativesdk-libffi-dev, nativesdk-libgcc-dev, nativesdk-liblzma-dev, nativesdk-libnsl2-dev, nativesdk-libpython3-dev, nativesdk-libsqlite3-dev, nativesdk-libssl-dev, nativesdk-libtirpc-dev, nativesdk-libxcrypt-dev, nativesdk-ncurses-dev, nativesdk-ncurses-libncursesw-dev, nativesdk-ncurses-libpanelw-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-openssl-dev, nativesdk-python3-2to3-dev, nativesdk-python3-asyncio-dev, nativesdk-python3-audio-dev, nativesdk-python3-codecs-dev, nativesdk-python3-compile-dev, nativesdk-python3-compression-dev, nativesdk-python3-core-dev, nativesdk-python3-crypt-dev, nativesdk-python3-ctypes-dev, nativesdk-python3-curses-dev, nativesdk-python3-datetime-dev, nativesdk-python3-db-dev, nativesdk-python3-debugger-dev, nativesdk-python3-difflib-dev, nativesdk-python3-doctest-dev, nativesdk-python3-email-dev, nativesdk-python3-ensurepip-dev, nativesdk-python3-fcntl-dev, nativesdk-python3-html-dev, nativesdk-python3-idle-dev, nativesdk-python3-image-dev, nativesdk-python3-io-dev, nativesdk-python3-json-dev, nativesdk-python3-logging-dev, nativesdk-python3-mailbox-dev, nativesdk-python3-math-dev, nativesdk-python3-mime-dev, nativesdk-python3-misc-dev, nativesdk-python3-mmap-dev, nativesdk-python3-modules-dev, nativesdk-python3-multiprocessing-dev, nativesdk-python3-netclient-dev, nativesdk-python3-netserver-dev, nativesdk-python3-numbers-dev, nativesdk-python3-pickle-dev, nativesdk-python3-pkgutil-dev, nativesdk-python3-plistlib-dev, nativesdk-python3-pprint-dev, nativesdk-python3-profile-dev, nativesdk-python3-pydoc-dev, nativesdk-python3-resource-dev, nativesdk-python3-shell-dev, nativesdk-python3-sqlite3-dev, nativesdk-python3-statistics-dev, nativesdk-python3-stringold-dev, nativesdk-python3-syslog-dev, nativesdk-python3-terminal-dev, nativesdk-python3-threading-dev, nativesdk-python3-tkinter-dev, nativesdk-python3-tomllib-dev, nativesdk-python3-unittest-dev, nativesdk-python3-unixadmin-dev, nativesdk-python3-venv-dev, nativesdk-python3-xml-dev, nativesdk-python3-xmlrpc-dev, nativesdk-python3-zoneinfo-dev, nativesdk-sqlite3-dev, nativesdk-update-alternatives-opkg-dev, nativesdk-util-linux-libuuid-dev, nativesdk-xz-dev, nativesdk-zlib-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1250173
+Installed-Time: 1765495438
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-us.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951800
+Installed-Time: 1765495458
+
+Package: nativesdk-qemu-user-mips64el
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2948672
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-tr-cy.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2815178
+Installed-Time: 1765495466
+
+Package: nativesdk-ncurses-dev
+Version: 6.4-r0.142
+Depends: nativesdk-ncurses-libform, nativesdk-ncurses-libformw, nativesdk-ncurses-libmenu, nativesdk-ncurses-libmenuw, nativesdk-ncurses-libpanel, nativesdk-ncurses-libpanelw, nativesdk-ncurses-libtic, nativesdk-ncurses-libticw, nativesdk-ncurses-libtinfo
+Recommends: nativesdk-glibc-dev, nativesdk-ncurses (= 6.4-r0.142), nativesdk-ncurses-libform-dev, nativesdk-ncurses-libformw-dev, nativesdk-ncurses-libmenu-dev, nativesdk-ncurses-libmenuw-dev, nativesdk-ncurses-libncurses-dev, nativesdk-ncurses-libncursesw-dev, nativesdk-ncurses-libpanel-dev, nativesdk-ncurses-libpanelw-dev, nativesdk-ncurses-libtic-dev, nativesdk-ncurses-libticw-dev, nativesdk-ncurses-libtinfo-dev, nativesdk-ncurses-terminfo-base-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 696837
+Installed-Time: 1765495420
+Auto-Installed: yes
+
+Package: nativesdk-python3-unixadmin
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libnsl3 (>= 2.0.1), nativesdk-libtirpc3 (>= 1.3.4), nativesdk-python3-core, nativesdk-python3-io
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 32134
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-om-ke.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2955022
+Installed-Time: 1765495464
+
+Package: nativesdk-python3-html
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 223470
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-libpython3.12-1.0
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgcc
+Provides: nativesdk-libpython3
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 6715200
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-hr-hr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953201
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-c.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 366145
+Installed-Time: 1765495455
+
+Package: nativesdk-glibc-binary-localedata-ar-ly.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952033
+Installed-Time: 1765495453
+
+Package: nativesdk-glibc-binary-localedata-is-is.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951760
+Installed-Time: 1765495462
+
+Package: nativesdk-libc6-extra-nss
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-eglibc-extra-nss, nativesdk-glibc-extra-nss
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 26816
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-openssl-ossl-module-legacy
+Version: 3.2.6-r0.15
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypto3 (>= 3.2.6)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 138024
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-libasm1
+Version: 0.191-r0.180
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libdw1 (>= 0.191), nativesdk-libelf1 (>= 0.191)
+Provides: nativesdk-libasm
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 35472
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-lv-lv.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951768
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-hsb-de.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2907086
+Installed-Time: 1765495462
+
+Package: nativesdk-glibc-binary-localedata-ar-sa.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 382170
+Installed-Time: 1765495454
+
+Package: nativesdk-python3-threading
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 61548
+Installed-Time: 1765495423
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-riscv32
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 3096416
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-ppc64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2881696
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: gcc-cross-canadian-aarch64
+Version: 13.4.0-r0.76
+Depends: nativesdk-elfutils, nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libmpc3 (>= 1.3.1), nativesdk-libmpfr6 (>= 4.2.1), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libz1 (>= 1.3.1), nativesdk-libzstd1 (>= 1.5.5)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 134509201
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-python3-idle
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2130492
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-i386
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 23970368
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-gettext
+Version: 0.22.5-r0.131
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgettextlib (>= 0.22.5), nativesdk-libgettextsrc (>= 0.22.5)
+Conflicts: nativesdk-proxy-libintl
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2807961
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-shared-mime-info
+Version: 2.4-r0.217
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libxml2-2 (>= 2.12.10)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2854397
+Installed-Time: 1765495416
+Auto-Installed: yes
+
+Package: nativesdk-python3-mailbox
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-datetime, nativesdk-python3-email, nativesdk-python3-io, nativesdk-python3-math, nativesdk-python3-mime, nativesdk-python3-netclient, nativesdk-python3-stringold
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 190355
+Installed-Time: 1765495436
+Auto-Installed: yes
+
+Package: nativesdk-libnsl-dev
+Version: 2.0.1-r0.148
+Depends: nativesdk-libnsl2, nativesdk-libtirpc-dev
+Recommends: nativesdk-glibc-dev, nativesdk-libnsl3 (= 2.0.1-r0.148), nativesdk-libtirpc-dev
+Provides: nativesdk-libnsl2-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 40209
+Installed-Time: 1765495421
+Auto-Installed: yes
+
+Package: nativesdk-libuuid-dev
+Version: 2.39.3-r0.150
+Depends: nativesdk-util-linux-libuuid
+Recommends: nativesdk-glibc-dev, nativesdk-libuuid1 (= 2.39.3-r0.150)
+Provides: nativesdk-util-linux-libuuid-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 4505
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libmount1
+Version: 2.39.3-r0.141
+Depends: nativesdk-libblkid1 (>= 2.39.3), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-util-linux-libmount
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 419760
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-wayland-dev
+Version: 1.22.0-r0.218
+Depends: nativesdk-wayland
+Recommends: nativesdk-expat-dev, nativesdk-glibc-dev, nativesdk-libffi-dev, nativesdk-libxml2-dev, nativesdk-wayland (= 1.22.0-r0.218)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 428113
+Installed-Time: 1765495439
+Auto-Installed: yes
+
+Package: gdb-cross-canadian-aarch64
+Version: 14.2-r0.207
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libdebuginfod1 (>= 0.191), nativesdk-libexpat1 (>= 2.6.4), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libgmp10 (>= 6.3.0), nativesdk-libmpfr6 (>= 4.2.1), nativesdk-libncursesw5 (>= 6.4), nativesdk-libpython3.12-1.0 (>= 3.12.12), nativesdk-libreadline8 (>= 8.2), nativesdk-libstdc++6 (>= 13.4.0), nativesdk-libtinfo5 (>= 6.4), nativesdk-libzstd1 (>= 1.5.5), nativesdk-python3-codecs, nativesdk-python3-core, nativesdk-python3-netclient
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 10074221
+Installed-Time: 1765495438
+Auto-Installed: yes
+
+Package: nativesdk-libmpfr6
+Version: 4.2.1-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgmp10 (>= 6.3.0)
+Provides: nativesdk-mpfr
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2872032
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-fr-ca.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951638
+Installed-Time: 1765495461
+
+Package: nativesdk-glibc-binary-localedata-ar-eg.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952011
+Installed-Time: 1765495453
+
+Package: nativesdk-python3-plistlib
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-datetime, nativesdk-python3-xml
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 69403
+Installed-Time: 1765495425
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-lt-lt.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952019
+Installed-Time: 1765495463
+
+Package: nativesdk-libcrypto3
+Version: 3.2.6-r0.15
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Recommends: nativesdk-openssl-conf, nativesdk-openssl-ossl-module-legacy
+Provides: nativesdk-libcrypto
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 5298352
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libtinfo5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Recommends: nativesdk-ncurses-terminfo-base
+Suggests: nativesdk-ncurses-terminfo
+Provides: nativesdk-ncurses-libtinfo
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 188600
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-gnu-config
+Version: 20240101+git0+948ae97ca5-r0.0
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 94642
+Installed-Time: 1765495403
+Auto-Installed: yes
+
+Package: nativesdk-qemu-common
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libz1 (>= 1.3.1), nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 240379648
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-libc6
+Version: 2.39+git43+58cbbd43fe-r0.143
+Provides: nativesdk-eglibc, nativesdk-glibc, rtld(GNU_HASH)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 4384977
+Installed-Time: 1765495403
+Auto-Installed: yes
+
+Package: nativesdk-python3-difflib
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 158812
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ar-ye.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952016
+Installed-Time: 1765495454
+
+Package: nativesdk-glibc-binary-localedata-de-ch.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951808
+Installed-Time: 1765495456
+
+Package: nativesdk-python3-ctypes
+Version: 3.12.12-r0.20
+Depends: nativesdk-ldconfig, nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libffi8 (>= 3.4.6), nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-io, nativesdk-python3-math
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 299825
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-pr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951684
+Installed-Time: 1765495460
+
+Package: nativesdk-m4
+Version: 1.4.19-r0.146
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 281968
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libbz2-1
+Version: 1.0.8-r0.154
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libbz2
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 75128
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-ldconfig
+Version: 2.39+git43+58cbbd43fe-r0.143
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 976248
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-es-cl.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951659
+Installed-Time: 1765495459
+
+Package: nativesdk-flex
+Version: 2.6.4-r0.151
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-m4
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 345516
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-kw-gb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952131
+Installed-Time: 1765495463
+
+Package: nativesdk-glibc-binary-localedata-nb-no.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952241
+Installed-Time: 1765495464
+
+Package: nativesdk-openssl-conf
+Version: 3.2.6-r0.15
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Conffiles:
+ /home/pdourbal/ti-processor-sdk-linux-rt-am62dxx-evm-11.02.08.02/linux-devkit/sysroots/x86_64-arago-linux/etc/ssl/openssl.cnf e8afc6a3f874e6d772b1c5902ce1e09e
+Installed-Size: 24656
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libffi-dev
+Version: 3.4.6-r0.156
+Depends: nativesdk-libffi
+Recommends: nativesdk-glibc-dev, nativesdk-libffi8 (= 3.4.6-r0.156)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 19466
+Installed-Time: 1765495418
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-cs-cz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2953508
+Installed-Time: 1765495456
+
+Package: nativesdk-python3-fcntl
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 23112
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-xz-dev
+Version: 5.4.7-r0.106
+Depends: nativesdk-liblzma
+Recommends: nativesdk-glibc-dev, nativesdk-liblzma-dev, nativesdk-update-alternatives-opkg-dev, nativesdk-xz (= 5.4.7-r0.106)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 225705
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-python3-terminal
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core, nativesdk-python3-io
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 18482
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-kk-kz.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951887
+Installed-Time: 1765495463
+
+Package: nativesdk-qemu-user-riscv64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 3149664
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-wa-be.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951930
+Installed-Time: 1765495466
+
+Package: nativesdk-qemu-system-sh4
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 11603040
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-linux-libc-headers-dev
+Version: 6.6-r0.3
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 6351510
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-el-gr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952424
+Installed-Time: 1765495457
+
+Package: nativesdk-libepoxy0
+Version: 1.5.10-r0.266
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libepoxy
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1234760
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ca-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952166
+Installed-Time: 1765495455
+
+Package: nativesdk-glibc-binary-localedata-zh-sg.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952259
+Installed-Time: 1765495467
+
+Package: nativesdk-libgettextsrc
+Version: 0.22.5-r0.131
+Depends: nativesdk-gettext (>= 0.22.5), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libgettextlib (>= 0.22.5)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 347848
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-elfutils
+Version: 0.191-r0.180
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libasm1 (>= 0.191), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libdebuginfod1 (>= 0.191), nativesdk-libdw1 (>= 0.191), nativesdk-libelf1 (>= 0.191), nativesdk-libgcc1 (>= 13.4.0), nativesdk-libmicrohttpd12 (>= 1.0.1), nativesdk-libsqlite3-0 (>= 3.45.3), nativesdk-libstdc++6 (>= 13.4.0)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1540292
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-libsqlite3-dev
+Version: 3:3.45.3-r0.159
+Depends: nativesdk-libsqlite3
+Recommends: nativesdk-glibc-dev
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 681437
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-af-za.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951786
+Installed-Time: 1765495452
+
+Package: nativesdk-glibc-binary-localedata-cy-gb.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2955648
+Installed-Time: 1765495456
+
+Package: nativesdk-libedit0
+Version: 20230828-3.1-r1.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-libedit
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 224936
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libblkid1
+Version: 2.39.3-r0.141
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-util-linux-libblkid
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 365384
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-ppc64le
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2873504
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-makedevs
+Version: 1.0.1-r0.148
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 28439
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libpanelw5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncursesw5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libpanelw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 18384
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-mips64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 13206048
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-python3-json
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 139775
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-libpixman-1-0
+Version: 1:0.42.2-r0.141
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-pixman
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 703264
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-update-alternatives-opkg
+Version: 0.6.3-r0.139
+Provides: nativesdk-update-alternatives, nativesdk-update-alternatives-cworth
+Replaces: nativesdk-update-alternatives-cworth
+Conflicts: nativesdk-update-alternatives-cworth
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 4679
+Installed-Time: 1765495403
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-sh4
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1820320
+Installed-Time: 1765495429
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ca-fr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952165
+Installed-Time: 1765495455
+
+Package: nativesdk-python3-image
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 20166
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-an-es.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951724
+Installed-Time: 1765495452
+
+Package: nativesdk-glibc-binary-localedata-pt-pt.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951664
+Installed-Time: 1765495465
+
+Package: nativesdk-libc6-utils
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-eglibc-utils, nativesdk-glibc-utils
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 371600
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-python3-audio
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 211816
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-so-dj.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952854
+Installed-Time: 1765495465
+
+Package: nativesdk-automake
+Version: 1.16.5-r0.138
+Depends: nativesdk-autoconf, nativesdk-perl, nativesdk-perl-module-bytes, nativesdk-perl-module-data-dumper, nativesdk-perl-module-strict, nativesdk-perl-module-text-parsewords, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads, nativesdk-perl-module-vars
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1358910
+Installed-Time: 1765495412
+Auto-Installed: yes
+
+Package: nativesdk-libnsl3
+Version: 2.0.1-r0.148
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtirpc3 (>= 1.3.4)
+Provides: nativesdk-libnsl2
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 31224
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-python3-numbers
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 897862
+Installed-Time: 1765495422
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-ca-it.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2952176
+Installed-Time: 1765495455
+
+Package: nativesdk-libdrm2
+Version: 2.4.120-r0.arago4.153
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libdrm
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 101972
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-zu-za.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951876
+Installed-Time: 1765495467
+
+Package: nativesdk-glibc-binary-localedata-es-cr.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951879
+Installed-Time: 1765495459
+
+Package: nativesdk-libgcc1
+Version: 13.4.0-r0.59
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libgcc
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 150032
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-libsqlite3-0
+Version: 3:3.45.3-r0.159
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libsqlite3
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1408152
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-ppc
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 15338752
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-mipsel
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2924384
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-autoconf
+Version: 2.72e-r0.140
+Depends: nativesdk-gnu-config, nativesdk-m4, nativesdk-perl, nativesdk-perl-module-bytes, nativesdk-perl-module-carp, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-errno, nativesdk-perl-module-exporter, nativesdk-perl-module-feature, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-compare, nativesdk-perl-module-file-copy, nativesdk-perl-module-file-find, nativesdk-perl-module-file-glob, nativesdk-perl-module-file-path, nativesdk-perl-module-file-spec, nativesdk-perl-module-file-spec-unix, nativesdk-perl-module-file-stat, nativesdk-perl-module-file-temp, nativesdk-perl-module-getopt-long, nativesdk-perl-module-io-file, nativesdk-perl-module-list-util, nativesdk-perl-module-overloading, nativesdk-perl-module-posix, nativesdk-perl-module-scalar-util, nativesdk-perl-module-symbol, nativesdk-perl-module-thread-queue, nativesdk-perl-module-threads
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2009217
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-libc-malloc-debug0
+Version: 2.39+git43+58cbbd43fe-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-malloc-debug
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 53880
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libticw5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libticw
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 68264
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-ncurses
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libtinfo5 (>= 6.4)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 62814
+Installed-Time: 1765495409
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-de-li.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951750
+Installed-Time: 1765495457
+
+Package: nativesdk-glibc-binary-localedata-ms-my.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951783
+Installed-Time: 1765495464
+
+Package: nativesdk-python3-datetime
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 231517
+Installed-Time: 1765495421
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-en-sg.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951833
+Installed-Time: 1765495458
+
+Package: nativesdk-python3-stringold
+Version: 3.12.12-r0.20
+Depends: nativesdk-python3-core
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 23313
+Installed-Time: 1765495424
+Auto-Installed: yes
+
+Package: nativesdk-libopkg1
+Version: 1:0.6.3-r0.180
+Depends: nativesdk-libarchive (>= 3.7.9), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libsolv (>= 0.7.28)
+Provides: nativesdk-libopkg
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 195912
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: nativesdk-libpanel5
+Version: 6.4-r0.142
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libncurses5 (>= 6.4), nativesdk-libtinfo5 (>= 6.4)
+Provides: nativesdk-ncurses-libpanel
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 18384
+Installed-Time: 1765495417
+Auto-Installed: yes
+
+Package: meta-environment-am62dxx-evm
+Version: 1.0-r0.144
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 16510
+Installed-Time: 1765495403
+Auto-Installed: yes
+
+Package: nativesdk-libuuid1
+Version: 2.39.3-r0.150
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-util-linux-libuuid
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 31208
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libidn2-0
+Version: 2.3.7-r0.141
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libunistring5 (>= 1.2)
+Provides: nativesdk-libidn2
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 203520
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-libtasn1-6
+Version: 4.20.0-r0.118
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libtasn1
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 84472
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-bzip2
+Version: 1.0.8-r0.154
+Depends: nativesdk-libbz2-1 (>= 1.0.8), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-update-alternatives-opkg
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 67589
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-bhb-in.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951886
+Installed-Time: 1765495455
+
+Package: nativesdk-python3-statistics
+Version: 3.12.12-r0.20
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-python3-core, nativesdk-python3-crypt, nativesdk-python3-math, nativesdk-python3-numbers
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 120331
+Installed-Time: 1765495432
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-x86-64
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2454464
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-qemu-user-ppc
+Version: 8.2.7-r0.194
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2850592
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-glibc-binary-localedata-de-be.utf-8
+Version: 2.39+git-r0.137
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2951769
+Installed-Time: 1765495456
+
+Package: nativesdk-libxau6
+Version: 1:1.0.11-r0.151
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libxau
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 14512
+Installed-Time: 1765495406
+Auto-Installed: yes
+
+Package: nativesdk-libsdl2-2.0-0
+Version: 2.30.1-r0.228
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-libsdl2
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1614924
+Installed-Time: 1765495407
+Auto-Installed: yes
+
+Package: nativesdk-shadow
+Version: 4.14.2-r0.143
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libcrypt2 (>= 4.4.36), nativesdk-update-alternatives-opkg
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 2182949
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-libglib-2.0-0
+Version: 1:2.78.6-r0.145
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libffi8 (>= 3.4.6), nativesdk-libmount1 (>= 2.39.3), nativesdk-libpcre2 (>= 10.43), nativesdk-libz1 (>= 1.3.1)
+Recommends: nativesdk-shared-mime-info
+Provides: nativesdk-glib-2.0
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 3735888
+Installed-Time: 1765495414
+Auto-Installed: yes
+
+Package: nativesdk-pseudo
+Version: 1.9.0+git3+28dcefb809-r0.168
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libsqlite3-0 (>= 3.45.3)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 738040
+Installed-Time: 1765495408
+Auto-Installed: yes
+
+Package: nativesdk-packagegroup-sdk-host
+Version: 1.0-r0.0
+Depends: nativesdk-autoconf, nativesdk-automake, nativesdk-bison, nativesdk-cmake, nativesdk-flex, nativesdk-libtool, nativesdk-makedevs, nativesdk-meson, nativesdk-opkg, nativesdk-perl-module-integer, nativesdk-pkgconfig, nativesdk-pseudo, nativesdk-qemu, nativesdk-qemu-helper, nativesdk-sdk-provides-dummy, nativesdk-shadow, nativesdk-unfs3, nativesdk-wayland-dev, nativesdk-wayland-tools
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Time: 1765495439
+
+Package: nativesdk-bison
+Version: 3.8.2-r0.132
+Depends: nativesdk-gettext (>= 0.22.5), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 1350940
+Installed-Time: 1765495411
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-aarch64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 28464832
+Installed-Time: 1765495428
+Auto-Installed: yes
+
+Package: nativesdk-meson
+Version: 1.3.1-r0.206
+Depends: nativesdk-ninja, nativesdk-python3-modules, nativesdk-python3-pkg-resources
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 8005284
+Installed-Time: 1765495439
+Auto-Installed: yes
+
+Package: nativesdk-qemu-system-ppc64
+Version: 8.2.7-r0.194
+Depends: nativesdk-dtc (>= 1.7.0), nativesdk-libc6 (>= 2.39+git43+58cbbd43fe), nativesdk-libepoxy0 (>= 1.5.10), nativesdk-libgbm1 (>= 24.0.7), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-libpixman-1-0 (>= 0.42.2), nativesdk-libsdl2-2.0-0 (>= 2.30.1), nativesdk-libslirp0 (>= 4.7.0), nativesdk-libz1 (>= 1.3.1), nativesdk-qemu-common, nativesdk-virglrenderer (>= 1.0.1)
+Status: install ok installed
+Architecture: x86_64-nativesdk
+Installed-Size: 16237824
+Installed-Time: 1765495428
+Auto-Installed: yes
+

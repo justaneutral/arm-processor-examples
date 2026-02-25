@@ -1,0 +1,17 @@
+Package: nativesdk-libpcre2
+Version: 10.43-r0.145
+Description: Perl Compatible Regular Expressions version 2
+ There are two major versions of the PCRE library. The newest version is
+ PCRE2, which is a re-working of the original PCRE library to provide an
+ entirely new API. The original, very widely deployed PCRE library's API
+ and feature are stable, future releases  will be for bugfixes only. All
+ new future features will be to PCRE2, not the original PCRE 8.x series.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-libpcre2
+Homepage: http://www.pcre.org
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Source: libpcre2_10.43.bb

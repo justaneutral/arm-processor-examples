@@ -1,0 +1,14 @@
+Package: file
+Version: 5.45-r0.73
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause
+Architecture: aarch64
+OE: file
+Homepage: http://www.darwinsys.com/file/
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.39+git47+58cbbd43fe), liblz1 (>= 1.14), liblzma5 (>= 5.4.7), libz1 (>= 1.3.1), libzstd1 (>= 1.5.5), update-alternatives-opkg
+Source: file_5.45.bb

@@ -1,0 +1,13 @@
+Package: nativesdk-gnu-config
+Version: 20240101+git0+948ae97ca5-r0.0
+Description: gnu-configize
+ Tool that installs the GNU config.guess / config.sub into a directory
+ tree
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-autoconf-exception
+Architecture: x86_64-nativesdk
+OE: nativesdk-gnu-config
+Homepage: https://git.savannah.gnu.org/cgit/config.git
+Source: gnu-config_git.bb

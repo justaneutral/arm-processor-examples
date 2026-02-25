@@ -1,0 +1,18 @@
+/usr/bin/libpng-config	0120777	libpng16-config
+/usr/lib	040755
+/usr/include/png.h	0120777	libpng16/png.h
+/usr/lib/libpng.so	0120777	libpng16.so
+/usr/include/pngconf.h	0120777	libpng16/pngconf.h
+/usr/include/libpng16/png.h	0100644
+/usr/bin/libpng16-config	0100755
+/usr/lib/pkgconfig/libpng16.pc	0100644
+/usr/lib/libpng16.so	0120777	libpng16.so.16.41.0
+/usr/bin	040755
+/usr/include/libpng16/pngconf.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include/libpng16	040755
+/usr/lib/pkgconfig/libpng.pc	0120777	libpng16.pc
+/usr/include/pnglibconf.h	0120777	libpng16/pnglibconf.h
+/usr/include/libpng16/pnglibconf.h	0100644
+/usr/include	040755

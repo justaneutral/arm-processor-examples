@@ -1,0 +1,14 @@
+Package: nativesdk-libc6-utils
+Version: 2.39+git43+58cbbd43fe-r0.143
+Description: Miscellaneous utilities provided by glibc
+ Miscellaneous utilities including getconf, iconv, locale, gencat, ...
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: nativesdk-libc6 (>= 2.39+git43+58cbbd43fe)
+Provides: nativesdk-eglibc-utils, nativesdk-glibc-utils
+Source: glibc_2.39.bb

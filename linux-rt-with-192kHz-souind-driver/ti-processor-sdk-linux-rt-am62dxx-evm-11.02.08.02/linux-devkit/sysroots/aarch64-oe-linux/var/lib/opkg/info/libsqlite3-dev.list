@@ -1,0 +1,8 @@
+/usr/include/sqlite3.h	0100644
+/usr/lib	040755
+/usr/lib/pkgconfig/sqlite3.pc	0100644
+/usr/lib/libsqlite3.so	0120777	libsqlite3.so.0.8.6
+/usr/include/sqlite3ext.h	0100644
+/usr	040755
+/usr/lib/pkgconfig	040755
+/usr/include	040755

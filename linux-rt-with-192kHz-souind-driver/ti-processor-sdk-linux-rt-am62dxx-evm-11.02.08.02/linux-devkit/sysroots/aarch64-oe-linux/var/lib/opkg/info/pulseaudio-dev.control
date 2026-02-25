@@ -1,0 +1,17 @@
+Package: pulseaudio-dev
+Version: 17.0-r0.431
+Description: Sound server for Linux and Unix-like operating systems - Development files
+ A general purpose sound server intended to run as a middleware between
+ your applications and your hardware devices, either using ALSA or OSS.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later & MIT & BSD-3-Clause
+Architecture: aarch64
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: glib-2.0-dev, libpulse, libpulse-mainloop-glib, libpulse-simple
+Recommends: alsa-lib-dev, alsa-utils-amixer-dev, alsa-utils-aplay-dev, alsa-utils-scripts-dev, avahi-dev, base-files-dev, base-passwd-dev, bash-completion-dev, bash-dev, bluez5-dev, dbus-dev, dbus-lib-dev, glib-2.0-dev, glib-2.0-utils-dev, glibc-dev, libatomic-ops-dev, libavahi-client-dev, libavahi-common-dev, libcap-dev, libltdl-dev, libpulse-dev, libpulse-mainloop-glib-dev, libpulse-simple-dev, libpulsecommon-dev, libpulsecore-dev, libsndfile1-dev, libsystemd-dev, libtool-dev, libudev-dev, ofono-dev, pulseaudio (= 17.0-r0.431), pulseaudio-lib-alsa-util-dev, pulseaudio-lib-avahi-wrap-dev, pulseaudio-lib-bluez5-util-dev, pulseaudio-lib-cli-dev, pulseaudio-lib-oss-util-dev, pulseaudio-lib-protocol-cli-dev, pulseaudio-lib-protocol-http-dev, pulseaudio-lib-protocol-native-dev, pulseaudio-lib-protocol-simple-dev, pulseaudio-lib-rtp-dev, pulseaudio-module-alsa-card-dev, pulseaudio-module-alsa-sink-dev, pulseaudio-module-alsa-source-dev, pulseaudio-module-always-sink-dev, pulseaudio-module-augment-properties-dev, pulseaudio-module-card-restore-dev, pulseaudio-module-cli-protocol-unix-dev, pulseaudio-module-default-device-restore-dev, pulseaudio-module-detect-dev, pulseaudio-module-device-restore-dev, pulseaudio-module-filter-apply-dev, pulseaudio-module-filter-heuristics-dev, pulseaudio-module-intended-roles-dev, pulseaudio-module-native-protocol-unix-dev, pulseaudio-module-null-sink-dev, pulseaudio-module-position-event-sounds-dev, pulseaudio-module-rescue-streams-dev, pulseaudio-module-role-cork-dev, pulseaudio-module-stream-restore-dev, pulseaudio-module-suspend-on-idle-dev, pulseaudio-module-switch-on-port-available-dev, pulseaudio-module-udev-detect-dev, pulseaudio-server-dev, sbc-dev, shadow-dev, shadow-sysroot-dev, speexdsp-dev, systemd-dev, udev-dev
+Source: pulseaudio_17.0.bb

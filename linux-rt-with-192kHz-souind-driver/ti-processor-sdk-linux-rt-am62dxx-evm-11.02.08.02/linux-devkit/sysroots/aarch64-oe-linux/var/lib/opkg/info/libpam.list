@@ -1,0 +1,10 @@
+/usr/lib	040755
+/usr/lib/libpam.so.0.85.1	0100755
+/usr/lib/libpam.so.0	0120777	libpam.so.0.85.1
+/usr/lib/tmpfiles.d	040755
+/usr/lib/libpam_misc.so.0	0120777	libpam_misc.so.0.82.1
+/usr/lib/libpamc.so.0	0120777	libpamc.so.0.82.1
+/usr	040755
+/usr/lib/libpamc.so.0.82.1	0100755
+/usr/lib/libpam_misc.so.0.82.1	0100755
+/usr/lib/tmpfiles.d/pam.conf	0100644

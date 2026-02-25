@@ -1,0 +1,31 @@
+/usr/include/libweston-13/libweston/weston-log.h	0100644
+/usr/include/libweston-13/libweston/windowed-output-api.h	0100644
+/usr/share/pkgconfig	040755
+/usr/lib	040755
+/usr/lib/pkgconfig/libweston-13.pc	0100644
+/usr/lib/pkgconfig/weston.pc	0100644
+/usr/lib/libweston-13.so	0120777	libweston-13.so.0
+/usr/include/libweston-13/libweston/pipewire-plugin.h	0100644
+/usr/include/weston	040755
+/usr/include/libweston-13/libweston/remoting-plugin.h	0100644
+/usr/include/libweston-13/libweston	040755
+/usr/include/libweston-13/libweston/backend-wayland.h	0100644
+/usr/include/weston/ivi-layout-export.h	0100644
+/usr	040755
+/usr/include/libweston-13/libweston/shell-utils.h	0100644
+/usr/lib/pkgconfig	040755
+/usr/include/libweston-13/libweston/backend-drm.h	0100644
+/usr/include/libweston-13/libweston/config-parser.h	0100644
+/usr/include/weston/weston.h	0100644
+/usr/include/libweston-13/libweston/plugin-registry.h	0100644
+/usr/include/libweston-13	040755
+/usr/include/libweston-13/libweston/matrix.h	0100644
+/usr/include/libweston-13/libweston/desktop.h	0100644
+/usr/lib/weston	040755
+/usr/include/libweston-13/libweston/zalloc.h	0100644
+/usr/share/pkgconfig/libweston-13-protocols.pc	0100644
+/usr/include/libweston-13/libweston/version.h	0100644
+/usr/lib/weston/libexec_weston.so	0120777	libexec_weston.so.0
+/usr/share	040755
+/usr/include	040755
+/usr/include/libweston-13/libweston/libweston.h	0100644

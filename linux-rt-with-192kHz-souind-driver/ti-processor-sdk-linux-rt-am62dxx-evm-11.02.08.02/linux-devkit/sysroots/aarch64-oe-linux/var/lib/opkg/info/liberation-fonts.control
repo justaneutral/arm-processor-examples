@@ -1,0 +1,15 @@
+Package: liberation-fonts
+Version: 1:2.1.5-r0.22
+Description: Liberation(tm) Fonts
+ The Liberation(tm) Fonts is a font family originally created by
+ Ascender(c) which aims at metric compatibility with Arial, Times New
+ Roman, Courier New.
+Section: x11/fonts
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: OFL-1.1
+Architecture: all
+OE: liberation-fonts
+Homepage: https://github.com/liberationfonts/liberation-fonts
+Depends: fontconfig-utils
+Source: liberation-fonts_2.1.5.bb

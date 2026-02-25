@@ -1,0 +1,14 @@
+Package: nlohmann-json-dev
+Version: 3.11.3-r0.10
+Description: JSON for modern C++ - Development files
+ JSON for modern C++.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: nlohmann-json
+Homepage: https://nlohmann.github.io/json/
+Recommends: nlohmann-json (= 3.11.3-r0.10)
+Source: nlohmann-json_3.11.3.bb

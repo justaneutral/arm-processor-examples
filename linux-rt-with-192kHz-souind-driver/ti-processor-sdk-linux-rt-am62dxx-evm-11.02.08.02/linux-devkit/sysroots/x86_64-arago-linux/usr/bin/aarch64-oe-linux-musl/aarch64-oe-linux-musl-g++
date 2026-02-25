@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec `dirname $0`/../aarch64-oe-linux/aarch64-oe-linux-g++ -mmusl $@

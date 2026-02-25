@@ -1,0 +1,5 @@
+/usr/bin/axfer	0100755
+/usr/bin/arecord	0120777	aplay
+/usr/bin	040755
+/usr	040755
+/usr/bin/aplay	0100755
